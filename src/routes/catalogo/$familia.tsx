@@ -7,11 +7,12 @@ export const Route = createFileRoute("/catalogo/$familia")({
   loader: ({ params }) => {
     const family = getFamily(params.familia);
     if (!family) throw notFound();
-    return { family };
+    return { familia: family.slug };
   },
-  head: ({ loaderData }) => {
-    const name = loaderData?.family.name ?? "Catálogo";
-    const desc = loaderData?.family.intro ?? "Catálogo Handel.";
+  head: ({ params }) => {
+    const family = getFamily(params.familia);
+    const name = family?.name ?? "Catálogo";
+    const desc = family?.intro ?? "Catálogo Handel.";
     return {
       meta: [
         { title: `${name} · Handel` },
@@ -27,7 +28,8 @@ export const Route = createFileRoute("/catalogo/$familia")({
 });
 
 function FamiliaPage() {
-  const { family } = Route.useLoaderData();
+  const params = Route.useParams();
+  const family = getFamily(params.familia)!;
   const all = productsByFamily(family.slug);
   const [sub, setSub] = useState<string | null>(null);
   const [brand, setBrand] = useState<string | null>(null);

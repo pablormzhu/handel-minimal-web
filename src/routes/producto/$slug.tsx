@@ -6,10 +6,10 @@ export const Route = createFileRoute("/producto/$slug")({
   loader: ({ params }) => {
     const product = getProduct(params.slug);
     if (!product) throw notFound();
-    return { product };
+    return { slug: product.slug };
   },
-  head: ({ loaderData }) => {
-    const p = loaderData?.product;
+  head: ({ params }) => {
+    const p = getProduct(params.slug);
     const title = p ? `${p.name} · ${p.brand} · Handel` : "Producto · Handel";
     const desc = p?.description ?? "Ficha de producto Handel.";
     return {
@@ -27,7 +27,8 @@ export const Route = createFileRoute("/producto/$slug")({
 });
 
 function ProductoPage() {
-  const { product } = Route.useLoaderData();
+  const params = Route.useParams();
+  const product = getProduct(params.slug)!;
   const family = getFamily(product.family)!;
   const related = productsByFamily(product.family)
     .filter((p) => p.slug !== product.slug)
