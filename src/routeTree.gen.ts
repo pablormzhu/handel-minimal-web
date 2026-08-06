@@ -10,33 +10,128 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AvisoPrivacidadRouteImport } from './routes/aviso-privacidad'
+import { Route as ContactoRouteImport } from './routes/contacto'
+import { Route as MarcasRouteImport } from './routes/marcas'
+import { Route as NosotrosRouteImport } from './routes/nosotros'
+import { Route as CatalogoIndexRouteImport } from './routes/catalogo/index'
+import { Route as CatalogoFamiliaRouteImport } from './routes/catalogo/$familia'
+import { Route as ProductoSlugRouteImport } from './routes/producto/$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AvisoPrivacidadRoute = AvisoPrivacidadRouteImport.update({
+  id: '/aviso-privacidad',
+  path: '/aviso-privacidad',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactoRoute = ContactoRouteImport.update({
+  id: '/contacto',
+  path: '/contacto',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MarcasRoute = MarcasRouteImport.update({
+  id: '/marcas',
+  path: '/marcas',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NosotrosRoute = NosotrosRouteImport.update({
+  id: '/nosotros',
+  path: '/nosotros',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CatalogoIndexRoute = CatalogoIndexRouteImport.update({
+  id: '/catalogo/',
+  path: '/catalogo/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CatalogoFamiliaRoute = CatalogoFamiliaRouteImport.update({
+  id: '/catalogo/$familia',
+  path: '/catalogo/$familia',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProductoSlugRoute = ProductoSlugRouteImport.update({
+  id: '/producto/$slug',
+  path: '/producto/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/aviso-privacidad': typeof AvisoPrivacidadRoute
+  '/contacto': typeof ContactoRoute
+  '/marcas': typeof MarcasRoute
+  '/nosotros': typeof NosotrosRoute
+  '/catalogo/$familia': typeof CatalogoFamiliaRoute
+  '/producto/$slug': typeof ProductoSlugRoute
+  '/catalogo/': typeof CatalogoIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/aviso-privacidad': typeof AvisoPrivacidadRoute
+  '/contacto': typeof ContactoRoute
+  '/marcas': typeof MarcasRoute
+  '/nosotros': typeof NosotrosRoute
+  '/catalogo/$familia': typeof CatalogoFamiliaRoute
+  '/producto/$slug': typeof ProductoSlugRoute
+  '/catalogo': typeof CatalogoIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/aviso-privacidad': typeof AvisoPrivacidadRoute
+  '/contacto': typeof ContactoRoute
+  '/marcas': typeof MarcasRoute
+  '/nosotros': typeof NosotrosRoute
+  '/catalogo/$familia': typeof CatalogoFamiliaRoute
+  '/producto/$slug': typeof ProductoSlugRoute
+  '/catalogo/': typeof CatalogoIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/aviso-privacidad'
+    | '/contacto'
+    | '/marcas'
+    | '/nosotros'
+    | '/catalogo/$familia'
+    | '/producto/$slug'
+    | '/catalogo/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/aviso-privacidad'
+    | '/contacto'
+    | '/marcas'
+    | '/nosotros'
+    | '/catalogo/$familia'
+    | '/producto/$slug'
+    | '/catalogo'
+  id:
+    | '__root__'
+    | '/'
+    | '/aviso-privacidad'
+    | '/contacto'
+    | '/marcas'
+    | '/nosotros'
+    | '/catalogo/$familia'
+    | '/producto/$slug'
+    | '/catalogo/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AvisoPrivacidadRoute: typeof AvisoPrivacidadRoute
+  ContactoRoute: typeof ContactoRoute
+  MarcasRoute: typeof MarcasRoute
+  NosotrosRoute: typeof NosotrosRoute
+  CatalogoFamiliaRoute: typeof CatalogoFamiliaRoute
+  ProductoSlugRoute: typeof ProductoSlugRoute
+  CatalogoIndexRoute: typeof CatalogoIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,22 +143,68 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/aviso-privacidad': {
+      id: '/aviso-privacidad'
+      path: '/aviso-privacidad'
+      fullPath: '/aviso-privacidad'
+      preLoaderRoute: typeof AvisoPrivacidadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contacto': {
+      id: '/contacto'
+      path: '/contacto'
+      fullPath: '/contacto'
+      preLoaderRoute: typeof ContactoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/marcas': {
+      id: '/marcas'
+      path: '/marcas'
+      fullPath: '/marcas'
+      preLoaderRoute: typeof MarcasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nosotros': {
+      id: '/nosotros'
+      path: '/nosotros'
+      fullPath: '/nosotros'
+      preLoaderRoute: typeof NosotrosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/catalogo/': {
+      id: '/catalogo/'
+      path: '/catalogo'
+      fullPath: '/catalogo/'
+      preLoaderRoute: typeof CatalogoIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/catalogo/$familia': {
+      id: '/catalogo/$familia'
+      path: '/catalogo/$familia'
+      fullPath: '/catalogo/$familia'
+      preLoaderRoute: typeof CatalogoFamiliaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/producto/$slug': {
+      id: '/producto/$slug'
+      path: '/producto/$slug'
+      fullPath: '/producto/$slug'
+      preLoaderRoute: typeof ProductoSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AvisoPrivacidadRoute: AvisoPrivacidadRoute,
+  ContactoRoute: ContactoRoute,
+  MarcasRoute: MarcasRoute,
+  NosotrosRoute: NosotrosRoute,
+  CatalogoFamiliaRoute: CatalogoFamiliaRoute,
+  ProductoSlugRoute: ProductoSlugRoute,
+  CatalogoIndexRoute: CatalogoIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}

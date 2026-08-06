@@ -1,0 +1,40 @@
+import { Link } from "@tanstack/react-router";
+import { Search } from "lucide-react";
+
+const nav = [
+  { to: "/catalogo", label: "Catálogo" },
+  { to: "/marcas", label: "Marcas" },
+  { to: "/nosotros", label: "Nosotros" },
+  { to: "/contacto", label: "Contacto" },
+];
+
+export function SiteHeader() {
+  return (
+    <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-xl">
+      <div className="mx-auto flex h-12 max-w-6xl items-center justify-between px-6">
+        <Link to="/" className="text-sm font-semibold tracking-[0.28em] text-foreground">
+          HANDEL
+        </Link>
+        <nav className="flex items-center gap-7">
+          {nav.map((item) => (
+            <Link
+              key={item.to}
+              to={item.to}
+              className="text-[13px] text-muted-foreground transition-colors hover:text-foreground"
+              activeProps={{ className: "text-foreground" }}
+            >
+              {item.label}
+            </Link>
+          ))}
+          <Link
+            to="/catalogo"
+            aria-label="Buscar"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            <Search className="h-4 w-4" strokeWidth={1.5} />
+          </Link>
+        </nav>
+      </div>
+    </header>
+  );
+}
