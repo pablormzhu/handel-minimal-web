@@ -25,9 +25,6 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const destacadas = families.filter((f) =>
-  ["diagnostico-clinico", "microbiologia", "toma-muestras"].includes(f.slug),
-);
 
 function Index() {
   return (
@@ -63,34 +60,7 @@ function Index() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 py-28">
-        <div className="grid gap-6 md:grid-cols-3">
-          {destacadas.map((f) => (
-            <Link
-              key={f.slug}
-              to="/catalogo/$familia"
-              params={{ familia: f.slug }}
-              className="group block overflow-hidden rounded-3xl bg-muted/50"
-            >
-              <img
-                src={f.image}
-                alt={f.name}
-                loading="lazy"
-                width={1200}
-                height={900}
-                className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
-              />
-              <div className="px-7 pb-9 pt-7">
-                <h3 className="text-xl font-semibold tracking-tight">{f.name}</h3>
-                <p className="mt-2 text-sm text-muted-foreground">{f.tagline}</p>
-                <span className="mt-5 inline-block text-sm text-primary">Conocer más</span>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className="border-t border-border/60 py-28">
+      <section className="py-28">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Explora nuestras familias
