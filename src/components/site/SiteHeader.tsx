@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Search } from "lucide-react";
+import logo from "@/assets/handel-logo.png.asset.json";
 
 const nav = [
   { to: "/catalogo", label: "Catálogo" },
@@ -12,8 +13,8 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-xl">
       <div className="mx-auto flex h-12 max-w-6xl items-center justify-between px-6">
-        <Link to="/" className="text-sm font-semibold tracking-[0.28em] text-foreground">
-          HANDEL
+        <Link to="/" aria-label="Handel inicio" className="flex items-center">
+          <img src={logo.url} alt="Handel" className="h-7 w-auto" />
         </Link>
         <nav className="flex items-center gap-7">
           {nav.map((item) => (
