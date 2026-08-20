@@ -11,8 +11,8 @@ const nav = [
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-xl">
-      <div className="mx-auto flex h-12 max-w-6xl items-center justify-between px-6">
+    <header className="sticky top-3 z-50 px-3">
+      <div className="glass mx-auto flex h-12 max-w-6xl items-center justify-between rounded-full px-6">
         <Link to="/" aria-label="Handel inicio" className="flex items-center">
           <img src={logo.url} alt="Handel" className="h-7 w-auto" />
         </Link>
