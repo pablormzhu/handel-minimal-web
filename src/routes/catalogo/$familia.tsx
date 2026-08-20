@@ -51,7 +51,7 @@ function FamiliaPage() {
         <p className="mt-4 max-w-xl text-lg text-muted-foreground">{family.intro}</p>
       </section>
 
-      <div className="sticky top-12 z-40 border-y border-border/60 bg-background/85 backdrop-blur-xl">
+      <div className="glass sticky top-16 z-40 mx-3 rounded-2xl">
         <div className="mx-auto flex max-w-6xl gap-6 overflow-x-auto px-6 py-3">
           <button
             onClick={() => setSub(null)}
