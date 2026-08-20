@@ -96,7 +96,7 @@ function Index() {
       </section>
 
       {/* Quiénes somos */}
-      <section className="py-32">
+      <section className="py-20">
         <div className="mx-auto max-w-3xl px-6 text-center">
           <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
             Especialistas en soluciones para el sector salud.
@@ -116,7 +116,7 @@ function Index() {
       </section>
 
       {/* Qué hacemos */}
-      <section className="py-28">
+      <section className="py-16">
         <div className="mx-auto grid max-w-6xl gap-6 px-6 sm:grid-cols-3">
           {pillars.map((p) => (
             <div key={p.title} className="rounded-2xl border border-border/30 bg-background/50 p-7 backdrop-blur-xl">
@@ -135,12 +135,12 @@ function Index() {
       </section>
 
       {/* Familias */}
-      <section className="py-28">
+      <section className="py-16">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Soluciones para cada área.
           </h2>
-          <div className="mt-12 grid gap-x-10 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 grid gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
             {families.map((f) => (
               <Link
                 key={f.slug}
@@ -172,13 +172,13 @@ function Index() {
       </section>
 
       {/* Marcas */}
-      <section className="py-28">
+      <section className="py-16">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Trabajamos con marcas especializadas.
           </h2>
-          <div className="mt-6 rounded-2xl border border-border/30 bg-background/50 px-8 py-10 backdrop-blur-xl">
-            <div className="flex flex-wrap items-center justify-center gap-x-14 gap-y-8">
+          <div className="mt-5 rounded-2xl border border-border/30 bg-background/50 px-8 py-8 backdrop-blur-xl">
+            <div className="flex flex-wrap items-center justify-center gap-x-14 gap-y-6">
               {featuredBrands.map((b) => (
                 <span key={b} className="text-lg font-medium tracking-tight text-muted-foreground">
                   {b}
@@ -188,7 +188,7 @@ function Index() {
           </div>
           <Link
             to="/marcas"
-            className="mt-12 inline-block text-sm text-primary underline-offset-4 hover:underline"
+            className="mt-8 inline-block text-sm text-primary underline-offset-4 hover:underline"
           >
             Ver todas las marcas
           </Link>
@@ -196,7 +196,7 @@ function Index() {
       </section>
 
       {/* Cierre */}
-      <section className="py-32">
+      <section className="py-20">
         <div className="mx-auto max-w-3xl px-6 text-center">
           <div className="rounded-3xl border border-border/30 bg-background/50 px-8 py-16 backdrop-blur-2xl sm:px-14 sm:py-20">
             <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
