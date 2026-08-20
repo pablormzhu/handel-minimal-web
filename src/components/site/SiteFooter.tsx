@@ -4,7 +4,7 @@ import logo from "@/assets/handel-logo.png.asset.json";
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-border/60 bg-muted/40">
+    <footer className="border-t border-border/30 bg-background/60 backdrop-blur-xl">
       <div className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div>
