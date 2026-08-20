@@ -121,7 +121,7 @@ function Index() {
       <section className="py-12">
         <div className="mx-auto grid max-w-6xl gap-5 px-6 sm:grid-cols-3">
           {pillars.map((p) => (
-            <div key={p.title} className="rounded-2xl border border-border/30 bg-background/50 p-7 backdrop-blur-xl">
+            <div key={p.title} className="rounded-2xl border border-border/30 bg-background/50 p-7 shadow-xl backdrop-blur-xl transition-shadow duration-300 hover:shadow-2xl">
               <h3 className="text-2xl font-medium tracking-tight">{p.title}</h3>
               <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">{p.text}</p>
               <Link
@@ -150,7 +150,7 @@ function Index() {
                 params={{ familia: f.slug }}
                 className="group"
               >
-                <div className="overflow-hidden rounded-2xl border border-border/30 bg-background/50 backdrop-blur-xl">
+                <div className="overflow-hidden rounded-2xl border border-border/30 bg-background/50 shadow-xl backdrop-blur-xl transition-shadow duration-300 group-hover:shadow-2xl">
                   <img
                     src={f.image}
                     alt={f.name}
@@ -179,7 +179,7 @@ function Index() {
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Trabajamos con marcas especializadas.
           </h2>
-          <div className="mt-8 rounded-2xl border border-border/30 bg-background/50 px-8 py-8 backdrop-blur-xl">
+          <div className="mt-8 rounded-2xl border border-border/30 bg-background/50 px-8 py-8 shadow-xl backdrop-blur-xl">
             <div className="flex flex-wrap items-center justify-center gap-x-14 gap-y-5">
               {featuredBrands.map((b) => (
                 <span key={b} className="text-lg font-medium tracking-tight text-muted-foreground">
@@ -200,7 +200,7 @@ function Index() {
       {/* Cierre */}
       <section className="py-14">
         <div className="mx-auto max-w-3xl px-6 text-center">
-          <div className="rounded-3xl border border-border/30 bg-background/50 px-8 py-12 backdrop-blur-2xl sm:px-14 sm:py-14">
+          <div className="rounded-3xl border border-border/30 bg-background/50 px-8 py-12 shadow-xl backdrop-blur-2xl sm:px-14 sm:py-14">
             <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
               Encuentra la solución que necesitas.
             </h2>
