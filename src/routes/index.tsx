@@ -96,7 +96,7 @@ function Index() {
       </section>
 
       {/* Quiénes somos */}
-      <section className="py-20">
+      <section className="py-12">
         <div className="mx-auto max-w-3xl px-6 text-center">
           <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
             Especialistas en soluciones para el sector salud.
@@ -116,8 +116,8 @@ function Index() {
       </section>
 
       {/* Qué hacemos */}
-      <section className="py-16">
-        <div className="mx-auto grid max-w-6xl gap-6 px-6 sm:grid-cols-3">
+      <section className="py-10">
+        <div className="mx-auto grid max-w-6xl gap-4 px-6 sm:grid-cols-3">
           {pillars.map((p) => (
             <div key={p.title} className="rounded-2xl border border-border/30 bg-background/50 p-7 backdrop-blur-xl">
               <h3 className="text-2xl font-medium tracking-tight">{p.title}</h3>
@@ -135,12 +135,12 @@ function Index() {
       </section>
 
       {/* Familias */}
-      <section className="py-16">
+      <section className="py-10">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Soluciones para cada área.
           </h2>
-          <div className="mt-8 grid gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-6 grid gap-x-10 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
             {families.map((f) => (
               <Link
                 key={f.slug}
