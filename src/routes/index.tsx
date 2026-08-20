@@ -172,7 +172,7 @@ function Index() {
       </section>
 
       {/* Marcas */}
-      <section className="py-16">
+      <section className="py-10">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Trabajamos con marcas especializadas.
@@ -196,9 +196,9 @@ function Index() {
       </section>
 
       {/* Cierre */}
-      <section className="py-20">
+      <section className="py-12">
         <div className="mx-auto max-w-3xl px-6 text-center">
-          <div className="rounded-3xl border border-border/30 bg-background/50 px-8 py-16 backdrop-blur-2xl sm:px-14 sm:py-20">
+          <div className="rounded-3xl border border-border/30 bg-background/50 px-8 py-12 backdrop-blur-2xl sm:px-14 sm:py-16">
             <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
               Encuentra la solución que necesitas.
             </h2>
