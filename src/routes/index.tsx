@@ -172,13 +172,13 @@ function Index() {
       </section>
 
       {/* Marcas */}
-      <section className="py-10">
+      <section className="py-6">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Trabajamos con marcas especializadas.
           </h2>
-          <div className="mt-5 rounded-2xl border border-border/30 bg-background/50 px-8 py-8 backdrop-blur-xl">
-            <div className="flex flex-wrap items-center justify-center gap-x-14 gap-y-6">
+          <div className="mt-4 rounded-2xl border border-border/30 bg-background/50 px-8 py-6 backdrop-blur-xl">
+            <div className="flex flex-wrap items-center justify-center gap-x-14 gap-y-5">
               {featuredBrands.map((b) => (
                 <span key={b} className="text-lg font-medium tracking-tight text-muted-foreground">
                   {b}
@@ -188,7 +188,7 @@ function Index() {
           </div>
           <Link
             to="/marcas"
-            className="mt-8 inline-block text-sm text-primary underline-offset-4 hover:underline"
+            className="mt-5 inline-block text-sm text-primary underline-offset-4 hover:underline"
           >
             Ver todas las marcas
           </Link>
@@ -196,17 +196,17 @@ function Index() {
       </section>
 
       {/* Cierre */}
-      <section className="py-12">
+      <section className="py-8">
         <div className="mx-auto max-w-3xl px-6 text-center">
-          <div className="rounded-3xl border border-border/30 bg-background/50 px-8 py-12 backdrop-blur-2xl sm:px-14 sm:py-16">
+          <div className="rounded-3xl border border-border/30 bg-background/50 px-8 py-10 backdrop-blur-2xl sm:px-14 sm:py-12">
             <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
               Encuentra la solución que necesitas.
             </h2>
-          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
+          <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
             Nuestro equipo puede ayudarte a identificar productos y soluciones de acuerdo con las
             necesidades de tu laboratorio o institución.
           </p>
-            <div className="mt-9 flex flex-wrap items-center justify-center gap-6">
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-6">
               <Link
                 to="/contacto"
                 className="rounded-full bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-85"
