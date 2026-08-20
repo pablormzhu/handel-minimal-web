@@ -161,3 +161,28 @@
     letter-spacing: -0.022em;
   }
 }
+
+/* iOS-style liquid glass surfaces */
+@utility glass {
+  background: color-mix(in oklab, var(--background) 55%, transparent);
+  backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid color-mix(in oklab, var(--foreground) 8%, transparent);
+  box-shadow:
+    0 1px 0 0 color-mix(in oklab, white 55%, transparent) inset,
+    0 8px 30px -12px color-mix(in oklab, var(--foreground) 22%, transparent);
+}
+
+@utility glass-strong {
+  background: color-mix(in oklab, var(--background) 72%, transparent);
+  backdrop-filter: blur(36px) saturate(200%);
+  border: 1px solid color-mix(in oklab, var(--foreground) 10%, transparent);
+  box-shadow:
+    0 1px 0 0 color-mix(in oklab, white 60%, transparent) inset,
+    0 18px 50px -20px color-mix(in oklab, var(--foreground) 30%, transparent);
+}
+
+@utility glass-dark {
+  background: color-mix(in oklab, var(--foreground) 30%, transparent);
+  backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid color-mix(in oklab, white 18%, transparent);
+}
