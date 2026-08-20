@@ -120,7 +120,7 @@ function Index() {
       {/* Qué hacemos */}
       <section
         className="relative overflow-hidden bg-cover bg-center py-12"
-        style={{ backgroundImage: `url(${glassBg})` }}
+        style={{ backgroundImage: "url('/glass-bg-3.jpg')" }}
       >
         <div className="mx-auto grid max-w-6xl gap-5 px-6 sm:grid-cols-3">
           {pillars.map((p) => (
