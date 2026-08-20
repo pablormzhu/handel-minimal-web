@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/site/Page";
 import { families, brands } from "@/lib/catalog";
 import hero from "@/assets/hero.jpg";
+import glassBg from "@/assets/glass-bg-3.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -118,16 +119,15 @@ function Index() {
       <hr className="mx-auto max-w-6xl border-t border-border/30" />
 
       {/* Qué hacemos */}
-      <section className="relative py-12">
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-br from-accent/[0.07] via-transparent to-muted/40"
-        />
+      <section
+        className="relative overflow-hidden bg-cover bg-center py-12"
+        style={{ backgroundImage: `url(${glassBg})` }}
+      >
         <div className="mx-auto grid max-w-6xl gap-5 px-6 sm:grid-cols-3">
           {pillars.map((p) => (
             <div
               key={p.title}
-              className="rounded-3xl border border-white/60 bg-white/35 p-7 shadow-sm backdrop-blur-2xl"
+              className="rounded-3xl border border-white/80 bg-white/20 p-7 shadow-lg backdrop-blur-3xl"
             >
               <h3 className="text-2xl font-medium tracking-tight">{p.title}</h3>
               <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">{p.text}</p>
