@@ -96,19 +96,19 @@ function Index() {
       </section>
 
       {/* Quiénes somos */}
-      <section className="py-12">
+      <section className="py-8">
         <div className="mx-auto max-w-3xl px-6 text-center">
           <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
             Especialistas en soluciones para el sector salud.
           </h2>
-          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
+          <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
             En Handel nos dedicamos a la distribución de productos para diagnóstico clínico,
             laboratorio y atención médica. Reunimos soluciones y marcas especializadas para cubrir
             las distintas necesidades de nuestros clientes.
           </p>
           <Link
             to="/nosotros"
-            className="mt-8 inline-block text-sm font-medium text-primary underline-offset-4 hover:underline"
+            className="mt-5 inline-block text-sm font-medium text-primary underline-offset-4 hover:underline"
           >
             Conoce Handel
           </Link>
@@ -116,16 +116,16 @@ function Index() {
       </section>
 
       {/* Qué hacemos */}
-      <section className="py-10">
+      <section className="py-6">
         <div className="mx-auto grid max-w-6xl gap-4 px-6 sm:grid-cols-3">
           {pillars.map((p) => (
-            <div key={p.title} className="rounded-2xl border border-border/30 bg-background/50 p-7 backdrop-blur-xl">
+            <div key={p.title} className="rounded-2xl border border-border/30 bg-background/50 p-6 backdrop-blur-xl">
               <h3 className="text-2xl font-medium tracking-tight">{p.title}</h3>
               <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground">{p.text}</p>
               <Link
                 to={p.to}
                 params={{ familia: p.familia }}
-                className="mt-5 inline-block text-sm text-primary underline-offset-4 hover:underline"
+                className="mt-4 inline-block text-sm text-primary underline-offset-4 hover:underline"
               >
                 Conocer soluciones
               </Link>
@@ -135,12 +135,12 @@ function Index() {
       </section>
 
       {/* Familias */}
-      <section className="py-10">
+      <section className="py-6">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Soluciones para cada área.
           </h2>
-          <div className="mt-6 grid gap-x-10 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-5 grid gap-x-10 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
             {families.map((f) => (
               <Link
                 key={f.slug}
