@@ -118,10 +118,17 @@ function Index() {
       <hr className="mx-auto max-w-6xl border-t border-border/30" />
 
       {/* Qué hacemos */}
-      <section className="py-12">
+      <section className="relative py-12">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-br from-accent/[0.07] via-transparent to-muted/40"
+        />
         <div className="mx-auto grid max-w-6xl gap-5 px-6 sm:grid-cols-3">
           {pillars.map((p) => (
-            <div key={p.title} className="rounded-2xl border border-border/30 bg-background/50 p-7 backdrop-blur-xl">
+            <div
+              key={p.title}
+              className="rounded-3xl border border-white/60 bg-white/35 p-7 shadow-sm backdrop-blur-2xl"
+            >
               <h3 className="text-2xl font-medium tracking-tight">{p.title}</h3>
               <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">{p.text}</p>
               <Link
