@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { families } from "@/lib/catalog";
+import logo from "@/assets/handel-logo.png.asset.json";
 
 export function SiteFooter() {
   return (
@@ -7,8 +8,8 @@ export function SiteFooter() {
       <div className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <Link to="/" className="text-sm font-semibold tracking-[0.28em] text-foreground">
-              HANDEL
+            <Link to="/" aria-label="Handel inicio" className="inline-block">
+              <img src={logo.url} alt="Handel" className="h-8 w-auto" />
             </Link>
             <p className="mt-4 max-w-xs text-[13px] leading-relaxed text-muted-foreground">
               Soluciones para diagnóstico, laboratorio y atención médica.
