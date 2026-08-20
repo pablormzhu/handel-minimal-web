@@ -96,7 +96,7 @@ function Index() {
       </section>
 
       {/* Quiénes somos */}
-      <section className="py-14">
+      <section className="py-16">
         <div className="mx-auto max-w-3xl px-6 text-center">
           <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
             Especialistas en soluciones para el sector salud.
