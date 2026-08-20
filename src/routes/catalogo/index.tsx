@@ -45,7 +45,7 @@ function Catalogo() {
           Una biblioteca de soluciones organizada por necesidad clínica y de laboratorio.
         </p>
 
-        <div className="glass mt-10 flex max-w-xl items-center gap-3 rounded-full px-5 py-3">
+        <div className="mt-10 flex max-w-xl items-center gap-3 rounded-full border border-border bg-muted/40 px-5 py-3">
           <Search className="h-4 w-4 shrink-0 text-muted-foreground" strokeWidth={1.5} />
           <input
             value={q}
@@ -113,7 +113,7 @@ function Catalogo() {
               <Link
                 key={b}
                 to="/marcas"
-                className="glass rounded-full px-4 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
+                className="rounded-full border border-border px-4 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
               >
                 {b}
               </Link>

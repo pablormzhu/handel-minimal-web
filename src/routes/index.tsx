@@ -71,7 +71,6 @@ function Index() {
         />
         <div className="absolute inset-0 flex items-center">
           <div className="mx-auto w-full max-w-6xl px-6">
-            <div className="glass-strong max-w-xl rounded-3xl p-8 sm:p-10">
             <h1 className="max-w-xl text-balance text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl">
               Soluciones para diagnóstico y laboratorio.
             </h1>
@@ -91,7 +90,6 @@ function Index() {
               >
                 Contactar a un asesor
               </Link>
-            </div>
             </div>
           </div>
         </div>
@@ -121,7 +119,7 @@ function Index() {
       <section className="border-t border-border/60 py-28">
         <div className="mx-auto grid max-w-6xl gap-14 px-6 sm:grid-cols-3">
           {pillars.map((p) => (
-            <div key={p.title} className="glass rounded-3xl p-8">
+            <div key={p.title}>
               <h3 className="text-2xl font-medium tracking-tight">{p.title}</h3>
               <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground">{p.text}</p>
               <Link
@@ -179,7 +177,7 @@ function Index() {
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Trabajamos con marcas especializadas.
           </h2>
-          <div className="glass mt-12 flex flex-wrap items-center justify-center gap-x-14 gap-y-8 rounded-3xl px-10 py-12">
+          <div className="mt-12 flex flex-wrap items-center justify-center gap-x-14 gap-y-8">
             {featuredBrands.map((b) => (
               <span key={b} className="text-lg font-medium tracking-tight text-muted-foreground">
                 {b}
