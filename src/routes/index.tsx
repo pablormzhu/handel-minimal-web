@@ -96,19 +96,19 @@ function Index() {
       </section>
 
       {/* Quiénes somos */}
-      <section className="py-20">
+      <section className="py-8">
         <div className="mx-auto max-w-3xl px-6 text-center">
           <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
             Especialistas en soluciones para el sector salud.
           </h2>
-          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
+          <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
             En Handel nos dedicamos a la distribución de productos para diagnóstico clínico,
             laboratorio y atención médica. Reunimos soluciones y marcas especializadas para cubrir
             las distintas necesidades de nuestros clientes.
           </p>
           <Link
             to="/nosotros"
-            className="mt-8 inline-block text-sm font-medium text-primary underline-offset-4 hover:underline"
+            className="mt-5 inline-block text-sm font-medium text-primary underline-offset-4 hover:underline"
           >
             Conoce Handel
           </Link>
@@ -116,16 +116,16 @@ function Index() {
       </section>
 
       {/* Qué hacemos */}
-      <section className="py-16">
-        <div className="mx-auto grid max-w-6xl gap-6 px-6 sm:grid-cols-3">
+      <section className="py-6">
+        <div className="mx-auto grid max-w-6xl gap-4 px-6 sm:grid-cols-3">
           {pillars.map((p) => (
-            <div key={p.title} className="rounded-2xl border border-border/30 bg-background/50 p-7 backdrop-blur-xl">
+            <div key={p.title} className="rounded-2xl border border-border/30 bg-background/50 p-6 backdrop-blur-xl">
               <h3 className="text-2xl font-medium tracking-tight">{p.title}</h3>
               <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground">{p.text}</p>
               <Link
                 to={p.to}
                 params={{ familia: p.familia }}
-                className="mt-5 inline-block text-sm text-primary underline-offset-4 hover:underline"
+                className="mt-4 inline-block text-sm text-primary underline-offset-4 hover:underline"
               >
                 Conocer soluciones
               </Link>
@@ -135,12 +135,12 @@ function Index() {
       </section>
 
       {/* Familias */}
-      <section className="py-16">
+      <section className="py-6">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Soluciones para cada área.
           </h2>
-          <div className="mt-8 grid gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-5 grid gap-x-10 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
             {families.map((f) => (
               <Link
                 key={f.slug}
@@ -172,13 +172,13 @@ function Index() {
       </section>
 
       {/* Marcas */}
-      <section className="py-16">
+      <section className="py-6">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Trabajamos con marcas especializadas.
           </h2>
-          <div className="mt-5 rounded-2xl border border-border/30 bg-background/50 px-8 py-8 backdrop-blur-xl">
-            <div className="flex flex-wrap items-center justify-center gap-x-14 gap-y-6">
+          <div className="mt-4 rounded-2xl border border-border/30 bg-background/50 px-8 py-6 backdrop-blur-xl">
+            <div className="flex flex-wrap items-center justify-center gap-x-14 gap-y-5">
               {featuredBrands.map((b) => (
                 <span key={b} className="text-lg font-medium tracking-tight text-muted-foreground">
                   {b}
@@ -188,7 +188,7 @@ function Index() {
           </div>
           <Link
             to="/marcas"
-            className="mt-8 inline-block text-sm text-primary underline-offset-4 hover:underline"
+            className="mt-5 inline-block text-sm text-primary underline-offset-4 hover:underline"
           >
             Ver todas las marcas
           </Link>
@@ -196,17 +196,17 @@ function Index() {
       </section>
 
       {/* Cierre */}
-      <section className="py-20">
+      <section className="py-8">
         <div className="mx-auto max-w-3xl px-6 text-center">
-          <div className="rounded-3xl border border-border/30 bg-background/50 px-8 py-16 backdrop-blur-2xl sm:px-14 sm:py-20">
+          <div className="rounded-3xl border border-border/30 bg-background/50 px-8 py-10 backdrop-blur-2xl sm:px-14 sm:py-12">
             <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
               Encuentra la solución que necesitas.
             </h2>
-          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
+          <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
             Nuestro equipo puede ayudarte a identificar productos y soluciones de acuerdo con las
             necesidades de tu laboratorio o institución.
           </p>
-            <div className="mt-9 flex flex-wrap items-center justify-center gap-6">
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-6">
               <Link
                 to="/contacto"
                 className="rounded-full bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-85"
