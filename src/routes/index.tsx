@@ -2,7 +2,6 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/site/Page";
 import { families, brands } from "@/lib/catalog";
 import hero from "@/assets/hero.jpg";
-import glassBg from "@/assets/glass-bg-3.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
