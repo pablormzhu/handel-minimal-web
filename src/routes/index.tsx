@@ -115,6 +115,8 @@ function Index() {
         </div>
       </section>
 
+      <hr className="mx-auto max-w-6xl border-t border-border/30" />
+
       {/* Qué hacemos */}
       <section className="py-12">
         <div className="mx-auto grid max-w-6xl gap-5 px-6 sm:grid-cols-3">
