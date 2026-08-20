@@ -122,11 +122,15 @@ function Index() {
         className="relative overflow-hidden bg-cover bg-center py-12"
         style={{ backgroundImage: "url('/glass-bg-3.jpg')" }}
       >
-        <div className="mx-auto grid max-w-6xl gap-5 px-6 sm:grid-cols-3">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-slate-950/25"
+        />
+        <div className="relative mx-auto grid max-w-6xl gap-5 px-6 sm:grid-cols-3">
           {pillars.map((p) => (
             <div
               key={p.title}
-              className="rounded-3xl border border-white/80 bg-white/20 p-7 shadow-lg backdrop-blur-3xl"
+              className="rounded-3xl border border-white/70 bg-white/30 p-7 shadow-xl backdrop-blur-3xl"
             >
               <h3 className="text-2xl font-medium tracking-tight">{p.title}</h3>
               <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">{p.text}</p>
