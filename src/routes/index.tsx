@@ -206,19 +206,20 @@ function Index() {
             Nuestro equipo puede ayudarte a identificar productos y soluciones de acuerdo con las
             necesidades de tu laboratorio o institución.
           </p>
-          <div className="mt-9 flex flex-wrap items-center justify-center gap-6">
-            <Link
-              to="/contacto"
-              className="rounded-full bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-85"
-            >
-              Hablar con un asesor
-            </Link>
-            <Link
-              to="/catalogo"
-              className="text-sm font-medium text-primary underline-offset-4 hover:underline"
-            >
-              Explorar catálogo
-            </Link>
+            <div className="mt-9 flex flex-wrap items-center justify-center gap-6">
+              <Link
+                to="/contacto"
+                className="rounded-full bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-85"
+              >
+                Hablar con un asesor
+              </Link>
+              <Link
+                to="/catalogo"
+                className="text-sm font-medium text-primary underline-offset-4 hover:underline"
+              >
+                Explorar catálogo
+              </Link>
+            </div>
           </div>
         </div>
       </section>
