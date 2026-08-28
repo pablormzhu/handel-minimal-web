@@ -47,8 +47,6 @@ const pillars = [
 ];
 
 const featuredBrands = [
-  "BD",
-  "Bio-Rad",
   "SNIBE Diagnostic",
   "QCA",
   "Nihon Kohden",
