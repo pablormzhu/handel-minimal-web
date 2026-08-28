@@ -1,7 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { Page, CtaBand } from "@/components/site/Page";
-import { getFamily, productsByFamily } from "@/lib/catalog";
+import { getFamily, productsByFamily, ownBrandFirst, OWN_BRAND } from "@/lib/catalog";
 
 export const Route = createFileRoute("/catalogo/$familia")({
   loader: ({ params }) => {
@@ -30,11 +30,12 @@ export const Route = createFileRoute("/catalogo/$familia")({
 function FamiliaPage() {
   const params = Route.useParams();
   const family = getFamily(params.familia)!;
-  const all = productsByFamily(family.slug);
+  const all = ownBrandFirst(productsByFamily(family.slug));
   const [sub, setSub] = useState<string | null>(null);
   const [brand, setBrand] = useState<string | null>(null);
 
   const brandOptions = Array.from(new Set(all.map((p) => p.brand)));
+
   const list = all.filter(
     (p) => (!sub || p.subfamily === sub) && (!brand || p.brand === brand),
   );
