@@ -14,6 +14,7 @@ import { Route as AvisoPrivacidadRouteImport } from './routes/aviso-privacidad'
 import { Route as ContactoRouteImport } from './routes/contacto'
 import { Route as MarcasRouteImport } from './routes/marcas'
 import { Route as NosotrosRouteImport } from './routes/nosotros'
+import { Route as PatchesRouteImport } from './routes/patches'
 import { Route as CatalogoIndexRouteImport } from './routes/catalogo/index'
 import { Route as CatalogoFamiliaRouteImport } from './routes/catalogo/$familia'
 import { Route as ProductoSlugRouteImport } from './routes/producto/$slug'
@@ -43,6 +44,11 @@ const NosotrosRoute = NosotrosRouteImport.update({
   path: '/nosotros',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PatchesRoute = PatchesRouteImport.update({
+  id: '/patches',
+  path: '/patches',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CatalogoIndexRoute = CatalogoIndexRouteImport.update({
   id: '/catalogo/',
   path: '/catalogo/',
@@ -65,6 +71,7 @@ export interface FileRoutesByFullPath {
   '/contacto': typeof ContactoRoute
   '/marcas': typeof MarcasRoute
   '/nosotros': typeof NosotrosRoute
+  '/patches': typeof PatchesRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
   '/producto/$slug': typeof ProductoSlugRoute
   '/catalogo/': typeof CatalogoIndexRoute
@@ -75,6 +82,7 @@ export interface FileRoutesByTo {
   '/contacto': typeof ContactoRoute
   '/marcas': typeof MarcasRoute
   '/nosotros': typeof NosotrosRoute
+  '/patches': typeof PatchesRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
   '/producto/$slug': typeof ProductoSlugRoute
   '/catalogo': typeof CatalogoIndexRoute
@@ -86,6 +94,7 @@ export interface FileRoutesById {
   '/contacto': typeof ContactoRoute
   '/marcas': typeof MarcasRoute
   '/nosotros': typeof NosotrosRoute
+  '/patches': typeof PatchesRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
   '/producto/$slug': typeof ProductoSlugRoute
   '/catalogo/': typeof CatalogoIndexRoute
@@ -98,6 +107,7 @@ export interface FileRouteTypes {
     | '/contacto'
     | '/marcas'
     | '/nosotros'
+    | '/patches'
     | '/catalogo/$familia'
     | '/producto/$slug'
     | '/catalogo/'
@@ -108,6 +118,7 @@ export interface FileRouteTypes {
     | '/contacto'
     | '/marcas'
     | '/nosotros'
+    | '/patches'
     | '/catalogo/$familia'
     | '/producto/$slug'
     | '/catalogo'
@@ -118,6 +129,7 @@ export interface FileRouteTypes {
     | '/contacto'
     | '/marcas'
     | '/nosotros'
+    | '/patches'
     | '/catalogo/$familia'
     | '/producto/$slug'
     | '/catalogo/'
@@ -129,6 +141,7 @@ export interface RootRouteChildren {
   ContactoRoute: typeof ContactoRoute
   MarcasRoute: typeof MarcasRoute
   NosotrosRoute: typeof NosotrosRoute
+  PatchesRoute: typeof PatchesRoute
   CatalogoFamiliaRoute: typeof CatalogoFamiliaRoute
   ProductoSlugRoute: typeof ProductoSlugRoute
   CatalogoIndexRoute: typeof CatalogoIndexRoute
@@ -171,6 +184,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof NosotrosRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/patches': {
+      id: '/patches'
+      path: '/patches'
+      fullPath: '/patches'
+      preLoaderRoute: typeof PatchesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/catalogo/': {
       id: '/catalogo/'
       path: '/catalogo'
@@ -201,6 +221,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactoRoute: ContactoRoute,
   MarcasRoute: MarcasRoute,
   NosotrosRoute: NosotrosRoute,
+  PatchesRoute: PatchesRoute,
   CatalogoFamiliaRoute: CatalogoFamiliaRoute,
   ProductoSlugRoute: ProductoSlugRoute,
   CatalogoIndexRoute: CatalogoIndexRoute,
