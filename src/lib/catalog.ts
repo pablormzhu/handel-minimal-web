@@ -125,8 +125,12 @@ export const families: Family[] = [
   },
 ];
 
+export const OWN_BRAND = "PATCHES";
+
 export const brands = [
+  OWN_BRAND,
   "SNIBE Diagnostic",
+
   "MCD Lab",
   "Dibico",
   "QCA",
@@ -149,6 +153,56 @@ export const brands = [
 ];
 
 export const products: Product[] = [
+  {
+    slug: "patches-banditas-adhesivas",
+    name: "Banditas adhesivas PATCHES",
+    brand: OWN_BRAND,
+    sku: "PT-BA-100",
+    family: "material-medico-bioseguridad",
+    subfamily: "Curación",
+    description:
+      "Banditas adhesivas de nuestra marca propia, con almohadilla absorbente y adhesivo hipoalergénico.",
+    presentations: ["Caja con 100 piezas", "Caja con 250 piezas"],
+    features: ["Adhesivo hipoalergénico", "Almohadilla absorbente", "Empaque individual estéril"],
+    documents: ["Ficha técnica"],
+  },
+  {
+    slug: "patches-venda-elastica",
+    name: "Venda elástica PATCHES",
+    brand: OWN_BRAND,
+    sku: "PT-VE-05",
+    family: "material-medico-bioseguridad",
+    subfamily: "Curación",
+    description: "Venda elástica de compresión uniforme para sujeción y soporte.",
+    presentations: ["5 cm × 5 m", "10 cm × 5 m", "15 cm × 5 m"],
+    features: ["Alta recuperación elástica", "Transpirable", "Reutilizable"],
+    documents: ["Ficha técnica"],
+  },
+  {
+    slug: "patches-gasas-esteriles",
+    name: "Gasas estériles PATCHES",
+    brand: OWN_BRAND,
+    sku: "PT-GA-10",
+    family: "material-medico-bioseguridad",
+    subfamily: "Curación",
+    description: "Gasas de algodón estériles para curación y limpieza de heridas.",
+    presentations: ["7.5 × 5 cm", "10 × 10 cm"],
+    features: ["100% algodón", "Empaque estéril", "Alta absorción"],
+    documents: ["Ficha técnica"],
+  },
+  {
+    slug: "patches-guantes-exploracion",
+    name: "Guantes de exploración PATCHES",
+    brand: OWN_BRAND,
+    sku: "PT-GU-100",
+    family: "material-medico-bioseguridad",
+    subfamily: "Guantes y protección",
+    description: "Guante desechable de nuestra marca propia para uso clínico y de laboratorio.",
+    presentations: ["Caja con 100 piezas"],
+    features: ["Sin polvo", "Texturizado en dedos", "Tallas CH a G"],
+    documents: ["Ficha técnica"],
+  },
+
   {
     slug: "maglumi-tsh",
     name: "MAGLUMI TSH",
@@ -278,3 +332,9 @@ export const products: Product[] = [
 export const getFamily = (slug: string) => families.find((f) => f.slug === slug);
 export const getProduct = (slug: string) => products.find((p) => p.slug === slug);
 export const productsByFamily = (slug: string) => products.filter((p) => p.family === slug);
+
+export const ownBrandFirst = <T extends { brand: string }>(items: T[]) =>
+  [...items].sort(
+    (a, b) => Number(b.brand === OWN_BRAND) - Number(a.brand === OWN_BRAND),
+  );
+export const ownBrandProducts = () => products.filter((p) => p.brand === OWN_BRAND);

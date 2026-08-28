@@ -2,6 +2,8 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/site/Page";
 import { families, brands } from "@/lib/catalog";
 import hero from "@/assets/hero.jpg";
+import patchesLogo from "@/assets/patches-logo.png.asset.json";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -47,7 +49,9 @@ const pillars = [
 ];
 
 const featuredBrands = [
+  "PATCHES",
   "SNIBE Diagnostic",
+
   "QCA",
   "Nihon Kohden",
   "MCD Lab",
@@ -113,7 +117,40 @@ function Index() {
         </div>
       </section>
 
+      {/* Marca propia */}
+      <section className="pb-4">
+        <div className="mx-auto max-w-6xl px-6">
+          <Link
+            to="/patches"
+            className="group flex flex-col items-center gap-6 rounded-3xl border border-border/30 bg-background/50 px-8 py-8 text-center shadow-xl backdrop-blur-xl transition-shadow duration-300 hover:shadow-2xl sm:flex-row sm:justify-between sm:text-left"
+          >
+            <div className="flex flex-col items-center gap-5 sm:flex-row sm:gap-7">
+              <img
+                src={patchesLogo.url}
+                alt="PATCHES, marca propia de Handel"
+                loading="lazy"
+                width={600}
+                height={120}
+                className="h-9 w-auto object-contain"
+              />
+              <div>
+                <p className="text-xs uppercase tracking-widest text-muted-foreground">
+                  Conoce nuestra marca
+                </p>
+                <p className="mt-2 text-lg font-medium tracking-tight">
+                  PATCHES, nuestra marca propia de curación y protección.
+                </p>
+              </div>
+            </div>
+            <span className="text-sm text-primary underline-offset-4 group-hover:underline">
+              Descubrir PATCHES
+            </span>
+          </Link>
+        </div>
+      </section>
+
       <hr className="mx-auto max-w-6xl border-t border-border/30" />
+
 
       {/* Qué hacemos */}
       <section className="py-12">

@@ -1,7 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { Page, CtaBand } from "@/components/site/Page";
-import { getFamily, productsByFamily } from "@/lib/catalog";
+import { getFamily, productsByFamily, ownBrandFirst, OWN_BRAND } from "@/lib/catalog";
 
 export const Route = createFileRoute("/catalogo/$familia")({
   loader: ({ params }) => {
@@ -30,11 +30,12 @@ export const Route = createFileRoute("/catalogo/$familia")({
 function FamiliaPage() {
   const params = Route.useParams();
   const family = getFamily(params.familia)!;
-  const all = productsByFamily(family.slug);
+  const all = ownBrandFirst(productsByFamily(family.slug));
   const [sub, setSub] = useState<string | null>(null);
   const [brand, setBrand] = useState<string | null>(null);
 
   const brandOptions = Array.from(new Set(all.map((p) => p.brand)));
+
   const list = all.filter(
     (p) => (!sub || p.subfamily === sub) && (!brand || p.brand === brand),
   );
@@ -114,9 +115,15 @@ function FamiliaPage() {
                 />
               </div>
               <div className="flex-1">
-                <p className="text-xs uppercase tracking-widest text-muted-foreground">
+                <p className="flex items-center gap-2 text-xs uppercase tracking-widest text-muted-foreground">
                   {p.brand}
+                  {p.brand === OWN_BRAND && (
+                    <span className="rounded-full border border-primary/40 px-2 py-0.5 text-[10px] tracking-widest text-primary">
+                      Marca propia
+                    </span>
+                  )}
                 </p>
+
                 <h2 className="mt-2 text-2xl font-medium tracking-tight">{p.name}</h2>
                 <p className="mt-2 max-w-lg text-sm text-muted-foreground">{p.description}</p>
               </div>
