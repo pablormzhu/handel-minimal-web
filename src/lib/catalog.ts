@@ -125,8 +125,12 @@ export const families: Family[] = [
   },
 ];
 
+export const OWN_BRAND = "PATCHES";
+
 export const brands = [
+  OWN_BRAND,
   "SNIBE Diagnostic",
+
   "MCD Lab",
   "Dibico",
   "QCA",
