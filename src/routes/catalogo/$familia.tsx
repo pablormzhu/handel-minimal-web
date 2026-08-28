@@ -118,7 +118,7 @@ function FamiliaPage() {
                 <p className="flex items-center gap-2 text-xs uppercase tracking-widest text-muted-foreground">
                   {p.brand}
                   {p.brand === OWN_BRAND && (
-                    <span className="rounded-full border border-primary/40 px-2 py-0.5 text-[10px] tracking-widest text-primary">
+                    <span className="text-[10px] font-medium uppercase tracking-widest text-red-600">
                       Marca propia
                     </span>
                   )}
