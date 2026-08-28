@@ -49,7 +49,9 @@ const pillars = [
 ];
 
 const featuredBrands = [
+  "PATCHES",
   "SNIBE Diagnostic",
+
   "QCA",
   "Nihon Kohden",
   "MCD Lab",
