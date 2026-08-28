@@ -9,7 +9,7 @@ export const Route = createFileRoute("/marcas")({
       {
         name: "description",
         content:
-          "Handel representa marcas líderes en diagnóstico y laboratorio: BD, SNIBE Diagnostic, Bio-Rad, MCD Lab, QCA y más.",
+          "Handel representa marcas líderes en diagnóstico y laboratorio: SNIBE Diagnostic, MCD Lab, QCA, Nihon Kohden, Copan y más.",
       },
       { property: "og:title", content: "Marcas · Handel" },
       {
