@@ -1,6 +1,8 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page, CtaBand } from "@/components/site/Page";
 import { brands } from "@/lib/catalog";
+import patchesLogo from "@/assets/patches-logo.png.asset.json";
+
 
 export const Route = createFileRoute("/marcas")({
   head: () => ({
