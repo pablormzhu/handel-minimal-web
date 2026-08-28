@@ -332,3 +332,9 @@ export const products: Product[] = [
 export const getFamily = (slug: string) => families.find((f) => f.slug === slug);
 export const getProduct = (slug: string) => products.find((p) => p.slug === slug);
 export const productsByFamily = (slug: string) => products.filter((p) => p.family === slug);
+
+export const ownBrandFirst = <T extends { brand: string }>(items: T[]) =>
+  [...items].sort(
+    (a, b) => Number(b.brand === OWN_BRAND) - Number(a.brand === OWN_BRAND),
+  );
+export const ownBrandProducts = () => products.filter((p) => p.brand === OWN_BRAND);
