@@ -126,9 +126,7 @@ export const families: Family[] = [
 ];
 
 export const brands = [
-  "BD",
   "SNIBE Diagnostic",
-  "Bio-Rad",
   "MCD Lab",
   "Dibico",
   "QCA",
