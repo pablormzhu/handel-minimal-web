@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page, CtaBand } from "@/components/site/Page";
-import { brands } from "@/lib/catalog";
+import { catalogBrands } from "@/lib/brand-catalog";
 import patchesLogo from "@/assets/patches-logo.png.asset.json";
 
 
