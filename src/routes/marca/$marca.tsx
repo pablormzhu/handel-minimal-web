@@ -86,14 +86,11 @@ function MarcaPage() {
 
               <div className="flex flex-1 flex-col p-6">
                 <p className="text-[11px] font-medium tracking-wide text-muted-foreground">
-                  Clave {p.sku}
+                  Clave {p.sku} <span className="text-muted-foreground/60">·</span> {p.brand}
                 </p>
                 <h2 className="mt-2 text-base font-semibold leading-snug tracking-tight">
                   {sentenceCase(p.name)}
                 </h2>
-                <p className="mt-1 text-xs font-semibold tracking-wide text-foreground">
-                  {p.brand}
-                </p>
                 <p className="mt-3 text-sm text-muted-foreground">{sentenceCase(p.description)}</p>
                 {p.features.length > 0 && (
                   <ul className="mt-4 space-y-2 border-t border-border/40 pt-4 text-[13px] text-muted-foreground">
