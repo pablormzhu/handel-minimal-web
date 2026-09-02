@@ -3,6 +3,8 @@ import { useState } from "react";
 import { Page, CtaBand } from "@/components/site/Page";
 import { brandBySlug, productsByBrand } from "@/lib/brand-catalog";
 import { productImage } from "@/lib/product-images";
+import { formatFeature, sentenceCase } from "@/lib/format-product";
+
 
 
 export const Route = createFileRoute("/marca/$marca")({
