@@ -67,15 +67,20 @@ function Marcas() {
 
       <section className="mx-auto max-w-6xl px-6 pb-28">
         <div className="grid grid-cols-2 gap-px overflow-hidden rounded-3xl border border-border bg-border sm:grid-cols-3 lg:grid-cols-4">
-          {brands
-            .filter((b) => b !== "PATCHES")
+          {catalogBrands
+            .filter((b) => b.name !== "PATCHES")
             .map((b) => (
-              <div
-                key={b}
-                className="flex h-32 items-center justify-center bg-background px-4 text-center text-base font-medium tracking-tight text-muted-foreground transition-colors hover:text-foreground"
+              <Link
+                key={b.slug}
+                to="/marca/$marca"
+                params={{ marca: b.slug }}
+                className="flex h-32 flex-col items-center justify-center gap-1 bg-background px-4 text-center text-base font-medium tracking-tight text-muted-foreground transition-colors hover:text-foreground"
               >
-                {b}
-              </div>
+                {b.name}
+                <span className="text-[11px] uppercase tracking-widest text-muted-foreground/70">
+                  {b.count} productos
+                </span>
+              </Link>
             ))}
         </div>
       </section>
