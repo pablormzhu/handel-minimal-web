@@ -2,6 +2,8 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { Page, CtaBand } from "@/components/site/Page";
 import { brandBySlug, productsByBrand } from "@/lib/brand-catalog";
+import { productImage } from "@/lib/product-images";
+
 
 export const Route = createFileRoute("/marca/$marca")({
   loader: ({ params }) => {
