@@ -1,6 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { Page, CtaBand } from "@/components/site/Page";
+import { BackLink } from "@/components/site/BackLink";
 import { getFamily, productsByFamily, ownBrandFirst, OWN_BRAND } from "@/lib/catalog";
 
 export const Route = createFileRoute("/catalogo/$familia")({
@@ -43,9 +44,7 @@ function FamiliaPage() {
   return (
     <Page>
       <section className="mx-auto max-w-6xl px-6 pb-14 pt-24">
-        <Link to="/catalogo" className="text-sm text-muted-foreground hover:text-foreground">
-          Catálogo
-        </Link>
+        <BackLink to="/catalogo">Regresar al catálogo</BackLink>
         <h1 className="mt-4 max-w-3xl text-4xl font-semibold tracking-tight sm:text-6xl">
           {family.name}
         </h1>
