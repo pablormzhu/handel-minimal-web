@@ -85,22 +85,39 @@ function MarcaPage() {
               </div>
 
               <div className="flex flex-1 flex-col p-6">
-                <p className="text-[11px] uppercase tracking-widest text-muted-foreground">
+                <p className="text-[11px] font-medium tracking-wide text-muted-foreground">
                   Clave {p.sku}
                 </p>
-                <h2 className="mt-2 text-base font-medium leading-snug tracking-tight">{p.name}</h2>
-                <p className="mt-1 text-xs uppercase tracking-widest text-muted-foreground">
+                <h2 className="mt-2 text-base font-semibold leading-snug tracking-tight">
+                  {sentenceCase(p.name)}
+                </h2>
+                <p className="mt-1 text-xs font-semibold tracking-wide text-foreground">
                   {p.brand}
                 </p>
-                <p className="mt-3 text-sm text-muted-foreground">{p.description}</p>
+                <p className="mt-3 text-sm text-muted-foreground">{sentenceCase(p.description)}</p>
                 {p.features.length > 0 && (
-                  <ul className="mt-4 space-y-1.5 border-t border-border/40 pt-4 text-[13px] text-muted-foreground">
-                    {p.features.map((f) => (
-                      <li key={f}>{f}</li>
-                    ))}
+                  <ul className="mt-4 space-y-2 border-t border-border/40 pt-4 text-[13px] text-muted-foreground">
+                    {p.features.map((f) => {
+                      const formatted = formatFeature(f);
+                      if (!formatted) return null;
+                      const { label, value } = formatted;
+                      return (
+                        <li key={f}>
+                          {label ? (
+                            <>
+                              <span className="font-semibold text-foreground">{label}:</span>{" "}
+                              {value}
+                            </>
+                          ) : (
+                            value
+                          )}
+                        </li>
+                      );
+                    })}
                   </ul>
                 )}
               </div>
+
             </article>
           ))}
         </div>
