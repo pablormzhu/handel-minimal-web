@@ -1,6 +1,7 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { Page, CtaBand } from "@/components/site/Page";
+import { BackLink } from "@/components/site/BackLink";
 import { brandBySlug, productsByBrand } from "@/lib/brand-catalog";
 import { productImage } from "@/lib/product-images";
 import { formatFeature, sentenceCase } from "@/lib/format-product";
@@ -51,9 +52,7 @@ function MarcaPage() {
   return (
     <Page>
       <section className="mx-auto max-w-6xl px-6 pb-10 pt-24">
-        <Link to="/marcas" className="text-sm text-muted-foreground hover:text-foreground">
-          Marcas
-        </Link>
+        <BackLink to="/marcas">Todas las marcas</BackLink>
         <h1 className="mt-4 text-4xl font-semibold tracking-tight sm:text-6xl">{brand.name}</h1>
         <p className="mt-4 max-w-xl text-lg text-muted-foreground">
           {all.length} {all.length === 1 ? "producto" : "productos"} disponibles bajo esta marca.

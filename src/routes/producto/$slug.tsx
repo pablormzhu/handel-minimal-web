@@ -1,5 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Page } from "@/components/site/Page";
+import { BackLink } from "@/components/site/BackLink";
 import { getProduct, getFamily, productsByFamily } from "@/lib/catalog";
 
 export const Route = createFileRoute("/producto/$slug")({
@@ -37,19 +38,9 @@ function ProductoPage() {
   return (
     <Page>
       <section className="mx-auto max-w-6xl px-6 pt-20">
-        <nav className="flex gap-2 text-sm text-muted-foreground">
-          <Link to="/catalogo" className="hover:text-foreground">
-            Catálogo
-          </Link>
-          <span>/</span>
-          <Link
-            to="/catalogo/$familia"
-            params={{ familia: family.slug }}
-            className="hover:text-foreground"
-          >
-            {family.name}
-          </Link>
-        </nav>
+        <BackLink to="/catalogo/$familia" params={{ familia: family.slug }}>
+          Regresar a {family.name}
+        </BackLink>
 
         <div className="mt-10 grid items-center gap-12 lg:grid-cols-2">
           <div className="overflow-hidden rounded-3xl bg-muted/50">

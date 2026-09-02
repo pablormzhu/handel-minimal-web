@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page, CtaBand } from "@/components/site/Page";
+import { BackLink } from "@/components/site/BackLink";
 import { ownBrandProducts } from "@/lib/catalog";
 import patchesLogo from "@/assets/patches-logo.png.asset.json";
 import bioseguridad from "@/assets/fam-bioseguridad.jpg";
@@ -31,7 +32,8 @@ function PatchesPage() {
   return (
     <Page>
       <section className="mx-auto max-w-6xl px-6 pb-12 pt-24">
-        <p className="text-sm uppercase tracking-widest text-muted-foreground">Nuestra marca</p>
+        <BackLink to="/">Regresar al inicio</BackLink>
+        <p className="mt-5 text-sm uppercase tracking-widest text-muted-foreground">Nuestra marca</p>
         <img
           src={patchesLogo.url}
           alt="Logotipo PATCHES"
