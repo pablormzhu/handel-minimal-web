@@ -71,7 +71,7 @@ function FamiliaPage() {
         </div>
       </div>
 
-      <section className="mx-auto max-w-6xl px-6 py-14">
+      <section className="mx-auto max-w-6xl px-6 pb-4 pt-12">
         {brandOptions.length > 1 && (
           <div className="mb-10 flex flex-wrap items-center gap-2">
             <span className="mr-2 text-xs uppercase tracking-widest text-muted-foreground">
