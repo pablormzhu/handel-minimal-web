@@ -2,6 +2,8 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { Page, CtaBand } from "@/components/site/Page";
 import { brandBySlug, productsByBrand } from "@/lib/brand-catalog";
+import { productImage } from "@/lib/product-images";
+
 
 export const Route = createFileRoute("/marca/$marca")({
   loader: ({ params }) => {
@@ -69,11 +71,17 @@ function MarcaPage() {
               key={p.slug}
               className="flex flex-col overflow-hidden rounded-3xl border border-border/30 bg-background/50 shadow-xl backdrop-blur-xl transition-shadow duration-300 hover:shadow-2xl"
             >
-              <div className="flex aspect-[4/3] w-full items-center justify-center bg-muted/50">
-                <span className="text-xs uppercase tracking-widest text-muted-foreground">
-                  Foto próximamente
-                </span>
+              <div className="aspect-[4/3] w-full overflow-hidden bg-muted/30">
+                <img
+                  src={productImage(p)}
+                  alt={p.name}
+                  loading="lazy"
+                  width={1024}
+                  height={768}
+                  className="h-full w-full object-cover transition-transform duration-500 hover:scale-[1.03]"
+                />
               </div>
+
               <div className="flex flex-1 flex-col p-6">
                 <p className="text-[11px] uppercase tracking-widest text-muted-foreground">
                   Clave {p.sku}
