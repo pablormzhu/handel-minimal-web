@@ -20,7 +20,7 @@ export function CtaBand({
   action?: string;
 }) {
   return (
-    <section className="py-14">
+    <section className="py-10">
       <div className="mx-auto max-w-4xl px-6 text-center">
         <div className="rounded-3xl border border-border/30 bg-background/50 px-8 py-12 shadow-xl backdrop-blur-2xl sm:px-16 sm:py-14">
           <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-5xl">{title}</h2>
