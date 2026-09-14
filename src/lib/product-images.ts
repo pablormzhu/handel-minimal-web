@@ -13,13 +13,29 @@ import general from "@/assets/prod/general.jpg";
 import lubriG from "@/assets/prod/real/lubri-g.jpg";
 import germisinEspuma from "@/assets/prod/real/germisin-espuma.jpg";
 import antibenzil from "@/assets/prod/real/antibenzil.jpg";
+import hisopoRayon from "@/assets/prod/real/hisopo-rayon.jpg";
+import abatelengua from "@/assets/prod/real/abatelengua.jpg";
+import vinagreBlanco from "@/assets/prod/real/vinagre-blanco.jpg";
+import cubrebocasN95 from "@/assets/prod/real/cubrebocas-n95.jpg";
+import puntasAmarillas from "@/assets/prod/real/puntas-amarillas.jpg";
+import amiesTransporte from "@/assets/prod/real/amies-transporte.jpg";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
   "030010000000035": lubriG, // LUBRI-G 135 g (Altamirano)
   "030010000000025": germisinEspuma, // GERMISIN ESPUMA 120 ml
   "0300100000008.1": antibenzil, // ANTIBENZIL JABÓN QUIRÚRGICO 500 ml
+  "00104000NLD6052": hisopoRayon, // HISOPO DE RAYON OROFARINGEO (PATCHES)
+  "00104000NLD6051": hisopoRayon, // HISOPO DE NYLON NASOFARINGEO (PATCHES)
+  "009010000001181": abatelengua, // ABATELENGUA DE MADERA ESTERIL
+  "200010000000122": abatelengua, // ABATELENGUA DE MADERA ESTERIL
+  "039010000000001": vinagreBlanco, // VINAGRE BLANCO CJ 1000 ML
+  "342010000000370": cubrebocasN95, // CUBRE BOCAS KN95
+  "16501001-200009": puntasAmarillas, // PUNTA 5 A 200 uL AMARILLA (Delta Lab)
+  "75801000T-200-Y": puntasAmarillas, // PUNTAS AMARILLAS 1-200 uL (Axygen)
+  "1110100001008-C": amiesTransporte, // MEDIO DE TRANSPORTE STUART AMIES (Copan)
 };
+
 
 
 const RULES: Array<[RegExp, string]> = [
