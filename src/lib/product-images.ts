@@ -40,6 +40,11 @@ import aguaTridestilada from "@/assets/prod/real/agua-tridestilada.jpg";
 import contenedorLiquidos from "@/assets/prod/real/contenedor-liquidos-amarillo.jpg";
 import contenedorPunzocortantes from "@/assets/prod/real/contenedor-punzocortantes.jpg";
 import frascoSymRojo from "@/assets/prod/real/frasco-sym-rojo.jpg";
+import hidroxidoPotasio from "@/assets/prod/real/hidroxido-potasio.jpg";
+import gramColorantes from "@/assets/prod/real/gram-colorantes.jpg";
+import cajaPetri60 from "@/assets/prod/real/caja-petri-60.jpg";
+import aguaTridestilada19 from "@/assets/prod/real/agua-tridestilada-19.jpg";
+import espatulaAyre from "@/assets/prod/real/espatula-ayre.jpg";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
@@ -82,6 +87,11 @@ const SKU_IMAGES: Record<string, string> = {
   "00601000000PL3A": contenedorLiquidos, // CONTENEDOR LIQUIDOS 3 L AMARILLO (A1)
   "006010000000PC1": contenedorPunzocortantes, // CONTENEDOR PUNZOCORTANTES 1.7 L ROJO (A1)
   "02001000000014A": frascoSymRojo, // FRASCO GRADUADO 100 ML ROJO ESTERIL (SYM)
+  "011010000054000": hidroxidoPotasio, // HIDROXIDO DE POTASIO 500 ML AL 10% (Maesa)
+  "033010000000541": gramColorantes, // GRAM EQUIPOS DE COLORANTES 125 ML (Hycel)
+  "02701000000202B": cajaPetri60, // CAJA PETRI SIN DIVISION 60x15 ESTERIL (Irsa)
+  "033010HY6541-19": aguaTridestilada19, // AGUA TRIDESTILADA 19 LTS (Hycel)
+  "026010000000004": espatulaAyre, // ESPATULA DE AYRE DE MADERA ESTERIL (Larochelle)
 };
 
 
