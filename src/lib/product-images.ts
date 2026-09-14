@@ -38,7 +38,8 @@ const RULES: Array<[RegExp, string]> = [
   [/\b(reactivo|colorante|control|calibrador|est[aá]ndar|buffer|diluyente|suero|antisuero|glucosa|colesterol|triglic[eé]rid|creatinina|urea|[aá]cido|hemoglobina|tinci[oó]n|wright|giemsa|gram)\b/i, reactivos],
 ];
 
-export function productImage(input: { name: string; description?: string }): string {
+export function productImage(input: { name: string; description?: string; sku?: string }): string {
+  if (input.sku && SKU_IMAGES[input.sku]) return SKU_IMAGES[input.sku];
   const text = `${input.name} ${input.description ?? ""}`;
   for (const [re, img] of RULES) {
     if (re.test(text)) return img;
