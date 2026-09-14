@@ -39,7 +39,8 @@ const RULES: Array<[RegExp, string]> = [
 ];
 
 export function productImage(input: { name: string; description?: string; sku?: string }): string {
-  if (input.sku && SKU_IMAGES[input.sku]) return SKU_IMAGES[input.sku];
+  const real = input.sku ? SKU_IMAGES[input.sku] : undefined;
+  if (real) return real;
   const text = `${input.name} ${input.description ?? ""}`;
   for (const [re, img] of RULES) {
     if (re.test(text)) return img;
