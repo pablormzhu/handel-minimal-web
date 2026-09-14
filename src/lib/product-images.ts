@@ -103,6 +103,10 @@ import agarCromogenicoCandida from "@/assets/prod/real/agar-cromogenico-candida.
 import agarDextrosaPapa from "@/assets/prod/real/agar-dextrosa-papa.jpg";
 import agarUreaChristensen from "@/assets/prod/real/agar-urea-christensen.jpg";
 import agarCampylobacter from "@/assets/prod/real/agar-campylobacter.jpg";
+import patchesPortaEsmeriladoSinBanda from "@/assets/prod/real/patches-portaobjetos-esmerilado-sin-banda.jpg";
+import patchesPortaEsmeriladoConBanda from "@/assets/prod/real/patches-portaobjetos-esmerilado-con-banda.jpg";
+import patchesPortaSencillo from "@/assets/prod/real/patches-portaobjetos-sencillo.jpg";
+import patchesCubreobjetos22 from "@/assets/prod/real/patches-cubreobjetos-22x22.jpg";
 import tuboVidrio13x100 from "@/assets/prod/real/tubo-vidrio-13x100.jpg";
 import tuboCultivoVaquelita from "@/assets/prod/real/tubo-cultivo-vaquelita.jpg";
 import solucionSalinaPisa1L from "@/assets/prod/real/solucion-salina-pisa-1l.jpg";
@@ -124,7 +128,10 @@ const SKU_IMAGES: Record<string, string> = {
   "019010004000077": solucionSalinaPisa1L,
   "00101LAR2022012": patchesBanditasRedondas,
   "001010000007202": patchesCubreobjetos24,
-  "001010000007201": patchesCubreobjetos24,
+  "001010000007201": patchesCubreobjetos22,
+  "001010000007101": patchesPortaEsmeriladoSinBanda,
+  "001010000007105": patchesPortaEsmeriladoConBanda,
+  "001010000007102": patchesPortaSencillo,
   "024010002000600": protecToallaAlcoholada,
   "0010100000CMP25": patchesPeTape,
   "001010000KZ4022": patchesVendaElastica,
