@@ -45,9 +45,17 @@ import gramColorantes from "@/assets/prod/real/gram-colorantes.jpg";
 import cajaPetri60 from "@/assets/prod/real/caja-petri-60.jpg";
 import aguaTridestilada19 from "@/assets/prod/real/agua-tridestilada-19.jpg";
 import espatulaAyre from "@/assets/prod/real/espatula-ayre.jpg";
+import multibacGramNeg from "@/assets/prod/real/multibac-id-gram-neg.jpg";
+import agarDibicromCandida from "@/assets/prod/real/agar-dibicrom-candida.jpg";
+import agarDextrosaSabouraud from "@/assets/prod/real/agar-dextrosa-sabouraud.jpg";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
+  "1680100000PT-35": multibacGramNeg, // MULTIBAC PT-35 gram (-) I.D.
+  "1680100000PT-34": multibacGramNeg, // MULTIBAC PT-34 gram (+) I.D.
+  "005010001313-PP": agarDibicromCandida, // AGAR CHROMAGAR/DIBICROM CANDIDA (Dibico)
+  "265010000008684": agarDibicromCandida, // AGAR CHROMAGAR CANDIDA (MCD Lab)
+  "265010000007035": agarDextrosaSabouraud, // AGAR DEXTROSA SABOURAUD 10 tubos
   "030010000000035": lubriG, // LUBRI-G 135 g (Altamirano)
   "030010000000025": germisinEspuma, // GERMISIN ESPUMA 120 ml
   "0300100000008.1": antibenzil, // ANTIBENZIL JABÓN QUIRÚRGICO 500 ml
