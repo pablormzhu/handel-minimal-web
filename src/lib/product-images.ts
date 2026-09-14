@@ -34,6 +34,12 @@ import electroGel from "@/assets/prod/real/electro-gel.jpg";
 import germisinSolucion500 from "@/assets/prod/real/germisin-solucion-500.jpg";
 import accutrackHiv from "@/assets/prod/real/accutrack-hiv.jpg";
 import banditasPanda from "@/assets/prod/real/banditas-panda.jpg";
+import guanteLatexEsteril from "@/assets/prod/real/guante-latex-esteril.jpg";
+import kitBioquimicas from "@/assets/prod/real/kit-bioquimicas.jpg";
+import aguaTridestilada from "@/assets/prod/real/agua-tridestilada.jpg";
+import contenedorLiquidos from "@/assets/prod/real/contenedor-liquidos-amarillo.jpg";
+import contenedorPunzocortantes from "@/assets/prod/real/contenedor-punzocortantes.jpg";
+import frascoSymRojo from "@/assets/prod/real/frasco-sym-rojo.jpg";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
