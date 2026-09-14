@@ -19,6 +19,7 @@ import vinagreBlanco from "@/assets/prod/real/vinagre-blanco.jpg";
 import cubrebocasN95 from "@/assets/prod/real/cubrebocas-n95.jpg";
 import puntasAmarillas from "@/assets/prod/real/puntas-amarillas.jpg";
 import amiesTransporte from "@/assets/prod/real/amies-transporte.jpg";
+import recolector24h from "@/assets/prod/real/recolector-24h.jpg";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
