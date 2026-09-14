@@ -93,9 +93,28 @@ import agarMuellerHinton from "@/assets/prod/real/agar-mueller-hinton.jpg";
 import agarTcbs from "@/assets/prod/real/agar-tcbs.jpg";
 import aguaPeptonadaAlcalina from "@/assets/prod/real/agua-peptonada-alcalina.jpg";
 import agarVerdeBrillante from "@/assets/prod/real/agar-verde-brillante.jpg";
+import agarMuellerHintonSangre from "@/assets/prod/real/agar-mueller-hinton-sangre.jpg";
+import agarSalManitol from "@/assets/prod/real/agar-sal-manitol.jpg";
+import infusionCerebroCorazon from "@/assets/prod/real/infusion-cerebro-corazon.jpg";
+import agarBiggy from "@/assets/prod/real/agar-biggy.jpg";
+import agarHierroLisina from "@/assets/prod/real/agar-hierro-lisina.jpg";
+import agarColumbiaCna from "@/assets/prod/real/agar-columbia-cna.jpg";
+import agarCromogenicoCandida from "@/assets/prod/real/agar-cromogenico-candida.jpg";
+import agarDextrosaPapa from "@/assets/prod/real/agar-dextrosa-papa.jpg";
+import agarUreaChristensen from "@/assets/prod/real/agar-urea-christensen.jpg";
+import agarCampylobacter from "@/assets/prod/real/agar-campylobacter.jpg";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
+  "265010000007644": agarMuellerHintonSangre,
+  "265010000007154": agarSalManitol,
+  "265010000007405": infusionCerebroCorazon,
+  "265010000007004": agarBiggy,
+  "265010000007095": agarHierroLisina,
+  "265010000007864": agarColumbiaCna,
+  "265010000007044": agarDextrosaPapa,
+  "265010000007265": agarUreaChristensen,
+  "265010000007854": agarCampylobacter,
   "283010000MG100S": guantesMgEs,
   "2830100MG100S-1": guantesMgEs,
   "283010000MG100M": guantesMgEs,
