@@ -35,6 +35,8 @@ const SKU_IMAGES: Record<string, string> = {
   "16501001-200009": puntasAmarillas, // PUNTA 5 A 200 uL AMARILLA (Delta Lab)
   "75801000T-200-Y": puntasAmarillas, // PUNTAS AMARILLAS 1-200 uL (Axygen)
   "1110100001008-C": amiesTransporte, // MEDIO DE TRANSPORTE STUART AMIES (Copan)
+  "1750100000PW106": recolector24h, // BOTE RECOLECCION 24 HORAS (Plastic World)
+  "35701000PW106-1": recolector24h, // BOTE RECOLECCION 24 HORAS (GH)
 };
 
 
