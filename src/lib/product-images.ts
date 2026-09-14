@@ -60,6 +60,14 @@ import agarCasman from "@/assets/prod/real/agar-casman-sangre-carnero.jpg";
 import maglumiReaction from "@/assets/prod/real/maglumi-reaction-modules.jpg";
 import maglumiWash from "@/assets/prod/real/maglumi-wash-liquid.jpg";
 import jeringaInsulinaNipro from "@/assets/prod/real/jeringa-insulina-nipro.jpg";
+import contenedorPunzo4l from "@/assets/prod/real/contenedor-punzo-4l.jpg";
+import contenedorPunzo3l from "@/assets/prod/real/contenedor-punzo-3l.jpg";
+import contenedorPunzo13l from "@/assets/prod/real/contenedor-punzo-13l.jpg";
+import contenedorPunzo18l from "@/assets/prod/real/contenedor-punzo-18l.jpg";
+import contenedorPunzo1l from "@/assets/prod/real/contenedor-punzo-1l.jpg";
+import aguaBidestiladaHycel19l from "@/assets/prod/real/agua-bidestilada-hycel-19l.jpg";
+import bolsaRpbiRoja from "@/assets/prod/real/bolsa-rpbi-roja.jpg";
+import tuboGoldenVacAzul from "@/assets/prod/real/tubo-golden-vac-azul.jpg";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
@@ -127,6 +135,19 @@ const SKU_IMAGES: Record<string, string> = {
   "2070100630003-1": maglumiReaction, // MAGLUMI REACTION MODULES 1 (Snibe)
   "2070130299005M1": maglumiWash, // MAGLUMI WASH LIQUID 1X714 ML (Snibe)
   "3120101U3013-SB": jeringaInsulinaNipro, // JERINGA INSULINA 1ML 30 X 13 (Nipro)
+  "277010000000094": contenedorPunzo4l, // CONTENEDOR PUNZOCORTANTES 4 L (HQ)
+  "006010000000PC4": contenedorPunzo4l, // CONTENEDOR PUNZOCORTANTES 4.75 L (A1)
+  "277010000000445": contenedorPunzo3l, // CONTENEDOR PUNZOCORTANTES 3 L (HQ)
+  "006010000000PC3": contenedorPunzo3l, // CONTENEDOR PUNZOCORTANTES 3 L (A1)
+  "277010100000493": contenedorPunzo13l, // CONTENEDOR PUNZOCORTANTES 13 L (HQ)
+  "00601000000PC13": contenedorPunzo13l, // CONTENEDOR PUNZOCORTANTES 13.25 L (A1)
+  "277010000000032": contenedorPunzo18l, // CONTENEDOR PUNZOCORTANTES 1.8 L (HQ)
+  "006010000000PC2": contenedorPunzo18l, // CONTENEDOR PUNZOCORTANTES 1.9 L (A1)
+  "277010000000476": contenedorPunzo1l, // CONTENEDOR PUNZOCORTANTES 1 L (HQ)
+  "00601000000PC1N": contenedorPunzo1l, // CONTENEDOR PUNZOCORTANTES 1 L (A1)
+  "033010HY6544-19": aguaBidestiladaHycel19l, // AGUA BIDESTILADA BIDON 19 L (Hycel)
+  "02601PBOLR30X40": bolsaRpbiRoja, // BOLSA POLIETILENO RPBI 30x40 (Larochelle)
+  "33301000GD027SC": tuboGoldenVacAzul, // TUBO TAPON AZUL CITRATO 2.7 ML (Golden Vac)
 };
 
 
