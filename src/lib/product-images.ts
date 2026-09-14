@@ -34,6 +34,12 @@ import electroGel from "@/assets/prod/real/electro-gel.jpg";
 import germisinSolucion500 from "@/assets/prod/real/germisin-solucion-500.jpg";
 import accutrackHiv from "@/assets/prod/real/accutrack-hiv.jpg";
 import banditasPanda from "@/assets/prod/real/banditas-panda.jpg";
+import guanteLatexEsteril from "@/assets/prod/real/guante-latex-esteril.jpg";
+import kitBioquimicas from "@/assets/prod/real/kit-bioquimicas.jpg";
+import aguaTridestilada from "@/assets/prod/real/agua-tridestilada.jpg";
+import contenedorLiquidos from "@/assets/prod/real/contenedor-liquidos-amarillo.jpg";
+import contenedorPunzocortantes from "@/assets/prod/real/contenedor-punzocortantes.jpg";
+import frascoSymRojo from "@/assets/prod/real/frasco-sym-rojo.jpg";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
@@ -70,6 +76,12 @@ const SKU_IMAGES: Record<string, string> = {
   "0300100000028.1": germisinSolucion500, // GERMISIN SOLUCION 500 ml (Altamirano)
   "11301000AHIV-50": accutrackHiv, // PRUEBA RAPIDA ACCUTRACK ONE STEP HIV
   "001010000000004": banditasPanda, // BANDITAS INFANTILES PANDA (PATCHES)
+  "051010604560383": guanteLatexEsteril, // GUANTE DE LATEX ESTERIL CHICO (Ambiderm)
+  "265010000007975": kitBioquimicas, // KIT PRUEBAS BIOQUIMICAS (MCD Lab)
+  "355010000RO1418": aguaTridestilada, // AGUA TRIDESTILADA 20 L (Reasol)
+  "00601000000PL3A": contenedorLiquidos, // CONTENEDOR LIQUIDOS 3 L AMARILLO (A1)
+  "006010000000PC1": contenedorPunzocortantes, // CONTENEDOR PUNZOCORTANTES 1.7 L ROJO (A1)
+  "02001000000014A": frascoSymRojo, // FRASCO GRADUADO 100 ML ROJO ESTERIL (SYM)
 };
 
 
