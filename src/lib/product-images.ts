@@ -21,7 +21,7 @@ import puntasAmarillas from "@/assets/prod/real/puntas-amarillas.jpg";
 import amiesTransporte from "@/assets/prod/real/amies-transporte.jpg";
 import recolector24h from "@/assets/prod/real/recolector-24h.jpg";
 import tuboTaponRojo from "@/assets/prod/real/tubo-tapon-rojo.jpg";
-import torundasAlgodon from "@/assets/prod/real/torundas-algodon.jpg";
+import { AI_IMAGES } from "@/lib/ai-product-images";
 import agarSalmonellaShigella from "@/assets/prod/real/agar-salmonella-shigella.jpg";
 import vasoRecolector120 from "@/assets/prod/real/vaso-recolector-120.jpg";
 import agarSangre from "@/assets/prod/real/agar-sangre.jpg";
@@ -293,6 +293,8 @@ const RULES: Array<[RegExp, string]> = [
 ];
 
 export function productImage(input: { name: string; description?: string; sku?: string }): string {
+  const ai = input.sku ? AI_IMAGES[input.sku] : undefined;
+  if (ai) return ai;
   const real = input.sku ? SKU_IMAGES[input.sku] : undefined;
   if (real) return real;
   const text = `${input.name} ${input.description ?? ""}`;
