@@ -63,6 +63,13 @@ const SKU_IMAGES: Record<string, string> = {
   "167018800004002": espejoVaginal, // ESPEJO VAGINAL MEDIANO (Harmony)
   "005010001214-PP": agarGelosaChocolate, // AGAR GELOSA CHOCOLATE (Dibico)
   "265010000007284": agarGelosaChocolate, // AGAR GELOSA CHOCOLATE (MCD Lab)
+  "099010MT2000006": pipetaTransferencia, // PIPETA DE TRANSFERENCIA 3.2 ML
+  "16501001-409726": vasoTapaRoja100, // VASO RECOLECTOR TAPA ROJA 100 ML (Delta Lab)
+  "0300100000043.1": triclofen, // TRICLOFEN 1 L (Altamirano)
+  "030010000000018": electroGel, // ELECTRO GEL 250 g (Altamirano)
+  "0300100000028.1": germisinSolucion500, // GERMISIN SOLUCION 500 ml (Altamirano)
+  "11301000AHIV-50": accutrackHiv, // PRUEBA RAPIDA ACCUTRACK ONE STEP HIV
+  "001010000000004": banditasPanda, // BANDITAS INFANTILES PANDA (PATCHES)
 };
 
 
