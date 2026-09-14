@@ -25,6 +25,15 @@ import torundasAlgodon from "@/assets/prod/real/torundas-algodon.jpg";
 import agarSalmonellaShigella from "@/assets/prod/real/agar-salmonella-shigella.jpg";
 import vasoRecolector120 from "@/assets/prod/real/vaso-recolector-120.jpg";
 import agarSangre from "@/assets/prod/real/agar-sangre.jpg";
+import agarSangreMcd from "@/assets/prod/real/agar-sangre-mcd.jpg";
+import agarXld from "@/assets/prod/real/agar-xld.jpg";
+import caldoSelenitoSodio from "@/assets/prod/real/caldo-selenito-sodio.jpg";
+import cortaunas from "@/assets/prod/real/cortaunas.jpg";
+import glucox75 from "@/assets/prod/real/glucox-75.jpg";
+import glucox100 from "@/assets/prod/real/glucox-100.jpg";
+import bolsaRpbiAmarilla from "@/assets/prod/real/bolsa-rpbi-amarilla.jpg";
+import bolsaRpbiRojaGrande from "@/assets/prod/real/bolsa-rpbi-roja-grande.jpg";
+import bolsaRpbiRojaJumbo from "@/assets/prod/real/bolsa-rpbi-roja-jumbo.jpg";
 import espejoVaginal from "@/assets/prod/real/espejo-vaginal.jpg";
 import agarGelosaChocolate from "@/assets/prod/real/agar-gelosa-chocolate.webp";
 import pipetaTransferencia from "@/assets/prod/real/pipeta-transferencia.jpg";
@@ -99,7 +108,18 @@ const SKU_IMAGES: Record<string, string> = {
   "265010000007164": agarSalmonellaShigella, // AGAR SALMONELLA Y SHIGELLA (MCD Lab)
   "3570100000PW120": vasoRecolector120, // VASO RECOLECTOR 120 ML TAPA AZUL (GH)
   "005010001212-PP": agarSangre, // AGAR SANGRE (Dibico)
-  "265010000007504": agarSangre, // AGAR SANGRE (MCD Lab)
+  "265010000007504": agarSangreMcd, // AGAR SANGRE AST (MCD Lab)
+  "265010000007204": agarXld, // AGAR XLD EN PLACA (MCD Lab)
+  "265010000007375": caldoSelenitoSodio, // CALDO SELENITO DE SODIO (MCD Lab)
+  "265010000007034": agarDextrosaSabouraud, // AGAR DEXTROSA SABOURAUD PLACAS (MCD Lab)
+  "02603CORTAUNA01": cortaunas, // CORTA UÑAS TAMAÑO M (Larochelle)
+  "011010075-81552": glucox75, // GLUCOX 250ML = 75 GRS (Maesa)
+  "011010000081550": glucox100, // GLUCOX 250ML = 100 GRS (Maesa)
+  "02601LAM-55-200": bolsaRpbiAmarilla, // BOLSA POLIETILENO AMARILLA 55x60 (Larochelle)
+  "02601LRO-55-200": bolsaRpbiRojaGrande, // BOLSA POLIETILENO ROJA 55x60 (Larochelle)
+  "02601LRO-60-200": bolsaRpbiRojaGrande, // BOLSA POLIETILENO ROJA 60x80 (Larochelle)
+  "02601LRO-90-200": bolsaRpbiRojaJumbo, // BOLSA POLIETILENO ROJA 70x90 (Larochelle)
+  "02601LRO122-200": bolsaRpbiRojaJumbo, // BOLSA POLIETILENO ROJA 110x120 (Larochelle)
   "167018800004001": espejoVaginal, // ESPEJO VAGINAL CHICO (Harmony)
   "167018800004002": espejoVaginal, // ESPEJO VAGINAL MEDIANO (Harmony)
   "005010001214-PP": agarGelosaChocolate, // AGAR GELOSA CHOCOLATE (Dibico)
