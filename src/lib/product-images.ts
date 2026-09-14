@@ -43,6 +43,8 @@ import frascoSymRojo from "@/assets/prod/real/frasco-sym-rojo.jpg";
 import hidroxidoPotasio from "@/assets/prod/real/hidroxido-potasio.jpg";
 import gramColorantes from "@/assets/prod/real/gram-colorantes.jpg";
 import cajaPetri60 from "@/assets/prod/real/caja-petri-60.jpg";
+import cajaPetri100 from "@/assets/prod/real/caja-petri-100x15.jpg";
+import tuboGoldenVacAmarillo from "@/assets/prod/real/tubo-golden-vac-amarillo.jpg";
 import aguaTridestilada19 from "@/assets/prod/real/agua-tridestilada-19.jpg";
 import espatulaAyre from "@/assets/prod/real/espatula-ayre.jpg";
 import multibacGramNeg from "@/assets/prod/real/multibac-id-gram-neg.jpg";
@@ -147,6 +149,10 @@ const SKU_IMAGES: Record<string, string> = {
   "00601000000PC1N": contenedorPunzo1l, // CONTENEDOR PUNZOCORTANTES 1 L (A1)
   "033010HY6544-19": aguaBidestiladaHycel19l, // AGUA BIDESTILADA BIDON 19 L (Hycel)
   "02601PBOLR30X40": bolsaRpbiRoja, // BOLSA POLIETILENO RPBI 30x40 (Larochelle)
+  "3330100GD060SGC": tuboGoldenVacAmarillo, // TUBO TAPON AMARILLO GEL 5 ML (Golden Vac)
+  "027010000000200": cajaPetri100, // CAJA PETRI SIN DIVISION 100x15 (Irsa)
+  "027010000000203": cajaPetri100, // CAJA PETRI 1 DIVISION 100x15 (Irsa)
+  "02701000000203B": cajaPetri100, // CAJA PETRI 3 DIVISIONES 100x15 (Irsa)
   "33301000GD027SC": tuboGoldenVacAzul, // TUBO TAPON AZUL CITRATO 2.7 ML (Golden Vac)
 };
 
