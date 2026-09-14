@@ -20,6 +20,13 @@ import cubrebocasN95 from "@/assets/prod/real/cubrebocas-n95.jpg";
 import puntasAmarillas from "@/assets/prod/real/puntas-amarillas.jpg";
 import amiesTransporte from "@/assets/prod/real/amies-transporte.jpg";
 import recolector24h from "@/assets/prod/real/recolector-24h.jpg";
+import tuboTaponRojo from "@/assets/prod/real/tubo-tapon-rojo.jpg";
+import torundasAlgodon from "@/assets/prod/real/torundas-algodon.jpg";
+import agarSalmonellaShigella from "@/assets/prod/real/agar-salmonella-shigella.jpg";
+import vasoRecolector120 from "@/assets/prod/real/vaso-recolector-120.jpg";
+import agarSangre from "@/assets/prod/real/agar-sangre.jpg";
+import espejoVaginal from "@/assets/prod/real/espejo-vaginal.jpg";
+import agarGelosaChocolate from "@/assets/prod/real/agar-gelosa-chocolate.webp";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
