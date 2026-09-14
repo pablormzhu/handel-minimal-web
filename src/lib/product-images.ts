@@ -132,7 +132,7 @@ const SKU_IMAGES: Record<string, string> = {
   "1680100000PT-35": multibacGramNeg, // MULTIBAC PT-35 gram (-) I.D.
   "1680100000PT-34": multibacGramNeg, // MULTIBAC PT-34 gram (+) I.D.
   "005010001313-PP": agarDibicromCandida, // AGAR CHROMAGAR/DIBICROM CANDIDA (Dibico)
-  "265010000008684": agarDibicromCandida, // AGAR CHROMAGAR CANDIDA (MCD Lab)
+  "265010000008684": agarCromogenicoCandida, // AGAR CROMOGENICO CANDIDA (MCD Lab)
   "265010000007035": agarDextrosaSabouraud, // AGAR DEXTROSA SABOURAUD 10 tubos
   "030010000000035": lubriG, // LUBRI-G 135 g (Altamirano)
   "030010000000025": germisinEspuma, // GERMISIN ESPUMA 120 ml
