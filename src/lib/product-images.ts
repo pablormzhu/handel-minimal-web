@@ -48,6 +48,14 @@ import espatulaAyre from "@/assets/prod/real/espatula-ayre.jpg";
 import multibacGramNeg from "@/assets/prod/real/multibac-id-gram-neg.jpg";
 import agarDibicromCandida from "@/assets/prod/real/agar-dibicrom-candida.jpg";
 import agarDextrosaSabouraud from "@/assets/prod/real/agar-dextrosa-sabouraud.jpg";
+import caldoMrVp from "@/assets/prod/real/caldo-mr-vp.jpg";
+import agarHierroTripleAzucar from "@/assets/prod/real/agar-hierro-triple-azucar.jpg";
+import medioTransporteViral from "@/assets/prod/real/medio-transporte-viral.jpg";
+import gasaEsteril75x5 from "@/assets/prod/real/gasa-esteril-75x5.jpg";
+import gasaSeca10x10 from "@/assets/prod/real/gasa-seca-10x10.jpg";
+import microvette500Edta from "@/assets/prod/real/microvette-500-edta.jpg";
+import bolsaUrocultivoNino from "@/assets/prod/real/bolsa-urocultivo-nino.jpg";
+import bolsaRolloNegra from "@/assets/prod/real/bolsa-rollo-negra.jpg";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
@@ -100,6 +108,16 @@ const SKU_IMAGES: Record<string, string> = {
   "02701000000202B": cajaPetri60, // CAJA PETRI SIN DIVISION 60x15 ESTERIL (Irsa)
   "033010HY6541-19": aguaTridestilada19, // AGUA TRIDESTILADA 19 LTS (Hycel)
   "026010000000004": espatulaAyre, // ESPATULA DE AYRE DE MADERA ESTERIL (Larochelle)
+  "265010000007335": caldoMrVp, // CALDO MR-VP (MCD Lab)
+  "265010000007105": agarHierroTripleAzucar, // AGAR HIERRO Y TRIPLE AZUCAR (MCD Lab)
+  "3790100MTVR-001": medioTransporteViral, // MEDIO DE TRANSPORTE VIRAL (Pro Media)
+  "456013003406136": gasaEsteril75x5, // GASA ESTERIL 7.5x5 (Quirmex)
+  "456017503003406": gasaEsteril75x5, // GASA CORTADA 7.5x5 (Quirmex)
+  "456010000406013": gasaSeca10x10, // GASA SECA CORTADA 10x10 C/200 (Quirmex)
+  "04801201341.100": microvette500Edta, // MICROVETTE 500 EDTA LILA (Sarstedt)
+  "1120100000700-V": bolsaUrocultivoNino, // BOLSA RECOLECTORA ORINA PEDIATRICA NIÑO (Siliceo)
+  "1120100000700-F": bolsaUrocultivoNino, // BOLSA RECOLECTORA ORINA PEDIATRICA NIÑA (Siliceo)
+  "09901000BOLRONE": bolsaRolloNegra, // BOLSA EN ROLLO NEGRA 25 x 35
 };
 
 
