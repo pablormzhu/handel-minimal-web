@@ -103,6 +103,15 @@ import agarCromogenicoCandida from "@/assets/prod/real/agar-cromogenico-candida.
 import agarDextrosaPapa from "@/assets/prod/real/agar-dextrosa-papa.jpg";
 import agarUreaChristensen from "@/assets/prod/real/agar-urea-christensen.jpg";
 import agarCampylobacter from "@/assets/prod/real/agar-campylobacter.jpg";
+import alcohol96Galon from "@/assets/prod/real/alcohol-96-galon.jpg";
+import alcohol961L from "@/assets/prod/real/alcohol-96-1l.jpg";
+import realyCovidAntigeno from "@/assets/prod/real/realy-covid-antigeno.jpg";
+import bolsaBlancaChica from "@/assets/prod/real/bolsa-blanca-chica.jpg";
+import bolsaBlancaGrande from "@/assets/prod/real/bolsa-blanca-grande.jpg";
+import aguaDesionizada20L from "@/assets/prod/real/agua-desionizada-20l.jpg";
+import monovetteOrina from "@/assets/prod/real/monovette-orina.jpg";
+import bataPacienteSms from "@/assets/prod/real/bata-paciente-sms-2.jpg";
+import torundasQuirmex from "@/assets/prod/real/torundas-quirmex.jpg";
 import patchesPortaEsmeriladoSinBanda from "@/assets/prod/real/patches-portaobjetos-esmerilado-sin-banda.jpg";
 import patchesPortaEsmeriladoConBanda from "@/assets/prod/real/patches-portaobjetos-esmerilado-con-banda.jpg";
 import patchesPortaSencillo from "@/assets/prod/real/patches-portaobjetos-sencillo.jpg";
@@ -119,6 +128,17 @@ import patchesPortaobjetosBanda from "@/assets/prod/real/patches-portaobjetos-ba
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
+  "09901ALCO-GALON": alcohol96Galon,
+  "09901ALC-CON-BI": alcohol961L,
+  "0330101822-1000": alcohol961L,
+  "3490100K511416D": realyCovidAntigeno,
+  "09901BOLSALMP02": bolsaBlancaChica,
+  "09901BOLSALMP01": bolsaBlancaGrande,
+  "355010000R01398": aguaDesionizada20L,
+  "04801000010.253": monovetteOrina,
+  "11901SMS35GR.BA": bataPacienteSms,
+  "456010000406389": torundasQuirmex,
+  "3740100000AL335": torundasQuirmex,
   "054030000009820": tuboVidrio13x100,
   "054019820-12X75": tuboVidrio13x100,
   "054020000009825": tuboCultivoVaquelita,
