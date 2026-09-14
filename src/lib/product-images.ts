@@ -27,6 +27,13 @@ import vasoRecolector120 from "@/assets/prod/real/vaso-recolector-120.jpg";
 import agarSangre from "@/assets/prod/real/agar-sangre.jpg";
 import espejoVaginal from "@/assets/prod/real/espejo-vaginal.jpg";
 import agarGelosaChocolate from "@/assets/prod/real/agar-gelosa-chocolate.webp";
+import pipetaTransferencia from "@/assets/prod/real/pipeta-transferencia.jpg";
+import vasoTapaRoja100 from "@/assets/prod/real/vaso-tapa-roja-100.jpg";
+import triclofen from "@/assets/prod/real/triclofen.jpg";
+import electroGel from "@/assets/prod/real/electro-gel.jpg";
+import germisinSolucion500 from "@/assets/prod/real/germisin-solucion-500.jpg";
+import accutrackHiv from "@/assets/prod/real/accutrack-hiv.jpg";
+import banditasPanda from "@/assets/prod/real/banditas-panda.jpg";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
