@@ -1,5 +1,12 @@
+function stripListMarkers(value: string): string {
+  return value
+    .replace(/^\s*\(\*\)\s*/g, "")
+    .replace(/^\s*\*\s*/g, "")
+    .trim();
+}
+
 export function sentenceCase(value: string): string {
-  const lowered = value.toLowerCase().trim();
+  const lowered = stripListMarkers(value).toLowerCase().trim();
   if (!lowered) return "";
   return lowered.charAt(0).toUpperCase() + lowered.slice(1);
 }
