@@ -44,6 +44,18 @@ const SKU_IMAGES: Record<string, string> = {
   "1110100001008-C": amiesTransporte, // MEDIO DE TRANSPORTE STUART AMIES (Copan)
   "1750100000PW106": recolector24h, // BOTE RECOLECCION 24 HORAS (Plastic World)
   "35701000PW106-1": recolector24h, // BOTE RECOLECCION 24 HORAS (GH)
+  "33301000GD050CA": tuboTaponRojo, // TUBO TAPON ROJO ACTIVADOR COAGULACION (Golden Vac)
+  "3740100000AL335": torundasAlgodon, // TORUNDAS ALGODON 500 G (Lazzer Care)
+  "456010000406389": torundasAlgodon, // TORUNDAS ALGODON 500 G (Quirmex)
+  "005010001024-PP": agarSalmonellaShigella, // AGAR SALMONELLA Y SHIGELLA (Dibico)
+  "265010000007164": agarSalmonellaShigella, // AGAR SALMONELLA Y SHIGELLA (MCD Lab)
+  "3570100000PW120": vasoRecolector120, // VASO RECOLECTOR 120 ML TAPA AZUL (GH)
+  "005010001212-PP": agarSangre, // AGAR SANGRE (Dibico)
+  "265010000007504": agarSangre, // AGAR SANGRE (MCD Lab)
+  "167018800004001": espejoVaginal, // ESPEJO VAGINAL CHICO (Harmony)
+  "167018800004002": espejoVaginal, // ESPEJO VAGINAL MEDIANO (Harmony)
+  "005010001214-PP": agarGelosaChocolate, // AGAR GELOSA CHOCOLATE (Dibico)
+  "265010000007284": agarGelosaChocolate, // AGAR GELOSA CHOCOLATE (MCD Lab)
 };
 
 
