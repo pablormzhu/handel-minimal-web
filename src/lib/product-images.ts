@@ -13,11 +13,8 @@ import general from "@/assets/prod/general.jpg";
 import lubriG from "@/assets/prod/real/lubri-g.jpg";
 import germisinEspuma from "@/assets/prod/real/germisin-espuma.jpg";
 import antibenzil from "@/assets/prod/real/antibenzil.jpg";
-import agarBiggy from "@/assets/prod/real/agar-biggy.jpg";
-import agarCled from "@/assets/prod/real/agar-cled.jpg";
-import agarThayer from "@/assets/prod/real/agar-thayer.jpg";
-import contenedorBd from "@/assets/prod/real/contenedor-bd.jpg";
-import difSafe from "@/assets/prod/real/dif-safe.jpg";
+// Fotos ya uniformadas pendientes de clave (productos BD o sin clave en la lista):
+// src/assets/prod/real/{agar-biggy,agar-cled,agar-thayer,contenedor-bd,dif-safe}.jpg
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
