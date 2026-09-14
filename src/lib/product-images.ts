@@ -40,6 +40,11 @@ import aguaTridestilada from "@/assets/prod/real/agua-tridestilada.jpg";
 import contenedorLiquidos from "@/assets/prod/real/contenedor-liquidos-amarillo.jpg";
 import contenedorPunzocortantes from "@/assets/prod/real/contenedor-punzocortantes.jpg";
 import frascoSymRojo from "@/assets/prod/real/frasco-sym-rojo.jpg";
+import hidroxidoPotasio from "@/assets/prod/real/hidroxido-potasio.jpg";
+import gramColorantes from "@/assets/prod/real/gram-colorantes.jpg";
+import cajaPetri60 from "@/assets/prod/real/caja-petri-60.jpg";
+import aguaTridestilada19 from "@/assets/prod/real/agua-tridestilada-19.jpg";
+import espatulaAyre from "@/assets/prod/real/espatula-ayre.jpg";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
