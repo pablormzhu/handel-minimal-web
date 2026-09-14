@@ -586,8 +586,7 @@ export const catalogProducts: CatalogProduct[] = [
     "brand": "PATCHES",
     "description": "BANDITAS ADHESIVAS REDONDAS DE 7/8´´. ESTÉRIL, SIN LATEX. CAJA CON 100 PIEZAS",
     "features": [
-      "Presentación: CAJA CON 100 PIEZAS",
-      "Material: LATEX"
+      "Presentación: CAJA CON 100 PIEZAS"
     ]
   },
   {
