@@ -27,6 +27,10 @@ import vasoRecolector120 from "@/assets/prod/real/vaso-recolector-120.jpg";
 import agarSangre from "@/assets/prod/real/agar-sangre.jpg";
 import agarSangreMcd from "@/assets/prod/real/agar-sangre-mcd.jpg";
 import agarXld from "@/assets/prod/real/agar-xld.jpg";
+import agarSalmonellaShigellaMcd from "@/assets/prod/real/agar-salmonella-shigella-mcd.jpg";
+import agarGelosaChocolateMcd from "@/assets/prod/real/agar-gelosa-chocolate-mcd.jpg";
+import agarMacConkeyMcd from "@/assets/prod/real/agar-mac-conkey-mcd.jpg";
+import agarThayerMartinMcd from "@/assets/prod/real/agar-thayer-martin-mcd.jpg";
 import caldoSelenitoSodio from "@/assets/prod/real/caldo-selenito-sodio.jpg";
 import cortaunas from "@/assets/prod/real/cortaunas.jpg";
 import glucox75 from "@/assets/prod/real/glucox-75.jpg";
@@ -109,6 +113,10 @@ const SKU_IMAGES: Record<string, string> = {
   "3570100000PW120": vasoRecolector120, // VASO RECOLECTOR 120 ML TAPA AZUL (GH)
   "005010001212-PP": agarSangre, // AGAR SANGRE (Dibico)
   "265010000007504": agarSangreMcd, // AGAR SANGRE AST (MCD Lab)
+  "265010000007164": agarSalmonellaShigellaMcd, // AGAR SALMONELLA Y SHIGELLA (MCD Lab)
+  "265010000007284": agarGelosaChocolateMcd, // AGAR GELOSA CHOCOLATE (MCD Lab)
+  "265010000007114": agarMacConkeyMcd, // AGAR MAC CONKEY (MCD Lab)
+  "265020000007514": agarThayerMartinMcd, // AGAR THAYER MARTIN (MCD Lab)
   "265010000007204": agarXld, // AGAR XLD EN PLACA (MCD Lab)
   "265010000007375": caldoSelenitoSodio, // CALDO SELENITO DE SODIO (MCD Lab)
   "265010000007034": agarDextrosaSabouraud, // AGAR DEXTROSA SABOURAUD PLACAS (MCD Lab)
