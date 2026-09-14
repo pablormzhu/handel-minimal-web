@@ -10,6 +10,19 @@ import pruebas from "@/assets/prod/pruebas.jpg";
 import consumibles from "@/assets/prod/consumibles.jpg";
 import soluciones from "@/assets/prod/soluciones.jpg";
 import general from "@/assets/prod/general.jpg";
+import lubriG from "@/assets/prod/real/lubri-g.jpg";
+import germisinEspuma from "@/assets/prod/real/germisin-espuma.jpg";
+import antibenzil from "@/assets/prod/real/antibenzil.jpg";
+// Fotos ya uniformadas pendientes de clave (productos BD o sin clave en la lista):
+// src/assets/prod/real/{agar-biggy,agar-cled,agar-thayer,contenedor-bd,dif-safe}.jpg
+
+// Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
+const SKU_IMAGES: Record<string, string> = {
+  "030010000000035": lubriG, // LUBRI-G 135 g (Altamirano)
+  "030010000000025": germisinEspuma, // GERMISIN ESPUMA 120 ml
+  "0300100000008.1": antibenzil, // ANTIBENZIL JABÓN QUIRÚRGICO 500 ml
+};
+
 
 const RULES: Array<[RegExp, string]> = [
   [/\b(agar|caldo|medio de cultivo|gelosa|peptonad|placa)\b/i, medios],
@@ -25,7 +38,9 @@ const RULES: Array<[RegExp, string]> = [
   [/\b(reactivo|colorante|control|calibrador|est[aá]ndar|buffer|diluyente|suero|antisuero|glucosa|colesterol|triglic[eé]rid|creatinina|urea|[aá]cido|hemoglobina|tinci[oó]n|wright|giemsa|gram)\b/i, reactivos],
 ];
 
-export function productImage(input: { name: string; description?: string }): string {
+export function productImage(input: { name: string; description?: string; sku?: string }): string {
+  const real = input.sku ? SKU_IMAGES[input.sku] : undefined;
+  if (real) return real;
   const text = `${input.name} ${input.description ?? ""}`;
   for (const [re, img] of RULES) {
     if (re.test(text)) return img;
