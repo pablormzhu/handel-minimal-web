@@ -56,6 +56,10 @@ import gasaSeca10x10 from "@/assets/prod/real/gasa-seca-10x10.jpg";
 import microvette500Edta from "@/assets/prod/real/microvette-500-edta.jpg";
 import bolsaUrocultivoNino from "@/assets/prod/real/bolsa-urocultivo-nino.jpg";
 import bolsaRolloNegra from "@/assets/prod/real/bolsa-rollo-negra.jpg";
+import agarCasman from "@/assets/prod/real/agar-casman-sangre-carnero.jpg";
+import maglumiReaction from "@/assets/prod/real/maglumi-reaction-modules.jpg";
+import maglumiWash from "@/assets/prod/real/maglumi-wash-liquid.jpg";
+import jeringaInsulinaNipro from "@/assets/prod/real/jeringa-insulina-nipro.jpg";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
@@ -118,6 +122,11 @@ const SKU_IMAGES: Record<string, string> = {
   "1120100000700-V": bolsaUrocultivoNino, // BOLSA RECOLECTORA ORINA PEDIATRICA NIÑO (Siliceo)
   "1120100000700-F": bolsaUrocultivoNino, // BOLSA RECOLECTORA ORINA PEDIATRICA NIÑA (Siliceo)
   "09901000BOLRONE": bolsaRolloNegra, // BOLSA EN ROLLO NEGRA 25 x 35
+  "265010000007834": agarCasman, // AGAR CASMAN CON SANGRE DE CARNERO (MCD Lab)
+  "207010000630003": maglumiReaction, // MAGLUMI REACTION MODULES 6 CAJAS (Snibe)
+  "2070100630003-1": maglumiReaction, // MAGLUMI REACTION MODULES 1 (Snibe)
+  "2070130299005M1": maglumiWash, // MAGLUMI WASH LIQUID 1X714 ML (Snibe)
+  "3120101U3013-SB": jeringaInsulinaNipro, // JERINGA INSULINA 1ML 30 X 13 (Nipro)
 };
 
 
