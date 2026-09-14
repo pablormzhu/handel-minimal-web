@@ -19,6 +19,7 @@ import vinagreBlanco from "@/assets/prod/real/vinagre-blanco.jpg";
 import cubrebocasN95 from "@/assets/prod/real/cubrebocas-n95.jpg";
 import puntasAmarillas from "@/assets/prod/real/puntas-amarillas.jpg";
 import amiesTransporte from "@/assets/prod/real/amies-transporte.jpg";
+import recolector24h from "@/assets/prod/real/recolector-24h.jpg";
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
@@ -34,6 +35,8 @@ const SKU_IMAGES: Record<string, string> = {
   "16501001-200009": puntasAmarillas, // PUNTA 5 A 200 uL AMARILLA (Delta Lab)
   "75801000T-200-Y": puntasAmarillas, // PUNTAS AMARILLAS 1-200 uL (Axygen)
   "1110100001008-C": amiesTransporte, // MEDIO DE TRANSPORTE STUART AMIES (Copan)
+  "1750100000PW106": recolector24h, // BOTE RECOLECCION 24 HORAS (Plastic World)
+  "35701000PW106-1": recolector24h, // BOTE RECOLECCION 24 HORAS (GH)
 };
 
 
