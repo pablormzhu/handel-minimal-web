@@ -10,6 +10,22 @@ import pruebas from "@/assets/prod/pruebas.jpg";
 import consumibles from "@/assets/prod/consumibles.jpg";
 import soluciones from "@/assets/prod/soluciones.jpg";
 import general from "@/assets/prod/general.jpg";
+import lubriG from "@/assets/prod/real/lubri-g.jpg";
+import germisinEspuma from "@/assets/prod/real/germisin-espuma.jpg";
+import antibenzil from "@/assets/prod/real/antibenzil.jpg";
+import agarBiggy from "@/assets/prod/real/agar-biggy.jpg";
+import agarCled from "@/assets/prod/real/agar-cled.jpg";
+import agarThayer from "@/assets/prod/real/agar-thayer.jpg";
+import contenedorBd from "@/assets/prod/real/contenedor-bd.jpg";
+import difSafe from "@/assets/prod/real/dif-safe.jpg";
+
+// Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
+const SKU_IMAGES: Record<string, string> = {
+  "030010000000035": lubriG, // LUBRI-G 135 g (Altamirano)
+  "030010000000025": germisinEspuma, // GERMISIN ESPUMA 120 ml
+  "0300100000008.1": antibenzil, // ANTIBENZIL JABÓN QUIRÚRGICO 500 ml
+};
+
 
 const RULES: Array<[RegExp, string]> = [
   [/\b(agar|caldo|medio de cultivo|gelosa|peptonad|placa)\b/i, medios],
