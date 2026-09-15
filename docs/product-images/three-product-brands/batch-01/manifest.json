@@ -1,0 +1,191 @@
+[
+  {
+    "sku": "11101000000470C",
+    "brand": "COPAN",
+    "brandSlug": "copan",
+    "name": "HISOPO FLOCKWAB, FECAL SWAB, PUNTA DE NYLON CON CERDAS PERPENDICULARES Y MANGO",
+    "file": "11101000000470C.jpg",
+    "target": "src/assets/prod/ai/11101000000470C.jpg",
+    "sha256": "7e1ff253393d04d9aa817955a2918c895a4295d057ead1c70060c4f88166ce0a"
+  },
+  {
+    "sku": "11101000525CS01",
+    "brand": "COPAN",
+    "brandSlug": "copan",
+    "name": "HISOPO PUNTA REGULAR NYLON MANGO DE PLASTICO, PUNTO QUIEBRE MINIMPUNTA PARA TOMA URETRAL",
+    "file": "11101000525CS01.jpg",
+    "target": "src/assets/prod/ai/11101000525CS01.jpg",
+    "sha256": "2fff50079e7e06eac3189d124d91c9cc245d255fcd59ca52479d01f02f386c98"
+  },
+  {
+    "sku": "1110100001008-C",
+    "brand": "COPAN",
+    "brandSlug": "copan",
+    "name": "MEDIO DE TRANSPORTE STUAR AMIES SIN CARBON CON 50 PIEZAS",
+    "file": "1110100001008-C.jpg",
+    "target": "src/assets/prod/ai/1110100001008-C.jpg",
+    "sha256": "de4fa0f26d3f5a3d54fff4b5905284bd4095f2451ea8bcfe4947c8bef63f8984"
+  },
+  {
+    "sku": "04901007095B-5X",
+    "brand": "CORNING",
+    "brandSlug": "corning",
+    "name": "PIPETA PASTEUR DE VIDRIO TOTAL TALLO CORTO APROX. 15 CM",
+    "file": "04901007095B-5X.jpg",
+    "target": "src/assets/prod/ai/04901007095B-5X.jpg",
+    "sha256": "ea530c6f8ac5a2b2a19f5bf7285f61a942c7a3e8894135a876fa96e54ac23433"
+  },
+  {
+    "sku": "04901TUCACOHEPA",
+    "brand": "CORNING",
+    "brandSlug": "corning",
+    "name": "TUBO CAPILAR CON HEPARINA CON 200 PIEZAS",
+    "file": "04901TUCACOHEPA.jpg",
+    "target": "src/assets/prod/ai/04901TUCACOHEPA.jpg",
+    "sha256": "f9c972519a810c3234a9cf3a59d3e4351070310f8051ea9f3eae091d86ff5c12"
+  },
+  {
+    "sku": "04901TUCAPSIHEP",
+    "brand": "CORNING",
+    "brandSlug": "corning",
+    "name": "TUBO CAPILAR SIN HEPARINA CON 200 PIEZAS",
+    "file": "04901TUCAPSIHEP.jpg",
+    "target": "src/assets/prod/ai/04901TUCAPSIHEP.jpg",
+    "sha256": "506bbcf141b21387207d92f173e702391708c7fc2866f20bdea8e0d69a257038"
+  },
+  {
+    "sku": "375010000NIT-CH",
+    "brand": "FOREAL",
+    "brandSlug": "foreal",
+    "name": "GUANTES DE NITRILO AZUL.TAMAÑO CHICO",
+    "file": "375010000NIT-CH.jpg",
+    "target": "src/assets/prod/ai/375010000NIT-CH.jpg",
+    "sha256": "2bb4a42dd87937a498caea0b81d843fdb64058e9c0c23172bd0deb26aa98b4e4"
+  },
+  {
+    "sku": "3750100000NIT-G",
+    "brand": "FOREAL",
+    "brandSlug": "foreal",
+    "name": "GUANTES DE NITRILO AZUL.TAMAÑO GRANDE",
+    "file": "3750100000NIT-G.jpg",
+    "target": "src/assets/prod/ai/3750100000NIT-G.jpg",
+    "sha256": "213b9fb39b491837e260f77ce2c3c63db900af92dc6a08f59c65f5c18b94edab"
+  },
+  {
+    "sku": "3750100000NIT-M",
+    "brand": "FOREAL",
+    "brandSlug": "foreal",
+    "name": "GUANTES DE NITRILO AZUL.TAMAÑO MEDIANO",
+    "file": "3750100000NIT-M.jpg",
+    "target": "src/assets/prod/ai/3750100000NIT-M.jpg",
+    "sha256": "a6d0dded45eafe6f922f2482601fcae73109bef2325c67edb83097b0f79895a0"
+  },
+  {
+    "sku": "110010017400-31",
+    "brand": "HUMAN",
+    "brandSlug": "human",
+    "name": "HC- CLEANER LIMPIADOR 1 LITRO",
+    "file": "110010017400-31.jpg",
+    "target": "src/assets/prod/ai/110010017400-31.jpg",
+    "sha256": "be61c0c9b87be748007fdd9fb86fc17d761ac885492133e6900b93e207dcc578"
+  },
+  {
+    "sku": "110010017400-11",
+    "brand": "HUMAN",
+    "brandSlug": "human",
+    "name": "HC- DILUYENTE 20 LITROS",
+    "file": "110010017400-11.jpg",
+    "target": "src/assets/prod/ai/110010017400-11.jpg",
+    "sha256": "122043dff09536dfb9520b9b2870153cc52fd3b38ba6dd1c0a345b4387c5b265"
+  },
+  {
+    "sku": "110010017400-22",
+    "brand": "HUMAN",
+    "brandSlug": "human",
+    "name": "HC- LISANTE CF LISANTE LIBRE DE CIANURO. 2 LITROS",
+    "file": "110010017400-22.jpg",
+    "target": "src/assets/prod/ai/110010017400-22.jpg",
+    "sha256": "264dcee16550634a87d1155deb009cbc3385b07dc2ea84e5e21549f48579e901"
+  },
+  {
+    "sku": "035011013520025",
+    "brand": "MERCK",
+    "brandSlug": "merck",
+    "name": "MAY-GREENWALD EOSINA-AZUL DE METILENO DE 25 GR",
+    "file": "035011013520025.jpg",
+    "target": "src/assets/prod/ai/035011013520025.jpg",
+    "sha256": "8ba16eae20fb1d68c3be12b0342a707e84790914c16abc677c060768e71e80ba"
+  },
+  {
+    "sku": "035010049940-50",
+    "brand": "MERCK",
+    "brandSlug": "merck",
+    "name": "ONPG-DISCOS DE PRUEBA DE GALACTOSIDASA, DITRAFINIL -B-D GALACTOPIRANOSIDO",
+    "file": "035010049940-50.jpg",
+    "target": "src/assets/prod/ai/035010049940-50.jpg",
+    "sha256": "71b1fe4feb7fc805e648ba6dc6f961a2fe43895f986c7421ad93b24c3d72931c"
+  },
+  {
+    "sku": "035011095350001",
+    "brand": "MERCK",
+    "brandSlug": "merck",
+    "name": "TIRAS INDICADORAS DE PH 0.14 CON 100 PIEZAS",
+    "file": "035011095350001.jpg",
+    "target": "src/assets/prod/ai/035011095350001.jpg",
+    "sha256": "934a9920324737c9542b9425a2a1e55d10d2d736d9208d53bfcddb562f91db63"
+  },
+  {
+    "sku": "14901000CT0183B",
+    "brand": "OXOID",
+    "brandSlug": "oxoid",
+    "name": "FOSFOMYCIN",
+    "file": "14901000CT0183B.jpg",
+    "target": "src/assets/prod/ai/14901000CT0183B.jpg",
+    "sha256": "37883ba2c85b732ce8f07ba42bc43042bd7a7381bd02ce1ca0ce7968911791ed"
+  },
+  {
+    "sku": "149010CT0183B-1",
+    "brand": "OXOID",
+    "brandSlug": "oxoid",
+    "name": "FOSFOMYCIN CARTUCHO",
+    "file": "149010CT0183B-1.jpg",
+    "target": "src/assets/prod/ai/149010CT0183B-1.jpg",
+    "sha256": "c14cb38c8ca293228236c9feebe2ccb2b0c6e4e14318d1bd98e4b5aae1970fda"
+  },
+  {
+    "sku": "14901000CT0758B",
+    "brand": "OXOID",
+    "brandSlug": "oxoid",
+    "name": "FOSFOMYCIN/TRONEPAMOL 200 MCG 1 CARTUCHOS",
+    "file": "14901000CT0758B.jpg",
+    "target": "src/assets/prod/ai/14901000CT0758B.jpg",
+    "sha256": "5eb9f3e423cec6a59b34ae8e3ed7a4ac01740b8dc185cc00231ef0105e708b0b"
+  },
+  {
+    "sku": "11901SMS35GR.BA",
+    "brand": "UNIVERSAL DE DESECHABLES",
+    "brandSlug": "universal-de-desechables",
+    "name": "BATA PARA PACIENTE TELA SMS SIN MANGA 35Grs",
+    "file": "11901SMS35GR.BA.jpg",
+    "target": "src/assets/prod/ai/11901SMS35GR.BA.jpg",
+    "sha256": "dafa4de879d2e8e9aa07eee56f7717dcd8ca8a3be9af156af461c257c19c274d"
+  },
+  {
+    "sku": "11902SMS35GRSAB",
+    "brand": "UNIVERSAL DE DESECHABLES",
+    "brandSlug": "universal-de-desechables",
+    "name": "SABANA 35Grs TELA SMS DE 1.10 X 1.80",
+    "file": "11902SMS35GRSAB.jpg",
+    "target": "src/assets/prod/ai/11902SMS35GRSAB.jpg",
+    "sha256": "326d90d9e2b536c4ef97d49cba704e4a767b5eb5003b3b6b1aad104e76a627c6"
+  },
+  {
+    "sku": "11901SMS35GRSAB",
+    "brand": "UNIVERSAL DE DESECHABLES",
+    "brandSlug": "universal-de-desechables",
+    "name": "SABANA 35Grs. TELA SMS DE 1.10 X 1.20",
+    "file": "11901SMS35GRSAB.jpg",
+    "target": "src/assets/prod/ai/11901SMS35GRSAB.jpg",
+    "sha256": "8de60b5f445c65f87c39307150588a89c87c4598d15e02952cc916ad5909faf3"
+  }
+]
