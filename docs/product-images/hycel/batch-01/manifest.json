@@ -1,0 +1,331 @@
+[
+  {
+    "sku": "033010000064287",
+    "name": "ACEITE DE INMERSION TIPO A Cargille I.R. 1.5150 FRASCO DE 100 ML",
+    "file": "033010000064287.jpg",
+    "target": "src/assets/prod/ai/033010000064287.jpg",
+    "sha256": "0dbcfa494d40d1b86ea310887ab4c6a971e0afc0305b7fa34f66f773024cd818"
+  },
+  {
+    "sku": "033010000000900",
+    "name": "ACETONA PURA DE 1 LT",
+    "file": "033010000000900.jpg",
+    "target": "src/assets/prod/ai/033010000000900.jpg",
+    "sha256": "55894eb995bc1afa73d128a00979201aedc516f7978990f3bfc93f63f774e5f4"
+  },
+  {
+    "sku": "0330100001348-1",
+    "name": "ACIDO CLORHIDRICO 1 NORMAL (a especificación exacta) DE 1 LITRO",
+    "file": "0330100001348-1.jpg",
+    "target": "src/assets/prod/ai/0330100001348-1.jpg",
+    "sha256": "7bfcf8d33fc571b170d2d8fe9db7b4d4d30c274f3bcf677ec0be067508d155a9"
+  },
+  {
+    "sku": "033010000001930",
+    "name": "ACIDO CLORHIDRICO AL 0.1 N. FRASCO DE 1 LITRO",
+    "file": "033010000001930.jpg",
+    "target": "src/assets/prod/ai/033010000001930.jpg",
+    "sha256": "fab260800cd5f9188263d39d30a4a2728dd2e1d63837cfff6ce5d10eab6774c6"
+  },
+  {
+    "sku": "033010HY6544-19",
+    "name": "AGUA BIDESTILADA BIDON DE 19 LTS",
+    "file": "033010HY6544-19.jpg",
+    "target": "src/assets/prod/ai/033010HY6544-19.jpg",
+    "sha256": "ce6e5e4bdb6da44f7878c224dc75af2e456b3a1b6c0dad7b1744a85802aed9d1"
+  },
+  {
+    "sku": "033010HY6541-19",
+    "name": "AGUA TRIDESTILADA DE 19 LTS",
+    "file": "033010HY6541-19.jpg",
+    "target": "src/assets/prod/ai/033010HY6541-19.jpg",
+    "sha256": "7efb610e6660bef96079810ac3934084cb33dac9d075f99536da45aaa0b48165"
+  },
+  {
+    "sku": "033010000000852",
+    "name": "ALCOHOL ACIDO ORTH AL 70% DECOLORANTE DE 3.5 LT MCA HYCEL",
+    "file": "033010000000852.jpg",
+    "target": "src/assets/prod/ai/033010000000852.jpg",
+    "sha256": "1efd56ee5b84282801e376681943369c1de84a73e13ef31e04de89024259e036"
+  },
+  {
+    "sku": "0330101822-1000",
+    "name": "ALCOHOL ETILICO ( Etanol ) 96% 1000 ML",
+    "file": "0330101822-1000.jpg",
+    "target": "src/assets/prod/ai/0330101822-1000.jpg",
+    "sha256": "dda79f42a6b55c025a2b70a3f1cdc77b634b091acf4ca6ef20adf39551904adc"
+  },
+  {
+    "sku": "0330100009131-1",
+    "name": "ALCOHOL ISOPROPILICO 50 al 70% acuoso DE 1 LITRO",
+    "file": "0330100009131-1.jpg",
+    "target": "src/assets/prod/ai/0330100009131-1.jpg",
+    "sha256": "a1c20a1cbcf6f514c98ebb43eeef7daf9139e96f8c4f47e0f02db288e7d52aac"
+  },
+  {
+    "sku": "03301009131-3.5",
+    "name": "ALCOHOL ISOPROPILICO 50 al 70% acuoso DE 3.5 LITROS",
+    "file": "03301009131-3.5.jpg",
+    "target": "src/assets/prod/ai/03301009131-3.5.jpg",
+    "sha256": "38dd11093f5d50b7ed22e55578ff231f71a167b27ccc68f26a05d8258be8a285"
+  },
+  {
+    "sku": "0330100000912-1",
+    "name": "ALCOHOL METILICO ABSOLUTO (METANOL) DE 1 LITRO",
+    "file": "0330100000912-1.jpg",
+    "target": "src/assets/prod/ai/0330100000912-1.jpg",
+    "sha256": "2082ff064541924e68d7515866f3ba0ff49ba75b46adcf579c8d4af6c04ee733"
+  },
+  {
+    "sku": "033010000000669",
+    "name": "AZUL DE CRESIL BRILLANTE 1% PARA RETICULOCITOS DE 125 ML",
+    "file": "033010000000669.jpg",
+    "target": "src/assets/prod/ai/033010000000669.jpg",
+    "sha256": "4a2d7e9b05ec5f878882443d2cb7395dd690bb042f0111863a368a24380f0c89"
+  },
+  {
+    "sku": "033011000000852",
+    "name": "Alcohol Acido Orth 70% ( decolorante ) p/tincion BAAR de 1 litro",
+    "file": "033011000000852.jpg",
+    "target": "src/assets/prod/ai/033011000000852.jpg",
+    "sha256": "47d68707439906cc383264408a93c0bff6477b2020c9cd23170c7896d2228e40"
+  },
+  {
+    "sku": "033010HY0002416",
+    "name": "BENEDICT DE 500 ML",
+    "file": "033010HY0002416.jpg",
+    "target": "src/assets/prod/ai/033010HY0002416.jpg",
+    "sha256": "eed39ef57992d50c1a68133297e02fe3f6c6598a68897999873d32f78a010315"
+  },
+  {
+    "sku": "033010000002416",
+    "name": "BENEDICT FRASCO DE 1000 ML",
+    "file": "033010000002416.jpg",
+    "target": "src/assets/prod/ai/033010000002416.jpg",
+    "sha256": "4813dff245999524f198c75075ec6b4752e76633e34d0b7d1e7c8bdd6d009ed9"
+  },
+  {
+    "sku": "03301HY1317-100",
+    "name": "BUFFER DE FOSFATO PH 6.4 PARA WRIGHT HYCEL FCO C/1 LT",
+    "file": "03301HY1317-100.jpg",
+    "target": "src/assets/prod/ai/03301HY1317-100.jpg",
+    "sha256": "c509d3d134f0349deb85693c8802749fb2c4a2bd6bbc98ab2331d7b7c49e494f"
+  },
+  {
+    "sku": "033010000002218",
+    "name": "BUFFER DE REFERENCIA ( pH 10.0 color azul ) DE 1 LITRO",
+    "file": "033010000002218.jpg",
+    "target": "src/assets/prod/ai/033010000002218.jpg",
+    "sha256": "6fddeee83cd18a1f92d8e85a4a3929423083fc7824ed7294c62db6a59f8d2fa9"
+  },
+  {
+    "sku": "033010000002205",
+    "name": "BUFFER DE REFERENCIA ( pH 4.01 color rosa ) DE 1 LITRO",
+    "file": "033010000002205.jpg",
+    "target": "src/assets/prod/ai/033010000002205.jpg",
+    "sha256": "51560e8510a591894183c68593a6b3180fa07392be0e1625cacee2945ec070b6"
+  },
+  {
+    "sku": "033010000021230",
+    "name": "BUFFER DE REFERENCIA ( pH 7.0 color amarillo ) DE 1 LITRO",
+    "file": "033010000021230.jpg",
+    "target": "src/assets/prod/ai/033010000021230.jpg",
+    "sha256": "e1813197c093835e2b17f94238da5646600ef274c82257502319dc4fb8c9a20a"
+  },
+  {
+    "sku": "033010000021231",
+    "name": "BUFFER DE REFERENCIA pH 7.0 DE 1 LITRO",
+    "file": "033010000021231.jpg",
+    "target": "src/assets/prod/ai/033010000021231.jpg",
+    "sha256": "0be3bff8f6fe3e35feb132ce4a8a897d2db5f8ee8228090ac41f06043c067207"
+  },
+  {
+    "sku": "033010HY840-100",
+    "name": "COLORANTE DE WRIGHT. HYCEL FCO. C/1 LT",
+    "file": "033010HY840-100.jpg",
+    "target": "src/assets/prod/ai/033010HY840-100.jpg",
+    "sha256": "d7bff1447304551880997a113b6655b6875aeec5ab5c05f0062c5d36df31d1ab"
+  },
+  {
+    "sku": "0330100000537-1",
+    "name": "DEXTROSOL Prueba de tolerancia a la glucosa (100 g/250 ml), Natural, Limon, Uva. PIEZA",
+    "file": "0330100000537-1.jpg",
+    "target": "src/assets/prod/ai/0330100000537-1.jpg",
+    "sha256": "3bbed2a9063a0b289b3d720ed6f648a7f174bde63cf349027e33244f62d29cf4"
+  },
+  {
+    "sku": "0330100005370-1",
+    "name": "DEXTROSOL Prueba de tolerancia a la glucosa (50 g/250 ml), Natural, Limon, Uva. PIEZA",
+    "file": "0330100005370-1.jpg",
+    "target": "src/assets/prod/ai/0330100005370-1.jpg",
+    "sha256": "b26090cba227d902e6516ec911a76ec72cc398bcbf787f5aa3fc47a96e0124c6"
+  },
+  {
+    "sku": "0330100005375-1",
+    "name": "DEXTROSOL Prueba de tolerancia a la glucosa (75 g/250 ml), Natural, Limon, Uva. PIEZA",
+    "file": "0330100005375-1.jpg",
+    "target": "src/assets/prod/ai/0330100005375-1.jpg",
+    "sha256": "fdb37643d286ecee8fa5c5825a06b39ca238132136ef85db9f585367c17cec69"
+  },
+  {
+    "sku": "033010000006151",
+    "name": "FUCSINA FENICADA (Ziehl Neelsen Método caliente) DE 1 LITRO",
+    "file": "033010000006151.jpg",
+    "target": "src/assets/prod/ai/033010000006151.jpg",
+    "sha256": "c0f042e45f65da47af89f0ba13a79be48bb27505e5a2d4a26237686155e972ec"
+  },
+  {
+    "sku": "033010000006133",
+    "name": "FUCSINA FENIFICADA Kinyoun (Ziehl Neelsen Método frío) DE 1 LITRO",
+    "file": "033010000006133.jpg",
+    "target": "src/assets/prod/ai/033010000006133.jpg",
+    "sha256": "1852228c76463d2face7d605409030eab817cd9c9a8fa091e5b6554db13e468d"
+  },
+  {
+    "sku": "033010000000911",
+    "name": "GLICERINA (Glicerol ) DE 1 LITRO",
+    "file": "033010000000911.jpg",
+    "target": "src/assets/prod/ai/033010000000911.jpg",
+    "sha256": "bb0b6250d9d2ccbe9ac3fa56d0c6c406c17145f45d9ea48df8e78bc777643db0"
+  },
+  {
+    "sku": "033010000000541",
+    "name": "GRAM EQUIPOS DE COLORANTES DE 125 ML",
+    "file": "033010000000541.jpg",
+    "target": "src/assets/prod/ai/033010000000541.jpg",
+    "sha256": "96b492261c595134006ae7c372ca5e132a965358e4fe833295e4ee73dc2d101e"
+  },
+  {
+    "sku": "033010000000548",
+    "name": "HEMOCOLORANTE RAPIDO ( tinciòn para sangre ) EQUIPO DE 100 ML",
+    "file": "033010000000548.jpg",
+    "target": "src/assets/prod/ai/033010000000548.jpg",
+    "sha256": "80b19e90422f19340be93e024a6a0d3c5acb0478845bff01fe627d75c6c7c136"
+  },
+  {
+    "sku": "033010000005342",
+    "name": "HYCLIN PLUS NEUTRO DE 3.5 LITROS",
+    "file": "033010000005342.jpg",
+    "target": "src/assets/prod/ai/033010000005342.jpg",
+    "sha256": "c2d33a6a4c69bf2e4c0cc09fd2ebb8c83f01b645dce3c48a4d41ba1eb832e086"
+  },
+  {
+    "sku": "033010000000912",
+    "name": "METANOL HPL DE 3.5 LITROS",
+    "file": "033010000000912.jpg",
+    "target": "src/assets/prod/ai/033010000000912.jpg",
+    "sha256": "45e894f44ef4e45a212e5755d0599f6a29171c00dd9d28339741316a3e1bb057"
+  },
+  {
+    "sku": "033010000005710",
+    "name": "NAFTOL (ALFA) ( 5% en alcohol etilico absoluto ) FRASCO DE 125 ML",
+    "file": "033010000005710.jpg",
+    "target": "src/assets/prod/ai/033010000005710.jpg",
+    "sha256": "6308b8915402762e996391eed20a7fc7e5199423379f35d7290987aa6e262d08"
+  },
+  {
+    "sku": "033010000001566",
+    "name": "POTASIO HIDROXIDO Solución Acuosa p/v (Conc.máx.10% a especificación exacta) DE 125 ML",
+    "file": "033010000001566.jpg",
+    "target": "src/assets/prod/ai/033010000001566.jpg",
+    "sha256": "0e5d9620a33c4f3e694c40342f9fdf0ef1f5fc3f93b68a89485f847eb10e4fad"
+  },
+  {
+    "sku": "033010000000957",
+    "name": "PURPURA DE BROMOCRESOL H.S. FRASCO DE 100 G",
+    "file": "033010000000957.jpg",
+    "target": "src/assets/prod/ai/033010000000957.jpg",
+    "sha256": "5b6701ccd27c8d4ac0702bf43ed29be2908873c432a07c9ee31b51ca1ea6c411"
+  },
+  {
+    "sku": "033010000000826",
+    "name": "SAFRANINA ( Colorante de contraste metodo Gram ) FRASCO DE 1 LITRO",
+    "file": "033010000000826.jpg",
+    "target": "src/assets/prod/ai/033010000000826.jpg",
+    "sha256": "325bacd1d5f465cdf946874a8885ed6d870b697231995a4451bc9c107b7beab4"
+  },
+  {
+    "sku": "033010000002362",
+    "name": "SODIO HIDROXIDO ( Na OH ) AL 10% ESP. FOLIN ( 2.5 N ) FRASCO DE 1 LITRO",
+    "file": "033010000002362.jpg",
+    "target": "src/assets/prod/ai/033010000002362.jpg",
+    "sha256": "ad3577e305316465553db5ffe09fe1bc18c0d4250c74a5377adebb0274847939"
+  },
+  {
+    "sku": "033010000007379",
+    "name": "SOLUCION DE SEDIMENTOS URINARIOS DE 100 ML MARCA HYCEL (COLORANTE DE STENHEIMER-MALBIN)",
+    "file": "033010000007379.jpg",
+    "target": "src/assets/prod/ai/033010000007379.jpg",
+    "sha256": "9adaecfcd0f3b45e88cae1897d5984fce67df4d82f26fa2aff80ffdb20b6466e"
+  },
+  {
+    "sku": "033018900007152",
+    "name": "SOLUCION PAPANICOLAOU 2 A ( Og6 ) DE 1 LITRO",
+    "file": "033018900007152.jpg",
+    "target": "src/assets/prod/ai/033018900007152.jpg",
+    "sha256": "086bf14a26067701ca273f1911d14ce2db4a5fa8e094b1d6fd9224a03e0998e5"
+  },
+  {
+    "sku": "033010000000828",
+    "name": "SUDAN III ( Solución col. para grasas ) DE 125 ML",
+    "file": "033010000000828.jpg",
+    "target": "src/assets/prod/ai/033010000000828.jpg",
+    "sha256": "b44184dfeda420737bebee6321f13c5baf8e7f6ddc2459aff6f5fd055e79b9e6"
+  },
+  {
+    "sku": "0330100003173-1",
+    "name": "SULFATO DE ZINC AL 33.3 % DE 1LITRO",
+    "file": "0330100003173-1.jpg",
+    "target": "src/assets/prod/ai/0330100003173-1.jpg",
+    "sha256": "93f8ac733f1cc10323115ffd2f40c6cea97317d8c247842babdb3ae9b0cb720a"
+  },
+  {
+    "sku": "033010000006269",
+    "name": "VIOLETA DE GENCIANA Formula Hucker p/Gram FRASCO DE 1 LITRO",
+    "file": "033010000006269.jpg",
+    "target": "src/assets/prod/ai/033010000006269.jpg",
+    "sha256": "41ceed0f03de76fbf15178ec8d8b4ee5409b0666323e7bfabbb16b8439fb3a1a"
+  },
+  {
+    "sku": "03301000476-25G",
+    "name": "WRIGHT Colorante para sangre FRASCO DE 25 g",
+    "file": "03301000476-25G.jpg",
+    "target": "src/assets/prod/ai/03301000476-25G.jpg",
+    "sha256": "cc59014175ed4ff9250841fe21a8b3e36e624b2e895eca3069ae23abc122c8a6"
+  },
+  {
+    "sku": "0330164840-1000",
+    "name": "WRIGHT EQUIPO DE TINCION (Incluye buffer) EQ. DE 1000",
+    "file": "0330164840-1000.jpg",
+    "target": "src/assets/prod/ai/0330164840-1000.jpg",
+    "sha256": "ed053e8d9c7d041eaf68efe97cc4e3f007cee31ca82f2815df92b65debc7441b"
+  },
+  {
+    "sku": "03301002668-125",
+    "name": "YODO D' ANTONI Colorante p/protozoarios ) FRASCO DE 125 ML",
+    "file": "03301002668-125.jpg",
+    "target": "src/assets/prod/ai/03301002668-125.jpg",
+    "sha256": "6d0a6b88a1c50f465c4331bb60d74190a2c0708db92820648d955d8160d017b4"
+  },
+  {
+    "sku": "0330100724-1000",
+    "name": "YODO GRAM PARA TINCION, FRASCO DE 1 LITRO",
+    "file": "0330100724-1000.jpg",
+    "target": "src/assets/prod/ai/0330100724-1000.jpg",
+    "sha256": "43c76492715d9c887032ce8cd29e013ede25db371cf316d18340f2dc5a402a4d"
+  },
+  {
+    "sku": "03301002688-500",
+    "name": "YODO LUGOL CONCENTRADO FRASCO DE 500 ML",
+    "file": "03301002688-500.jpg",
+    "target": "src/assets/prod/ai/03301002688-500.jpg",
+    "sha256": "f03ce8c8dab201b2a2f0a56b1cd66e04644c5f0d283dbc3b0fe1fef25cd493cd"
+  },
+  {
+    "sku": "033010000064293",
+    "name": "ZIEHL NEELSEN EQUIPO PARA TINCION BAAREQUIPO DE COLORANTES PARA TINCION DE BACILOS",
+    "file": "033010000064293.jpg",
+    "target": "src/assets/prod/ai/033010000064293.jpg",
+    "sha256": "d36d04bb03405ee30edd10a8132e98b57d5dd3a83343d4c779c7e5c34fbde950"
+  }
+]
