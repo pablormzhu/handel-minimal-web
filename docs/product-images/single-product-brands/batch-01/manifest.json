@@ -1,0 +1,560 @@
+[
+  {
+    "sku": "23001000041FK10",
+    "brand": "ABBOTT",
+    "brandSlug": "abbott",
+    "name": "PANBIO COVID 19 AG RAPID TEST DEVICE",
+    "file": "23001000041FK10.jpg",
+    "target": "src/assets/prod/ai/23001000041FK10.jpg",
+    "sha256": "b9836eb61b28f5af1cbd973f955d4636fb93fcd12454242cef16542d5d9895a4"
+  },
+  {
+    "sku": "9850100000AE022",
+    "brand": "AESA",
+    "brandSlug": "aesa",
+    "name": "MECHERO BUNCEN SENCILLO PARA GAS PIEZA",
+    "file": "9850100000AE022.jpg",
+    "target": "src/assets/prod/ai/9850100000AE022.jpg",
+    "sha256": "286704225538131fd4eda91f85edbe291c6c05fc9d3ab1f95158a98dc2623f5b"
+  },
+  {
+    "sku": "35401000ALL-65K",
+    "brand": "ALLA AMERICAN",
+    "brandSlug": "alla-american",
+    "name": "VALVULA DE CONTROL P/AUTOCLAVE PIEZA",
+    "file": "35401000ALL-65K.jpg",
+    "target": "src/assets/prod/ai/35401000ALL-65K.jpg",
+    "sha256": "0c33ad4651b9b93c97b74fc4bc76b43d740b8533c430c5eb91f70db9eb7ac64a"
+  },
+  {
+    "sku": "396010000085136",
+    "brand": "AMUNET",
+    "brandSlug": "amunet",
+    "name": "PRUEBA RAPIDA DE MONONUCLEOSIS CON 20 PRUEBAS",
+    "file": "396010000085136.jpg",
+    "target": "src/assets/prod/ai/396010000085136.jpg",
+    "sha256": "4eedf92632946e39310095857493f3f985e5875381188345fa04896dc7140b8a"
+  },
+  {
+    "sku": "20101DESINAQUAZ",
+    "brand": "AQUAZIDE",
+    "brandSlug": "aquazide",
+    "name": "LIMPIADOR DESINFECTANTE PARA TRANSDUCTOR DE 250 ML",
+    "file": "20101DESINAQUAZ.jpg",
+    "target": "src/assets/prod/ai/20101DESINAQUAZ.jpg",
+    "sha256": "4986891bb0b1016885d35c796488c735fd908d58ddca084cccc8325f0b270963"
+  },
+  {
+    "sku": "37701000HM-3000",
+    "brand": "AS INSTRUMENTS",
+    "brandSlug": "as-instruments",
+    "name": "MECHERO ELECTRONICO",
+    "file": "37701000HM-3000.jpg",
+    "target": "src/assets/prod/ai/37701000HM-3000.jpg",
+    "sha256": "1abf34fefb4f938a081cfd3ada8f29647dec3cecf8346289333ad3c71a4aba75"
+  },
+  {
+    "sku": "75801000T-200-Y",
+    "brand": "AXYGEN",
+    "brandSlug": "axygen",
+    "name": "PUNTAS AMARILLAS 1-200 uL CON 1000 PZAS",
+    "file": "75801000T-200-Y.jpg",
+    "target": "src/assets/prod/ai/75801000T-200-Y.jpg",
+    "sha256": "2e6f19adb15a8d8a8d533ed01b8135665e1e524f12b5b49ded17aecec199d13c"
+  },
+  {
+    "sku": "376010000292003",
+    "brand": "BBRAUN",
+    "brandSlug": "bbraun",
+    "name": "LLAVE DE TRES VIAS CON EXTENSION 10cm, DSCOFIX C",
+    "file": "376010000292003.jpg",
+    "target": "src/assets/prod/ai/376010000292003.jpg",
+    "sha256": "4f253381173f1242b6e8b52413061f55d412cccf58b90d1784616376fb5a0ca0"
+  },
+  {
+    "sku": "252010GEL-ANTI4",
+    "brand": "BIOASTUR",
+    "brandSlug": "bioastur",
+    "name": "GEL ANTIBACTERIAL DE 4 LITROS",
+    "file": "252010GEL-ANTI4.jpg",
+    "target": "src/assets/prod/ai/252010GEL-ANTI4.jpg",
+    "sha256": "f67f550f93541f7197c58007cd39deebeb273c324305e8dbef23a52c26683d18"
+  },
+  {
+    "sku": "0370100061-6700",
+    "brand": "BRANNAN",
+    "brandSlug": "brannan",
+    "name": "ALCOHOLIMETRO GAY-LUSSAC 0-100 SIN CALIBRAR",
+    "file": "0370100061-6700.jpg",
+    "target": "src/assets/prod/ai/0370100061-6700.jpg",
+    "sha256": "678d772cbc04e2ef5b1d612beb5e5ed4a2386d101e72b93d7cbb6843f595d74c"
+  },
+  {
+    "sku": "342010000000370",
+    "brand": "CADLIGHT",
+    "brandSlug": "cadlight",
+    "name": "CUBRE BOCAS KN95. COLOR BLANCO. PIEZA",
+    "file": "342010000000370.jpg",
+    "target": "src/assets/prod/ai/342010000000370.jpg",
+    "sha256": "45fee1d8bdffc806ada537630c69d1a5704ebe2e3360be8b4c8e30ec52b46625"
+  },
+  {
+    "sku": "086010CERAG-KIT",
+    "brand": "CERAGEM",
+    "brandSlug": "ceragem",
+    "name": "Reactivo Labona Check para HbA1c con 24 pruebas",
+    "file": "086010CERAG-KIT.jpg",
+    "target": "src/assets/prod/ai/086010CERAG-KIT.jpg",
+    "sha256": "ae01f390ef87845cd06379ab6626d18d8ee33dfda69d7d3069d5155fb5e06978"
+  },
+  {
+    "sku": "183010GX872001V",
+    "brand": "CERTEST",
+    "brandSlug": "certest",
+    "name": "CLOSTRIDIUM DIFFICILE GDH+TOXIN A+B",
+    "file": "183010GX872001V.jpg",
+    "target": "src/assets/prod/ai/183010GX872001V.jpg",
+    "sha256": "08935c8dbbe282056d685f5d0365d0251e38f60d9d36afc6ee81ef2677f7cf65"
+  },
+  {
+    "sku": "378010000276007",
+    "brand": "CHLORAPREP",
+    "brandSlug": "chloraprep",
+    "name": "CLORAPREP SIN TINTE CON APLICADOR DE 1 ML. PIEZA",
+    "file": "378010000276007.jpg",
+    "target": "src/assets/prod/ai/378010000276007.jpg",
+    "sha256": "854ef985bf99194db65181575710ee383123c8cd39356614e77a1dc616b877ac"
+  },
+  {
+    "sku": "23501TORUNDE250",
+    "brand": "CIIASA",
+    "brandSlug": "ciiasa",
+    "name": "TORUNDERO DE ACERO INOXIDABLE CAPACIDAD DE 250 ML",
+    "file": "23501TORUNDE250.jpg",
+    "target": "src/assets/prod/ai/23501TORUNDE250.jpg",
+    "sha256": "846cf7e8658eb7dc818ee36d075632f4724a943daa21aa2e7212f5ed03090a9e"
+  },
+  {
+    "sku": "039010000000001",
+    "brand": "CLEMENTE JACQUES",
+    "brandSlug": "clemente-jacques",
+    "name": "VINAGRE BLANCO CJ 1000 ML",
+    "file": "039010000000001.jpg",
+    "target": "src/assets/prod/ai/039010000000001.jpg",
+    "sha256": "295bd7a365583f7058977e30cf1287388b44ce5cfe381e156b079ff67285aff8"
+  },
+  {
+    "sku": "380010000001048",
+    "brand": "CONDA",
+    "brandSlug": "conda",
+    "name": "AGAR INFUCION CEREBRO CORAZON FRASCO DE 500 GRS",
+    "file": "380010000001048.jpg",
+    "target": "src/assets/prod/ai/380010000001048.jpg",
+    "sha256": "dd9a65288e071ced59613b662253f614ac9b60bb62cdb2c94c1fcd408de7a15c"
+  },
+  {
+    "sku": "23701CRM-5000BS",
+    "brand": "CRM",
+    "brandSlug": "crm",
+    "name": "SOPORTE PARA MICROPIPETAS PARA 6 LUGARES. MARCA : CRM",
+    "file": "23701CRM-5000BS.jpg",
+    "target": "src/assets/prod/ai/23701CRM-5000BS.jpg",
+    "sha256": "6f7369bac555e9505da7d371e2cdbd975348729392098350041a6247b47dfb01"
+  },
+  {
+    "sku": "2100101989-1000",
+    "brand": "CRMGLOBE",
+    "brandSlug": "crmglobe",
+    "name": "GRADILLA DE PLASTICO PARA 90 TUBOS DE 12-13MM COLOR BLANCO. PIEZA. CRM GLOBE",
+    "file": "2100101989-1000.jpg",
+    "target": "src/assets/prod/ai/2100101989-1000.jpg",
+    "sha256": "783383af2e220f625a825b4f4be8b77857b342e1e96e161abfc81e06834ed825"
+  },
+  {
+    "sku": "363010000GT-036",
+    "brand": "CROSSTEX",
+    "brandSlug": "crosstex",
+    "name": "CINTA TESTIGO PARA ÓXIDO DE ETILENO TIPO 1, 25mm x 55 mts",
+    "file": "363010000GT-036.jpg",
+    "target": "src/assets/prod/ai/363010000GT-036.jpg",
+    "sha256": "db002f55b15297b9c1fd5150336e45e2a5ac9fd994937a34d11024649e9512d3"
+  },
+  {
+    "sku": "359010000HM-300",
+    "brand": "CS CIENTIFIC",
+    "brandSlug": "cs-cientific",
+    "name": "(*) ESTERILIZADOR INFRARROJO BACTI-INCINERADOR",
+    "file": "359010000HM-300.jpg",
+    "target": "src/assets/prod/ai/359010000HM-300.jpg",
+    "sha256": "2ca6dea42796e4e5811f5a8ca8b2d9b3bab2a84afb5fc384a3b27578c36533f6"
+  },
+  {
+    "sku": "187010000031006",
+    "brand": "DEGASA",
+    "brandSlug": "degasa",
+    "name": "APLICADOR DE PLASTICO CON ALGODON 1/300 ESTERIL",
+    "file": "187010000031006.jpg",
+    "target": "src/assets/prod/ai/187010000031006.jpg",
+    "sha256": "93d4e2fc5392547c0b1d92d74a78cc969341069fa5aaae6465dfbd3678baf006"
+  },
+  {
+    "sku": "37001001178-101",
+    "brand": "DIFF-SAFE",
+    "brandSlug": "diff-safe",
+    "name": "PERFORADOR DE TUBO 100 PZAS",
+    "file": "37001001178-101.jpg",
+    "target": "src/assets/prod/ai/37001001178-101.jpg",
+    "sha256": "504e1e8e5d2101056cac073ce3b51df149b8ddc4f3fe5d98211e877097f84a32"
+  },
+  {
+    "sku": "3050100000H11MA",
+    "brand": "DIRUI",
+    "brandSlug": "dirui",
+    "name": "Tira de Orina c/Micro Albuminuria Visual de 11 parámetros",
+    "file": "3050100000H11MA.jpg",
+    "target": "src/assets/prod/ai/3050100000H11MA.jpg",
+    "sha256": "8b6849a8cea6a7a56b9d8a76d41dc77ee50719f1cd2c3f1584ea651a0adc5c76"
+  },
+  {
+    "sku": "2440180101-BT25",
+    "brand": "DISQUIM",
+    "brandSlug": "disquim",
+    "name": "AEROSOL PARA CITOLOGIA. FIJADOR 250 GRS",
+    "file": "2440180101-BT25.jpg",
+    "target": "src/assets/prod/ai/2440180101-BT25.jpg",
+    "sha256": "112d62494c30adce7d41f06659b1e4027402a25fd32d345e4ca2a25767f93c14"
+  },
+  {
+    "sku": "06501000000IIA1",
+    "brand": "ECOSHEL",
+    "brandSlug": "ecoshel",
+    "name": "CABINA DE SEGURIDAD BIOLOGICA CLASE I. 1 Equipo MODELO IIA1",
+    "file": "06501000000IIA1.jpg",
+    "target": "src/assets/prod/ai/06501000000IIA1.jpg",
+    "sha256": "a956808cd2a4778d15b1c2139692cbfd87d567c05a9ac7a5c920359db7ae4c18"
+  },
+  {
+    "sku": "032010000200400",
+    "brand": "EUROTUBO",
+    "brandSlug": "eurotubo",
+    "name": "MICROTUBO CON TAPON DE PRESION COLOR NATURAL 1.5 ML. ( EPENDOR ) SIN GRADUAR",
+    "file": "032010000200400.jpg",
+    "target": "src/assets/prod/ai/032010000200400.jpg",
+    "sha256": "ef652743c6b61521c2f621d0ad8d5e1ae63b5c81c3f443cfc06971c8f17f4486"
+  },
+  {
+    "sku": "384010000450076",
+    "brand": "GREINER BIO ONE",
+    "brandSlug": "greiner-bio-one",
+    "name": "AGUJA VERDE VACUETTE",
+    "file": "384010000450076.jpg",
+    "target": "src/assets/prod/ai/384010000450076.jpg",
+    "sha256": "55715f926469111876209ad2629bb1c29718255327d80bff16c372aa2afdc0c7"
+  },
+  {
+    "sku": "25701HBNP15080N",
+    "brand": "HBH",
+    "brandSlug": "hbh",
+    "name": "HISOPO DE NYLON NASOFARINGEO CON PUNTO DE QUIEBRE ESTERIL CON RAYOS GAMA LIBRE DE DNA Y",
+    "file": "25701HBNP15080N.jpg",
+    "target": "src/assets/prod/ai/25701HBNP15080N.jpg",
+    "sha256": "bf134e323febdef6f3e85e03cfe37a43603afa43b5250b0d46687ba2fc9d9ad5"
+  },
+  {
+    "sku": "38101000AB-4502",
+    "brand": "HIDROTECH",
+    "brandSlug": "hidrotech",
+    "name": "AGUA BIDESTILADA, CALIDAD REACTIVO BIDON DE 20 LITROS",
+    "file": "38101000AB-4502.jpg",
+    "target": "src/assets/prod/ai/38101000AB-4502.jpg",
+    "sha256": "74feff408ba3c6a48be45159b8c8d41fdf0cba6b6c355b3272497322cdd6de4e"
+  },
+  {
+    "sku": "10001000BL-0010",
+    "brand": "HOUSER",
+    "brandSlug": "houser",
+    "name": "CAMARA TIPO NEUBAUER, DOBLE RAYADO, LÍNEA REGULAR",
+    "file": "10001000BL-0010.jpg",
+    "target": "src/assets/prod/ai/10001000BL-0010.jpg",
+    "sha256": "dad0aec58fe30761a8ee7efd9fbc86e5486b998f7c7cce0d5cda932fbb0e3a60"
+  },
+  {
+    "sku": "35801IKA-324300",
+    "brand": "IKA-1.00 BLISTER",
+    "brandSlug": "ika-1-00-blister",
+    "name": "ACIDO BENZOICO C723, BLISTER CON 50 PIEZAS",
+    "file": "35801IKA-324300.jpg",
+    "target": "src/assets/prod/ai/35801IKA-324300.jpg",
+    "sha256": "7d33a8df537e62e5ad3668021d470a9c3ebdadd02300cc02fcbfe860182152bb"
+  },
+  {
+    "sku": "394010000000515",
+    "brand": "INMUNO",
+    "brandSlug": "inmuno",
+    "name": "ACS.ANTI-CARDIOLIPINA IGG 96",
+    "file": "394010000000515.jpg",
+    "target": "src/assets/prod/ai/394010000000515.jpg",
+    "sha256": "ee119b19022e78b2ecf4258e6ec2c52c9f2cdf66791f4d357442fe4f5899d069"
+  },
+  {
+    "sku": "132010000GIPL3R",
+    "brand": "IXION",
+    "brandSlug": "ixion",
+    "name": "CONTENEDOR PARA SANGRE Y FLUIDOS COROPORALES CAPACIDAD 4.0 LTS",
+    "file": "132010000GIPL3R.jpg",
+    "target": "src/assets/prod/ai/132010000GIPL3R.jpg",
+    "sha256": "cfa322bd35abbebed09fa55f0be004a159f9f68494dd2421c7eeaaf2b6d24bdb"
+  },
+  {
+    "sku": "36001K8022.0500",
+    "brand": "KARAL",
+    "brandSlug": "karal",
+    "name": "PARAFINA 56 -58C FRASCO DE 500 GR",
+    "file": "36001K8022.0500.jpg",
+    "target": "src/assets/prod/ai/36001K8022.0500.jpg",
+    "sha256": "834dff9226bcc7844914cc5f6e83ea7dc22ef5c3146a19314109bd80b81af9e9"
+  },
+  {
+    "sku": "091010000005750",
+    "brand": "KENDALL",
+    "brandSlug": "kendall",
+    "name": "TOALLA ALCOHOLADA ESTERIL Y DOBLE",
+    "file": "091010000005750.jpg",
+    "target": "src/assets/prod/ai/091010000005750.jpg",
+    "sha256": "cc18ca5e3220924270aed51e061dc02cf34234980938d6195c7b0debf5fdbac6"
+  },
+  {
+    "sku": "998010000921-10",
+    "brand": "LAUKA",
+    "brandSlug": "lauka",
+    "name": "Tiras indicadoras de PH, escala 0 a 14",
+    "file": "998010000921-10.jpg",
+    "target": "src/assets/prod/ai/998010000921-10.jpg",
+    "sha256": "db5fac6519b7a79887a509d58f72f2babde507bb3417d8acd8e3a46d00cabb89"
+  },
+  {
+    "sku": "385010073280-01",
+    "brand": "LEUKOPLAST",
+    "brandSlug": "leukoplast",
+    "name": "CURITAS",
+    "file": "385010073280-01.jpg",
+    "target": "src/assets/prod/ai/385010073280-01.jpg",
+    "sha256": "298f957e5d6eaea1d29f3a5634d11cb407b2cabdd097cc98060860061ba0d64b"
+  },
+  {
+    "sku": "329010MCXA90127",
+    "brand": "MAGI CARE",
+    "brandSlug": "magi-care",
+    "name": "CUBRE BOCAS COLOR AZUL",
+    "file": "329010MCXA90127.jpg",
+    "target": "src/assets/prod/ai/329010MCXA90127.jpg",
+    "sha256": "ca0d34c93a5274ebc6b32d6c6562f8f9bcaf7547818efba99dd72fd704bd99cf"
+  },
+  {
+    "sku": "046010000009570",
+    "brand": "MEGALAB",
+    "brandSlug": "megalab",
+    "name": "PIZETA INTEGRAL 250ML. ALTURA 143MM. DE POLIETILENO",
+    "file": "046010000009570.jpg",
+    "target": "src/assets/prod/ai/046010000009570.jpg",
+    "sha256": "eba8052d9a7f9b69d210980442201362024a7cd9756f8b5402fa2aaa1cf06c4b"
+  },
+  {
+    "sku": "044010003001080",
+    "brand": "MEX LAB",
+    "brandSlug": "mex-lab",
+    "name": "ADENO - ROTAVIRUS CON 25 CASSETE",
+    "file": "044010003001080.jpg",
+    "target": "src/assets/prod/ai/044010003001080.jpg",
+    "sha256": "51a8df294293efb797bef45bed15fae60b7995e27afa757ceb7973c143c36791"
+  },
+  {
+    "sku": "09201000000360P",
+    "brand": "MICRO",
+    "brandSlug": "micro",
+    "name": "STAPHYLOCOCCUS AUREUS(CEPAS) ATCC 25923 CON 2 ISOPOS",
+    "file": "09201000000360P.jpg",
+    "target": "src/assets/prod/ai/09201000000360P.jpg",
+    "sha256": "d9097ff3673a5210bc466e8a57bba527fc821441fc30388519db0cf6f81c7d61"
+  },
+  {
+    "sku": "196010000000503",
+    "brand": "MICROLAB",
+    "brandSlug": "microlab",
+    "name": "PLASMA PARA PRUEBA DE COABULACION 1 VIAL DE 3 ML",
+    "file": "196010000000503.jpg",
+    "target": "src/assets/prod/ai/196010000000503.jpg",
+    "sha256": "c379b7bccd69ec793df12173acdf3b2b66217a9dbc7467d66fbbb72be8f60dc8"
+  },
+  {
+    "sku": "052010000239065",
+    "brand": "MILAB",
+    "brandSlug": "milab",
+    "name": "PROBETA GRADUADA DE POLIPROPILENO DE 1000ML",
+    "file": "052010000239065.jpg",
+    "target": "src/assets/prod/ai/052010000239065.jpg",
+    "sha256": "6c6a5283ff98142f54d71c33d28c959a693043e8fc3de780fa35f86f06ee40a6"
+  },
+  {
+    "sku": "3860100U031-101",
+    "brand": "MISSION",
+    "brandSlug": "mission",
+    "name": "TIRAS DE ORINA CON 100 PIEZAS",
+    "file": "3860100U031-101.jpg",
+    "target": "src/assets/prod/ai/3860100U031-101.jpg",
+    "sha256": "3338e9e41d10daca290ec22eba080a1824a8677242765cb92253b5f1a213483d"
+  },
+  {
+    "sku": "18601343216660B",
+    "brand": "MYM",
+    "brandSlug": "mym",
+    "name": "GRADILLA AZUL PARA 60 TUBOS 15/17 MM. PIEZA",
+    "file": "18601343216660B.jpg",
+    "target": "src/assets/prod/ai/18601343216660B.jpg",
+    "sha256": "ee80aaf206cee85a09faa3eb889ebccc34ab1d9dc9c7b65ccf03e8079ab64241"
+  },
+  {
+    "sku": "3120101U3013-SB",
+    "brand": "NIPRO",
+    "brandSlug": "nipro",
+    "name": "JERINGA INSULINA 1ML 30 X 13",
+    "file": "3120101U3013-SB.jpg",
+    "target": "src/assets/prod/ai/3120101U3013-SB.jpg",
+    "sha256": "eba21a24af8e31044b6b2baabc557d2bc7bd5c1789dae10e708bb53d7ba7784a"
+  },
+  {
+    "sku": "298010000325001",
+    "brand": "ON CALL",
+    "brandSlug": "on-call",
+    "name": "LANCETA ESTREL 30G. PUNTA TRI-BISELADA",
+    "file": "298010000325001.jpg",
+    "target": "src/assets/prod/ai/298010000325001.jpg",
+    "sha256": "fde618da79f9b4a4a3dd2163a2772d760252492fb4edffbd9b03f4af68d0ff8c"
+  },
+  {
+    "sku": "3870100DOAP-5-0",
+    "brand": "ONE SECOND",
+    "brandSlug": "one-second",
+    "name": "PANEL MULTIDROGAS",
+    "file": "3870100DOAP-5-0.jpg",
+    "target": "src/assets/prod/ai/3870100DOAP-5-0.jpg",
+    "sha256": "91431497ecf5eff7671dd747c5ecaa4ed07a7134f1e07c574223f7280dc9ca4e"
+  },
+  {
+    "sku": "395010000000521",
+    "brand": "ORGENTEC",
+    "brandSlug": "orgentec",
+    "name": "ANTI BETA2 GLYCOPROTEIN IgM/IgG",
+    "file": "395010000000521.jpg",
+    "target": "src/assets/prod/ai/395010000000521.jpg",
+    "sha256": "aa788462bb37c1483bfa9152009ae352227f3462aa2446037bc660f1356b409a"
+  },
+  {
+    "sku": "3560100PL-57104",
+    "brand": "POLYLAB",
+    "brandSlug": "polylab",
+    "name": "EMBUDO DE TALLO LARGO DE PLASTICO 100 MM. POLIPROPILENO AUTOCLAVE",
+    "file": "3560100PL-57104.jpg",
+    "target": "src/assets/prod/ai/3560100PL-57104.jpg",
+    "sha256": "e0df97bff5f7d02ebafd078c0d0f8aae197b4fdabf48c2730caf72be3939cccf"
+  },
+  {
+    "sku": "3790100MTVR-001",
+    "brand": "PRO MEDIA",
+    "brandSlug": "pro-media",
+    "name": "MEDIO DE TRANSPORTE VIRAL. TUBO CON FONDO CONICO ROSCABLE DE 5 ML. CON 2 ML. DE MEDIO DE",
+    "file": "3790100MTVR-001.jpg",
+    "target": "src/assets/prod/ai/3790100MTVR-001.jpg",
+    "sha256": "5428f487434067fa916f9b4ccc68071eb8069576f843918059ac40032acb3e2b"
+  },
+  {
+    "sku": "025010000000001",
+    "brand": "PROLAF",
+    "brandSlug": "prolaf",
+    "name": "GASA NO ESTERIL DE 10x10",
+    "file": "025010000000001.jpg",
+    "target": "src/assets/prod/ai/025010000000001.jpg",
+    "sha256": "327724ffeea9c093720a1ca017778e2f3b03be5a9674ff754930449686ac5447"
+  },
+  {
+    "sku": "220010000020193",
+    "brand": "QUIDEL",
+    "brandSlug": "quidel",
+    "name": "PRUEBA RAPIDA PARA RSV EN TIRA",
+    "file": "220010000020193.jpg",
+    "target": "src/assets/prod/ai/220010000020193.jpg",
+    "sha256": "328c98df2b966845fdb96902e74b22328355cc4bb415c63c3a8dc033ec1b735c"
+  },
+  {
+    "sku": "3490100K511416D",
+    "brand": "REALY TECH",
+    "brandSlug": "realy-tech",
+    "name": "NOVEL CORONAVIRUS ( SARS-COV-2 ) ANTIGEN RAPID TEST CASSETTE ( SWAB )",
+    "file": "3490100K511416D.jpg",
+    "target": "src/assets/prod/ai/3490100K511416D.jpg",
+    "sha256": "d0b3624ba4dc2435da3818ff0a1c022749864501aea79a1b0ebdc55d691cdb16"
+  },
+  {
+    "sku": "200010000000122",
+    "brand": "RUIZ SANCHEZ",
+    "brandSlug": "ruiz-sanchez",
+    "name": "ABATELENGUA DE MADERA ESTERIL",
+    "file": "200010000000122.jpg",
+    "target": "src/assets/prod/ai/200010000000122.jpg",
+    "sha256": "da1cafbe8f8f8d9e03813377f15543ca7fd3bfa0815db1461839130cb5dfce7b"
+  },
+  {
+    "sku": "326010713111040",
+    "brand": "SCIENCE ME",
+    "brandSlug": "science-me",
+    "name": "MICROPIPETA TOTALMENTE AUTOCLAVABLE .VOLUMEN VARIABLE 0.5-10UL, INCRE: 0.1UL, DISEÑO",
+    "file": "326010713111040.jpg",
+    "target": "src/assets/prod/ai/326010713111040.jpg",
+    "sha256": "b0d4bcf0af1dab324f4a3871feecac58ac43bfa09ac56a79e37510180550975d"
+  },
+  {
+    "sku": "34701COVISTIX19",
+    "brand": "SORRENTO DIAGNOSTICS",
+    "brandSlug": "sorrento-diagnostics",
+    "name": "PRUEBA COVID COVISTIX",
+    "file": "34701COVISTIX19.jpg",
+    "target": "src/assets/prod/ai/34701COVISTIX19.jpg",
+    "sha256": "1a5a70131045318f1469adc5e6f91215393868e4773cd5c834359445c2252fd8"
+  },
+  {
+    "sku": "77801000003FK10",
+    "brand": "STANDARD DIAGNOSTICS",
+    "brandSlug": "standard-diagnostics",
+    "name": "HIV ½ ANTICUERPOS + SUBTIPO O, CON 30 PRUEBAS",
+    "file": "77801000003FK10.jpg",
+    "target": "src/assets/prod/ai/77801000003FK10.jpg",
+    "sha256": "f3e9e81eaaed30c51914ba52a0ad075b38ca463ed019a536c602c797feb02408"
+  },
+  {
+    "sku": "004010000SCW017",
+    "brand": "TERUMO",
+    "brandSlug": "terumo",
+    "name": "OBLEAS PARA CONEXION TSCD CON 140 PZ",
+    "file": "004010000SCW017.jpg",
+    "target": "src/assets/prod/ai/004010000SCW017.jpg",
+    "sha256": "cf0ec22e8670df2f0cd00d292b137c583a099b3d6771e9b87aea12057fbea9d0"
+  },
+  {
+    "sku": "204010000V7990W",
+    "brand": "VELAQUIN",
+    "brandSlug": "velaquin",
+    "name": "TUBO DE WINTROBE PIEZA",
+    "file": "204010000V7990W.jpg",
+    "target": "src/assets/prod/ai/204010000V7990W.jpg",
+    "sha256": "1e38f4ccc452538bc64e88dd9e7f884be8558cb2262aa124e9624bcd7337976f"
+  },
+  {
+    "sku": "3190100VL-P5417",
+    "brand": "VILAB",
+    "brandSlug": "vilab",
+    "name": "PLACA DE REACCIONES CON 12 ANILLOS, PIEZA",
+    "file": "3190100VL-P5417.jpg",
+    "target": "src/assets/prod/ai/3190100VL-P5417.jpg",
+    "sha256": "a8f96800cfd67ecd0d0b791bff36c69fa21f69e7ea1ab0c88831da1f6557d420"
+  }
+]
