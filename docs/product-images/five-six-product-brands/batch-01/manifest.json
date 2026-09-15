@@ -1,0 +1,326 @@
+[
+  {
+    "sku": "11301000HCG-C50",
+    "brand": "ACCUTRACK",
+    "brandSlug": "accutrack",
+    "name": "HCG TEST PRUEBA DE EMBARAZO",
+    "file": "11301000HCG-C50.jpg",
+    "target": "src/assets/prod/ai/11301000HCG-C50.jpg",
+    "sha256": "3581c52a0157c68ea0b4f32aba866bdddb54d67948d83c45ba0e60f0b0323961"
+  },
+  {
+    "sku": "1130100ITP08101",
+    "brand": "ACCUTRACK",
+    "brandSlug": "accutrack",
+    "name": "ONE STEP PRUEBA RAPIDA PARA LA DETERMINACION DE MIOGLOBINA CARDIACA CK-MB TROPONINA 1 EN",
+    "file": "1130100ITP08101.jpg",
+    "target": "src/assets/prod/ai/1130100ITP08101.jpg",
+    "sha256": "1572ec63bb0252a461c594ba8611e9c146855a937bfaa5ba38be0730024ba620"
+  },
+  {
+    "sku": "1130100ITP01003",
+    "brand": "ACCUTRACK",
+    "brandSlug": "accutrack",
+    "name": "PRUEBA DE HEPATITIS B - HBSAG ( SANGRE COMPLETA/SUERO/PLASMA ) KIT 50",
+    "file": "1130100ITP01003.jpg",
+    "target": "src/assets/prod/ai/1130100ITP01003.jpg",
+    "sha256": "79bee768322ab554932bc58d0a68f8c70d54944dc46e890436bcfd3f095761d6"
+  },
+  {
+    "sku": "1130100ITP01102",
+    "brand": "ACCUTRACK",
+    "brandSlug": "accutrack",
+    "name": "PRUEBA DE HEPATITIS C - HCV ( SANGRE COMPLETA/SUERO/PLASMA ) KIT 50",
+    "file": "1130100ITP01102.jpg",
+    "target": "src/assets/prod/ai/1130100ITP01102.jpg",
+    "sha256": "6c2053afae29f47a26bf070396f96f2d49c2135badf3370de6f68659c8ff9226"
+  },
+  {
+    "sku": "11301000AHIV-50",
+    "brand": "ACCUTRACK",
+    "brandSlug": "accutrack",
+    "name": "PRUEBA RAPIDA ACCUTRACK ONE STEP HIV TEST",
+    "file": "11301000AHIV-50.jpg",
+    "target": "src/assets/prod/ai/11301000AHIV-50.jpg",
+    "sha256": "46d1cda8167335e1be945a5e3f325bfbf0e548502db177f1792bd54fd8f2c8e1"
+  },
+  {
+    "sku": "051010604560383",
+    "brand": "AMBIDERM",
+    "brandSlug": "ambiderm",
+    "name": "GUANTE DE LATEX ESTERIL CHICO, BAJO EN POLVO",
+    "file": "051010604560383.jpg",
+    "target": "src/assets/prod/ai/051010604560383.jpg",
+    "sha256": "47a28b10d67f80d81caa50180fe42905f02d291fb79606fcbc684c29f6b4db2e"
+  },
+  {
+    "sku": "051010604560391",
+    "brand": "AMBIDERM",
+    "brandSlug": "ambiderm",
+    "name": "GUANTE DE LATEX ESTERIL MEDIANO, BAJO EN POLVO",
+    "file": "051010604560391.jpg",
+    "target": "src/assets/prod/ai/051010604560391.jpg",
+    "sha256": "8feeba0520143c67e5fa6fa5c685f017e8cef64152dbfa5a12432ce335149b67"
+  },
+  {
+    "sku": "051010001115003",
+    "brand": "AMBIDERM",
+    "brandSlug": "ambiderm",
+    "name": "GUANTE DE LATEX NO ESTERIL CONFORT MEDIANO , BAJO EN POLVO",
+    "file": "051010001115003.jpg",
+    "target": "src/assets/prod/ai/051010001115003.jpg",
+    "sha256": "d42481cec31594d16e67a023df37759d8108d8a54c91a18ee4dd6653273beaa0"
+  },
+  {
+    "sku": "051010100100022",
+    "brand": "AMBIDERM",
+    "brandSlug": "ambiderm",
+    "name": "GUANTE DE LATEX NO ESTERIL PLUS CHICO, BAJO EN POLVO",
+    "file": "051010100100022.jpg",
+    "target": "src/assets/prod/ai/051010100100022.jpg",
+    "sha256": "8772d6caab19187c41eef6e7725f353d48165c03f4b3340130dcb8188699c35d"
+  },
+  {
+    "sku": "051010100100023",
+    "brand": "AMBIDERM",
+    "brandSlug": "ambiderm",
+    "name": "GUANTE DE LATEX NO ESTERIL PLUS MEDIANO, BAJO EN POLVO",
+    "file": "051010100100023.jpg",
+    "target": "src/assets/prod/ai/051010100100023.jpg",
+    "sha256": "889351bbd0af92e16ff2fe50623c4674171c95e3cf4e9d88f745846cb2efa217"
+  },
+  {
+    "sku": "33301000GD005EK",
+    "brand": "GOLDEN VAC",
+    "brandSlug": "golden-vac",
+    "name": "MICRO EDTA K3 0.5ml. CON 50 PZAS",
+    "file": "33301000GD005EK.jpg",
+    "target": "src/assets/prod/ai/33301000GD005EK.jpg",
+    "sha256": "a5c935f43c9dc667beacdfa15074959f90acce8d9b35a5b4643ea6d955291016"
+  },
+  {
+    "sku": "33301000GD027SC",
+    "brand": "GOLDEN VAC",
+    "brandSlug": "golden-vac",
+    "name": "TUBO VACUTAINER DE PLASTICO TAPON AZUL CON CITRATO DE SODIO 0.109m 13x75 2.7 ML 100 PIEZAS",
+    "file": "33301000GD027SC.jpg",
+    "target": "src/assets/prod/ai/33301000GD027SC.jpg",
+    "sha256": "475cc2e69f4c239f8128472b65a3a292983dc296bd8872266323d222a501f3c2"
+  },
+  {
+    "sku": "3330100GD060SGC",
+    "brand": "GOLDEN VAC",
+    "brandSlug": "golden-vac",
+    "name": "TUBO VACUTAINER TAPON AMARILLO CON GEL Y ACTIVADOR DE COAGULACION13x100 5 ML 100 PZAS",
+    "file": "3330100GD060SGC.jpg",
+    "target": "src/assets/prod/ai/3330100GD060SGC.jpg",
+    "sha256": "2c35982be3a9976e838361122e95e4e57bffae95d1a4e5ed955df275f43e60b6"
+  },
+  {
+    "sku": "3330100GD050EK2",
+    "brand": "GOLDEN VAC",
+    "brandSlug": "golden-vac",
+    "name": "TUBO VACUTAINER TAPON LILA CON EDTA-K2 13x75 4ML CON 100 PZAS",
+    "file": "3330100GD050EK2.jpg",
+    "target": "src/assets/prod/ai/3330100GD050EK2.jpg",
+    "sha256": "6c248093db0703a9b2e81f179095414dac2daf36acf68dcf0d544d15b1bf5edd"
+  },
+  {
+    "sku": "33301000GD050CA",
+    "brand": "GOLDEN VAC",
+    "brandSlug": "golden-vac",
+    "name": "TUBO VACUTAINER TAPON ROJO CON ACTIVADOR DE COAGULACION 13x100 6ML 100 PZAS",
+    "file": "33301000GD050CA.jpg",
+    "target": "src/assets/prod/ai/33301000GD050CA.jpg",
+    "sha256": "5429e52811897e714c762ba9a57fe92bb247d9a006d54aad65d579e47acbbd97"
+  },
+  {
+    "sku": "277010000000476",
+    "brand": "HQ",
+    "brandSlug": "hq",
+    "name": "CONTENEDOR PARA PUNZOCORTANTES CAPACIDAD 1.0 LTO. COLOR ROJO",
+    "file": "277010000000476.jpg",
+    "target": "src/assets/prod/ai/277010000000476.jpg",
+    "sha256": "e7c79255763054c1c4c8881c8331dd127cb7371b81b6cc47cf4d07e3bdbbf3c0"
+  },
+  {
+    "sku": "277010000000032",
+    "brand": "HQ",
+    "brandSlug": "hq",
+    "name": "CONTENEDOR PARA PUNZOCORTANTES CAPACIDAD 1.8 LTS. COLOR ROJO",
+    "file": "277010000000032.jpg",
+    "target": "src/assets/prod/ai/277010000000032.jpg",
+    "sha256": "9b478a8f4f534dd29f4f534bf9def7a33568538ace6fc61c76928a2c70e6bbc4"
+  },
+  {
+    "sku": "277010100000493",
+    "brand": "HQ",
+    "brandSlug": "hq",
+    "name": "CONTENEDOR PARA PUNZOCORTANTES CAPACIDAD 13 LTS. COLOR ROJO",
+    "file": "277010100000493.jpg",
+    "target": "src/assets/prod/ai/277010100000493.jpg",
+    "sha256": "9ffd58ed642118eb3f75d052054a289436c059b3ea6bc2ced07ae1392dcb37f2"
+  },
+  {
+    "sku": "277010000000445",
+    "brand": "HQ",
+    "brandSlug": "hq",
+    "name": "CONTENEDOR PARA PUNZOCORTANTES CAPACIDAD 3.0 LTS. COLOR ROJO",
+    "file": "277010000000445.jpg",
+    "target": "src/assets/prod/ai/277010000000445.jpg",
+    "sha256": "0040f778da20989bcc9e5d173160c03a993d817a6102e0cc56aeaf0e40471f39"
+  },
+  {
+    "sku": "277010000000094",
+    "brand": "HQ",
+    "brandSlug": "hq",
+    "name": "CONTENEDOR PARA PUNZOCORTANTES CAPACIDAD 4 LTS. COLOR ROJO",
+    "file": "277010000000094.jpg",
+    "target": "src/assets/prod/ai/277010000000094.jpg",
+    "sha256": "87af7fc89f83f3b17d8ab2bbb55c201fdd139bfd8dcee56b3f1fac9b112fefbe"
+  },
+  {
+    "sku": "15401000000335P",
+    "brand": "MICROBIOLOGI",
+    "brandSlug": "microbiologi",
+    "name": "ESCHERICHIA COLI (CEPAS) ATCC 25922 CON 2 ISOPOS",
+    "file": "15401000000335P.jpg",
+    "target": "src/assets/prod/ai/15401000000335P.jpg",
+    "sha256": "0df28bb461fa6954e303154b93391ae2a86696df856e43c79624a5e36dc14eac"
+  },
+  {
+    "sku": "15401000000429P",
+    "brand": "MICROBIOLOGI",
+    "brandSlug": "microbiologi",
+    "name": "N.GONORRHOEAE (CEPAS) ATCC 43069 CON 2 ISOPOS",
+    "file": "15401000000429P.jpg",
+    "target": "src/assets/prod/ai/15401000000429P.jpg",
+    "sha256": "b84ccf52272ff6f5b045c2c845add5c12adf3a6c36391020ba08ae1aee7bcf60"
+  },
+  {
+    "sku": "15401000000447P",
+    "brand": "MICROBIOLOGI",
+    "brandSlug": "microbiologi",
+    "name": "S.PNEUMONIAE (CEPAS) ATCC 6305 CON 2 ISOPOS",
+    "file": "15401000000447P.jpg",
+    "target": "src/assets/prod/ai/15401000000447P.jpg",
+    "sha256": "6a48575438e2f1e65436270e0a7399dc5deeb8e8a721ab6a2f2c2639812c68dc"
+  },
+  {
+    "sku": "15401000000385P",
+    "brand": "MICROBIOLOGI",
+    "brandSlug": "microbiologi",
+    "name": "S.PYOGENES (CEPAS) ATCC 19615 CON 2 ISOPOS",
+    "file": "15401000000385P.jpg",
+    "target": "src/assets/prod/ai/15401000000385P.jpg",
+    "sha256": "654ef08118087a9a93d3358b443dd61153b15bcd0dfdfac250de79cf36c8d85e"
+  },
+  {
+    "sku": "15401000000446P",
+    "brand": "MICROBIOLOGI",
+    "brandSlug": "microbiologi",
+    "name": "S.SOMNEI (CEPAS) ATCC 9290 CON 2 ISOPOS",
+    "file": "15401000000446P.jpg",
+    "target": "src/assets/prod/ai/15401000000446P.jpg",
+    "sha256": "33c7fd86cce0e423ab7e9845a32f82f91435db982c5915bff12f067cdb317b22"
+  },
+  {
+    "sku": "019010004000258",
+    "brand": "PISA",
+    "brandSlug": "pisa",
+    "name": "'AGUAINY1LT' AGUA ESTERIL DE 1000 ML. (IRRIGADUAL) PIEZA",
+    "file": "019010004000258.jpg",
+    "target": "src/assets/prod/ai/019010004000258.jpg",
+    "sha256": "ad645f19c811ae4d12873ed9f3d9ee10bc2807d68a6e332c79e5168ebc13e7ab"
+  },
+  {
+    "sku": "019010004000270",
+    "brand": "PISA",
+    "brandSlug": "pisa",
+    "name": "AGUA INYECTABLE ( APOYETA ) DE 5 ML. PLASTICO CON 100 PIEZAS",
+    "file": "019010004000270.jpg",
+    "target": "src/assets/prod/ai/019010004000270.jpg",
+    "sha256": "6cac695e9a7b3d675674b105d0042efb16c083ed1fe167931d56f341cf0cdf91"
+  },
+  {
+    "sku": "01901AGUAINY500",
+    "brand": "PISA",
+    "brandSlug": "pisa",
+    "name": "AGUA INYECTABLE DE 500ml",
+    "file": "01901AGUAINY500.jpg",
+    "target": "src/assets/prod/ai/01901AGUAINY500.jpg",
+    "sha256": "7e28fd0fbf210260e7526d8c4837082ca77bed3de124b62a8767f9e3d98b656a"
+  },
+  {
+    "sku": "019010004000079",
+    "brand": "PISA",
+    "brandSlug": "pisa",
+    "name": "SOLUCION SALINA DE 1 LITRO",
+    "file": "019010004000079.jpg",
+    "target": "src/assets/prod/ai/019010004000079.jpg",
+    "sha256": "9aff404f274c28c0cd05efaa1fd268ec8ccabb83ea1e2e2a4aa857fa2db0ca8a"
+  },
+  {
+    "sku": "019014000079500",
+    "brand": "PISA",
+    "brandSlug": "pisa",
+    "name": "SOLUCION SALINA DE 500 ML",
+    "file": "019014000079500.jpg",
+    "target": "src/assets/prod/ai/019014000079500.jpg",
+    "sha256": "c0321f657d9d3e63f547ecbc1af03c517fb8b872a4ec6197427f5bba56e5de8b"
+  },
+  {
+    "sku": "019010004000077",
+    "brand": "PISA",
+    "brandSlug": "pisa",
+    "name": "Solución Cloruro de Sodio 250ml",
+    "file": "019010004000077.jpg",
+    "target": "src/assets/prod/ai/019010004000077.jpg",
+    "sha256": "31528457107aa3a7c8344d4a158f798021de506498b9524e275c30dbb4bd0ecd"
+  },
+  {
+    "sku": "355010000QS4021",
+    "brand": "REASOL",
+    "brandSlug": "reasol",
+    "name": "ACEITE DE PARAFINA FRASCO DE 1 LITRO",
+    "file": "355010000QS4021.jpg",
+    "target": "src/assets/prod/ai/355010000QS4021.jpg",
+    "sha256": "0a5ac5115b5e2e971dd6cdd309d23cd000fda05205a5f4ed1bc5f14bd16cd39f"
+  },
+  {
+    "sku": "355010000R01398",
+    "brand": "REASOL",
+    "brandSlug": "reasol",
+    "name": "AGUA DESIONIZADA, CALIDAD REACTICVO BIDON DE 20 LITROS",
+    "file": "355010000R01398.jpg",
+    "target": "src/assets/prod/ai/355010000R01398.jpg",
+    "sha256": "445f44e244bfa1114fbba5b2e44c5c9e5544f7328224e76b2996736bed708702"
+  },
+  {
+    "sku": "355010000RO1418",
+    "brand": "REASOL",
+    "brandSlug": "reasol",
+    "name": "AGUA TRIDESTILADA, CALIDAD REACTICVO BIDON DE 20 LITROS",
+    "file": "355010000RO1418.jpg",
+    "target": "src/assets/prod/ai/355010000RO1418.jpg",
+    "sha256": "1b608c0837bbd1e77392ee7d5813f691909e7bc5f2fc40fa126a554b407da343"
+  },
+  {
+    "sku": "3550100G.T.3611",
+    "brand": "REASOL",
+    "brandSlug": "reasol",
+    "name": "HIDROXIDO DE SODIO, TECNICO SOLUCION AL 10% MAXIMO, 1LITRO",
+    "file": "3550100G.T.3611.jpg",
+    "target": "src/assets/prod/ai/3550100G.T.3611.jpg",
+    "sha256": "b4a021cecfd077c5002f6d6b82d99398713844d8ead61d9d1e811c34aac584d4"
+  },
+  {
+    "sku": "355010000000ARS",
+    "brand": "REASOL",
+    "brandSlug": "reasol",
+    "name": "ÁCIDO FÓRMICO Solución 80% máx. 500 ML",
+    "file": "355010000000ARS.jpg",
+    "target": "src/assets/prod/ai/355010000000ARS.jpg",
+    "sha256": "42e1bd36a69591bea6adb1dab659f5b0a2979471bd20059408e1f118e6236d9f"
+  }
+]
