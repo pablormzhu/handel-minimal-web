@@ -1,0 +1,290 @@
+[
+  {
+    "sku": "04501000MICRO3M",
+    "brand": "3M",
+    "brandSlug": "3m",
+    "name": "CINTA MICROPOR DE 2.5CM",
+    "file": "04501000MICRO3M.jpg",
+    "target": "src/assets/prod/ai/04501000MICRO3M.jpg",
+    "sha256": "815e3e70dab2eacf1f9729dfd5386be092eba1303f1fef7b8d0a07a21fc8fec3"
+  },
+  {
+    "sku": "045010015271-3M",
+    "brand": "3M",
+    "brandSlug": "3m",
+    "name": "CINTA TRANSPORE 1 PULGADA",
+    "file": "045010015271-3M.jpg",
+    "target": "src/assets/prod/ai/045010015271-3M.jpg",
+    "sha256": "d073b8208f46fba4f12dcb76c19ac7accd1b1d71e3d32eed808d95208a3fcad6"
+  },
+  {
+    "sku": "0450100001582-1",
+    "brand": "3M",
+    "brandSlug": "3m",
+    "name": "Coban venda Autoadherible pieza de 5cm. x 4.5m",
+    "file": "0450100001582-1.jpg",
+    "target": "src/assets/prod/ai/0450100001582-1.jpg",
+    "sha256": "a4e6e548955fbff549efda7cfe7d471db7543f6aab93f1a29878af52563dfe9f"
+  },
+  {
+    "sku": "045010000001582",
+    "brand": "3M",
+    "brandSlug": "3m",
+    "name": "Coban venda autoadherible cja. con 36 rollos de 5cm. x 4.5m",
+    "file": "045010000001582.jpg",
+    "target": "src/assets/prod/ai/045010000001582.jpg",
+    "sha256": "62bef57aada4123ae027383281e8b7d1e3de44bb478dd751c2591dde3eb4e0d0"
+  },
+  {
+    "sku": "17701000ICH-502",
+    "brand": "CERTUM",
+    "brandSlug": "certum",
+    "name": "CHLAMYDIA RAPID TEST CON 20",
+    "file": "17701000ICH-502.jpg",
+    "target": "src/assets/prod/ai/17701000ICH-502.jpg",
+    "sha256": "28b0efc402d898664ff459c347e12ee969ca1770304f593c97c6eb93f7735d97"
+  },
+  {
+    "sku": "1770100IDEC-425",
+    "brand": "CERTUM",
+    "brandSlug": "certum",
+    "name": "PRUEBA DE DENGUE IGG/IGM AND NS1 COMBO CASSETTE CON 25 PRUEBAS MCA CERTUM",
+    "file": "1770100IDEC-425.jpg",
+    "target": "src/assets/prod/ai/1770100IDEC-425.jpg",
+    "sha256": "1a8c182b3762d73012823941e99639a7337043cd3c1a18e82ae948db2c06d69c"
+  },
+  {
+    "sku": "17701000FHC-201",
+    "brand": "CERTUM",
+    "brandSlug": "certum",
+    "name": "PRUEBA DE EMBARAZO ( TIRA ORINA/SUERO )",
+    "file": "17701000FHC-201.jpg",
+    "target": "src/assets/prod/ai/17701000FHC-201.jpg",
+    "sha256": "f8e49a28f7a151ecbb99d3a2ab68a9f51f80bf5951d87bed443d1102bf34ffb0"
+  },
+  {
+    "sku": "17701000IHA-402",
+    "brand": "CERTUM",
+    "brandSlug": "certum",
+    "name": "PRUEBA RAPIDA DE HEPATITIS A HAV-IgM ( SUERO/PLASMA ) CON 25 PRUEBAS",
+    "file": "17701000IHA-402.jpg",
+    "target": "src/assets/prod/ai/17701000IHA-402.jpg",
+    "sha256": "c434de51d13239c6003ca30930e859eb5f6aafd4e3939161efb8db6f9812868d"
+  },
+  {
+    "sku": "16501001-200009",
+    "brand": "DELTA LAB",
+    "brandSlug": "delta-lab",
+    "name": "PUNTA 5 A 200μL.,AMARILLA UNIVERSA. Punta 5 a 200μl.,amarilla, universal, con corona,",
+    "file": "16501001-200009.jpg",
+    "target": "src/assets/prod/ai/16501001-200009.jpg",
+    "sha256": "7ce6cef45e9561c2c27fb2a7c47d80884c3bc2541422477e693e221a4bf87fe6"
+  },
+  {
+    "sku": "16501001-200012",
+    "brand": "DELTA LAB",
+    "brandSlug": "delta-lab",
+    "name": "Punta universal con corona color azul 100 a 1000µl",
+    "file": "16501001-200012.jpg",
+    "target": "src/assets/prod/ai/16501001-200012.jpg",
+    "sha256": "702d67513e91450491b98182fff8b04c00ed43d3acc6a4679d0b89e8559c0f9d"
+  },
+  {
+    "sku": "1650100300800.1",
+    "brand": "DELTA LAB",
+    "brandSlug": "delta-lab",
+    "name": "TUBO DE ENSAYE 5ML. 12X75 MM. EN POLIESTIRENO COLSA CON 1000 PIEZAS",
+    "file": "1650100300800.1.jpg",
+    "target": "src/assets/prod/ai/1650100300800.1.jpg",
+    "sha256": "93fca22f08ef3fd38cd63a1083d66c74856a358de33f3e543ddeada25dc78d54"
+  },
+  {
+    "sku": "16501001-409726",
+    "brand": "DELTA LAB",
+    "brandSlug": "delta-lab",
+    "name": "VASO RECOLECTOR ESTERIL TAPA ROJA DE 100 ML. PIEZA",
+    "file": "16501001-409726.jpg",
+    "target": "src/assets/prod/ai/16501001-409726.jpg",
+    "sha256": "d446e73ae39edf20274559c5c4c951581766d9691fb9852a140d00e28d7d8e4e"
+  },
+  {
+    "sku": "009010000001181",
+    "brand": "DM",
+    "brandSlug": "dm",
+    "name": "ABATELENGUA DE MADERA ESTERIL",
+    "file": "009010000001181.jpg",
+    "target": "src/assets/prod/ai/009010000001181.jpg",
+    "sha256": "8713d5680d1990e23a6599664525ab7e8832efab1d6c3736331c21a24d38a5d6"
+  },
+  {
+    "sku": "009010000001170",
+    "brand": "DM",
+    "brandSlug": "dm",
+    "name": "ABATELENGUA DE MADERA NO ESTERIL",
+    "file": "009010000001170.jpg",
+    "target": "src/assets/prod/ai/009010000001170.jpg",
+    "sha256": "8b35355794ea9afe73d2171e8d38e6be3151af4ce6d84a7fca709fa918396cdb"
+  },
+  {
+    "sku": "009010000002100",
+    "brand": "DM",
+    "brandSlug": "dm",
+    "name": "APLICADOR DE MADERA SIN ALGODON NO ESTERIL",
+    "file": "009010000002100.jpg",
+    "target": "src/assets/prod/ai/009010000002100.jpg",
+    "sha256": "582c2b47da27931b7540dcbae73154534e2a7f55dca72ae8179792142d6a6947"
+  },
+  {
+    "sku": "009010000002231",
+    "brand": "DM",
+    "brandSlug": "dm",
+    "name": "APLICADOR DE PLASTICO CON ALGODON ESTERIL",
+    "file": "009010000002231.jpg",
+    "target": "src/assets/prod/ai/009010000002231.jpg",
+    "sha256": "47d62b0ad01f1fa13c303a13384c8eae83f4ffa6c9a6316aa9d620502b95c298"
+  },
+  {
+    "sku": "35701000PW106-1",
+    "brand": "GH",
+    "brandSlug": "gh",
+    "name": "BOTE PARA PRUEBA DE RECOLECCION DE 24 HORAS CON LINEA PARA GARANTIZAR LA HERMETICIDAD.",
+    "file": "35701000PW106-1.jpg",
+    "target": "src/assets/prod/ai/35701000PW106-1.jpg",
+    "sha256": "b313f8cc7f05193363de969e6b05c1d37d36aba6bda2b9462f622c0bfe290c52"
+  },
+  {
+    "sku": "3570100000PW113",
+    "brand": "GH",
+    "brandSlug": "gh",
+    "name": "VASO RECOLECTOR ESTERIL DE 100 ML. PIEZA",
+    "file": "3570100000PW113.jpg",
+    "target": "src/assets/prod/ai/3570100000PW113.jpg",
+    "sha256": "91fd260a279f0955ee5b504e976d17f842173d218dd65c184cec0f7dc820dd79"
+  },
+  {
+    "sku": "3570100000PW120",
+    "brand": "GH",
+    "brandSlug": "gh",
+    "name": "VASO RECOLECTOR PARA MUESTRA 120 ML. PREMIUM ESTERIL TAPA AZUL. PIEZA",
+    "file": "3570100000PW120.jpg",
+    "target": "src/assets/prod/ai/3570100000PW120.jpg",
+    "sha256": "2cbe84e83c2fab83fe383aafd760aebefdf880015802b531d87dccdb47fa3f06"
+  },
+  {
+    "sku": "3570100000PW117",
+    "brand": "GH",
+    "brandSlug": "gh",
+    "name": "VASO RECOLECTOR SIN/EMP 100ML PIEZA",
+    "file": "3570100000PW117.jpg",
+    "target": "src/assets/prod/ai/3570100000PW117.jpg",
+    "sha256": "105fb9af4101f1469554587e246fe659ecb6a42a3c46e9fa43340923cdc289ee"
+  },
+  {
+    "sku": "024010001911000",
+    "brand": "PROTEC",
+    "brandSlug": "protec",
+    "name": "ALCOHOL DESNATURALIZADO DE 1 LITRO",
+    "file": "024010001911000.jpg",
+    "target": "src/assets/prod/ai/024010001911000.jpg",
+    "sha256": "5e4f934c8dc1f53a265f9cf896b3cc653df2019668154471193cf533525d2ae2"
+  },
+  {
+    "sku": "024010001820060",
+    "brand": "PROTEC",
+    "brandSlug": "protec",
+    "name": "APLICADOR DE MADERA SIN ALGODON NO ESTERIL",
+    "file": "024010001820060.jpg",
+    "target": "src/assets/prod/ai/024010001820060.jpg",
+    "sha256": "daf5402deb3035c93b9d0bf595c0287f6b9e2c182816236c9021173a023e0798"
+  },
+  {
+    "sku": "024010000805020",
+    "brand": "PROTEC",
+    "brandSlug": "protec",
+    "name": "APLICADOR DE PLASTICO CON ALGODON 1/300 ESTERIL",
+    "file": "024010000805020.jpg",
+    "target": "src/assets/prod/ai/024010000805020.jpg",
+    "sha256": "f36b84458fb55b1b5397f2114a9718d3939e89e76266a79021a3daea6843f570"
+  },
+  {
+    "sku": "024010002000600",
+    "brand": "PROTEC",
+    "brandSlug": "protec",
+    "name": "TOALLA ALCOHOLADA",
+    "file": "024010002000600.jpg",
+    "target": "src/assets/prod/ai/024010002000600.jpg",
+    "sha256": "4ca54642ea53f53eb21fa45dee47ac9c76922ed6f13ac447a75696d90254c6e9"
+  },
+  {
+    "sku": "054019820-12X75",
+    "brand": "PYREX",
+    "brandSlug": "pyrex",
+    "name": "TUBO DE ENSAYE DE 12X75 SIN LABIO",
+    "file": "054019820-12X75.jpg",
+    "target": "src/assets/prod/ai/054019820-12X75.jpg",
+    "sha256": "949c9d0df4628a162c6e48b32956f9221a9c47c66c33160b245ed4fb79aeda3f"
+  },
+  {
+    "sku": "054030000009820",
+    "brand": "PYREX",
+    "brandSlug": "pyrex",
+    "name": "TUBO DE VIDRIO DE 13 X 100 PIEZA",
+    "file": "054030000009820.jpg",
+    "target": "src/assets/prod/ai/054030000009820.jpg",
+    "sha256": "b58d84c0ba689ab73a986f6b2a537fc377c030531b2ece73497c3293ce18665e"
+  },
+  {
+    "sku": "0540100009825-1",
+    "brand": "PYREX",
+    "brandSlug": "pyrex",
+    "name": "TUBO PARA CULTIVO VAQUELITA",
+    "file": "0540100009825-1.jpg",
+    "target": "src/assets/prod/ai/0540100009825-1.jpg",
+    "sha256": "b3d9abfd502cacec1f4c97ac9145b6c3110cfb498c8ba3514c4250e949d0e3bd"
+  },
+  {
+    "sku": "054020000009825",
+    "brand": "PYREX",
+    "brandSlug": "pyrex",
+    "name": "TUBO PARA CULTIVO VAQUELITA",
+    "file": "054020000009825.jpg",
+    "target": "src/assets/prod/ai/054020000009825.jpg",
+    "sha256": "cff64133786b8443dce8ce89fb80851494645a1ab16ba14b720284ef537d0d1f"
+  },
+  {
+    "sku": "020010000000002",
+    "brand": "SYM",
+    "brandSlug": "sym",
+    "name": "ESPEJO VAGINAL ESTERIL MEDIANO",
+    "file": "020010000000002.jpg",
+    "target": "src/assets/prod/ai/020010000000002.jpg",
+    "sha256": "8b2b999d5b3fe0883b021beb6606de054289b5b14847f54b5c95911b63b63919"
+  },
+  {
+    "sku": "020010000000001",
+    "brand": "SYM",
+    "brandSlug": "sym",
+    "name": "ESPEJO VAGINAL ESTERIL. CHICO",
+    "file": "020010000000001.jpg",
+    "target": "src/assets/prod/ai/020010000000001.jpg",
+    "sha256": "d504efd81c340fdbed62dfda1ce2d85c8109b159dfd013c3436d6e01b63058c7"
+  },
+  {
+    "sku": "02001000000010S",
+    "brand": "SYM",
+    "brandSlug": "sym",
+    "name": "FRASCO GRADUADO DE 100 ML COLOR AZUL NO ESTERIL PIEZA",
+    "file": "02001000000010S.jpg",
+    "target": "src/assets/prod/ai/02001000000010S.jpg",
+    "sha256": "ed3e29cf1de869e0dca3ff7bdda557e65dda89b9985c20a267a67f508da62b5d"
+  },
+  {
+    "sku": "02001000000014A",
+    "brand": "SYM",
+    "brandSlug": "sym",
+    "name": "FRASCO GRADUADO DE 100 ML COLOR ROJO ESTERIL PIEZA",
+    "file": "02001000000014A.jpg",
+    "target": "src/assets/prod/ai/02001000000014A.jpg",
+    "sha256": "8abaf182e48a7ff26bf343f57e45bb32e1b702ad6accd81de8855987f6130884"
+  }
+]
