@@ -1,0 +1,506 @@
+[
+  {
+    "sku": "011010000080110",
+    "name": "ACEITE DE INMERCIÓN, 100ml TIPO B cargille con indice de refracción =1.5150 a 23ºC alta",
+    "file": "011010000080110.jpg",
+    "target": "src/assets/prod/ai/011010000080110.jpg",
+    "sha256": "ad0570d02991f994f666562a2885684ac022e29fa454d2cea91fcc3171fd3232"
+  },
+  {
+    "sku": "01101080120-100",
+    "name": "ACEITE DE INMERSION, TIPO \" FF \" INDICE DE REFRACCION = 1.4790 A 23º C BAJA VISCOSIDAD =",
+    "file": "01101080120-100.jpg",
+    "target": "src/assets/prod/ai/01101080120-100.jpg",
+    "sha256": "45901673ba10ddac3e7dcf062d1aaaf4821c151a654f529eb1c1fac7a1a17ed8"
+  },
+  {
+    "sku": "011010030250-1L",
+    "name": "ACETATO DE ETILO, ACS, 0-9KG/L. MAESA",
+    "file": "011010030250-1L.jpg",
+    "target": "src/assets/prod/ai/011010030250-1L.jpg",
+    "sha256": "850d8c0cf0c3c2fe6c1ecf501026ff43459c9f8a70a80700feb3bd3f44e78650"
+  },
+  {
+    "sku": "011010000-30200",
+    "name": "ACETONA DIMETIL CETONA A.C.S. MIN. 99.5% DE 4 LTS",
+    "file": "011010000-30200.jpg",
+    "target": "src/assets/prod/ai/011010000-30200.jpg",
+    "sha256": "e4665fe0927970364f8cc7a2befc29b5457a7e25144b72520d811cb4d16f4fb5"
+  },
+  {
+    "sku": "011010000030200",
+    "name": "ACETONA, A.C.S. DIMETIL CETONA MIN. 99.5% 1000 ML",
+    "file": "011010000030200.jpg",
+    "target": "src/assets/prod/ai/011010000030200.jpg",
+    "sha256": "94719dab70b40ea8a7583bdeb008f1c146c5f59fd577b68f3d822b4cec18a621"
+  },
+  {
+    "sku": "011010000053005",
+    "name": "ACIDO ACETICO, SOLUCION AL 5% MAXIMO FRASCO DE 500 ML",
+    "file": "011010000053005.jpg",
+    "target": "src/assets/prod/ai/011010000053005.jpg",
+    "sha256": "ed43a1fcfd7cd2401e6bd0361445e595ae5fd6678744c78a575b0b47f5fd3497"
+  },
+  {
+    "sku": "0110100056030-1",
+    "name": "ACIDO CLORHIDRICO SOL. 6N MAXIMO, FRASCO DE 1 LITRO",
+    "file": "0110100056030-1.jpg",
+    "target": "src/assets/prod/ai/0110100056030-1.jpg",
+    "sha256": "6173be1dbcb28929d2a3285eef804d7fa86e04ce9cf8ca4aa12d60d8bce2f559"
+  },
+  {
+    "sku": "0110100020200-1",
+    "name": "ACIDO CLORHIDRICO, GRADO REACTIVO, A.C.S. CONCENTRACION DE 36.5 A 38% FRASCO DE 1 LITRO",
+    "file": "0110100020200-1.jpg",
+    "target": "src/assets/prod/ai/0110100020200-1.jpg",
+    "sha256": "68045c6b3a671c3ad9d01db2b8b200af6220f6e8e655fa6f066a8a1323c7bdaf"
+  },
+  {
+    "sku": "0110100054222-1",
+    "name": "ACIDO NITRICO SOL. AL 5% EN METANOL, FRASCO DE 1 LITRO",
+    "file": "0110100054222-1.jpg",
+    "target": "src/assets/prod/ai/0110100054222-1.jpg",
+    "sha256": "8940f35f2e45401ccb3204a1c43bff90277ad6e1efadc3abcf485b59ab4b78ff"
+  },
+  {
+    "sku": "011010000081090",
+    "name": "ACIDO SULFOSALICILICO, SOLUCION AL 3 % MAXIMO. FRASCO DE 125 ML",
+    "file": "011010000081090.jpg",
+    "target": "src/assets/prod/ai/011010000081090.jpg",
+    "sha256": "70c3943161199a025c66db6ce0dadfa52056b7ae30f55ed436baced4d7878ca2"
+  },
+  {
+    "sku": "011010020300-1L",
+    "name": "ACIDO SULFURICO, GRADO REACTIVOS ACS, 1L. MAESA",
+    "file": "011010020300-1L.jpg",
+    "target": "src/assets/prod/ai/011010020300-1L.jpg",
+    "sha256": "242c4f8c97f1b5199332bea1ff381e2e7694b705531a72d071d3ac12199755db"
+  },
+  {
+    "sku": "011010000030300",
+    "name": "AGUA DESTILADA, CALIDAD REACTIVO BIDON DE 19 LTS",
+    "file": "011010000030300.jpg",
+    "target": "src/assets/prod/ai/011010000030300.jpg",
+    "sha256": "51a9457a829528f6e380938cb2efd7b45a030fa30b2e3297add10ad3a3dc82c5"
+  },
+  {
+    "sku": "011010000030320",
+    "name": "AGUA TRIDESTILADA BIDON DE 19 LTS",
+    "file": "011010000030320.jpg",
+    "target": "src/assets/prod/ai/011010000030320.jpg",
+    "sha256": "3026f8c6ea750aa0e052701871ab489c6e6ac9006cac2774eca0d5d0fc9fa32f"
+  },
+  {
+    "sku": "0110100080300-1",
+    "name": "ALCOHOL ACIDO DE ORT-70%, DECOLORANTE EN LA TINCION DE BAAR, FRASCO DE 1 LITRO",
+    "file": "0110100080300-1.jpg",
+    "target": "src/assets/prod/ai/0110100080300-1.jpg",
+    "sha256": "48535647bea4413417fffeaa8dbe53586436c1c3aa84cc49b36baa81f9c828de"
+  },
+  {
+    "sku": "011010000030600",
+    "name": "ALCOHOL ETILICO AL 96% GRADO REACTIVO ETANOL (PURO DE CAÑA) 3.5 LTS",
+    "file": "011010000030600.jpg",
+    "target": "src/assets/prod/ai/011010000030600.jpg",
+    "sha256": "c97ac40d2670a146678ef28ddc6d99170d1060dc4e5657e3c9c8278ca86fbed1"
+  },
+  {
+    "sku": "011010054560-20",
+    "name": "ALCOHOL ETILICO, SOLUCION AL 70% MAXIMO, 20 LITROS",
+    "file": "011010054560-20.jpg",
+    "target": "src/assets/prod/ai/011010054560-20.jpg",
+    "sha256": "f1df866f340321f46803b4f8c5d86fda4bcbc9cb4aff83af7c7e9ea624880c13"
+  },
+  {
+    "sku": "011010000154570",
+    "name": "ALCOHOL ISOPROPILICO SOLUCIÓN AL 70% DE CONCENTRACIÓN DE 3.5 LTS",
+    "file": "011010000154570.jpg",
+    "target": "src/assets/prod/ai/011010000154570.jpg",
+    "sha256": "eae3cdb10e8ec3ee080139f6ba3d4109b7a0c0430fc7335a25ceb972ea9f0082"
+  },
+  {
+    "sku": "011010000054570",
+    "name": "ALCOHOL ISOPROPILICO, SOLUCION AL 70% DE CONCENTRACION DE 1LT",
+    "file": "011010000054570.jpg",
+    "target": "src/assets/prod/ai/011010000054570.jpg",
+    "sha256": "f60b4da7f89170c4be217514e756f0bb32ecb86cc73806faebb5fa7c32788a63"
+  },
+  {
+    "sku": "011010054570-20",
+    "name": "ALCOHOL ISOPROPILICO, SOLUCION AL 70% DE CONCENTRACION DE 20 LITROS",
+    "file": "011010054570-20.jpg",
+    "target": "src/assets/prod/ai/011010054570-20.jpg",
+    "sha256": "0d572af2a53147514dadebb77687255e3db1756dafb548c48e9b2eb731469bd8"
+  },
+  {
+    "sku": "0110103.5-30900",
+    "name": "ALCOHOL METILICO A.C.S. METANOL MIN. 99.8% DE 3.5 LITROS",
+    "file": "0110103.5-30900.jpg",
+    "target": "src/assets/prod/ai/0110103.5-30900.jpg",
+    "sha256": "1d97385f155634cd94e81a1a3a26b996931aa6a04264c57ac36376981abdd697"
+  },
+  {
+    "sku": "011010000080200",
+    "name": "ALCOHOL-ACETONA 1: Empleada en el equipo de GRAM de 1000 ML",
+    "file": "011010000080200.jpg",
+    "target": "src/assets/prod/ai/011010000080200.jpg",
+    "sha256": "0e0493b7057c63487b9b5d260755b8eb0427dc0292a7594fa445e2acc75952e8"
+  },
+  {
+    "sku": "011010000080300",
+    "name": "ALCOHOL-ACIDO DE ORTH-70%: Empleado en el equipo de Ziehl-Neelsen DECOLORANTE EN LA",
+    "file": "011010000080300.jpg",
+    "target": "src/assets/prod/ai/011010000080300.jpg",
+    "sha256": "db6a64b2aff294386cf81db1167367489acd5ae3c9c7898cfacef2ced880c40d"
+  },
+  {
+    "sku": "011010000063365",
+    "name": "AZUL TRIPANO SOLUCION ACUOSA 0.4% FRASCO DE 50 ML",
+    "file": "011010000063365.jpg",
+    "target": "src/assets/prod/ai/011010000063365.jpg",
+    "sha256": "0e34a538c1d3ce68346a7b3b0b3612190717417e2f728eb1bec86698b09d10b4"
+  },
+  {
+    "sku": "011010000-80100",
+    "name": "Aceite de Inmersión 100ml, tipo \"A\" Cargille con:Indice de Refracción=1.5150 a 23ºC Baja",
+    "file": "011010000-80100.jpg",
+    "target": "src/assets/prod/ai/011010000-80100.jpg",
+    "sha256": "cd04a2a9abe57f64916aed770dde9c7ac7be81def6f5e74cbce7aa5afd62e253"
+  },
+  {
+    "sku": "011010000020100",
+    "name": "Acido Acético Glacial, A.C.S. Densidad = 1.053 grs / cc DE 1LT",
+    "file": "011010000020100.jpg",
+    "target": "src/assets/prod/ai/011010000020100.jpg",
+    "sha256": "1119ae28efae7099799e1e463d4edb16e0b1f102fec05369796443d919b1d39e"
+  },
+  {
+    "sku": "011010001-30500",
+    "name": "Alcohol Etílico Absoluto, A.C.S. al 99.5 % frasco DE 1000 ml",
+    "file": "011010001-30500.jpg",
+    "target": "src/assets/prod/ai/011010001-30500.jpg",
+    "sha256": "243e6217d43598384a8e19e1e57b16ceeb999a981c973fb55adf31ceb542476d"
+  },
+  {
+    "sku": "011010000063300",
+    "name": "Azul de Metileno, Loeffler según método de Ziehl-Neelsen, para tinción de BAAR. de 1000 ML",
+    "file": "011010000063300.jpg",
+    "target": "src/assets/prod/ai/011010000063300.jpg",
+    "sha256": "a4735f80e12f93a4d5a23b3888a40849019db408913d13c181ea26563be39fdd"
+  },
+  {
+    "sku": "011010000050090",
+    "name": "BUFFER PARA TINCION DE WRIGHT A PH 6.4 SEGÚN GIORDANO DE 3.5 LITROS",
+    "file": "011010000050090.jpg",
+    "target": "src/assets/prod/ai/011010000050090.jpg",
+    "sha256": "6435adcd080b3d983a29aa0c5a1fc392bc0f5e2aa17fbc43c24d0347c1c6508e"
+  },
+  {
+    "sku": "01101064300-500",
+    "name": "CARMIN ACETO, SOLUCION COLORANTE SEGUN FORMULA DE SCHNEIDER, FRASCO DE 500 ML",
+    "file": "01101064300-500.jpg",
+    "target": "src/assets/prod/ai/01101064300-500.jpg",
+    "sha256": "8fcef6f9e2b55c152f0f8ef60b024b841aa57d4f2807b91c396c56c7b3b6edc0"
+  },
+  {
+    "sku": "01101081350-500",
+    "name": "CLORURO FERRICO, SOLUCION ACUOSA EN CONCENTRACIONES AL 10% MAXIMO FRASCO DE 500 ML. MARCA",
+    "file": "01101081350-500.jpg",
+    "target": "src/assets/prod/ai/01101081350-500.jpg",
+    "sha256": "703587a8c96841b49f4e744f3a348c7f0ace242710846a690c04e1a01419dec1"
+  },
+  {
+    "sku": "011010000080550",
+    "name": "DILUYENTE PARA ESPERMATOZOIDES, SOLUCION PARA CONTEO DE ESPERMATOZOIDES DE 250 ML MCA",
+    "file": "011010000080550.jpg",
+    "target": "src/assets/prod/ai/011010000080550.jpg",
+    "sha256": "c276ee77e6bfdbfef9efa2cd9d47fbdf969f2185d1cd41693be5dd822f59c7b2"
+  },
+  {
+    "sku": "011010000043482",
+    "name": "ETER ETILICO ANHIDRO, TECNICO. ETER SULFURICO, ETOXIETANO, ETER DIETILICO DENSIDAD= 0.71",
+    "file": "011010000043482.jpg",
+    "target": "src/assets/prod/ai/011010000043482.jpg",
+    "sha256": "a8e974d9a0e2cbf59e748a03e6e3849c136568db9d8a15489fc117612279ec9d"
+  },
+  {
+    "sku": "01101033100-100",
+    "name": "FENOLFTALEINA, INDICADOR QUIMICO DE PH, CON RANGO DE 8.00 A 10.0 CON CAMBIO DE COLOR DE",
+    "file": "01101033100-100.jpg",
+    "target": "src/assets/prod/ai/01101033100-100.jpg",
+    "sha256": "ab559efd0a620a0f132368e45cfa5f281289dc0b7c51a0e869d4bf16cdad2a77"
+  },
+  {
+    "sku": "011010000031000",
+    "name": "FORMALDEHIDO, USP/NF EN CONCENTRACION DE 37 AL 40% DE FORMOL, FORMALINA DENSIDAD =",
+    "file": "011010000031000.jpg",
+    "target": "src/assets/prod/ai/011010000031000.jpg",
+    "sha256": "79a4ca5f540d8f18cc3127eab784ffdb112e57c381a0ca89fe9a81dfa39f00dc"
+  },
+  {
+    "sku": "011010000026492",
+    "name": "FOSFATO DE SODIO, A.C.S. DIBASICO (DISODICO), ANIHIDRO, CRISTALES DE 500GR",
+    "file": "011010000026492.jpg",
+    "target": "src/assets/prod/ai/011010000026492.jpg",
+    "sha256": "366fc0efeafd8050a84efffcaea5442bd58ceaeddee94f149c0e0ed5e30a175d"
+  },
+  {
+    "sku": "011010000063710",
+    "name": "Fucsina Carbólica, ó Fucsina Fenicada 1LT. Solución colorante de concentración reducida,",
+    "file": "011010000063710.jpg",
+    "target": "src/assets/prod/ai/011010000063710.jpg",
+    "sha256": "85a6aadd841842e0943144da6d01131d879b03b2ee719108af6b1160d1cfd9b5"
+  },
+  {
+    "sku": "01101084520-250",
+    "name": "GEL PARA ELECTRODOS GELECTROX COLOR VERDE EN TARRO, FRASCO DE 250 ML",
+    "file": "01101084520-250.jpg",
+    "target": "src/assets/prod/ai/01101084520-250.jpg",
+    "sha256": "06d7d9e2a3bb32f46f746989bc2ecfe0bcb6aab074bc726ec488de077284f0ee"
+  },
+  {
+    "sku": "011010075-81552",
+    "name": "GLUCOX SOL. GLUCOSADA SOLUCION ESTABILIZADA Y VALORADA PARA LA PRUEBA DE TOLERANCIA A LA",
+    "file": "011010075-81552.jpg",
+    "target": "src/assets/prod/ai/011010075-81552.jpg",
+    "sha256": "561d61a78c834dd29d23676cff2319cdd3ac984bbea40593a7feb42b93df6e94"
+  },
+  {
+    "sku": "011010000081550",
+    "name": "GLUCOX, GLUCOSA SOLUCIÓN ESTABILIZADA Y VALORADA PARA PRUEBA DE TOLERANCIA A LA GLUCOSA",
+    "file": "011010000081550.jpg",
+    "target": "src/assets/prod/ai/011010000081550.jpg",
+    "sha256": "a423aa3176db545674621ce749a521772ffac6277faf442e279acece41d51c5f"
+  },
+  {
+    "sku": "01101820004X125",
+    "name": "GRAM. EQUIPO REACTIVOS 4X125 ML",
+    "file": "01101820004X125.jpg",
+    "target": "src/assets/prod/ai/01101820004X125.jpg",
+    "sha256": "78bf47b3cc5d48a1b58d4725e65b6813dceb9332e4a7a123d25d842ef750f152"
+  },
+  {
+    "sku": "011010000082000",
+    "name": "GRAM. EQUIPO. Reactivos para Tinción Bacterologica. 3 Frascos de 125ML, 1 Violeta de",
+    "file": "011010000082000.jpg",
+    "target": "src/assets/prod/ai/011010000082000.jpg",
+    "sha256": "3aafae83bff81455f6cb7bc0cab7a8dabc595b92c168a7fcd76371aad2805cb6"
+  },
+  {
+    "sku": "011010000082200",
+    "name": "HEMOCROM DE 3X100 ML , HEMOCOLORANTE POLICROMO PARA PARA LA TINSIÓN RAPIDA DE FROTIS",
+    "file": "011010000082200.jpg",
+    "target": "src/assets/prod/ai/011010000082200.jpg",
+    "sha256": "58106252a30bbd6dcf314d26bb870570b75b079790cc22cb80e465f6b5e67d71"
+  },
+  {
+    "sku": "011010000082210",
+    "name": "HEMOCROM-FIX, Hemocolorante polícromo c/fijador, p/tinción rápida de frotis sanguíneos;",
+    "file": "011010000082210.jpg",
+    "target": "src/assets/prod/ai/011010000082210.jpg",
+    "sha256": "2fa1369cef2f4463e185140a8148af77b34887e1c9f54d599c97d00151598c79"
+  },
+  {
+    "sku": "011010000043260",
+    "name": "HIDROXIDO DE POTACIO, TECNICO ESCAMAS DE 500 G",
+    "file": "011010000043260.jpg",
+    "target": "src/assets/prod/ai/011010000043260.jpg",
+    "sha256": "651c69cdf8a924b174aded2bcb304ec39aa2b2ee3bfab503d834611a32d88c4e"
+  },
+  {
+    "sku": "011010000054000",
+    "name": "HIDROXIDO DE POTASIO DE 500 ML, SOLUCION CON UNA CONCENTRACION MAXIMA DEL 10%",
+    "file": "011010000054000.jpg",
+    "target": "src/assets/prod/ai/011010000054000.jpg",
+    "sha256": "9698c42c50ed8f9660e7f1b162380cff0ef4a6887f3602c46515379ff7a240fa"
+  },
+  {
+    "sku": "011010000063100",
+    "name": "LIQUIDO DE TURK, SOLUCION DILUYENTE DE SANGRE PARA CUENTA DE LEUCOCITOS. FRASCO DE 250 ML",
+    "file": "011010000063100.jpg",
+    "target": "src/assets/prod/ai/011010000063100.jpg",
+    "sha256": "c1b1d03ef39f236d8b159a0f701a1fddcab4641db559dbf9acba7f43a71f86d2"
+  },
+  {
+    "sku": "011010000064340",
+    "name": "MAY GREENWALD COLORANTE DE 1 LT MAESA",
+    "file": "011010000064340.jpg",
+    "target": "src/assets/prod/ai/011010000064340.jpg",
+    "sha256": "e40796aeed1d8b2b626c88a2b4dc169ca443091126bcb98b19aff387fe247cad"
+  },
+  {
+    "sku": "011010033300-10",
+    "name": "NEGRO DE ERIOCROMO T, I.C. 14645, COLORANTE E INDICADOR QUIMICO, PARA DUREZA DE AGUA,",
+    "file": "011010033300-10.jpg",
+    "target": "src/assets/prod/ai/011010033300-10.jpg",
+    "sha256": "92a0ca1e5540b87cd01b714907c30253a125ecd89b882c6c74fa310687187ca7"
+  },
+  {
+    "sku": "0110100031530-1",
+    "name": "PEROXIDO DE HIDROGENO GRADO ALIMENTICIO DEL 30% DE 1 LITRO",
+    "file": "0110100031530-1.jpg",
+    "target": "src/assets/prod/ai/0110100031530-1.jpg",
+    "sha256": "395c41cbc707e1b81991b1f70713c8c2d3baa20e9f1e2a924e36273010c0fc6f"
+  },
+  {
+    "sku": "011010000031530",
+    "name": "Peróxido de Hidrógeno, Grado Alimenticio del 30 % al 35 % de concentración. Densidad =",
+    "file": "011010000031530.jpg",
+    "target": "src/assets/prod/ai/011010000031530.jpg",
+    "sha256": "9f6860049ec02593459c7fa48039dd5b8559f9264821c53c354dfef8749c6382"
+  },
+  {
+    "sku": "011010000080730",
+    "name": "REACTIVO DE DACIE, SOL.DILUYENTE PARA CONTEO DE ERITROCITOS 500 ML",
+    "file": "011010000080730.jpg",
+    "target": "src/assets/prod/ai/011010000080730.jpg",
+    "sha256": "fd9c671d48eef5aadc5ec7eb8b61113c40b09833216206bb92580869317e114c"
+  },
+  {
+    "sku": "011010000081200",
+    "name": "REACTIVO DE EHRLICH 250 ML MODIFICACION DE REACTIVO DE KOVAC PARA DETECTAR LA PRODUCCIÓN",
+    "file": "011010000081200.jpg",
+    "target": "src/assets/prod/ai/011010000081200.jpg",
+    "sha256": "17a69e89fcae8b8b37614bfe166097a6b0e757dd1aa6ecc79f45e61ab70c64b8"
+  },
+  {
+    "sku": "0110100061690-1",
+    "name": "RESAZURINA SAL SODICA PARA DETERMINACIONES LACTICAS FRASCO DE 1gr",
+    "file": "0110100061690-1.jpg",
+    "target": "src/assets/prod/ai/0110100061690-1.jpg",
+    "sha256": "d5c989b501d4179948dc0eb7d346a6189e154796535558f5aeca12a5e7181fe2"
+  },
+  {
+    "sku": "011010000036527",
+    "name": "ROJO DE METILO, SOLUCION ACUOSA AL 1% MAXIMO DE 250 ML",
+    "file": "011010000036527.jpg",
+    "target": "src/assets/prod/ai/011010000036527.jpg",
+    "sha256": "675def21af0cd73ac0c77b1972cf521a7c5977297f5a2a2ad19b2226d79cf9da"
+  },
+  {
+    "sku": "011010060380-10",
+    "name": "ROJO TETRAZOLIO, CLORURO DE TRIFENIL 2,3,5, TETRAZOLIO, AMARILLO DEBIL, FRASCO DE 10 GRS",
+    "file": "011010060380-10.jpg",
+    "target": "src/assets/prod/ai/011010060380-10.jpg",
+    "sha256": "ee76144426b11e39b689db0967c147d90d020e239d5a328939fea3e8ec999d4f"
+  },
+  {
+    "sku": "011010000063515",
+    "name": "Rees & Ecker. Liquido para dilución de sangre util para el conteo de plaquetas 30ml",
+    "file": "011010000063515.jpg",
+    "target": "src/assets/prod/ai/011010000063515.jpg",
+    "sha256": "c3aacd520b76d61d614ddc46ebf574c230943085fd35fe4c83adc2b70d74f5bd"
+  },
+  {
+    "sku": "011010000-63520",
+    "name": "SAFRANINA: SOLUCION COLORANTE DE CONTRASTE PARA TINCION DE GRAM DE 1 LT",
+    "file": "011010000-63520.jpg",
+    "target": "src/assets/prod/ai/011010000-63520.jpg",
+    "sha256": "6d5cc84f3411090518d68e969c016f9fdb574fad1f1f7e14150b272b1ab82163"
+  },
+  {
+    "sku": "0110100063570-1",
+    "name": "STERNHEIMER-MALBIN, SOLUCION COLORANTE DIFERENCIAL PARA SEDIMENTOS URINARIOS, DE 1 LITRO",
+    "file": "0110100063570-1.jpg",
+    "target": "src/assets/prod/ai/0110100063570-1.jpg",
+    "sha256": "d0b44ad8e1fb6d30d04aba40758a46920c2e76cffad98de2af604999bcfb50f3"
+  },
+  {
+    "sku": "011010000080850",
+    "name": "SULFATO DE ZINC, Solucion acuosa al 33% reactivo de faust para flotación de heces 1000 ML",
+    "file": "011010000080850.jpg",
+    "target": "src/assets/prod/ai/011010000080850.jpg",
+    "sha256": "cbb8e763f9b1dc3e063a140c844a8c0e8feb9f01ac1c1d084deb653147e5cef5"
+  },
+  {
+    "sku": "011010000081551",
+    "name": "Sol. Glucosada 250 ml = 50 grs Solución estabilizada y valorada, para prueba de",
+    "file": "011010000081551.jpg",
+    "target": "src/assets/prod/ai/011010000081551.jpg",
+    "sha256": "45e8eb0884595945a9eb78095e01cd8f146ace5b384ace3c8bc1d16533be154c"
+  },
+  {
+    "sku": "011010000063540",
+    "name": "Sudan III, Solución alcohólica colorante para grasas según fórmula de Herxheimer. 125ML",
+    "file": "011010000063540.jpg",
+    "target": "src/assets/prod/ai/011010000063540.jpg",
+    "sha256": "c65e6ad47968a63b469832ad13cf20b46b66c836bc07d091e295d4ceb763d933"
+  },
+  {
+    "sku": "011010000-63400",
+    "name": "Violeta de Genciana, Violeta Cristal 1LT. Solución Colorante según fórmula de Hucker,",
+    "file": "011010000-63400.jpg",
+    "target": "src/assets/prod/ai/011010000-63400.jpg",
+    "sha256": "bf2108a661da68e460b4abe218f83ad0a0246c900b2cc112b28ae88fe267fb92"
+  },
+  {
+    "sku": "011010000064000",
+    "name": "WRIGHT SOLUCIÓN COLORANTE POLICROMA, ESTABLE, PARA TINCIÓN DE CELULAS Y/O PARASITOS",
+    "file": "011010000064000.jpg",
+    "target": "src/assets/prod/ai/011010000064000.jpg",
+    "sha256": "76c5a0409976d2a58881ddc556d4f23b8c9863eada675f128189e9f0b922205c"
+  },
+  {
+    "sku": "0110182305-2X10",
+    "name": "WRIGHT- GIEMSA, EQUIPO CONSTA DE SOLUCION COLORANTE Y SOLUCION BUFFER. 2 X 1000 ML",
+    "file": "0110182305-2X10.jpg",
+    "target": "src/assets/prod/ai/0110182305-2X10.jpg",
+    "sha256": "b3373da073a97b26c22151bd9f596fbfd0f18ca6aacc52398f6b72baedc7bac9"
+  },
+  {
+    "sku": "011010000061400",
+    "name": "Wright, Colorante en polvo, polícromo, balanceado, para la tinción diferenciada de",
+    "file": "011010000061400.jpg",
+    "target": "src/assets/prod/ai/011010000061400.jpg",
+    "sha256": "167d155b9d60ad21465a96e76be9fbf9aa4ff1b69f7d0efc9f5cec0a2500a060"
+  },
+  {
+    "sku": "011010000044500",
+    "name": "XILOL FRASCO DE 1000 ML",
+    "file": "011010000044500.jpg",
+    "target": "src/assets/prod/ai/011010000044500.jpg",
+    "sha256": "67f56aab100f327c1d0c0001966d12bc3d4276799daf878ffd91b26e80b4109c"
+  },
+  {
+    "sku": "011010000-80920",
+    "name": "YODO GRAM: Solución colorante estable para la tincion bacteriológica de gram DE 1 LT",
+    "file": "011010000-80920.jpg",
+    "target": "src/assets/prod/ai/011010000-80920.jpg",
+    "sha256": "99657fe5d748304d97eb5b01ae95d88c8ed83dba0a90523c8bda5931340675ba"
+  },
+  {
+    "sku": "01101080920-500",
+    "name": "YODO GRAM: Solución colorante estable para la tincion bacteriológica de gram DE 500 ML",
+    "file": "01101080920-500.jpg",
+    "target": "src/assets/prod/ai/01101080920-500.jpg",
+    "sha256": "4bcce46d4c3ca5b2a860866bd67a73f4ae39e83dd996b7fe7416cd35963a1172"
+  },
+  {
+    "sku": "011010000080900",
+    "name": "YODO LUGOL, SOLUCION COLORANTE, ESTABLE, CONCENTRADA AL 5% APROXIMADAMENTE SEGÚN FORMULA",
+    "file": "011010000080900.jpg",
+    "target": "src/assets/prod/ai/011010000080900.jpg",
+    "sha256": "2c5a1cea02d8128fce917d4e415e8ad3a83bc84b2477c2f04cd804d43937d405"
+  },
+  {
+    "sku": "0110150MIL80900",
+    "name": "YODO LUGOL: SOLUCION COLORANTE DE 50 ML, ESTABLE CONCENTRADA AL 5% APROX SEGUN FORMULA",
+    "file": "0110150MIL80900.jpg",
+    "target": "src/assets/prod/ai/0110150MIL80900.jpg",
+    "sha256": "d3e9547913f3f527f356f231757768d60452b34985b487ebecdd90b3c44d09e5"
+  },
+  {
+    "sku": "0110180900-1000",
+    "name": "YODO LUGOL: SOLUCION COLORANTE, ESTABLE CONCENTRADA AL 5% APROX SEGUN FORMULA MODIFICADA",
+    "file": "0110180900-1000.jpg",
+    "target": "src/assets/prod/ai/0110180900-1000.jpg",
+    "sha256": "307dc0897ce73a31be0cc65b566523873fa4280134aa7e60e133a8c867e8e6f5"
+  },
+  {
+    "sku": "011010000082100",
+    "name": "ZIEHL NEELSEN, Equipo de colorantes para la tinción de BAAR (Bacilios Alcohol Acido",
+    "file": "011010000082100.jpg",
+    "target": "src/assets/prod/ai/011010000082100.jpg",
+    "sha256": "eca39e2d286010450b8b9c59c3642ecd72ad8607b90730290f1e5810c2cf086c"
+  }
+]
