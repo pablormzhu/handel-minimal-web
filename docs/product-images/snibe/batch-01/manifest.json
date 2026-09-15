@@ -1,0 +1,429 @@
+[
+  {
+    "sku": "20701130219015M",
+    "name": "2019 n-CoV IgG CON 100 PRUEBAS",
+    "file": "20701130219015M.jpg",
+    "target": "src/assets/prod/ai/20701130219015M.jpg",
+    "sha256": "2d5562477efae322a752eee94adac337ed56376a4d3bf4ab1754335626b4fad8"
+  },
+  {
+    "sku": "20701130219016M",
+    "name": "2019 n-CoV IgM CON 100 PRUEBAS",
+    "file": "20701130219016M.jpg",
+    "target": "src/assets/prod/ai/20701130219016M.jpg",
+    "sha256": "8c4ade246304af2bfafc9e449524d1a4d1c6ea0b66310148c9e20fcb39038b4a"
+  },
+  {
+    "sku": "20701130201009M",
+    "name": "CA 125. CON 100 PRUEBAS",
+    "file": "20701130201009M.jpg",
+    "target": "src/assets/prod/ai/20701130201009M.jpg",
+    "sha256": "8ce1eca3dde25379a7aca784ca786f04cb1b077b4c18703d7307f9f15f968f10"
+  },
+  {
+    "sku": "20701130201010M",
+    "name": "CA 15-3 CON 100 PRUEBAS",
+    "file": "20701130201010M.jpg",
+    "target": "src/assets/prod/ai/20701130201010M.jpg",
+    "sha256": "71b1674c2b36d09420a5adc3b080c2d463602392f84531728d68a47232d23d33"
+  },
+  {
+    "sku": "20701130201011M",
+    "name": "CA 19-9 CON 100 PRUEBAS",
+    "file": "20701130201011M.jpg",
+    "target": "src/assets/prod/ai/20701130201011M.jpg",
+    "sha256": "c6abc70bef44bdb2a805d9f9d564b84bc3d51e0835a494654af6ff9404c0a657"
+  },
+  {
+    "sku": "20701130298002M",
+    "name": "CORTISOL CON 100 PRUEBAS",
+    "file": "20701130298002M.jpg",
+    "target": "src/assets/prod/ai/20701130298002M.jpg",
+    "sha256": "2d2c95a53ec51e81952b33d3cf0bef960d3ba68cba321fe95b037912b3389403"
+  },
+  {
+    "sku": "20701130698002M",
+    "name": "CORTISOL CON 50 PRUEBAS",
+    "file": "20701130698002M.jpg",
+    "target": "src/assets/prod/ai/20701130698002M.jpg",
+    "sha256": "e43823f4c4b4c5a2b75ba9d18c307943990e5115faab3266aa8a2ee25c5f5bca"
+  },
+  {
+    "sku": "20701130211004M",
+    "name": "MAGLUMI 25 OH-VITAMIN D. CON 100 PRUEBAS",
+    "file": "20701130211004M.jpg",
+    "target": "src/assets/prod/ai/20701130211004M.jpg",
+    "sha256": "f2fd262c9a1da58ac129d5888bcdf9ec851fa2b579e33275fcb60031c6aeac2e"
+  },
+  {
+    "sku": "20701130201002M",
+    "name": "MAGLUMI AFP CON 100 PRUEBAS",
+    "file": "20701130201002M.jpg",
+    "target": "src/assets/prod/ai/20701130201002M.jpg",
+    "sha256": "9e94540ec853de30cfdf05fac23c0ea60087c38b5d7779a50ad55c9abb20630d"
+  },
+  {
+    "sku": "20701130203011M",
+    "name": "MAGLUMI ANTI-TPO CON 100 PRUEBAS",
+    "file": "20701130203011M.jpg",
+    "target": "src/assets/prod/ai/20701130203011M.jpg",
+    "sha256": "b537ac85fac17a31f38cf278c0fe167ab1686b4d395e2a079dbf609f7713b7ce"
+  },
+  {
+    "sku": "20701130201003M",
+    "name": "MAGLUMI CEA CON 100 PRUEBAS",
+    "file": "20701130201003M.jpg",
+    "target": "src/assets/prod/ai/20701130201003M.jpg",
+    "sha256": "32587bde1aa075da45858bcb4106908803bbbb49ca047f8e6b7cba1150cb4c14"
+  },
+  {
+    "sku": "20701130602012M",
+    "name": "MAGLUMI DHEA-S CON 50 PRUEBAS",
+    "file": "20701130602012M.jpg",
+    "target": "src/assets/prod/ai/20701130602012M.jpg",
+    "sha256": "e451d2ec500d3b4f04df45fe33e3d2e0b9fc992b59ceca3146a742b57f2fb096"
+  },
+  {
+    "sku": "20701130206008M",
+    "name": "MAGLUMI DIMERO D CON 100 PBAS",
+    "file": "20701130206008M.jpg",
+    "target": "src/assets/prod/ai/20701130206008M.jpg",
+    "sha256": "37a094c7173f5dae66ae43222ab0ed339ba1a82b85f3c8660da0ec46e3574023"
+  },
+  {
+    "sku": "20701130606008M",
+    "name": "MAGLUMI DIMERO D CON 50 PRUEBAS",
+    "file": "20701130606008M.jpg",
+    "target": "src/assets/prod/ai/20701130606008M.jpg",
+    "sha256": "b30e5e3dfe521f49117ea0bbd7e14afdc48662a49c8deefae234b57b24554c88"
+  },
+  {
+    "sku": "20701130215003M",
+    "name": "MAGLUMI EBV VCA IgG CON 100 PRUEBAS",
+    "file": "20701130215003M.jpg",
+    "target": "src/assets/prod/ai/20701130215003M.jpg",
+    "sha256": "9c0e6fe693bbd6df147ab5e6aba2c41b520c1fdaf09022108b32ed71e008d0a6"
+  },
+  {
+    "sku": "20701130202007M",
+    "name": "MAGLUMI ESTRADIOL ( E2 ) CON 100 PRUEBAS",
+    "file": "20701130202007M.jpg",
+    "target": "src/assets/prod/ai/20701130202007M.jpg",
+    "sha256": "613b02a0d165e0a63c08990078e0db43d0d5b4f17e5ee58a5afa51e98e165abc"
+  },
+  {
+    "sku": "20701130602007M",
+    "name": "MAGLUMI ESTRADIOL ( E2 ) CON 50 PRUEBAS",
+    "file": "20701130602007M.jpg",
+    "target": "src/assets/prod/ai/20701130602007M.jpg",
+    "sha256": "0ee110453d9c950b5f41b2cfa128a6a201dd77ec73fa08b4629693474d7b0af4"
+  },
+  {
+    "sku": "20701130201005M",
+    "name": "MAGLUMI F-PSA CON 100 PRUEBAS",
+    "file": "20701130201005M.jpg",
+    "target": "src/assets/prod/ai/20701130201005M.jpg",
+    "sha256": "42ceb5e502e997bc254ed371b01d25304a333e6f24c7331b9ee9a5e78132bde9"
+  },
+  {
+    "sku": "20701130602011M",
+    "name": "MAGLUMI FREE TESTOSTERONE CON 50 PRUEBAS",
+    "file": "20701130602011M.jpg",
+    "target": "src/assets/prod/ai/20701130602011M.jpg",
+    "sha256": "61c10d9c7155a53828ebb6114255d1e0ba6ce20e791e572db786a178400a3fde"
+  },
+  {
+    "sku": "20701130202001M",
+    "name": "MAGLUMI FSH CON 100 PRUEBAS",
+    "file": "20701130202001M.jpg",
+    "target": "src/assets/prod/ai/20701130202001M.jpg",
+    "sha256": "db55ce8ec436a0a81de354ba0a5a8b143e8f044bfe294bac7c2b754cd73c927e"
+  },
+  {
+    "sku": "20701130602001M",
+    "name": "MAGLUMI FSH CON 50 PRUEBAS",
+    "file": "20701130602001M.jpg",
+    "target": "src/assets/prod/ai/20701130602001M.jpg",
+    "sha256": "9277097a81864314fcb1d594edc2cde215782b6c51fd2b116b0ee841016ee881"
+  },
+  {
+    "sku": "20701130203005M",
+    "name": "MAGLUMI FT3 CON 100 PRUEBAS",
+    "file": "20701130203005M.jpg",
+    "target": "src/assets/prod/ai/20701130203005M.jpg",
+    "sha256": "7088a9723a6d2d6608c962982ae290840414a7cf414dffd9e20a2ed68369e5c7"
+  },
+  {
+    "sku": "20701130603005M",
+    "name": "MAGLUMI FT3 CON 50 PRUEBAS",
+    "file": "20701130603005M.jpg",
+    "target": "src/assets/prod/ai/20701130603005M.jpg",
+    "sha256": "13bd33a5e1c99f284ebf0d2b95fe54e234fabc096c620ee1154169b0e3e28464"
+  },
+  {
+    "sku": "20701130203004M",
+    "name": "MAGLUMI FT4 CON 100 PRUEBAS",
+    "file": "20701130203004M.jpg",
+    "target": "src/assets/prod/ai/20701130203004M.jpg",
+    "sha256": "dc45ea2f66dce888dbbc35800a960fc2612a55368b8609576538aec7d293a0c7"
+  },
+  {
+    "sku": "20701130298001M",
+    "name": "MAGLUMI GH CON 100 PRUEBAS",
+    "file": "20701130298001M.jpg",
+    "target": "src/assets/prod/ai/20701130298001M.jpg",
+    "sha256": "d7d08a288054211c3c861cacc2e9d0ad029880ca06bc169632e4a928ce510646"
+  },
+  {
+    "sku": "20701130698001M",
+    "name": "MAGLUMI GH CON 50 PRUEBAS",
+    "file": "20701130698001M.jpg",
+    "target": "src/assets/prod/ai/20701130698001M.jpg",
+    "sha256": "1bee32787ea7522fd4c57ee8005fac8ff03fd80c6fd045f6b68d996d97ffe44c"
+  },
+  {
+    "sku": "20701130202003M",
+    "name": "MAGLUMI HCG/B-HCG CON 100 PBAS",
+    "file": "20701130202003M.jpg",
+    "target": "src/assets/prod/ai/20701130202003M.jpg",
+    "sha256": "f487a760b3d2dfe3d68626a14ee3001063227aca200dd58e627d8af4e7440733"
+  },
+  {
+    "sku": "20701130602003M",
+    "name": "MAGLUMI HCG/B-HCG CON 50 PBAS",
+    "file": "20701130602003M.jpg",
+    "target": "src/assets/prod/ai/20701130602003M.jpg",
+    "sha256": "a1e3d2b8cbabfa69f8d06889321b9541facb0f94114ef8d74730ec4ac56a278f"
+  },
+  {
+    "sku": "20701130205002M",
+    "name": "MAGLUMI INSULINA CON 100 PRUEBAS",
+    "file": "20701130205002M.jpg",
+    "target": "src/assets/prod/ai/20701130205002M.jpg",
+    "sha256": "1bfd669598abdd56875d3acd73369c5eebf8405268186e181ac3a4cc447165a4"
+  },
+  {
+    "sku": "20701130605002M",
+    "name": "MAGLUMI INSULINA CON 50 PRUEBAS",
+    "file": "20701130605002M.jpg",
+    "target": "src/assets/prod/ai/20701130605002M.jpg",
+    "sha256": "97a03c2bea5ae16705203714d6227e911607ccfb1e352ad90742a54b0220cadc"
+  },
+  {
+    "sku": "20701130208001M",
+    "name": "MAGLUMI IgE CON 100 PRUEBAS",
+    "file": "20701130208001M.jpg",
+    "target": "src/assets/prod/ai/20701130208001M.jpg",
+    "sha256": "757aaa4f6bcd0d1c4c2f32f0717eb3f7394809b7db86562f5caafb68a5fa60a8"
+  },
+  {
+    "sku": "20701130608001M",
+    "name": "MAGLUMI IgE CON 50 PRUEBAS",
+    "file": "20701130608001M.jpg",
+    "target": "src/assets/prod/ai/20701130608001M.jpg",
+    "sha256": "236c1c091c9b7d114e0578de7653630bd69334498aaccb838b70790c4fe862a8"
+  },
+  {
+    "sku": "20701130202002M",
+    "name": "MAGLUMI LH CON 100 PRUEBAS",
+    "file": "20701130202002M.jpg",
+    "target": "src/assets/prod/ai/20701130202002M.jpg",
+    "sha256": "a4a304fb93c22e1da37e447baeeaa090e2dda8a8cbb77bad9572d1c4cdcc86f6"
+  },
+  {
+    "sku": "20701130602002M",
+    "name": "MAGLUMI LH CON 50 PRUEBAS",
+    "file": "20701130602002M.jpg",
+    "target": "src/assets/prod/ai/20701130602002M.jpg",
+    "sha256": "6fa97b7800ef3b6d10c7afa79d07212fc2bf76dcf171951215e83f0f7c7e6d21"
+  },
+  {
+    "sku": "2070130299006M1",
+    "name": "MAGLUMI LIGHT CHECK 1X2 ML",
+    "file": "2070130299006M1.jpg",
+    "target": "src/assets/prod/ai/2070130299006M1.jpg",
+    "sha256": "8cea3358e8b8927ccc07c100e7aba032a165874e9e7a09804eb71c843ed49421"
+  },
+  {
+    "sku": "20701130299006M",
+    "name": "MAGLUMI LIGHT CHECK 5X2 ML",
+    "file": "20701130299006M.jpg",
+    "target": "src/assets/prod/ai/20701130299006M.jpg",
+    "sha256": "c0b506eda1a689a5a765890161c6b981b7c1db11983b6331be236c195be940e1"
+  },
+  {
+    "sku": "20701130206003M",
+    "name": "MAGLUMI MYOGLOBIN CON 100 PRUEBAS",
+    "file": "20701130206003M.jpg",
+    "target": "src/assets/prod/ai/20701130206003M.jpg",
+    "sha256": "346dfa6689d548a6374a165f8c2cb318b6c76975fba69fd37b168f69ddf23a10"
+  },
+  {
+    "sku": "20701130605001M",
+    "name": "MAGLUMI PEPTIDO C CON 50 PRUEBAS",
+    "file": "20701130605001M.jpg",
+    "target": "src/assets/prod/ai/20701130605001M.jpg",
+    "sha256": "55eccb1cfffa2407c4933240fdc1023dd164508af93f7a69a8165531fa2bcc29"
+  },
+  {
+    "sku": "20701130202006M",
+    "name": "MAGLUMI PRL CON 100 PRUEBAS",
+    "file": "20701130202006M.jpg",
+    "target": "src/assets/prod/ai/20701130202006M.jpg",
+    "sha256": "2e00380d0b27e3de77b633cbad97e98ceae933c123e95ccd49908a2ccf42acfd"
+  },
+  {
+    "sku": "20701130602006M",
+    "name": "MAGLUMI PRL CON 50 PRUEBAS",
+    "file": "20701130602006M.jpg",
+    "target": "src/assets/prod/ai/20701130602006M.jpg",
+    "sha256": "ee5416f3f3c709c610e79841c30d0af8e55f6fd73da5d82426034d6ca00c21df"
+  },
+  {
+    "sku": "20701130216001M",
+    "name": "MAGLUMI PROCALCITONINA ( PCT) CON 100 PRUEBAS",
+    "file": "20701130216001M.jpg",
+    "target": "src/assets/prod/ai/20701130216001M.jpg",
+    "sha256": "78b147f18ec925578fb56e9d688f25ff0bc9b8c7ca0d5eba58638b8d34a6def3"
+  },
+  {
+    "sku": "20701130602009M",
+    "name": "MAGLUMI PROGESTERONA (PRG) CON 50 PRUEBAS",
+    "file": "20701130602009M.jpg",
+    "target": "src/assets/prod/ai/20701130602009M.jpg",
+    "sha256": "dd0058f4b0edadeb1b2a26f1116e82b738d441ed53ff131bc2c04094ea420c1e"
+  },
+  {
+    "sku": "20701130202009M",
+    "name": "MAGLUMI PROGESTERONA CON 100 PRUEBAS",
+    "file": "20701130202009M.jpg",
+    "target": "src/assets/prod/ai/20701130202009M.jpg",
+    "sha256": "4b880fd17a3ddfeee9147c62370a9368607fbbb56f7eb7221f068d179db600ff"
+  },
+  {
+    "sku": "20701130201004M",
+    "name": "MAGLUMI PSA CON 100 PRUEBAS",
+    "file": "20701130201004M.jpg",
+    "target": "src/assets/prod/ai/20701130201004M.jpg",
+    "sha256": "c6a0ce44fd47573d7b5dc5e952259f697cda9ae44b2a1be83187e6d6f46ccb7a"
+  },
+  {
+    "sku": "2070100630003-1",
+    "name": "MAGLUMI REACTION MODULES 1",
+    "file": "2070100630003-1.jpg",
+    "target": "src/assets/prod/ai/2070100630003-1.jpg",
+    "sha256": "e08a7d0a74cc127e0d4b6dd1e62bb92ae251de4f99430d96df00ee135a5d1ff9"
+  },
+  {
+    "sku": "207010000630003",
+    "name": "MAGLUMI REACTION MODULES 6 CAJAS CON 64 TIRAS",
+    "file": "207010000630003.jpg",
+    "target": "src/assets/prod/ai/207010000630003.jpg",
+    "sha256": "a089e0124df23249bab326e39b232e7ad1be1f96a5fadbee2cfce5da91b16d49"
+  },
+  {
+    "sku": "2070130299004M1",
+    "name": "MAGLUMI STARTER KIT1X230 ML. C/U STARTER 1 Y 2",
+    "file": "2070130299004M1.jpg",
+    "target": "src/assets/prod/ai/2070130299004M1.jpg",
+    "sha256": "4ecc0602fba5906ad35e67d841cd66fb47e033073ec29c99b5084ab172c616e4"
+  },
+  {
+    "sku": "20701130299004M",
+    "name": "MAGLUMI STARTER KIT3X230 ML. C/U STARTER 1 Y 2",
+    "file": "20701130299004M.jpg",
+    "target": "src/assets/prod/ai/20701130299004M.jpg",
+    "sha256": "fe395d684d2552d007e31cda861264f7a10b430c4d5a72899481eee4bbe901a2"
+  },
+  {
+    "sku": "20701130203003M",
+    "name": "MAGLUMI T3 CON 100 PRUEBAS",
+    "file": "20701130203003M.jpg",
+    "target": "src/assets/prod/ai/20701130203003M.jpg",
+    "sha256": "342c80cdae4777816a195ce758e5cf92431011a6af47fe7e100e923399e65bee"
+  },
+  {
+    "sku": "20701130603003M",
+    "name": "MAGLUMI T3 CON 50 PRUEBAS",
+    "file": "20701130603003M.jpg",
+    "target": "src/assets/prod/ai/20701130603003M.jpg",
+    "sha256": "427e57c2ff0e3cee302137f799c81cd5a76405ae7edcf016fc596301d9312466"
+  },
+  {
+    "sku": "20701130203002M",
+    "name": "MAGLUMI T4 CON 100 PRUEBAS",
+    "file": "20701130203002M.jpg",
+    "target": "src/assets/prod/ai/20701130203002M.jpg",
+    "sha256": "acae68744a1ebc1148b5cf3aa932805cb72f0ae14f5f65cb3f75ca461df4a690"
+  },
+  {
+    "sku": "20701130603002M",
+    "name": "MAGLUMI T4 CON 50 PRUEBAS",
+    "file": "20701130603002M.jpg",
+    "target": "src/assets/prod/ai/20701130603002M.jpg",
+    "sha256": "6762515d968e5a4827e9c4ee35d58fa2483d09b79199b8d0e79aad106552d2a9"
+  },
+  {
+    "sku": "20701130202010M",
+    "name": "MAGLUMI TESTOSTERONA ( TEST ) CON 100 PRUEBAS",
+    "file": "20701130202010M.jpg",
+    "target": "src/assets/prod/ai/20701130202010M.jpg",
+    "sha256": "2591b2cd3c06eb648b256bcfdfca271d41269c112d628f2b67bbc12c0dcbd15d"
+  },
+  {
+    "sku": "20701130602010M",
+    "name": "MAGLUMI TESTOSTERONA (TEST) CON 50 PRUEBAS",
+    "file": "20701130602010M.jpg",
+    "target": "src/assets/prod/ai/20701130602010M.jpg",
+    "sha256": "b0457b63f3bbd452d33961228bd7f43a0f02d25b368bf2bf6d4a333ab6cd4966"
+  },
+  {
+    "sku": "20701130202011M",
+    "name": "MAGLUMI TESTOSTERONA LIBRE CON 100 PRUEBAS",
+    "file": "20701130202011M.jpg",
+    "target": "src/assets/prod/ai/20701130202011M.jpg",
+    "sha256": "01f47a4445c286b9b73e40480fbf4db57bc990ced6652b16d44961eeb15c7e62"
+  },
+  {
+    "sku": "20701130203007M",
+    "name": "MAGLUMI TGA CON 100 PRUEBAS",
+    "file": "20701130203007M.jpg",
+    "target": "src/assets/prod/ai/20701130203007M.jpg",
+    "sha256": "a8fe0da1420f5ed64e36133f31844d81528e670e64c77232f9209e421c560bc5"
+  },
+  {
+    "sku": "20701130203001M",
+    "name": "MAGLUMI TSH (3ra. GENERACIÓN) CON 100 PRUEBAS",
+    "file": "20701130203001M.jpg",
+    "target": "src/assets/prod/ai/20701130203001M.jpg",
+    "sha256": "4cf040f695079e1d88ce78eb81186fc805a1fa261e25941d3756da30e861c413"
+  },
+  {
+    "sku": "20701130299007M",
+    "name": "MAGLUMI TUBING CLEANING SOL 1X500 ML",
+    "file": "20701130299007M.jpg",
+    "target": "src/assets/prod/ai/20701130299007M.jpg",
+    "sha256": "e21214ad04bf37f6dfcad2032efbaa1a9b0e3630e78f38dd860c8a9d9ef655a2"
+  },
+  {
+    "sku": "2070130299005M1",
+    "name": "MAGLUMI WASH LIQUID 1X714 ML",
+    "file": "2070130299005M1.jpg",
+    "target": "src/assets/prod/ai/2070130299005M1.jpg",
+    "sha256": "ce9fbfe0b4865c7d22709d2d162c6043751eea930a9d4b0e6a2431b33e10d5b0"
+  },
+  {
+    "sku": "20701130206002M",
+    "name": "TROPONINA I CON 100 PRUEBAS",
+    "file": "20701130206002M.jpg",
+    "target": "src/assets/prod/ai/20701130206002M.jpg",
+    "sha256": "86a92f709f12cc7cd4f6fb10e13f153b648f2021394d368dbe57ed5ea5a67641"
+  },
+  {
+    "sku": "20701130606002M",
+    "name": "TROPONINA I CON 50 PRUEBAS",
+    "file": "20701130606002M.jpg",
+    "target": "src/assets/prod/ai/20701130606002M.jpg",
+    "sha256": "3cd486e423b8e2ffd01e55a4e3ce73ac9f7540f9fc568d7c4fab3ea096685f52"
+  }
+]
