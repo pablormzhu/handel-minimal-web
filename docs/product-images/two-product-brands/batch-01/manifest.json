@@ -1,0 +1,218 @@
+[
+  {
+    "sku": "167018800004001",
+    "brand": "HARMONY",
+    "brandSlug": "harmony",
+    "name": "ESPEJO VAGINAL TAMAÑO CHICO DESECHABLE",
+    "file": "167018800004001.jpg",
+    "target": "src/assets/prod/ai/167018800004001.jpg",
+    "sha256": "1e4afcf4eafdbe83c98963f7d0df00613ad3a66511c0a2c3f81b95ff0ff33d68"
+  },
+  {
+    "sku": "167018800004002",
+    "brand": "HARMONY",
+    "brandSlug": "harmony",
+    "name": "ESPEJO VAGINAL TAMAÑO MEDIANO DESECHABLE",
+    "file": "167018800004002.jpg",
+    "target": "src/assets/prod/ai/167018800004002.jpg",
+    "sha256": "e2f820730e42fc316d687981942e92831ebb7ed77a04ede85f03844202b0d2dd"
+  },
+  {
+    "sku": "2410100HS-2200A",
+    "brand": "HEATHROW",
+    "brandSlug": "heathrow",
+    "name": "CAJA DROPLET RECOLECTORA DE MUESTRAS DE SANGRE, CON ASA Y DIVISIONES, 2 INSERTOS CON",
+    "file": "2410100HS-2200A.jpg",
+    "target": "src/assets/prod/ai/2410100HS-2200A.jpg",
+    "sha256": "ecbbf22ad7f892f262579a2c3564e3bd98c8782a9dae35a9e6adee9ae59dddfb"
+  },
+  {
+    "sku": "24101000HS-2202",
+    "brand": "HEATHROW",
+    "brandSlug": "heathrow",
+    "name": "CUBIERTA PARA",
+    "file": "24101000HS-2202.jpg",
+    "target": "src/assets/prod/ai/24101000HS-2202.jpg",
+    "sha256": "4ca368af90c1b776f25074251c53df7d13579934945304df1000b8cb9e8951af"
+  },
+  {
+    "sku": "952014504215125",
+    "brand": "KIMAX",
+    "brandSlug": "kimax",
+    "name": "TUBO DE ENSAYE DECORADO CON LABIO 16 ML. PIEZA",
+    "file": "952014504215125.jpg",
+    "target": "src/assets/prod/ai/952014504215125.jpg",
+    "sha256": "8f748e703320271cb0f4d29493bb36bf4d20d99b9cca9d8a85b844e9a6a5191f"
+  },
+  {
+    "sku": "95201K46749-115",
+    "brand": "KIMAX",
+    "brandSlug": "kimax",
+    "name": "TUBO PARA HEMATOCRITO WINTROBE 1 ML. PIEZA",
+    "file": "95201K46749-115.jpg",
+    "target": "src/assets/prod/ai/95201K46749-115.jpg",
+    "sha256": "0f417c83c62fb78671eb2f11f0b2bc661dd53e98949e3864f4d049ada6cc2e5c"
+  },
+  {
+    "sku": "05701000000DM01",
+    "brand": "LAFON",
+    "brandSlug": "lafon",
+    "name": "*MONOLAF CON 50 PRUEBAS MARCA LAFON*",
+    "file": "05701000000DM01.jpg",
+    "target": "src/assets/prod/ai/05701000000DM01.jpg",
+    "sha256": "39c47ab8ca248be245989834ccdd153a2e351630fdb12553f9ecfcbea7ebb201"
+  },
+  {
+    "sku": "05701000000S001",
+    "brand": "LAFON",
+    "brandSlug": "lafon",
+    "name": "HEMOLAF PARA DETERMINACIONES DE SANGRE EN ESES",
+    "file": "05701000000S001.jpg",
+    "target": "src/assets/prod/ai/05701000000S001.jpg",
+    "sha256": "caea84e0b0cc64575700366ed51b50c7e6482c253599436faf1d1feb4fa52600"
+  },
+  {
+    "sku": "3740100000AL332",
+    "brand": "LAZZER CARE",
+    "brandSlug": "lazzer-care",
+    "name": "ALGODON PLISADO DE 300 G",
+    "file": "3740100000AL332.jpg",
+    "target": "src/assets/prod/ai/3740100000AL332.jpg",
+    "sha256": "7fe939076a1e917898cd7b54239f180d8f18ee047a17e8747d270b4ab5e9c24d"
+  },
+  {
+    "sku": "3740100000AL335",
+    "brand": "LAZZER CARE",
+    "brandSlug": "lazzer-care",
+    "name": "TORUNDAS ALGODON NO ESTERILIZADO 500 G 100% ALGODON",
+    "file": "3740100000AL335.jpg",
+    "target": "src/assets/prod/ai/3740100000AL335.jpg",
+    "sha256": "aadc063eaabd8b653f1121af445c2fdfe1729e934c83abd81b08402331ff0c92"
+  },
+  {
+    "sku": "31601VAR-FCO-75",
+    "brand": "NACIONAL",
+    "brandSlug": "nacional",
+    "name": "FRASCO GOTERO ECONOMICO AMBAR 75 ML",
+    "file": "31601VAR-FCO-75.jpg",
+    "target": "src/assets/prod/ai/31601VAR-FCO-75.jpg",
+    "sha256": "45d15541ff275045009a358aa3f59d054615a380ab99ecc18bccf5d91f7bba8f"
+  },
+  {
+    "sku": "31601VAR-FCO-12",
+    "brand": "NACIONAL",
+    "brandSlug": "nacional",
+    "name": "FRASCO GOTERO ECONOMICO AMBAR DE 125 ML",
+    "file": "31601VAR-FCO-12.jpg",
+    "target": "src/assets/prod/ai/31601VAR-FCO-12.jpg",
+    "sha256": "8e0781ff63dab29b5f475f044834179c75c9b628d1a0ac1570cc9fae7f13ae32"
+  },
+  {
+    "sku": "37201PPEAID2022",
+    "brand": "PPE-AID",
+    "brandSlug": "ppe-aid",
+    "name": "GUANTES DE NITRILO, LIBRE DE POLVO, NO ESTERIL",
+    "file": "37201PPEAID2022.jpg",
+    "target": "src/assets/prod/ai/37201PPEAID2022.jpg",
+    "sha256": "f3a33829c2d761685567c1affcb6354a8a3eaa6b604e6f690dc7bb835ff730b8"
+  },
+  {
+    "sku": "37201PPEAID2023",
+    "brand": "PPE-AID",
+    "brandSlug": "ppe-aid",
+    "name": "GUANTES DE NITRILO, LIBRE DE POLVO, NO ESTERIL",
+    "file": "37201PPEAID2023.jpg",
+    "target": "src/assets/prod/ai/37201PPEAID2023.jpg",
+    "sha256": "dd6894ab977b47137a962e26fc4d45d6229ac0486933f9331a0ae6d8b08a6b0e"
+  },
+  {
+    "sku": "1750100000PW003",
+    "brand": "Plastic World",
+    "brandSlug": "plastic-world",
+    "name": "(*) VASO RECOLECTOR S/EMP 100ML PIEZA * ( descontinuado lo sustituye el catalogo:PW117 )",
+    "file": "1750100000PW003.jpg",
+    "target": "src/assets/prod/ai/1750100000PW003.jpg",
+    "sha256": "5a65972246de3339c5f36e6d497424846229917687c6eb6ca924e0ba2c32c0e1"
+  },
+  {
+    "sku": "1750100000PW106",
+    "brand": "Plastic World",
+    "brandSlug": "plastic-world",
+    "name": "BOTE PARA PRUEBA DE RECOLECCION DE 24 HORAS CON LINEA PARA GARANTIZAR LA HERMETICIDAD.",
+    "file": "1750100000PW106.jpg",
+    "target": "src/assets/prod/ai/1750100000PW106.jpg",
+    "sha256": "780e3b06efbf58769307ee743b5878d5c4986b5c1b8bd79b27e6b577d52906ad"
+  },
+  {
+    "sku": "1120100000700-F",
+    "brand": "SILICEO",
+    "brandSlug": "siliceo",
+    "name": "BOLSA RECOLECTORA DE ORINA PEDIATRICA PARA NIÑA",
+    "file": "1120100000700-F.jpg",
+    "target": "src/assets/prod/ai/1120100000700-F.jpg",
+    "sha256": "df623cf9ee2c7e71d0d24cab9f799aa2227d05117d26362f0e51a54d62ef911b"
+  },
+  {
+    "sku": "1120100000700-V",
+    "brand": "SILICEO",
+    "brandSlug": "siliceo",
+    "name": "BOLSA RECOLECTORA DE ORINA PEDIATRICA PARA NIÑO MARCA SILICEO",
+    "file": "1120100000700-V.jpg",
+    "target": "src/assets/prod/ai/1120100000700-V.jpg",
+    "sha256": "09ad375313ded6ae894a6fed1e3c1a96637bb36d80586e7d6a9709f620dbdc26"
+  },
+  {
+    "sku": "034010001205010",
+    "brand": "SPIN REACT",
+    "brandSlug": "spin-react",
+    "name": "KIT ANTIGENOS FEBRILES, AH,BH,H,O,BRUCELLA ABORTUS , PROTEUS OX-19 CON CONTROLES C( + ) Y",
+    "file": "034010001205010.jpg",
+    "target": "src/assets/prod/ai/034010001205010.jpg",
+    "sha256": "163a26822df078b07a6d0340f4ba64ae67c2519a867c4064b8e711627acb525d"
+  },
+  {
+    "sku": "034010001200405",
+    "brand": "SPIN REACT",
+    "brandSlug": "spin-react",
+    "name": "VDRL AGLUTINACION EN PORTA 1500 PRUEBAS",
+    "file": "034010001200405.jpg",
+    "target": "src/assets/prod/ai/034010001200405.jpg",
+    "sha256": "f41331ec38819f453b450d39fa01312ebeab11322230c2ed2d6143fdc5c4481a"
+  },
+  {
+    "sku": "14701UNCS90309Q",
+    "brand": "UNICO",
+    "brandSlug": "unico",
+    "name": "CELDA ( CUBETA ) REGULAR CUADRADA DE CUARZO 3.5 ML",
+    "file": "14701UNCS90309Q.jpg",
+    "target": "src/assets/prod/ai/14701UNCS90309Q.jpg",
+    "sha256": "51af283ef7dbfc2f2292a670d208ea4a7598dae00d7d5d8e88c63dc9f5d7a119"
+  },
+  {
+    "sku": "1470100000L-BC9",
+    "brand": "UNICO",
+    "brandSlug": "unico",
+    "name": "CONTADOR DIFERENCIAL DE 8 TECLAS, PIEZA",
+    "file": "1470100000L-BC9.jpg",
+    "target": "src/assets/prod/ai/1470100000L-BC9.jpg",
+    "sha256": "295236b02e6b8f451f5b9ed689604d5295dab0fa617ef4bb4ff8c26da9c6d174"
+  },
+  {
+    "sku": "2530100000VE-B3",
+    "brand": "VELAB",
+    "brandSlug": "velab",
+    "name": "MICROSCOPIO BINOCULAR BIOLOGICO. OCULARES CAMPO AMPLIO WF10 X - 18 MM. REVOLVER CUADRUPLE",
+    "file": "2530100000VE-B3.jpg",
+    "target": "src/assets/prod/ai/2530100000VE-B3.jpg",
+    "sha256": "9edf11c73ad677a43c5c88fc2e6ded2db3cf68ed02b6ad369cabe46cdb02b584"
+  },
+  {
+    "sku": "253010000VE-P30",
+    "brand": "VELAB",
+    "brandSlug": "velab",
+    "name": "PORTA OBJETOS ESMERILADO CON BANDA DE 26 X 76 MM",
+    "file": "253010000VE-P30.jpg",
+    "target": "src/assets/prod/ai/253010000VE-P30.jpg",
+    "sha256": "654bf0aeb25cc94a30892592f82295ab6b615c2ad19822dfc38056028d867f11"
+  }
+]

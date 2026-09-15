@@ -1,0 +1,275 @@
+[
+  {
+    "sku": "167018800004001",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: HARMONY small disposable vaginal speculum. One clear transparent polystyrene hinged bivalve speculum beside its individual transparent sleeve. Preserve the navy header with italic white Harmony lettering in reference, simplified readable sleeve text 'Espejo vaginal', 'CHICO', 'Desechable', '1 pieza'. Small narrow curved duckbill blades and clear ratchet handle. Show device closed in three-quarter side view, handle visible; no screw metal, no anatomy, no instructions or dates. Main size label CHICO. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://farmaciasanjorge.com/cdn/shop/files/660072000461_1.jpg?v=1779208807&width=1200",
+        "page": null,
+        "role": "See prompt for exact-product or family reference role"
+      },
+      {
+        "image": "https://farmaciasanjorge.com/cdn/shop/files/660072000461_2.jpg?v=1779208805&width=1200",
+        "page": null,
+        "role": "See prompt for exact-product or family reference role"
+      }
+    ]
+  },
+  {
+    "sku": "167018800004002",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: HARMONY MEDIUM disposable vaginal speculum. One clear transparent polystyrene hinged bivalve speculum beside its individual transparent sleeve. Preserve navy header with italic white Harmony lettering from reference, but size is MEDIANO: simplified sleeve text 'Espejo vaginal', 'MEDIANO', 'Desechable', '1 pieza'. Medium broader curved duckbill blades and clear ratchet handle. Show device closed three-quarter side view; no metal, anatomy, instructions or dates. Do not write CHICO. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://farmaciasanjorge.com/cdn/shop/files/660072000461_1.jpg?v=1779208807&width=1200",
+        "page": null,
+        "role": "See prompt for exact-product or family reference role"
+      },
+      {
+        "image": "https://farmaciasanjorge.com/cdn/shop/files/660072000461_2.jpg?v=1779208805&width=1200",
+        "page": null,
+        "role": "See prompt for exact-product or family reference role"
+      }
+    ]
+  },
+  {
+    "sku": "2410100HS-2200A",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: Heathrow Scientific HS2200A Droplet sample collection tray exactly matching image2. Blue rigid rectangular housing and tall upright blue handle with green grip, two white divided inserts, green tube rack in top-right compartment and green sliding drawer slightly ajar beneath. Empty, no supplies or sample tubes. Preserve all geometry and materials, show entire handle. Do not add the sold-separately white lid. No invented branding or labels where actual device is unmarked. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://cdn11.bigcommerce.com/s-u0sxep5kut/images/stencil/1280x1280/products/154/2199/Heathrow-Scientific-PHLEBOTOMY-COLLECTION-TRAY-_1115__01120.1717518402.jpg?c=1",
+        "page": null,
+        "role": "See prompt for exact-product or family reference role"
+      }
+    ]
+  },
+  {
+    "sku": "24101000HS-2202",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Image2 is the actual product or packaging reference; preserve its geometry and logo as specified. SUBJECT: Heathrow Scientific HS2202 removable COVER ONLY for the Droplet phlebotomy collection tray. Reproduce the exact white molded plastic tent-like shell in image2, central semicircular handle access notch and black inner edges. The tray itself is not included. One standalone cover, three-quarter view; no invented logo on the unbranded shell. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://cdn11.bigcommerce.com/s-u0sxep5kut/images/stencil/500x659/products/155/2278/Heathrow-Scientific-LID-PHLEBOTOMY-COLLECTION-TRAY-HS2202_1116__26010.1717588897.jpg?c=1",
+        "page": "https://www.heathrowscientific.com/lid-phlebotomy-collection-tray/",
+        "role": "exact model"
+      }
+    ]
+  },
+  {
+    "sku": "952014504215125",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: One KIMAX 45042-15125 borosilicate laboratory test tube, 16mL nominal capacity, 15mm outer diameter and 125mm length. Transparent cylindrical tube with a clearly flared rolled lip at open top, rounded sealed bottom, a small white ceramic rectangular marking patch and small white KIMAX wordmark near upper wall. No graduations, no cap, no liquid. Diagonal full length composition. Labeling ceramic patch blank. True scientific glassware, not drinking glass. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": []
+  },
+  {
+    "sku": "95201K46749-115",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Image2 is the actual product or packaging reference; preserve its geometry and logo as specified. SUBJECT: One KIMAX Wintrobe 1mL glass tube, slender 115mm length, open rim and closed rounded bottom, pale ochre fine graduations on the wall. Diagonal composition full length, empty. Simplify scale to finely printed graduation lines with endpoint numbers only, 0 near top and 10 near lower end. Small KIMAX marking near top; no carton. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://lancetahg.com.mx/storage/itemsview/063145/063145.jpg",
+        "page": "https://lancetahg.com.mx/producto/1969-tubo-hematocrito-wintrobe",
+        "role": "exact type"
+      }
+    ]
+  },
+  {
+    "sku": "05701000000DM01",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: LAFON MONOLAF-TEST 50 pruebas diagnostic reagent kit for mononucleosis slide agglutination. Image2 is HEMOLAF, use it only as LAFON brand-family packaging reference. Show ONE closed compact rectangular white kit box with restrained green accents and LAFON green wordmark, title 'MONOLAF-TEST', '50 pruebas'. No HEMOLAF text, no rapid-test cassette, no imagined visible kit contents. This is a representative package with simplified label, not a certified exact box. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://insulab.mx/web/image/product.template/15140/image_1024?unique=8efeaee",
+        "page": "https://insulab.mx/shop/so01a-hemolaf-tira-c-50-lafon-15140",
+        "role": "Hemolaf packaging; Lafon brand for Monolaf"
+      }
+    ]
+  },
+  {
+    "sku": "05701000000S001",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Image2 is the actual product or packaging reference; preserve its geometry and logo as specified. SUBJECT: LAFON HEMOLAF guaiac fecal occult blood strip reagent kit, 50 determinaciones. Recreate the white narrow upright box with green HEMOLAF heading and green LAFON blocks along bottom from image2. Put one small white developer bottle and two black sealed strip sachets in front. Packaging text only 'HEMOLAF', 'LAFON', '50 determinaciones', bottle 'Revelador'. No lateral flow cassette, no human samples. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://insulab.mx/web/image/product.template/15140/image_1024?unique=8efeaee",
+        "page": "https://insulab.mx/shop/so01a-hemolaf-tira-c-50-lafon-15140",
+        "role": "Hemolaf packaging; Lafon brand for Monolaf"
+      }
+    ]
+  },
+  {
+    "sku": "3740100000AL332",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Image2 is the actual product or packaging reference; preserve its geometry and logo as specified. SUBJECT: Lazzer Care absorbent PLEATED cotton 300g in a soft transparent/white horizontal sealed plastic pack with blue upper band, thin red swoosh, red Lazzer wordmark and blue cotton bloom mark as image2. Adapt the pack to 300g: label 'Lazzer care', 'Algodón plisado', '300 g'. Add a small clean white folded strip of pleated cotton in front. No 200g anywhere. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://mexortho.com/cdn/shop/files/al328.png?v=1685388975",
+        "page": "https://mexortho.com/products/algodon-plisado-bolsa-con-25-gr",
+        "role": "family adapt 300g"
+      }
+    ]
+  },
+  {
+    "sku": "3740100000AL335",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Image2 is the actual product or packaging reference; preserve its geometry and logo as specified. SUBJECT: Lazzer hospital cotton balls TORUNDAS 500g nonsterile. Tall pillow-shape soft plastic bag, blue upper area, red swoosh and large red Lazzer wordmark like image2; visible fluffy white cotton at transparent bottom, a few loose white cotton balls in front. Label 'Lazzer', 'Torundas', '100% algodón', 'No estéril', '500 g'. No 100g, no manufacturer address or watermarks. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://www.movil.farmaciasguadalajara.com/wcsstore/FGCAS/wcs/products/954004_S_1280_F.jpg",
+        "page": "https://www.farmaciasguadalajara.com/salud-es/curaciones-es/algodon-y-gasas/algodon-lazzer-torundas-100-gr-954004",
+        "role": "family adapt 500g"
+      }
+    ]
+  },
+  {
+    "sku": "31601VAR-FCO-75",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: One economical unbranded amber GLASS dropper bottle 75mL for the NACIONAL catalog brand. Rounded shoulders, cylindrical body, ribbed black screw cap with black rubber bulb and clear glass pipette inside, empty and clean. Adapt reference family proportions to 75mL moderately compact bottle. No brand sticker or invented NACIONAL logo, no capacity label, no carton. Single closed bottle on surface, full object visible. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://images.drinkstuff.com/productimg/129034_large.jpg",
+        "page": null,
+        "role": "See prompt for exact-product or family reference role"
+      }
+    ]
+  },
+  {
+    "sku": "31601VAR-FCO-12",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: One economical unbranded amber GLASS dropper bottle 125mL for the NACIONAL catalog brand. Rounded shoulders, cylindrical body slightly wider and taller than a 75mL bottle, ribbed black screw cap with black rubber bulb and long clear glass pipette inside. Adapt reference bottle family to 125mL, empty. No invented NACIONAL brand sticker, no capacity label, no carton. Single bottle closed, full object visible. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://images.drinkstuff.com/productimg/129034_large.jpg",
+        "page": null,
+        "role": "See prompt for exact-product or family reference role"
+      }
+    ]
+  },
+  {
+    "sku": "37201PPEAID2022",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: PPE-AID blue nitrile gloves MEDIUM, box of 100, nonsterile and powder-free. Match image2 white rectangular dispenser box, black PPE-AID with blue plus, blue NITRILE GLOVES capsule and printed blue glove illustration. Size text MUST be 'MEDIUM' and '100 GLOVES'. Show box with TWO empty blue gloves lying naturally in foreground, five fingers each. No arms, hands or people. Simplify extra claims to 'NON STERILE • POWDER FREE'. No LARGE anywhere. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://bluelander.com.mx/cdn/shop/files/NITRILO1_da1b9f8a-8d30-4fe4-a2bf-1eaac5a70515.jpg?v=1762794711&width=1200",
+        "page": null,
+        "role": "See prompt for exact-product or family reference role"
+      }
+    ]
+  },
+  {
+    "sku": "37201PPEAID2023",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: PPE-AID blue nitrile gloves LARGE, box of 100, nonsterile and powder-free. Match image2 white rectangular dispenser box, black PPE-AID with blue plus, blue NITRILE GLOVES capsule and printed blue glove illustration. Size text MUST be 'LARGE' and '100 GLOVES'. Show box with TWO empty blue gloves lying naturally in foreground, five fingers each. No arms, hands or people. Simplify extra claims to 'NON STERILE • POWDER FREE'. No MEDIUM anywhere. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.\nFinal edit: Edit this exact product photograph. Change ONLY the size word MEDIUM to LARGE on the front of the glove box. Keep the brand exactly PPE-AID with two P letters, the blue plus logo, all other text, two gloves, packaging, layout, light, shadows and background pixel-consistent as much as possible. No additional letters or edits. Square ecommerce photo.",
+    "reference_urls": [
+      {
+        "image": "https://bluelander.com.mx/cdn/shop/files/NITRILO1_da1b9f8a-8d30-4fe4-a2bf-1eaac5a70515.jpg?v=1762794711&width=1200",
+        "page": null,
+        "role": "See prompt for exact-product or family reference role"
+      }
+    ]
+  },
+  {
+    "sku": "1750100000PW003",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: Plastic World PW003 specimen collection cup 100mL sold WITHOUT wrapper. Show one empty milky translucent cylindrical polypropylene cup with vivid red ribbed screw lid attached, matching shape image2. Light molded volume graduation lines, endpoint '100 mL' only. No plastic sterile wrapper, no carton, no sterile symbol, no sticker or invented logo. Catalog labels this product discontinued but do not put that status in the photo. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://www.farmaciaslolyta.com/web/image/product.template/58501/image_1024?unique=ae5406a",
+        "page": null,
+        "role": "See prompt for exact-product or family reference role"
+      }
+    ]
+  },
+  {
+    "sku": "1750100000PW106",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Image2 is the actual product or packaging reference; preserve its geometry and logo as specified. SUBJECT: Plasticworld PW106 24-hour urine collector 2700mL. Exact orange rectangular broad-shouldered vessel with wide white screw cap and molded side graduations as image2. Show empty container without outer shipping bag so edges clear; preserve blue/white label and plasticworld logo. Label 'RECOLECTOR 24 HORAS', '2700 mL'. Simplified fine graduation marks, no invented measurement sequence. Single container, no carton, no fluid. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://farmaciasanjorge.com/cdn/shop/products/653341529602.jpg?v=1705172965",
+        "page": "https://farmaciasanjorge.com/products/30175",
+        "role": "exact product"
+      }
+    ]
+  },
+  {
+    "sku": "1120100000700-F",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: Siliceo pediatric urine collection bag for GIRLS. The second image is actual Siliceo boy bag packaging family. Produce a clean standalone empty clear soft rectangular collection pouch with blue graduations and white adhesive surround with a pear-shaped opening for female infant variant, laid flat at a gentle three-quarter angle beside a thin individual transparent sleeve. Sleeve uses simple cyan grid border as reference and legible 'Siliceo', 'Bolsa recolectora de orina', 'NIÑA'. No persons or anatomy, no tubing, no fluid. Minimal graduation marks, no invented numerical series or dates. Do not write NIÑO or imply a 100-unit carton. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://farmaciagloria.mx/8706-large_default/bolsa-para-recoleccion-de-orina-nino-con-1-pieza.webp",
+        "page": null,
+        "role": "See prompt for exact-product or family reference role"
+      }
+    ]
+  },
+  {
+    "sku": "1120100000700-V",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: Siliceo pediatric urine collection bag for BOYS, catalog box 100. Show one clear soft rectangular collection pouch with blue graduation marks and white adhesive surround with round opening as actual image2. Bag lying at gentle angle in foreground beside a compact representative white carton with cyan grid border from actual packaging family. Carton simplified legible 'Siliceo', 'Bolsa recolectora de orina', 'NIÑO', '100 piezas'. No persons/anatomy/fluid/tubing. No NIÑA. Do not copy dates or lot number. Reference is individually packaged bag so outer carton is representative minimal design. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.\nFinal edit: Edit this exact product photograph. On the clear bag in foreground remove ONLY all numeric volume labels (5,10,20,30,100) and APROX and M.L. Replace with a small simple blue mL and keep the fine blue tick marks UNNUMBERED. Keep bag and adhesive shape, box, Siliceo brand, NIÑO, 100 piezas, cyan grid, lighting, layout and background exactly unchanged. This is a representative product photo with deliberately simplified scale.",
+    "reference_urls": [
+      {
+        "image": "https://farmaciagloria.mx/8706-large_default/bolsa-para-recoleccion-de-orina-nino-con-1-pieza.webp",
+        "page": null,
+        "role": "See prompt for exact-product or family reference role"
+      }
+    ]
+  },
+  {
+    "sku": "034010001205010",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: SPINREACT febrile bacterial antigens kit 1205010 with controls, 6 × 100 pruebas. Image2 is SPINREACT packaging family only; adapt product. White rectangular box with pale turquoise horizontal bands and authentic SPINREACT oval wordmark, label 'ANTÍGENOS FEBRILES', '6 × 100 pruebas'. In front arrange exactly EIGHT small reagent dropper bottles, SIX with white caps labels 'AH','BH','H','O','Brucella','Proteus OX-19', plus two smaller controls red and blue caps labels 'C+' and 'C−'. Bottles evenly spaced in two neat rows, no duplicate extra bottles. No CRP kit, no test card needed, no dates. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://www.spinreact.com/assets/files/casos_exit/pcr_petita_3.jpg",
+        "page": "https://www.spinreact.com/es/casos-exito.html",
+        "role": "brand packaging only, not product"
+      }
+    ]
+  },
+  {
+    "sku": "034010001200405",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: SPINREACT VDRL stabilized antigen slide agglutination 1500 tests, ref1200405. White compact box with pale turquoise bands and authentic oval SPINREACT wordmark matching branding in image2. Label 'VDRL', '1500 pruebas'. One closed small 30mL reagent bottle beside the box, white ribbed cap, label 'SPINREACT', 'VDRL', '30 mL'. The actual product contents are VDRL antigen; do not copy CRP controls, well plates, or other components from image2. No test cassette or syringe, no claims. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://www.spinreact.com/assets/files/casos_exit/pcr_petita_3.jpg",
+        "page": "https://www.spinreact.com/es/casos-exito.html",
+        "role": "brand packaging only, not product"
+      }
+    ]
+  },
+  {
+    "sku": "14701UNCS90309Q",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Image2 is the actual product or packaging reference; preserve its geometry and logo as specified. SUBJECT: One UNICO regular square quartz cuvette 3.5mL 10mm optical path. Tall narrow rectangular transparent vessel with square open top and closed flat base, two polished optical faces and subtle frosted sides exactly as image2. Small etched UNICO near upper face. Stand upright at three-quarter angle, isolated. Do not copy the outside text caption at bottom of reference or dark background. No plastic test tube or stopper. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://laboratoriosaries.com.mx/3094/celda-de-cuarzo-uv-vis-35ml-paso-de-luz-10mm-unico-todoparalaboratorios-unc-s-90-309-1q.jpg",
+        "page": "https://laboratoriosaries.com.mx/celdas-para-espectro/2720-celda-de-cuarzo-uv-vis-35ml-paso-de-luz-10mm-unico-todoparalaboratorios-unc-s-90-309-1q.html",
+        "role": "exact type"
+      }
+    ]
+  },
+  {
+    "sku": "1470100000L-BC9",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: UNICO L-BC9 mechanical eight-key differential counter exactly matching image2. Long gray hammered-texture metal housing on black flat base, eight rounded keys along front alternating RED WHITE RED WHITE RED WHITE RED WHITE, TWO red reset knobs one at each end, NINE small count windows above including totalizer, all read 000. Slim white maturation strip along top with tiny colored cell icons, red italic UNICO logo on right. Keep geometry precise, exactly 8 keys and 9 windows. Full three-quarter front view, no invented digital screen or power cord. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://unicosci.com/cdn/shop/files/l-bc9.png?v=1765860773&width=1214",
+        "page": "https://unicosci.com/products/l-bc9",
+        "role": "exact model"
+      }
+    ]
+  },
+  {
+    "sku": "2530100000VE-B3",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Additional images are actual product/packaging or family references; use only as specified. SUBJECT: VELAB VE-B3 binocular biological microscope, exact reference body and optics. Input2 is full side reference, input3 is front closeup showing binocular two eyepieces. Full microscope at three-quarter front-side angle, white curved frame with navy blue inset panels/base, two black eyepieces in sliding binocular head, four objectives with colored rings on rotating turret, black mechanical stage and focus knobs, condenser and lamp below. Clearly retain 'VELAB' wordmark and 'VE-B3' model, remove regulatory marks. No accessories or carton. Full base and eyepieces inside frame. Do not create trinocular head or a VE-B3P label. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, outside captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://www.velab.com.mx/cdn/shop/products/VE-B3-3NUEVO_600x.png?v=1749049707",
+        "page": "https://www.velab.com.mx/products/microscopio-binocular-biologico-basico-1",
+        "role": "exact model"
+      },
+      {
+        "image": "https://www.velab.net/cdn/shop/products/VE-B3-2_600x.png?v=1614124875",
+        "page": null,
+        "role": "See prompt for exact-product or family reference role"
+      }
+    ]
+  },
+  {
+    "sku": "253010000VE-P30",
+    "prompt": "Use case: product-mockup. Create ONE square photorealistic ecommerce studio product photo for Handel. Image1 is STYLE ONLY: identical seamless very light gray-white #f7f7f8 backdrop and matte surface, soft upper-left lighting, delicate shadow below-right, clean minimal composition with full object/group centered and about 80% frame, no cropping. Do NOT copy HYCEL product or logo. Image2 is the actual product or packaging reference; preserve its geometry and logo as specified. SUBJECT: VELAB VE-P30 microscope slides, one white/blue box of 50 slides matching image2, plus three clear rectangular glass slides lying neatly in front each with one frosted short-end band. Box text 'VELAB', 'Microscope Slides', 'VE-P30', '26 × 76 mm', '50 pcs'. Preserve packaging palette and logo. No coverslips, no slides floating, no black backdrop. Minimal legible labels only, no extra claims, no dates, lot numbers, barcodes, certifications, captions, watermark or scenery. High quality believable materials.",
+    "reference_urls": [
+      {
+        "image": "https://www.velab.net/cdn/shop/products/VE-P30_600x.png?v=1595612786",
+        "page": "https://www.velab.net/products/slides",
+        "role": "exact model"
+      }
+    ]
+  }
+]
