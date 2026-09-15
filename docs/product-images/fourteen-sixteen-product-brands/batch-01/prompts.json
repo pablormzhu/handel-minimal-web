@@ -1,0 +1,430 @@
+[
+  {
+    "brand": "LICON",
+    "description": "Antiestreptolisina-\"O\" (ASO), incluye control positivo y negativo. Equipo 50 pruebas",
+    "features": [
+      "Presentación: 50 pruebas"
+    ],
+    "index": 0,
+    "name": "Antiestreptolisina-\"O\" (ASO), incluye control positivo y negativo. Equipo 50 pruebas",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. LICON RaPET ASO reagent kit: four small reagent bottles with exactly the cap styles and reagent colors shown in the reference. Neatly grouped as a compact packshot. Labels LICON, RaPET ASO, positive control, negative control, buffer. Minimal packaging only; do not add a huge carton. 50-test kit.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/rapet_aso_2.png"
+    ],
+    "sku": "013010000000304",
+    "slug": "antiestreptolisina-o-aso-incluye-control-positivo-y-negativo-equipo-50-00304"
+  },
+  {
+    "brand": "LICON",
+    "description": "Cartucho de embarazo QuPid Plus, Suero y Orina Sensibilidad 20 mUI/ml. Equipo 50 pruebas",
+    "features": [
+      "Presentación: 50 pruebas"
+    ],
+    "index": 1,
+    "name": "Cartucho de embarazo QuPid Plus, Suero y Orina Sensibilidad 20 mUI/ml. Equipo 50 pruebas",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. QuPID Plus hCG kit with controls, 50 pruebas. Use references: white and pastel pink LICON carton at rear, one matching white and rose pink rectangular QuPID Plus cassette in front, unused blank test window and round sample well. Retain identifying QuPID Plus and LICON branding and color layout. No additional reagents, no result lines. Three-quarter carton, cassette slightly angled flat on surface.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/qupid0.png",
+      "/workspace/scratch/34975aef62d1/refs1416/qupid1.png"
+    ],
+    "sku": "013010000391-50",
+    "slug": "cartucho-de-embarazo-qupid-plus-suero-y-orina-sensibilidad-20-mui-ml-e-91-50"
+  },
+  {
+    "brand": "LICON",
+    "description": "FEBRICLIN PARATIFICO B. 5 ML",
+    "features": [
+      "Contenido: 5 ML"
+    ],
+    "index": 2,
+    "name": "FEBRICLIN PARATIFICO B. 5 ML",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. LICON FEBRICLIN PARATÍFICO B 5 mL reagent. One small cylindrical glass reagent vial with white ribbed screw dropper cap, cloudy pale liquid, simple white label with LICON red brand, FEBRICLIN, PARATÍFICO B and 5 mL black type. Single bottle only, credible compact laboratory reagent packaging.",
+    "refs": [],
+    "sku": "013010000000134",
+    "slug": "febriclin-paratifico-b-5-ml-00134"
+  },
+  {
+    "brand": "LICON",
+    "description": "LICON RaPET FR EQUIPO CON 100 PRUEBAS",
+    "features": [
+      "Presentación: 100 PRUEBAS"
+    ],
+    "index": 3,
+    "name": "LICON RaPET FR EQUIPO CON 100 PRUEBAS",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. LICON RaPET FR reagent kit, 100 pruebas. Match reference's four small glass/plastic reagent and control bottles, red cap, green cap, white dropper cap and white screw cap. Simple white red-brand labels, retain FR identity, no fabricated extra components.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/rapet_fr_1.png"
+    ],
+    "sku": "013010000000308",
+    "slug": "licon-rapet-fr-equipo-con-100-pruebas-00308"
+  },
+  {
+    "brand": "LICON",
+    "correction_prompt": "Edit this product photo while preserving the four bottles, their positions, lighting and pale gray-white background exactly. Correct ONLY label wording on third and fourth bottles. Third bottle label must read 'LICON' / 'RaPET PCR' / 'Látex Reactivo'. Fourth bottle label must read 'LICON' / 'RaPET PCR' / 'Glicina-Buffer'. Remove 'Lysis Buffer' and 'Glucose Reagent' entirely. Remove all '5 mL' capacity lines from all four bottle labels. First two labels say Control Positivo and Control Negativo respectively. This PCR means proteína C reactiva / C-reactive protein latex agglutination, not molecular PCR. No other changes.",
+    "correction_reference": "/workspace/scratch/34975aef62d1/generated_images/exec-1941f45b-8922-4c5f-a220-d16163ec77b9.png",
+    "description": "LICON RaPET PCR EQUIPO CON 50 PRUEBAS",
+    "features": [
+      "Presentación: 50 PRUEBAS"
+    ],
+    "index": 4,
+    "name": "LICON RaPET PCR EQUIPO CON 50 PRUEBAS",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. LICON RaPET PCR reagent kit, 50 pruebas. Match reference's four small glass/plastic reagent and control bottles, red cap, green cap, white dropper cap and white screw cap. Simple white red-brand labels, retain PCR identity, no fabricated extra components.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/rapet_pcr_1.png"
+    ],
+    "sku": "0130100000307-5",
+    "slug": "licon-rapet-pcr-equipo-con-50-pruebas-307-5"
+  },
+  {
+    "brand": "LICON",
+    "description": "Lectina Anti - A1 frasco 5 ml",
+    "features": [
+      "Contenido: 5 ml"
+    ],
+    "index": 5,
+    "name": "Lectina Anti - A1 frasco 5 ml",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. One 5 mL Lectina Anti-A1 reagent glass vial. Match reference's tall black rubber dropper bulb and black ribbed collar with clear liquid. White label simplified to Lectina Anti-A1, 5 mL; use manufacturer style reference, no invented LICON rebranding or carton.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/lectina_anti_a1.png"
+    ],
+    "sku": "0130100000204-D",
+    "slug": "lectina-anti-a1-frasco-5-ml-204-d"
+  },
+  {
+    "brand": "LICON",
+    "description": "Novaclone Anti- A Monoclonal frasco de 10ml",
+    "features": [
+      "Presentación: frasco de 10ml",
+      "Contenido: 10ml"
+    ],
+    "index": 6,
+    "name": "Novaclone Anti- A Monoclonal frasco de 10ml",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. One 10 mL NovaClone Anti-A monoclonal blood-grouping reagent. Match reference: small clear cylindrical glass bottle containing blue liquid, black ribbed collar and pale blue dropper bulb, blue-and-white label. Clear label text NovaClone Anti-A, 10 mL. Single closed vial only.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/novaclone_anti_a.png"
+    ],
+    "sku": "0130100000201-D",
+    "slug": "novaclone-anti-a-monoclonal-frasco-de-10ml-201-d"
+  },
+  {
+    "brand": "LICON",
+    "description": "Novaclone Anti- A, B Monoclonal frasco de 10 ml",
+    "features": [
+      "Presentación: frasco de 10 ml",
+      "Contenido: 10 ml"
+    ],
+    "index": 7,
+    "name": "Novaclone Anti- A, B Monoclonal frasco de 10 ml",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. One 10 mL NovaClone Anti-A,B monoclonal blood-grouping reagent. Match reference: small clear cylindrical glass vial with clear liquid, black ribbed dropper collar and black bulb, white label. Clear text NovaClone Anti-A,B and 10 mL. Single closed vial only.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/novaclone_anti_a_b.png"
+    ],
+    "sku": "0130100000203-D",
+    "slug": "novaclone-anti-a-b-monoclonal-frasco-de-10-ml-203-d"
+  },
+  {
+    "brand": "LICON",
+    "description": "Novaclone Anti- B Monoclonal frasco de 10 ml",
+    "features": [
+      "Presentación: frasco de 10 ml",
+      "Contenido: 10 ml"
+    ],
+    "index": 8,
+    "name": "Novaclone Anti- B Monoclonal frasco de 10 ml",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. One 10 mL NovaClone Anti-B monoclonal blood-grouping reagent. Match reference: small clear cylindrical glass vial containing yellow liquid, black ribbed dropper collar and yellow bulb, yellow-and-white label. Clear text NovaClone Anti-B and 10 mL. Single closed vial only.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/novaclone_anti_b.png"
+    ],
+    "sku": "0130100000202-D",
+    "slug": "novaclone-anti-b-monoclonal-frasco-de-10-ml-202-d"
+  },
+  {
+    "brand": "LICON",
+    "description": "Novaclone Anti- D Mezcla de Monoclonales frasco de 10ml",
+    "features": [
+      "Presentación: frasco de 10ml",
+      "Contenido: 10ml"
+    ],
+    "index": 9,
+    "name": "Novaclone Anti- D Mezcla de Monoclonales frasco de 10ml",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. One 10 mL NovaClone Anti-D monoclonal blend blood-grouping reagent. Match reference: small clear cylindrical glass vial, clear liquid, black ribbed dropper collar and black bulb, white label. Clear text NovaClone Anti-D and 10 mL. Single closed vial only.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/novaclone_anti_d.png"
+    ],
+    "sku": "0130100000215-D",
+    "slug": "novaclone-anti-d-mezcla-de-monoclonales-frasco-de-10ml-215-d"
+  },
+  {
+    "brand": "LICON",
+    "description": "R.P.R. (Carbón activado), incluye control positivo débil, positivo y negativo 200 pruebas",
+    "features": [
+      "Presentación: 200 pruebas"
+    ],
+    "index": 10,
+    "name": "R.P.R. (Carbón activado), incluye control positivo débil, positivo y negativo 200 pruebas",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. LICON RPR charcoal reagent kit, 200 pruebas. Recreate reference's five small bottles: three controls with red, white and green dropper caps on left and two squat black-capped dark reagent bottles on right, tiny closed dispensing bottle between. Preserve bottle count and arrangement as reference, fresh crisp white labels LICON RPR, omit old regulatory printing. No additional carton or used test cards.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/rpr0.png"
+    ],
+    "sku": "013010000000118",
+    "slug": "r-p-r-carbon-activado-incluye-control-positivo-debil-positivo-y-negati-00118"
+  },
+  {
+    "brand": "LICON",
+    "description": "Rosa de Bengala incluye control positivo y negativo 50 PRUEBAS",
+    "features": [
+      "Presentación: 50 PRUEBAS"
+    ],
+    "index": 11,
+    "name": "Rosa de Bengala incluye control positivo y negativo 50 PRUEBAS",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. LICON Rosa de Bengala 50-test kit. Preserve reference's three small bottles: taller white dropper reagent bottle with rose-pink liquid, two small control bottles white and black caps. White labels with LICON red and Rosa de Bengala black text. Fresh neat closed bottles, no carton or extra items.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/rosa_bengala_1.png"
+    ],
+    "sku": "013010000000112",
+    "slug": "rosa-de-bengala-incluye-control-positivo-y-negativo-50-pruebas-00112"
+  },
+  {
+    "brand": "LICON",
+    "description": "SUERO DE COOMBS MONOCLONAL POLIESPECIFICO (ANTI IgG-C3d) FRASCO DE 10 ML",
+    "features": [
+      "Presentación: FRASCO DE 10 ML",
+      "Contenido: 10 ML"
+    ],
+    "index": 12,
+    "name": "SUERO DE COOMBS MONOCLONAL POLIESPECIFICO (ANTI IgG-C3d) FRASCO DE 10 ML",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. One 10 mL polyspecific Coombs reagent glass vial. Match reference's teal-turquoise liquid, white ribbed dropper collar and white bulb. White label Anti-IgG-C3d, Poliespecífico, 10 mL, Gamma-clone in manufacturer style. Single closed vial, no LICON rebranding.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/poliespecifico_igg_c3d.png"
+    ],
+    "sku": "013010000000239",
+    "slug": "suero-de-coombs-monoclonal-poliespecifico-anti-igg-c3d-frasco-de-10-ml-00239"
+  },
+  {
+    "brand": "LICON",
+    "description": "Tarjeta para Sangre Oculta en Heces con control positivo y negativo, Hemascreen Equipo 50 pruebas",
+    "features": [
+      "Presentación: 50 pruebas"
+    ],
+    "index": 13,
+    "name": "Tarjeta para Sangre Oculta en Heces con control positivo y negativo, Hemascreen Equipo 50",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. LICON Hema-Screen kit, 50 tests. Match reference's white foldable test card with red left band marked Hema-Screen, a small transparent developer bottle with tall yellow screw cap and white LICON HEMA-SCREEN label, plus a neat short stack of clean wooden applicators arranged horizontally behind. No actual samples or result marks. Simplify tiny labels. Do not introduce black cap control bottles or plastic cassette.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/hemascreen0.png"
+    ],
+    "sku": "013010000000331",
+    "slug": "tarjeta-para-sangre-oculta-en-heces-con-control-positivo-y-negativo-he-00331"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "CARRIER, FOR SUCTION CANISTERS, METAL",
+    "features": [],
+    "index": 14,
+    "name": "CARRIER, FOR SUCTION CANISTERS, METAL",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline DYNDSCC metal suction canister carrier. Exactly match reference: tall blue powder-coated metal rolling stand, central perforated upright, top four-canister holder frame and stable five-legged blue star base with small casters. Show whole empty stand, accurate silhouette, no suction canisters or tubes added. Three-quarter view.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/carrier.jpg"
+    ],
+    "sku": "28301000DYNDSCC",
+    "slug": "carrier-for-suction-canisters-metal-ndscc"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "DYND4MNF Tubo colector de recipiente de succión universal, 4 recipientes. CAJA CON 10. MEDLINE",
+    "features": [],
+    "index": 15,
+    "name": "DYND4MNF Tubo colector de recipiente de succión universal, 4 recipientes",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline DYND4MNF universal manifold tubing for four suction canisters. One complete flexible red-pink PVC manifold matching reference: long gently curving main trunk, FOUR short lateral branches with clean open ends. Arranged flat diagonally, gentle rounded bends, subtle depth. No canisters or cartons included; no caption.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/manifold.jpg"
+    ],
+    "sku": "2830100DYND4MNF",
+    "slug": "dynd4mnf-tubo-colector-de-recipiente-de-succion-universal-4-recipiente-d4mnf"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "DYNDSCW Soporte de Pared Metalico Universal. CAJA CON 20. MEDLINE",
+    "features": [],
+    "index": 16,
+    "name": "DYNDSCW Soporte de Pared Metalico Universal",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline DYNDSCW universal blue metal suction-canister wall bracket. Match exact reference's elongated rectangular blue powder-coated aluminum channel with folded side flanges, central rectangular slot and three round screw holes. Slight three-quarter view showing metal thickness, freestanding product shot. Do not turn it into a circular holder or add a wall.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/wall.jpg"
+    ],
+    "sku": "28301000DYNDSCW",
+    "slug": "dyndscw-soporte-de-pared-metalico-universal-ndscw"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "DYNJS0810 PAQ. INTEGRAL PARA ARTROSCOPIA DE RODILLA. CAJA CON 2. MEDLINE",
+    "features": [],
+    "index": 17,
+    "name": "DYNJS0810 PAQ. INTEGRAL PARA ARTROSCOPIA DE RODILLA",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline DYNJS0810 knee arthroscopy procedure pack. One compact neatly folded stack of blue nonwoven surgical drapes and covers contained inside a sealed transparent rectangular peel pouch with white paper backing. Small simple white/navy label MEDLINE, DYNJS0810, Knee Arthroscopy Pack. Show sealed pack only; do not invent surgical instruments, syringes, trays, or visible full kit inventory. Clean three-quarter view.",
+    "refs": [],
+    "sku": "283010DYNJS0810",
+    "slug": "dynjs0810-paq-integral-para-artroscopia-de-rodilla-s0810"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "GLOVE, EXAM, NITRILE, MG ES, CHICO CAJA CON 10 PIEZAS",
+    "features": [
+      "Presentación: CAJA CON 10 PIEZAS"
+    ],
+    "index": 18,
+    "name": "GLOVE, EXAM, NITRILE, MG ES, CHICO",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline MediGuard ES nitrile examination gloves, size SMALL S. Match white and pale blue dispenser box styling in reference with ochre yellow oval and yellow S size panel, green NITRILE strip. One closed box and two loose blue nitrile gloves folded neatly in front. Label only MEDLINE, MediGuard ES, S, NITRILE. Omit quantities entirely because outer-carton count is unspecified. No marketing claims or strength percentages.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/gloves.jpg"
+    ],
+    "sku": "283010000MG100S",
+    "slug": "glove-exam-nitrile-mg-es-chico-g100s"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "GLOVE, EXAM, NITRILE, MG ES, CHICO PIEZA",
+    "features": [],
+    "index": 19,
+    "name": "GLOVE, EXAM, NITRILE, MG ES, CHICO PIEZA",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline MediGuard ES nitrile examination gloves, size SMALL S, one dispenser box. Match reference white/pale-blue rectangular dispenser carton, yellow oval and yellow S panel, green NITRILE strip. Three-quarter view of one closed box only. Label MEDLINE, MediGuard ES, S, NITRILE; omit quantity and marketing claims.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/gloves.jpg"
+    ],
+    "sku": "2830100MG100S-1",
+    "slug": "glove-exam-nitrile-mg-es-chico-pieza-00s-1"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "GLOVE, EXAM, NITRILE, MG ES, CON 10 CAJAS DE 100 PIEZAS, TAMAÑO MEDIANO",
+    "features": [
+      "Presentación: 100 PIEZAS"
+    ],
+    "index": 20,
+    "name": "GLOVE, EXAM, NITRILE, MG ES, CON 10 CAJAS DE 100 PIEZAS, TAMAÑO MEDIANO",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline MediGuard ES nitrile examination gloves MEDIUM M, case of 10 boxes each 100 gloves. Match reference white/pale-blue dispenser styling but use MEDIUM M size panel in red accent. Show one neutral kraft shipping carton with simple MEDLINE MediGuard ES M, 10 x 100 label and one white/lightblue dispenser box in front labeled MediGuard ES, M, 100. Only one example inner box outside carton. No loose gloves, no percentage claims.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/gloves.jpg"
+    ],
+    "sku": "283010000MG100M",
+    "slug": "glove-exam-nitrile-mg-es-con-10-cajas-de-100-piezas-tamano-mediano-g100m"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "GLOVE, EXAM, NITRILE, MG ES, CON 100 PIEZAS, TAMAÑO MEDIANO",
+    "features": [
+      "Presentación: 100 PIEZAS"
+    ],
+    "index": 21,
+    "name": "GLOVE, EXAM, NITRILE, MG ES, CON 100 PIEZAS, TAMAÑO MEDIANO",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline MediGuard ES nitrile examination gloves MEDIUM M, one 100-glove dispenser box. Match white/pale-blue reference styling, change yellow size panel and oval to a consistent red accent with M. Front label MEDLINE, MediGuard ES, M, NITRILE, 100. Single closed carton only, no marketing claims. Three-quarter view.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/gloves.jpg"
+    ],
+    "sku": "2830100MG100M-1",
+    "slug": "glove-exam-nitrile-mg-es-con-100-piezas-tamano-mediano-00m-1"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "GLOVE, EXAM, NITRILE, MG ES, GRANDE MARCA",
+    "features": [],
+    "index": 22,
+    "name": "GLOVE, EXAM, NITRILE, MG ES, GRANDE MARCA",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline MediGuard ES nitrile examination gloves LARGE L. Match white/pale-blue reference box style but size panel and oval are dark blue, with clear white L. Label MEDLINE, MediGuard ES, L, NITRILE. One closed dispenser box with one neatly folded blue nitrile glove in front, omit quantity and marketing claims.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/gloves.jpg"
+    ],
+    "sku": "283010000MG100L",
+    "slug": "glove-exam-nitrile-mg-es-grande-marca-g100l"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "LINER, SOFT, SUCTION CANISTER, 3000 CC",
+    "features": [
+      "Contenido: 3000 CC"
+    ],
+    "index": 23,
+    "name": "LINER, SOFT, SUCTION CANISTER, 3000 CC",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline soft suction liner 3000 cc. Match reference: long slender white translucent flexible cylindrical liner bag, ribbed bellows neck, blue rigid circular lid with multiple molded blue angled connector ports. Upright empty soft liner only, no rigid outer canister and no fluid. Tiny neat identifying label MEDLINE, 3000 cc near top of bag; no arbitrary graduations.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/liner0.jpg"
+    ],
+    "sku": "28301DYNDSCL300",
+    "slug": "liner-soft-suction-canister-3000-cc-cl300"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "LINER,SOFT,SUCTION",
+    "features": [],
+    "index": 24,
+    "name": "LINER,SOFT,SUCTION",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline soft suction liner size 1500 cc family. Use the referenced Medline soft liner's blue multiport circular cap, white translucent flexible bag, ribbed bellows neck, but bag is visibly shorter for 1500 cc model. Upright empty soft liner only, no rigid outer canister. Small MEDLINE identifier on lid; omit capacity label since source catalog does not explicitly state it. No fluid.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/liner0.jpg"
+    ],
+    "sku": "28301DYNDSCL150",
+    "slug": "liner-soft-suction-cl150"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "MSC095106 Paños de baño de peso medio SELECT antibacterianos, perfumados, 8 toallas. CAJA CON 30. MEDLINE",
+    "features": [],
+    "index": 25,
+    "name": "MSC095106 Paños de baño de peso medio SELECT antibacterianos, perfumados, 8 toallas",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline ReadyBath SELECT medium-weight scented bathing cloths, 8 cloths per pack. One compact soft rectangular resealable white and pale-blue wipe pouch with a central white peel flap, crisp simple label MEDLINE ReadyBath SELECT, Scented, 8 Cloths. One corner gently folded showing flexible film. No antibacterial, sanitizing or disinfectant claims. Show one pack representing product, no loose wipes and no invented outer-case count.",
+    "refs": [],
+    "sku": "283010MSC095106",
+    "slug": "msc095106-panos-de-bano-de-peso-medio-select-antibacterianos-perfumado-95106"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "NEUROSPNG14 SPONGE,NEURO,1\"X3\",XR,STRL,LF,10/PK. CAJA CON 20. MEDLINE",
+    "features": [],
+    "index": 26,
+    "name": "NEUROSPNG14 SPONGE,NEURO,1\"X3\",XR,STRL,LF,10/PK",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline NEUROSPNG14 neurosurgical sponge patties, 1 x 3 inches, 10 per pack. One sealed transparent rectangular medical peel pouch with white backing showing a neat stack of small thin elongated white cotton patties of accurate 1:3 aspect ratio, fine blue radiopaque thread along each pad and short white retrieval strings gathered neatly. Simple pouch label MEDLINE, Neuro Sponges, 1 x 3 in, 10. No blood or instruments, no clinical scene, no regulatory symbols.",
+    "refs": [],
+    "sku": "28301EUROSPNG14",
+    "slug": "neurospng14-sponge-neuro-1-x3-xr-strl-lf-10-pk-png14"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "OUTER CANISTER, SOFT LINER, 3000 CC",
+    "features": [
+      "Contenido: 3000 CC"
+    ],
+    "index": 27,
+    "name": "OUTER CANISTER, SOFT LINER, 3000 CC",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline DYNDCLO3000 3000cc reusable outer suction canister. Match exact reference: tall empty rigid crystal-clear cylindrical open-top vessel, subtle molded graduated marks, molded MEDLINE mark, RED metal side mounting bracket and an orange-red curved flexible vacuum tube arching from side toward top. Preserve proportions and attachment geometry. This is the empty reusable outer container, no blue cap or disposable soft liner inside. Three-quarter view, readable transparent edges.",
+    "refs": [
+      "/workspace/scratch/34975aef62d1/refs1416/outer0.jpg"
+    ],
+    "sku": "28301DYNDCLO300",
+    "slug": "outer-canister-soft-liner-3000-cc-lo300"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "STRIP,CLOSURE,WOUND,MEDI-STRIP,1/4\"X4\" CAJA CON 50 PIEZAS",
+    "features": [
+      "Presentación: CAJA CON 50 PIEZAS"
+    ],
+    "index": 28,
+    "name": "STRIP,CLOSURE,WOUND,MEDI-STRIP,1/4\"X4\"",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline Medi-Strip reinforced adhesive wound closure strips, 1/4 x 4 inches. Small white and navy-blue box labeled MEDLINE, Medi-Strip, 1/4 x 4 in, with one flat white paper peel pouch in front and a release backing sheet holding several parallel narrow WHITE textile strips, each very long and narrow ratio1:16. Clean straight fibers, no band-aid pads, no skin and no wounds. Do not invent exact number of packs on box.",
+    "refs": [],
+    "sku": "28301250414-100",
+    "slug": "strip-closure-wound-medi-strip-1-4-x4-4-100"
+  },
+  {
+    "brand": "MEDLINE",
+    "description": "ULTRASORB3136 UNDERPAD,DRYPAD,ULTRASORBS AP,31X36\". PIEZA. MEDLINE",
+    "features": [
+      "Medida: 31X36"
+    ],
+    "index": 29,
+    "name": "ULTRASORB3136 UNDERPAD,DRYPAD,ULTRASORBS AP,31X36\". PIEZA. MEDLINE",
+    "prompt": "Create ONE square 1024x1024 photorealistic ecommerce product photograph for Handel. Seamless very pale neutral gray-white background #F5F5F5, no horizon, matte surface, diffused studio light from upper left, subtle natural contact shadow. Entire product centered occupying about 65-70% frame with generous margins. Crisp realistic materials, clean premium laboratory catalog style. No people, decorations, watermarks or captions outside packaging. Simplify label to brand, product name and specified capacity; no invented medical instructions, certification marks, expiry dates, lot numbers or regulatory registrations. When a reference is provided, preserve the actual product's shape, materials and identifying colors but recreate as a fresh studio photograph on the uniform light-gray background. Remove old date, lot and regulatory text from reference labels. Medline ULTRASORBS AP absorbent underpad 31 x 36 inches, one piece. A single large nearly rectangular white absorbent quilted pad laid flat at a three-quarter overhead view with one corner softly folded back showing thin light blue waterproof backing. Soft fine diamond quilting, generous sealed white border, realistic fluffy paper textile texture. One small discreet paper sleeve next to edge labeled MEDLINE, ULTRASORBS AP, 31 x 36 in. No mattress, furniture, humans or fluids.",
+    "refs": [],
+    "sku": "28301SORB3136-1",
+    "slug": "ultrasorb3136-underpad-drypad-ultrasorbs-ap-31x36-pieza-medline-136-1"
+  }
+]
