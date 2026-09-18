@@ -71,6 +71,10 @@ function Index() {
           height={1088}
           className="h-[76vh] w-full object-cover object-[30%_center] sm:object-center"
         />
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 bg-white/90 sm:bg-transparent sm:bg-gradient-to-r sm:from-white sm:via-white/90 sm:via-[52%] sm:to-transparent sm:to-[88%]"
+        />
         <div className="absolute inset-0 flex items-center">
           <div className="mx-auto w-full max-w-6xl px-6">
             <h1 className="max-w-xl text-balance text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl">
