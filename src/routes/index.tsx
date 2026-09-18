@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/site/Page";
 import { families, brands } from "@/lib/catalog";
-import hero from "@/assets/hero.jpg";
+import hero from "@/assets/hero-home.jpg";
 import patchesLogo from "@/assets/patches-logo.png.asset.json";
 
 
@@ -66,10 +66,10 @@ function Index() {
       <section className="relative">
         <img
           src={hero}
-          alt="Laboratorio moderno con analizador clínico, placas de cultivo, tubos de muestra, micropipeta y material de diagnóstico"
+          alt="Profesional de laboratorio trabajando con micropipeta en un laboratorio clínico moderno y luminoso"
           width={1920}
           height={1088}
-          className="h-[76vh] w-full object-cover"
+          className="h-[76vh] w-full object-cover object-[30%_center] sm:object-center"
         />
         <div className="absolute inset-0 flex items-center">
           <div className="mx-auto w-full max-w-6xl px-6">
