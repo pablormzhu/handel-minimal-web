@@ -110,7 +110,7 @@ function FamiliaPage() {
                   loading="lazy"
                   width={1200}
                   height={900}
-                  className="aspect-[4/3] w-full object-cover"
+                  className="aspect-[4/3] w-full object-contain p-2"
                 />
               </div>
               <div className="flex-1">

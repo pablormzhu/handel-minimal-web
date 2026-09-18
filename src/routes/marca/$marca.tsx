@@ -79,7 +79,7 @@ function MarcaPage() {
                   loading="lazy"
                   width={1024}
                   height={768}
-                  className="h-full w-full object-cover transition-transform duration-500 hover:scale-[1.03]"
+                  className="h-full w-full object-contain p-4 transition-transform duration-500 hover:scale-[1.03]"
                 />
               </div>
 
