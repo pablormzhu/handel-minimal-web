@@ -72,14 +72,14 @@ function MarcaPage() {
               key={p.slug}
               className="flex flex-col overflow-hidden rounded-3xl border border-border/30 bg-background/50 shadow-xl backdrop-blur-xl transition-shadow duration-300 hover:shadow-2xl"
             >
-              <div className="aspect-[4/3] w-full overflow-hidden bg-muted/30">
+              <div className="aspect-square w-full overflow-hidden bg-muted/30">
                 <img
                   src={productImage(p)}
                   alt={p.name}
                   loading="lazy"
                   width={1024}
-                  height={768}
-                  className="h-full w-full object-contain p-4 transition-transform duration-500 hover:scale-[1.03]"
+                  height={1024}
+                  className="h-full w-full object-cover"
                 />
               </div>
 
