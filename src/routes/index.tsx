@@ -66,14 +66,14 @@ function Index() {
       <section className="relative">
         <img
           src={hero}
-          alt="Profesional de laboratorio trabajando con micropipeta en un laboratorio clínico moderno y luminoso"
+          alt="Analizador clínico moderno junto a una gradilla con tubos y una caja Petri sobre una mesa blanca en un laboratorio luminoso"
           width={1920}
           height={1088}
-          className="h-[76vh] w-full object-cover object-[30%_center] sm:object-center"
+          className="h-[76vh] w-full object-cover object-[58%_center] sm:object-center"
         />
         <div
           aria-hidden="true"
-          className="absolute inset-0 bg-white/90 sm:bg-transparent sm:bg-gradient-to-r sm:from-white sm:via-white/90 sm:via-[52%] sm:to-transparent sm:to-[88%]"
+          className="absolute inset-0 bg-white/70 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:via-white/30 sm:via-[50%] sm:to-transparent sm:to-[80%]"
         />
         <div className="absolute inset-0 flex items-center">
           <div className="mx-auto w-full max-w-6xl px-6">
