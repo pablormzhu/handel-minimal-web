@@ -79,7 +79,7 @@ function MarcaPage() {
                   loading="lazy"
                   width={1024}
                   height={1024}
-                  className="h-full w-full scale-[1.08] object-cover"
+                  className="h-full w-full object-contain"
                 />
               </div>
 
