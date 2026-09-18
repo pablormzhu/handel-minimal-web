@@ -69,7 +69,7 @@ function Index() {
           alt="Profesional de laboratorio trabajando con micropipeta en un laboratorio clínico moderno y luminoso"
           width={1920}
           height={1088}
-          className="h-[76vh] w-full object-cover"
+          className="h-[76vh] w-full object-cover object-[30%_center] sm:object-center"
         />
         <div className="absolute inset-0 flex items-center">
           <div className="mx-auto w-full max-w-6xl px-6">
