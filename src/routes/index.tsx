@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/site/Page";
 import { families, brands } from "@/lib/catalog";
-import hero from "@/assets/hero.jpg";
+import hero from "@/assets/hero-home.jpg";
 import patchesLogo from "@/assets/patches-logo.png.asset.json";
 
 
