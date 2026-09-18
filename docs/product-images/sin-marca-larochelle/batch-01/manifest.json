@@ -1,0 +1,515 @@
+[
+  {
+    "sku": "026010000002131",
+    "brand": "LAROCHELLE",
+    "name": "APLICADOR DE MADERA CON ALGODON ESTERIL",
+    "path": "src/assets/prod/ai/026010000002131.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "971d77e99a9bc1124703fa789d7aee05293b26512000c2c4e95c1a2888e94aa4"
+  },
+  {
+    "sku": "026010000000001",
+    "brand": "LAROCHELLE",
+    "name": "APLICADOR DE PLASTICO CON ALGODON 1/300 ESTERIL",
+    "path": "src/assets/prod/ai/026010000000001.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "1ce2682a3a8757f40d3eb3d22b49bab1742f703acbffca55432cd13fb8b85dac"
+  },
+  {
+    "sku": "026010000003020",
+    "brand": "LAROCHELLE",
+    "name": "ASA BACTEOROLOGICA DE NIQUEL CROMO CALIBRADA 1/100 CON MANGO NEGRO",
+    "path": "src/assets/prod/ai/026010000003020.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "5feb43d85ef19e6c1d833515ed335dda29646d7f75d758b5e6050cc7661d0f18"
+  },
+  {
+    "sku": "026010000003030",
+    "brand": "LAROCHELLE",
+    "name": "ASA BACTEOROLOGICA DE NIQUEL CROMO CALIBRADA 1/1000 CON MANGO ROJO",
+    "path": "src/assets/prod/ai/026010000003030.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "ad6e01a4ebf40efe6040c67d2bdf98f9a3cdd9619f2201c1542516cd4ba9f003"
+  },
+  {
+    "sku": "02601BENZAL4LTS",
+    "brand": "LAROCHELLE",
+    "name": "BENZAL GALON DE 4 LTS",
+    "path": "src/assets/prod/ai/02601BENZAL4LTS.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "cbb3375ccea00ee250e659137f87e93f58402f245e75c798f08c94f4cdde2bc0"
+  },
+  {
+    "sku": "02601LAM-55-200",
+    "brand": "LAROCHELLE",
+    "name": "BOLSA DE POLIETILENO LAM-55-200 DE 55X60 CMS DE BAJA DENSIDAD, LIB DE M P CALIBRE 200",
+    "path": "src/assets/prod/ai/02601LAM-55-200.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "12aef61b31b45fdec43a54fb1784bb011bacb04e35c2f125287729eb0fcfe765"
+  },
+  {
+    "sku": "02601LRO122-200",
+    "brand": "LAROCHELLE",
+    "name": "BOLSA DE POLIETILENO LRO-122-200 DE 110 x 120 CMS DE BAJA DENSI. LIB DE MET PES CALI200",
+    "path": "src/assets/prod/ai/02601LRO122-200.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "7ca11f4e1b06e22919328c67aee53577d5a8299a1ab47c6c2038eac67df68f47"
+  },
+  {
+    "sku": "02601PBOLR30X40",
+    "brand": "LAROCHELLE",
+    "name": "BOLSA DE POLIETILENO LRO-30-200 DE 30x40 CM PARA RPBI DE BAJA DENSIDAD CALIBRE 200.ROJA.",
+    "path": "src/assets/prod/ai/02601PBOLR30X40.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "0c9571c832deb58be9c15de28bf533f068e83e188d06428125817af7a939f353"
+  },
+  {
+    "sku": "02601LRO-50-200",
+    "brand": "LAROCHELLE",
+    "name": "BOLSA DE POLIETILENO LRO-50-200 DE 46x50 CMS DE BAJA DENSLIBDE METPESA CALIBRE 200 ROJA",
+    "path": "src/assets/prod/ai/02601LRO-50-200.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "7b58b772ef448086c37f19ff9365b2c6eab91061153bb15d454d0662a00c260a"
+  },
+  {
+    "sku": "02601LRO-55-200",
+    "brand": "LAROCHELLE",
+    "name": "BOLSA DE POLIETILENO LRO-55-200 DE 55x60 CMS DE BAJA DENSI, LIB DE META PES CALI 200 ROJA",
+    "path": "src/assets/prod/ai/02601LRO-55-200.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "8c0293e9a232800acd18c9c6a6bbf54d55abd1f4c29f7f8411818ef6ffa314ed"
+  },
+  {
+    "sku": "02601LRO-60-200",
+    "brand": "LAROCHELLE",
+    "name": "BOLSA DE POLIETILENO LRO-60-200 DE 60x80 CMS DE BAJA DENSI, LIBDE MET PES CALI 200 ROJA",
+    "path": "src/assets/prod/ai/02601LRO-60-200.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "fb617494fde1814a07c3d705edb66f5e74a231eea8d769ca4ccd24cfb275b10e"
+  },
+  {
+    "sku": "02601LRO-90-200",
+    "brand": "LAROCHELLE",
+    "name": "BOLSA DE POLIETILENO LRO-90-200 DE BAJA DENSI DE 70 * 90 , LIB DE MET PES CALI200 ROJA",
+    "path": "src/assets/prod/ai/02601LRO-90-200.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "13947cb018d6e1e7620eb619ac6c04d63c4ccd319942fa7d1e5de66da3c739f2"
+  },
+  {
+    "sku": "026010000004011",
+    "brand": "LAROCHELLE",
+    "name": "BOLSA RECOLECTORA DE ORINA ESTERIL NIÑA",
+    "path": "src/assets/prod/ai/026010000004011.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "e86e2c2667817fba6ca4c5809bcfea9e684024d47101d200cc6bb1c9addc818b"
+  },
+  {
+    "sku": "026010000004021",
+    "brand": "LAROCHELLE",
+    "name": "BOLSA RECOLECTORA DE ORINA PARA NIÑO ESTERIL",
+    "path": "src/assets/prod/ai/026010000004021.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "595e815d6c360c0bc7cebd38152dd492c112a4dd7207fdb33edfd243c91a14d7"
+  },
+  {
+    "sku": "026010000000061",
+    "brand": "LAROCHELLE",
+    "name": "CEPILLO CITOLOGICO ESTERIL PZA",
+    "path": "src/assets/prod/ai/026010000000061.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "5fdf326d1d75ccf4743564d32031830fd26552098e2573b53f64ade73d0bff0e"
+  },
+  {
+    "sku": "02603CORTAUNA01",
+    "brand": "LAROCHELLE",
+    "name": "CORTA UÑAS TAMAÑO M",
+    "path": "src/assets/prod/ai/02603CORTAUNA01.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "99255d366e39e2676a49ab3aa7aca919c18d45213dce4e774915d9fde5851a6c"
+  },
+  {
+    "sku": "026010000000004",
+    "brand": "LAROCHELLE",
+    "name": "ESPATULA DE AYRE DE MADERA. ESTERIL",
+    "path": "src/assets/prod/ai/026010000000004.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "88a4e9719f326547d4945c23ca7c646b115b4bc1caef1b655e70e8a0c6674ef3"
+  },
+  {
+    "sku": "026010000GRADIL",
+    "brand": "LAROCHELLE",
+    "name": "GRADILLA DE ALAMBRE PARA 90 TUBOS",
+    "path": "src/assets/prod/ai/026010000GRADIL.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "db7bb671c74e3061279339e9c3e47751369eaeaecaacf86a086e7bfd547f9ab5"
+  },
+  {
+    "sku": "0990100000PW001",
+    "brand": "SIN MARCA",
+    "name": "(*) VASO RECOLECTOR ESTERIL DE 100 ML. PIEZA* ( descontinuado lo sustituye el catalogo:",
+    "path": "src/assets/prod/ai/0990100000PW001.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "dee3d70aafe00eeb6da8b3774318f48fda480943a8edc7acdbdd440f0f6c6c52"
+  },
+  {
+    "sku": "09901ALC-CON-BI",
+    "brand": "SIN MARCA",
+    "name": "ALCOHOL 96º 1 LT",
+    "path": "src/assets/prod/ai/09901ALC-CON-BI.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "cae50b9771ebebd1fde21e4e1b6284ebfccb8bf0ff9107f13d571a437ba11ca7"
+  },
+  {
+    "sku": "09901ALCO-GALON",
+    "brand": "SIN MARCA",
+    "name": "ALCOHOL DEL 96º GALON DE 4 LTS",
+    "path": "src/assets/prod/ai/09901ALCO-GALON.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "c4afeb5a6f3408422bbb660fab47124c5101e1b11c2479a5ea1298d672fe6470"
+  },
+  {
+    "sku": "630",
+    "brand": "SIN MARCA",
+    "name": "AUTOMOVIL JETTA MK VI 4 PUERTAS, MARCA VOLKSWAGEN, MODELO 2016, NUMERO DE SERIE",
+    "path": "src/assets/prod/ai/630.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "27e48dab56cdd116868df0cfa179db8047c92b08ed9cf1040bb5caa9fdb95820"
+  },
+  {
+    "sku": "09901BOLSALMP02",
+    "brand": "SIN MARCA",
+    "name": "BOLSA CON CINTA ADHESIVA CALIBRE 200. MEDIDAS 35x50 +20 CMS. COLOR BLANCA",
+    "path": "src/assets/prod/ai/09901BOLSALMP02.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "bd77acb89af0e2a07ecd1b9fec57c5702e92e8c826c7da5a401cef89e24503a8"
+  },
+  {
+    "sku": "09901BOLSALMP01",
+    "brand": "SIN MARCA",
+    "name": "BOLSA CON CINTA ADHESIVA DE CALIBRE 250. MEDIDAS 50X60 + 20 CMS. COLOR BLANCA",
+    "path": "src/assets/prod/ai/09901BOLSALMP01.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "6b936271ffe8f396ce833af33cfbb8bdd975184a64aec5f4c556009e44b1c16f"
+  },
+  {
+    "sku": "09901000BOLRONE",
+    "brand": "SIN MARCA",
+    "name": "BOLSA EN ROLLO NEGRA DE 25 x 35",
+    "path": "src/assets/prod/ai/09901000BOLRONE.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "f81f946bcd29537c0f150f4c39e33c86ba8845936da179303c2cb6887c42b631"
+  },
+  {
+    "sku": "09901001801MICR",
+    "brand": "SIN MARCA",
+    "name": "CARETA 1 PIEZA",
+    "path": "src/assets/prod/ai/09901001801MICR.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "8ba45af35d207c0217c0996c99d2cd603c4a1d86c4f3fb06b0330df328275054"
+  },
+  {
+    "sku": "0990100CINTATUK",
+    "brand": "SIN MARCA",
+    "name": "CINTA TESTIGO",
+    "path": "src/assets/prod/ai/0990100CINTATUK.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "e0504da11327d468f44555dfcb772e1a5a78e0b1c3cc5e2b3fc94327c308f467"
+  },
+  {
+    "sku": "602",
+    "brand": "SIN MARCA",
+    "name": "CURSO DE ATENCION A PACIENTES",
+    "path": "src/assets/prod/ai/602.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "64a83ef07329e1b679690483dc9f6bc12af1622ea4fecdb111b3c56777ca418b"
+  },
+  {
+    "sku": "601",
+    "brand": "SIN MARCA",
+    "name": "CURSO DE TOMA DE MUESTRA SANGUINEA",
+    "path": "src/assets/prod/ai/601.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "066ad48c42dcd4581abdbc2cd9c7c005b4c3064a155282a8e18e274329ad0ff2"
+  },
+  {
+    "sku": "099010DP-MA-4.5",
+    "brand": "SIN MARCA",
+    "name": "ESTUCHE DE BALINES METALICOS ( GRIS ) CON 400",
+    "path": "src/assets/prod/ai/099010DP-MA-4.5.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "0a6021bd415363bf54b86ec97b4bae8aef13af3be084f72f9c26f21328b762b6"
+  },
+  {
+    "sku": "099010000GR-04T",
+    "brand": "SIN MARCA",
+    "name": "GEL REFRIGERANTE DE 200 GRS SIN LOGO ( GR-04T )",
+    "path": "src/assets/prod/ai/099010000GR-04T.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "5da7372ba3f4dbfff7760372fa783d99997c0c8a8a66e359c707f081b6f819bb"
+  },
+  {
+    "sku": "099010052026069",
+    "brand": "SIN MARCA",
+    "name": "GENRUI NUEVO CORONAVIRUS ( 2019-nCoV ) IgG/IgM 25 T/KIT DE PRUEBA ( oro coloidal )",
+    "path": "src/assets/prod/ai/099010052026069.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "26e20b6d00718503ca0dad44f9a22b96b6a95784519b80203c5142b613212916"
+  },
+  {
+    "sku": "09901000000054B",
+    "brand": "SIN MARCA",
+    "name": "GORRO GUSANO COLOR BLANCO",
+    "path": "src/assets/prod/ai/09901000000054B.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "8efc017539e5fe00713d96048d3609b1f43ac8bdea98241b78610e273dc1956f"
+  },
+  {
+    "sku": "099010SKUGS0752",
+    "brand": "SIN MARCA",
+    "name": "HISOPO NASAL ESTERIL, DE NYLON FLOQUED, EMPAQUE CON 100 PIEZAS",
+    "path": "src/assets/prod/ai/099010SKUGS0752.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "6a14ab36e49571ce61eb56935d4a05e9151b18a9ae2e3cde58dc36e304c1c233"
+  },
+  {
+    "sku": "09901025-800A50",
+    "brand": "SIN MARCA",
+    "name": "HISOPO NASOFARINGEO ESTERIL DE ALGINATO DE CALCIO CON PUNTA PEQUEÑA 5.5\" MANGO DE",
+    "path": "src/assets/prod/ai/09901025-800A50.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "f1719d8eb38f7b52ebe4b5aee1fb1826036ab7bc269dc48d6effdf3e09b5cef7"
+  },
+  {
+    "sku": "099010000LAMLED",
+    "brand": "SIN MARCA",
+    "name": "LAMPARA DE BOLSILLO DE LUZ LED 1 PIEZA COLOR NEGRO",
+    "path": "src/assets/prod/ai/099010000LAMLED.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "c8fb934127096ed2734c113b6104d5274baee6aa5a01eba445d8609773c5565c"
+  },
+  {
+    "sku": "09901000-LAMLED",
+    "brand": "SIN MARCA",
+    "name": "LAMPARA DE BOLSILLO DE LUZ LED 1 PIEZA COLOR PLATA",
+    "path": "src/assets/prod/ai/09901000-LAMLED.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "4d36e6110e6b01616869a9b49d5b8b7e2aa030c62d1fcaf0e24abd558ed27449"
+  },
+  {
+    "sku": "09901MT-JAG-009",
+    "brand": "SIN MARCA",
+    "name": "MEDIO DE TRANSPORTE UNIVERSAL, TUBO 2 ML. DE FABRICACION NACIONAL USO EXCLUSIVAMENTE PARA",
+    "path": "src/assets/prod/ai/09901MT-JAG-009.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "7eb11188159f0d2afc33058b94171039e36f41eefe41fbc0f9ba3f492abfe0fa"
+  },
+  {
+    "sku": "099013-MTJAG009",
+    "brand": "SIN MARCA",
+    "name": "MEDIO DE TRANSPORTE UNIVERSAL, TUBO 3 ML. DE FABRICACION NACIONAL USO EXCLUSIVAMENTE PARA",
+    "path": "src/assets/prod/ai/099013-MTJAG009.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "350b8f9ba1384134540bb2570b39dcc4fd60db8a9888c4fc56dbdc2572a51c7e"
+  },
+  {
+    "sku": "09901TAMIZ00903",
+    "brand": "SIN MARCA",
+    "name": "PAPEL FILTRO PARA TAMIZ NEONATAL FICHA CON 4 CIRCULOS",
+    "path": "src/assets/prod/ai/09901TAMIZ00903.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "8f6b5c2dc7cc3de19de67f3752399a16c49f1907f31fe03b4e1694b094b80cb6"
+  },
+  {
+    "sku": "288",
+    "brand": "SIN MARCA",
+    "name": "PAQUETERIA",
+    "path": "src/assets/prod/ai/288.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "ca18de5a9d9807b179b262db2b64bc98cfe38c08b69bc32e6a5c2f590c6606ba"
+  },
+  {
+    "sku": "19",
+    "brand": "SIN MARCA",
+    "name": "PAQUETERIA ESTAFETA",
+    "path": "src/assets/prod/ai/19.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "094b05656595b52fd135f8f75e23fa9947813099183892876cc63db8ba39b9ef"
+  },
+  {
+    "sku": "2",
+    "brand": "SIN MARCA",
+    "name": "PAQUETERIA FEDEX",
+    "path": "src/assets/prod/ai/2.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "2224d974368a9ff6ab3187cc1c6102b56e889e7125cbed70262c7e5f56b3497a"
+  },
+  {
+    "sku": "23",
+    "brand": "SIN MARCA",
+    "name": "PAQUETERIA MULTIPACK",
+    "path": "src/assets/prod/ai/23.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "e31a6ec512f3026683e01c0b912ebdae5f147d4e7c8dc4ffde06767cd3cf0c6e"
+  },
+  {
+    "sku": "24",
+    "brand": "SIN MARCA",
+    "name": "PAQUETERIA POTOSINOS",
+    "path": "src/assets/prod/ai/24.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "455cf59942dc085df1075c1ce7af231f3a5b7bde7936789199a85a96b3839b6d"
+  },
+  {
+    "sku": "25",
+    "brand": "SIN MARCA",
+    "name": "PAQUETERIA TRES GUERRAS",
+    "path": "src/assets/prod/ai/25.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "eaa9a63a8cfa20f398c4c86e25c33137b3c91f4d0831e65b69befce8bcc7cdd6"
+  },
+  {
+    "sku": "467",
+    "brand": "SIN MARCA",
+    "name": "PAQUETEXPRESS",
+    "path": "src/assets/prod/ai/467.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "49d1e385c9aa7e483c150f63cbcc24d096b65a10d7085717931589213437cdae"
+  },
+  {
+    "sku": "099010MT2000006",
+    "brand": "SIN MARCA",
+    "name": "PIPETA DE TRANSFERENCIA DE 3.2ML DE PLASTICO NO ESTERIL",
+    "path": "src/assets/prod/ai/099010MT2000006.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "c9ec0ebd77fe60af02ea3c8e5d033e6add4c35ea2125b83bac9443f81a2fbeba"
+  },
+  {
+    "sku": "061010000009571",
+    "brand": "SIN MARCA",
+    "name": "PIZETA DE 500 ML",
+    "path": "src/assets/prod/ai/061010000009571.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "1198c4a2ccb9b9093950ac064bc7cbf1319efb518a0cba0ce3234f75292b1ad3"
+  },
+  {
+    "sku": "09901000VL-5420",
+    "brand": "SIN MARCA",
+    "name": "PLACA DE REACIONES CON 30 ANILLOS, 180.160 MM",
+    "path": "src/assets/prod/ai/09901000VL-5420.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "ce90b29c1408199024e4d672e2e5020e78acb5d511535d91184c8773ca73b804"
+  },
+  {
+    "sku": "0990100PLACVDRL",
+    "brand": "SIN MARCA",
+    "name": "PLACA V.D.R.L DE 30 POZOS DE VIDRIO PIEZA",
+    "path": "src/assets/prod/ai/0990100PLACVDRL.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "81b7ac16cfafc79d01def87cc4b0c87c7ae1eb2a99a841922a218057077f0351"
+  },
+  {
+    "sku": "09901PROPAST1LT",
+    "brand": "SIN MARCA",
+    "name": "PROBETA DE PLASTICO GRADUADA DE 1 LT",
+    "path": "src/assets/prod/ai/09901PROPAST1LT.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "31f55273d943a2096016c5dc40636bfaa43557e90035f9e966fc6ade9a2c5026"
+  },
+  {
+    "sku": "09901000PUNAZUL",
+    "brand": "SIN MARCA",
+    "name": "PUNTAS AZULES",
+    "path": "src/assets/prod/ai/09901000PUNAZUL.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "6accd79269293864b291349cf5080251dbd19c770a65602aedfa11f26f89d73a"
+  },
+  {
+    "sku": "139",
+    "brand": "SIN MARCA",
+    "name": "SERVICIO DE MENSAJERIA ENVIPAQ",
+    "path": "src/assets/prod/ai/139.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "75f86f602faa37268b8bc9f1b149a5fb775e5f13a2d7b709a3be729d7cfcd7b1"
+  },
+  {
+    "sku": "09901TANQUEM250",
+    "brand": "SIN MARCA",
+    "name": "TANQUE DE OXIGENO 6500 LITROS MODELO M250",
+    "path": "src/assets/prod/ai/09901TANQUEM250.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "0abd4cfcbbaa18912a993dd1dd8506524981f375c4a2a703b71c181d266744aa"
+  },
+  {
+    "sku": "09901400800..01",
+    "brand": "SIN MARCA",
+    "name": "TUBO DE POLIPROPILENO DE 5ML DE 12*75 ML",
+    "path": "src/assets/prod/ai/09901400800..01.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "ecfa42a12d99559e76bdf6c7cf2a46853c9e51591f9c8d51dc362323c1f7fdba"
+  },
+  {
+    "sku": "397",
+    "brand": "SIN MARCA",
+    "name": "VIATICOS",
+    "path": "src/assets/prod/ai/397.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "0be3ce172a17cae9045c1d4e1e51b2a61cec84a8fdb373420e7e0f2564f3f6b4"
+  }
+]

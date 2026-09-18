@@ -1,0 +1,558 @@
+[
+  {
+    "slug": "aplicador-de-madera-con-algodon-esteril-02131",
+    "sku": "026010000002131",
+    "name": "APLICADOR DE MADERA CON ALGODON ESTERIL",
+    "brand": "LAROCHELLE",
+    "description": "APLICADOR DE MADERA CON ALGODON ESTERIL PAQUETE CON 100 PIEZAS",
+    "features": [
+      "Presentación: PAQUETE CON 100 PIEZAS",
+      "Material: ALGODON"
+    ]
+  },
+  {
+    "slug": "aplicador-de-plastico-con-algodon-1-300-esteril-00001",
+    "sku": "026010000000001",
+    "name": "APLICADOR DE PLASTICO CON ALGODON 1/300 ESTERIL",
+    "brand": "LAROCHELLE",
+    "description": "APLICADOR DE PLASTICO CON ALGODON 1/300 ESTERIL CAJA CON 300 PIEZAS",
+    "features": [
+      "Presentación: CAJA CON 300 PIEZAS",
+      "Material: PLASTICO"
+    ]
+  },
+  {
+    "slug": "asa-bacteorologica-de-niquel-cromo-calibrada-1-100-con-mango-negro-03020",
+    "sku": "026010000003020",
+    "name": "ASA BACTEOROLOGICA DE NIQUEL CROMO CALIBRADA 1/100 CON MANGO NEGRO",
+    "brand": "LAROCHELLE",
+    "description": "ASA BACTEOROLOGICA DE NIQUEL CROMO CALIBRADA 1/100 CON MANGO NEGRO PAQUETE CON 10 PIEZAS",
+    "features": [
+      "Presentación: PAQUETE CON 10 PIEZAS"
+    ]
+  },
+  {
+    "slug": "asa-bacteorologica-de-niquel-cromo-calibrada-1-1000-con-mango-rojo-03030",
+    "sku": "026010000003030",
+    "name": "ASA BACTEOROLOGICA DE NIQUEL CROMO CALIBRADA 1/1000 CON MANGO ROJO",
+    "brand": "LAROCHELLE",
+    "description": "ASA BACTEOROLOGICA DE NIQUEL CROMO CALIBRADA 1/1000 CON MANGO ROJO PAQUETE CON 10 PIEZAS",
+    "features": [
+      "Presentación: PAQUETE CON 10 PIEZAS"
+    ]
+  },
+  {
+    "slug": "benzal-galon-de-4-lts-l4lts",
+    "sku": "02601BENZAL4LTS",
+    "name": "BENZAL GALON DE 4 LTS",
+    "brand": "LAROCHELLE",
+    "description": "BENZAL GALON DE 4 LTS",
+    "features": [
+      "Presentación: GALON DE 4 LTS",
+      "Contenido: 4 LTS"
+    ]
+  },
+  {
+    "slug": "bolsa-de-polietileno-lam-55-200-de-55x60-cms-de-baja-densidad-lib-de-m-5-200",
+    "sku": "02601LAM-55-200",
+    "name": "BOLSA DE POLIETILENO LAM-55-200 DE 55X60 CMS DE BAJA DENSIDAD, LIB DE M P CALIBRE 200",
+    "brand": "LAROCHELLE",
+    "description": "BOLSA DE POLIETILENO LAM-55-200 DE 55X60 CMS DE BAJA DENSIDAD, LIB DE M P CALIBRE 200 AMARILLA",
+    "features": [
+      "Presentación: BOLSA DE POLIETILENO LAM",
+      "Medida: 55X60",
+      "Material: POLIETILENO"
+    ]
+  },
+  {
+    "slug": "bolsa-de-polietileno-lro-122-200-de-110-x-120-cms-de-baja-densi-lib-de-2-200",
+    "sku": "02601LRO122-200",
+    "name": "BOLSA DE POLIETILENO LRO-122-200 DE 110 x 120 CMS DE BAJA DENSI. LIB DE MET PES CALI200",
+    "brand": "LAROCHELLE",
+    "description": "BOLSA DE POLIETILENO LRO-122-200 DE 110 x 120 CMS DE BAJA DENSI. LIB DE MET PES CALI200 ROJA PIEZA",
+    "features": [
+      "Medida: 110 x 120",
+      "Material: POLIETILENO"
+    ]
+  },
+  {
+    "slug": "bolsa-de-polietileno-lro-30-200-de-30x40-cm-para-rpbi-de-baja-densidad-30x40",
+    "sku": "02601PBOLR30X40",
+    "name": "BOLSA DE POLIETILENO LRO-30-200 DE 30x40 CM PARA RPBI DE BAJA DENSIDAD CALIBRE 200.ROJA.",
+    "brand": "LAROCHELLE",
+    "description": "BOLSA DE POLIETILENO LRO-30-200 DE 30x40 CM PARA RPBI DE BAJA DENSIDAD CALIBRE 200.ROJA. PIEZA",
+    "features": [
+      "Medida: 30x40 CM",
+      "Material: POLIETILENO"
+    ]
+  },
+  {
+    "slug": "bolsa-de-polietileno-lro-50-200-de-46x50-cms-de-baja-denslibde-metpesa-0-200",
+    "sku": "02601LRO-50-200",
+    "name": "BOLSA DE POLIETILENO LRO-50-200 DE 46x50 CMS DE BAJA DENSLIBDE METPESA CALIBRE 200 ROJA",
+    "brand": "LAROCHELLE",
+    "description": "BOLSA DE POLIETILENO LRO-50-200 DE 46x50 CMS DE BAJA DENSLIBDE METPESA CALIBRE 200 ROJA",
+    "features": [
+      "Medida: 46x50",
+      "Material: POLIETILENO"
+    ]
+  },
+  {
+    "slug": "bolsa-de-polietileno-lro-55-200-de-55x60-cms-de-baja-densi-lib-de-meta-5-200",
+    "sku": "02601LRO-55-200",
+    "name": "BOLSA DE POLIETILENO LRO-55-200 DE 55x60 CMS DE BAJA DENSI, LIB DE META PES CALI 200 ROJA",
+    "brand": "LAROCHELLE",
+    "description": "BOLSA DE POLIETILENO LRO-55-200 DE 55x60 CMS DE BAJA DENSI, LIB DE META PES CALI 200 ROJA PIEZA",
+    "features": [
+      "Medida: 55x60",
+      "Material: POLIETILENO"
+    ]
+  },
+  {
+    "slug": "bolsa-de-polietileno-lro-60-200-de-60x80-cms-de-baja-densi-libde-met-p-0-200",
+    "sku": "02601LRO-60-200",
+    "name": "BOLSA DE POLIETILENO LRO-60-200 DE 60x80 CMS DE BAJA DENSI, LIBDE MET PES CALI 200 ROJA",
+    "brand": "LAROCHELLE",
+    "description": "BOLSA DE POLIETILENO LRO-60-200 DE 60x80 CMS DE BAJA DENSI, LIBDE MET PES CALI 200 ROJA",
+    "features": [
+      "Medida: 60x80",
+      "Material: POLIETILENO"
+    ]
+  },
+  {
+    "slug": "bolsa-de-polietileno-lro-90-200-de-baja-densi-de-70-90-lib-de-met-pes-0-200",
+    "sku": "02601LRO-90-200",
+    "name": "BOLSA DE POLIETILENO LRO-90-200 DE BAJA DENSI DE 70 * 90 , LIB DE MET PES CALI200 ROJA",
+    "brand": "LAROCHELLE",
+    "description": "BOLSA DE POLIETILENO LRO-90-200 DE BAJA DENSI DE 70 * 90 , LIB DE MET PES CALI200 ROJA PIEZA",
+    "features": [
+      "Material: POLIETILENO"
+    ]
+  },
+  {
+    "slug": "bolsa-recolectora-de-orina-esteril-nina-04011",
+    "sku": "026010000004011",
+    "name": "BOLSA RECOLECTORA DE ORINA ESTERIL NIÑA",
+    "brand": "LAROCHELLE",
+    "description": "BOLSA RECOLECTORA DE ORINA ESTERIL NIÑA PAQUETE CON 100 PIEZAS",
+    "features": [
+      "Presentación: PAQUETE CON 100 PIEZAS"
+    ]
+  },
+  {
+    "slug": "bolsa-recolectora-de-orina-para-nino-esteril-04021",
+    "sku": "026010000004021",
+    "name": "BOLSA RECOLECTORA DE ORINA PARA NIÑO ESTERIL",
+    "brand": "LAROCHELLE",
+    "description": "BOLSA RECOLECTORA DE ORINA PARA NIÑO ESTERIL PAQUETE CON 100 PZS",
+    "features": [
+      "Presentación: PAQUETE CON 100 PZS"
+    ]
+  },
+  {
+    "slug": "cepillo-citologico-esteril-pza-00061",
+    "sku": "026010000000061",
+    "name": "CEPILLO CITOLOGICO ESTERIL PZA",
+    "brand": "LAROCHELLE",
+    "description": "CEPILLO CITOLOGICO ESTERIL PZA",
+    "features": []
+  },
+  {
+    "slug": "corta-unas-tamano-m-una01",
+    "sku": "02603CORTAUNA01",
+    "name": "CORTA UÑAS TAMAÑO M",
+    "brand": "LAROCHELLE",
+    "description": "CORTA UÑAS TAMAÑO M",
+    "features": []
+  },
+  {
+    "slug": "espatula-de-ayre-de-madera-esteril-00004",
+    "sku": "026010000000004",
+    "name": "ESPATULA DE AYRE DE MADERA. ESTERIL",
+    "brand": "LAROCHELLE",
+    "description": "ESPATULA DE AYRE DE MADERA. ESTERIL PAQUETE CON 100 PZAS",
+    "features": [
+      "Presentación: PAQUETE CON 100 PZAS"
+    ]
+  },
+  {
+    "slug": "gradilla-de-alambre-para-90-tubos-radil",
+    "sku": "026010000GRADIL",
+    "name": "GRADILLA DE ALAMBRE PARA 90 TUBOS",
+    "brand": "LAROCHELLE",
+    "description": "GRADILLA DE ALAMBRE PARA 90 TUBOS",
+    "features": []
+  },
+  {
+    "slug": "vaso-recolector-esteril-de-100-ml-pieza-descontinuado-lo-sustituye-el-pw001",
+    "sku": "0990100000PW001",
+    "name": "(*) VASO RECOLECTOR ESTERIL DE 100 ML. PIEZA* ( descontinuado lo sustituye el catalogo:",
+    "brand": "SIN MARCA",
+    "description": "(*) VASO RECOLECTOR ESTERIL DE 100 ML. PIEZA* ( descontinuado lo sustituye el catalogo: PW113 )",
+    "features": [
+      "Contenido: 100 ML"
+    ]
+  },
+  {
+    "slug": "alcohol-96o-1-lt-on-bi",
+    "sku": "09901ALC-CON-BI",
+    "name": "ALCOHOL 96º 1 LT",
+    "brand": "SIN MARCA",
+    "description": "ALCOHOL 96º 1 LT",
+    "features": [
+      "Contenido: 1 LT"
+    ]
+  },
+  {
+    "slug": "alcohol-del-96o-galon-de-4-lts-galon",
+    "sku": "09901ALCO-GALON",
+    "name": "ALCOHOL DEL 96º GALON DE 4 LTS",
+    "brand": "SIN MARCA",
+    "description": "ALCOHOL DEL 96º GALON DE 4 LTS",
+    "features": [
+      "Presentación: GALON DE 4 LTS",
+      "Contenido: 4 LTS"
+    ]
+  },
+  {
+    "slug": "automovil-jetta-mk-vi-4-puertas-marca-volkswagen-modelo-2016-numero-de-630",
+    "sku": "630",
+    "name": "AUTOMOVIL JETTA MK VI 4 PUERTAS, MARCA VOLKSWAGEN, MODELO 2016, NUMERO DE SERIE",
+    "brand": "SIN MARCA",
+    "description": "AUTOMOVIL JETTA MK VI 4 PUERTAS, MARCA VOLKSWAGEN, MODELO 2016, NUMERO DE SERIE 3VW4R6AJ5GM256916, NUMERO DE MOTOR CPL041211",
+    "features": []
+  },
+  {
+    "slug": "bolsa-con-cinta-adhesiva-calibre-200-medidas-35x50-20-cms-color-blanca-lmp02",
+    "sku": "09901BOLSALMP02",
+    "name": "BOLSA CON CINTA ADHESIVA CALIBRE 200. MEDIDAS 35x50 +20 CMS. COLOR BLANCA",
+    "brand": "SIN MARCA",
+    "description": "BOLSA CON CINTA ADHESIVA CALIBRE 200. MEDIDAS 35x50 +20 CMS. COLOR BLANCA",
+    "features": [
+      "Medida: 35x50",
+      "Color: BLANCA"
+    ]
+  },
+  {
+    "slug": "bolsa-con-cinta-adhesiva-de-calibre-250-medidas-50x60-20-cms-color-bla-lmp01",
+    "sku": "09901BOLSALMP01",
+    "name": "BOLSA CON CINTA ADHESIVA DE CALIBRE 250. MEDIDAS 50X60 + 20 CMS. COLOR BLANCA",
+    "brand": "SIN MARCA",
+    "description": "BOLSA CON CINTA ADHESIVA DE CALIBRE 250. MEDIDAS 50X60 + 20 CMS. COLOR BLANCA",
+    "features": [
+      "Medida: 50X60",
+      "Color: BLANCA"
+    ]
+  },
+  {
+    "slug": "bolsa-en-rollo-negra-de-25-x-35-lrone",
+    "sku": "09901000BOLRONE",
+    "name": "BOLSA EN ROLLO NEGRA DE 25 x 35",
+    "brand": "SIN MARCA",
+    "description": "BOLSA EN ROLLO NEGRA DE 25 x 35",
+    "features": [
+      "Medida: 25 x 35"
+    ]
+  },
+  {
+    "slug": "careta-1-pieza-1micr",
+    "sku": "09901001801MICR",
+    "name": "CARETA 1 PIEZA",
+    "brand": "SIN MARCA",
+    "description": "CARETA 1 PIEZA",
+    "features": [
+      "Presentación: 1 PIEZA"
+    ]
+  },
+  {
+    "slug": "cinta-testigo-tatuk",
+    "sku": "0990100CINTATUK",
+    "name": "CINTA TESTIGO",
+    "brand": "SIN MARCA",
+    "description": "CINTA TESTIGO",
+    "features": []
+  },
+  {
+    "slug": "curso-de-atencion-a-pacientes-602",
+    "sku": "602",
+    "name": "CURSO DE ATENCION A PACIENTES",
+    "brand": "SIN MARCA",
+    "description": "CURSO DE ATENCION A PACIENTES",
+    "features": []
+  },
+  {
+    "slug": "curso-de-toma-de-muestra-sanguinea-601",
+    "sku": "601",
+    "name": "CURSO DE TOMA DE MUESTRA SANGUINEA",
+    "brand": "SIN MARCA",
+    "description": "CURSO DE TOMA DE MUESTRA SANGUINEA",
+    "features": []
+  },
+  {
+    "slug": "estuche-de-balines-metalicos-gris-con-400-a-4.5",
+    "sku": "099010DP-MA-4.5",
+    "name": "ESTUCHE DE BALINES METALICOS ( GRIS ) CON 400",
+    "brand": "SIN MARCA",
+    "description": "ESTUCHE DE BALINES METALICOS ( GRIS ) CON 400",
+    "features": []
+  },
+  {
+    "slug": "gel-refrigerante-de-200-grs-sin-logo-gr-04t-r-04t",
+    "sku": "099010000GR-04T",
+    "name": "GEL REFRIGERANTE DE 200 GRS SIN LOGO ( GR-04T )",
+    "brand": "SIN MARCA",
+    "description": "GEL REFRIGERANTE DE 200 GRS SIN LOGO ( GR-04T ) CAJA CON 100 PIEZAS",
+    "features": [
+      "Presentación: CAJA CON 100 PIEZAS",
+      "Contenido: 200 GRS"
+    ]
+  },
+  {
+    "slug": "genrui-nuevo-coronavirus-2019-ncov-igg-igm-25-t-kit-de-prueba-oro-colo-26069",
+    "sku": "099010052026069",
+    "name": "GENRUI NUEVO CORONAVIRUS ( 2019-nCoV ) IgG/IgM 25 T/KIT DE PRUEBA ( oro coloidal )",
+    "brand": "SIN MARCA",
+    "description": "GENRUI NUEVO CORONAVIRUS ( 2019-nCoV ) IgG/IgM 25 T/KIT DE PRUEBA ( oro coloidal )",
+    "features": [
+      "Presentación: KIT DE PRUEBA"
+    ]
+  },
+  {
+    "slug": "gorro-gusano-color-blanco-0054b",
+    "sku": "09901000000054B",
+    "name": "GORRO GUSANO COLOR BLANCO",
+    "brand": "SIN MARCA",
+    "description": "GORRO GUSANO COLOR BLANCO PAQUETE CON 100 PIEZAS",
+    "features": [
+      "Presentación: PAQUETE CON 100 PIEZAS",
+      "Color: BLANCO PAQUETE"
+    ]
+  },
+  {
+    "slug": "hisopo-nasal-esteril-de-nylon-floqued-empaque-con-100-piezas-s0752",
+    "sku": "099010SKUGS0752",
+    "name": "HISOPO NASAL ESTERIL, DE NYLON FLOQUED, EMPAQUE CON 100 PIEZAS",
+    "brand": "SIN MARCA",
+    "description": "HISOPO NASAL ESTERIL, DE NYLON FLOQUED, EMPAQUE CON 100 PIEZAS",
+    "features": [
+      "Presentación: 100 PIEZAS",
+      "Material: NYLON"
+    ]
+  },
+  {
+    "slug": "hisopo-nasofaringeo-esteril-de-alginato-de-calcio-con-punta-pequena-5-00a50",
+    "sku": "09901025-800A50",
+    "name": "HISOPO NASOFARINGEO ESTERIL DE ALGINATO DE CALCIO CON PUNTA PEQUEÑA 5.5\" MANGO DE",
+    "brand": "SIN MARCA",
+    "description": "HISOPO NASOFARINGEO ESTERIL DE ALGINATO DE CALCIO CON PUNTA PEQUEÑA 5.5\" MANGO DE ALUMINIO, EXTREMO RIZADO. PAQUE CON 50 PIEZAS",
+    "features": [
+      "Presentación: 50 PIEZAS"
+    ]
+  },
+  {
+    "slug": "lampara-de-bolsillo-de-luz-led-1-pieza-color-negro-amled",
+    "sku": "099010000LAMLED",
+    "name": "LAMPARA DE BOLSILLO DE LUZ LED 1 PIEZA COLOR NEGRO",
+    "brand": "SIN MARCA",
+    "description": "LAMPARA DE BOLSILLO DE LUZ LED 1 PIEZA COLOR NEGRO",
+    "features": [
+      "Presentación: 1 PIEZA",
+      "Color: NEGRO"
+    ]
+  },
+  {
+    "slug": "lampara-de-bolsillo-de-luz-led-1-pieza-color-plata-amled",
+    "sku": "09901000-LAMLED",
+    "name": "LAMPARA DE BOLSILLO DE LUZ LED 1 PIEZA COLOR PLATA",
+    "brand": "SIN MARCA",
+    "description": "LAMPARA DE BOLSILLO DE LUZ LED 1 PIEZA COLOR PLATA",
+    "features": [
+      "Presentación: 1 PIEZA",
+      "Color: PLATA"
+    ]
+  },
+  {
+    "slug": "medio-de-transporte-universal-tubo-2-ml-de-fabricacion-nacional-uso-ex-g-009",
+    "sku": "09901MT-JAG-009",
+    "name": "MEDIO DE TRANSPORTE UNIVERSAL, TUBO 2 ML. DE FABRICACION NACIONAL USO EXCLUSIVAMENTE PARA",
+    "brand": "SIN MARCA",
+    "description": "MEDIO DE TRANSPORTE UNIVERSAL, TUBO 2 ML. DE FABRICACION NACIONAL USO EXCLUSIVAMENTE PARA INVESTIGACION RUO. CAJA CON 50 PIEZAS",
+    "features": [
+      "Presentación: CAJA CON 50 PIEZAS",
+      "Contenido: 2 ML"
+    ]
+  },
+  {
+    "slug": "medio-de-transporte-universal-tubo-3-ml-de-fabricacion-nacional-uso-ex-ag009",
+    "sku": "099013-MTJAG009",
+    "name": "MEDIO DE TRANSPORTE UNIVERSAL, TUBO 3 ML. DE FABRICACION NACIONAL USO EXCLUSIVAMENTE PARA",
+    "brand": "SIN MARCA",
+    "description": "MEDIO DE TRANSPORTE UNIVERSAL, TUBO 3 ML. DE FABRICACION NACIONAL USO EXCLUSIVAMENTE PARA INVESTIGACION RUO. CAJA CON 50 PIEZAS",
+    "features": [
+      "Presentación: CAJA CON 50 PIEZAS",
+      "Contenido: 3 ML"
+    ]
+  },
+  {
+    "slug": "papel-filtro-para-tamiz-neonatal-ficha-con-4-circulos-00903",
+    "sku": "09901TAMIZ00903",
+    "name": "PAPEL FILTRO PARA TAMIZ NEONATAL FICHA CON 4 CIRCULOS",
+    "brand": "SIN MARCA",
+    "description": "PAPEL FILTRO PARA TAMIZ NEONATAL FICHA CON 4 CIRCULOS PAQUETE C/100PIEZAS",
+    "features": [
+      "Presentación: PAQUETE C/100PIEZAS"
+    ]
+  },
+  {
+    "slug": "paqueteria-288",
+    "sku": "288",
+    "name": "PAQUETERIA",
+    "brand": "SIN MARCA",
+    "description": "PAQUETERIA",
+    "features": []
+  },
+  {
+    "slug": "paqueteria-estafeta-19",
+    "sku": "19",
+    "name": "PAQUETERIA ESTAFETA",
+    "brand": "SIN MARCA",
+    "description": "PAQUETERIA ESTAFETA",
+    "features": []
+  },
+  {
+    "slug": "paqueteria-fedex-2",
+    "sku": "2",
+    "name": "PAQUETERIA FEDEX",
+    "brand": "SIN MARCA",
+    "description": "PAQUETERIA FEDEX",
+    "features": []
+  },
+  {
+    "slug": "paqueteria-multipack-23",
+    "sku": "23",
+    "name": "PAQUETERIA MULTIPACK",
+    "brand": "SIN MARCA",
+    "description": "PAQUETERIA MULTIPACK",
+    "features": []
+  },
+  {
+    "slug": "paqueteria-potosinos-24",
+    "sku": "24",
+    "name": "PAQUETERIA POTOSINOS",
+    "brand": "SIN MARCA",
+    "description": "PAQUETERIA POTOSINOS",
+    "features": []
+  },
+  {
+    "slug": "paqueteria-tres-guerras-25",
+    "sku": "25",
+    "name": "PAQUETERIA TRES GUERRAS",
+    "brand": "SIN MARCA",
+    "description": "PAQUETERIA TRES GUERRAS",
+    "features": []
+  },
+  {
+    "slug": "paquetexpress-467",
+    "sku": "467",
+    "name": "PAQUETEXPRESS",
+    "brand": "SIN MARCA",
+    "description": "PAQUETEXPRESS",
+    "features": []
+  },
+  {
+    "slug": "pipeta-de-transferencia-de-3-2ml-de-plastico-no-esteril-00006",
+    "sku": "099010MT2000006",
+    "name": "PIPETA DE TRANSFERENCIA DE 3.2ML DE PLASTICO NO ESTERIL",
+    "brand": "SIN MARCA",
+    "description": "PIPETA DE TRANSFERENCIA DE 3.2ML DE PLASTICO NO ESTERIL",
+    "features": [
+      "Contenido: 3.2ML",
+      "Material: PLASTICO"
+    ]
+  },
+  {
+    "slug": "pizeta-de-500-ml-09571",
+    "sku": "061010000009571",
+    "name": "PIZETA DE 500 ML",
+    "brand": "SIN MARCA",
+    "description": "PIZETA DE 500 ML",
+    "features": [
+      "Contenido: 500 ML"
+    ]
+  },
+  {
+    "slug": "placa-de-reaciones-con-30-anillos-180-160-mm--5420",
+    "sku": "09901000VL-5420",
+    "name": "PLACA DE REACIONES CON 30 ANILLOS, 180.160 MM",
+    "brand": "SIN MARCA",
+    "description": "PLACA DE REACIONES CON 30 ANILLOS, 180.160 MM",
+    "features": []
+  },
+  {
+    "slug": "placa-v-d-r-l-de-30-pozos-de-vidrio-pieza-cvdrl",
+    "sku": "0990100PLACVDRL",
+    "name": "PLACA V.D.R.L DE 30 POZOS DE VIDRIO PIEZA",
+    "brand": "SIN MARCA",
+    "description": "PLACA V.D.R.L DE 30 POZOS DE VIDRIO PIEZA",
+    "features": [
+      "Material: VIDRIO"
+    ]
+  },
+  {
+    "slug": "probeta-de-plastico-graduada-de-1-lt-st1lt",
+    "sku": "09901PROPAST1LT",
+    "name": "PROBETA DE PLASTICO GRADUADA DE 1 LT",
+    "brand": "SIN MARCA",
+    "description": "PROBETA DE PLASTICO GRADUADA DE 1 LT",
+    "features": [
+      "Contenido: 1 LT",
+      "Material: PLASTICO"
+    ]
+  },
+  {
+    "slug": "puntas-azules-nazul",
+    "sku": "09901000PUNAZUL",
+    "name": "PUNTAS AZULES",
+    "brand": "SIN MARCA",
+    "description": "PUNTAS AZULES PAQUETE CON 1000 PIEZAS",
+    "features": [
+      "Presentación: PAQUETE CON 1000 PIEZAS"
+    ]
+  },
+  {
+    "slug": "servicio-de-mensajeria-envipaq-139",
+    "sku": "139",
+    "name": "SERVICIO DE MENSAJERIA ENVIPAQ",
+    "brand": "SIN MARCA",
+    "description": "SERVICIO DE MENSAJERIA ENVIPAQ",
+    "features": []
+  },
+  {
+    "slug": "tanque-de-oxigeno-6500-litros-modelo-m250-em250",
+    "sku": "09901TANQUEM250",
+    "name": "TANQUE DE OXIGENO 6500 LITROS MODELO M250",
+    "brand": "SIN MARCA",
+    "description": "TANQUE DE OXIGENO 6500 LITROS MODELO M250",
+    "features": []
+  },
+  {
+    "slug": "tubo-de-polipropileno-de-5ml-de-12-75-ml-0..01",
+    "sku": "09901400800..01",
+    "name": "TUBO DE POLIPROPILENO DE 5ML DE 12*75 ML",
+    "brand": "SIN MARCA",
+    "description": "TUBO DE POLIPROPILENO DE 5ML DE 12*75 ML PAQUETE CON 1000 PIEZAS",
+    "features": [
+      "Presentación: PAQUETE CON 1000 PIEZAS",
+      "Contenido: 5ML",
+      "Material: POLIPROPILENO"
+    ]
+  },
+  {
+    "slug": "viaticos-397",
+    "sku": "397",
+    "name": "VIATICOS",
+    "brand": "SIN MARCA",
+    "description": "VIATICOS",
+    "features": []
+  }
+]
