@@ -66,7 +66,7 @@ function Index() {
       <section className="relative">
         <img
           src={hero}
-          alt="Personal de laboratorio trabajando con material de diagnóstico"
+          alt="Laboratorio moderno con analizador clínico, placas de cultivo, tubos de muestra, micropipeta y material de diagnóstico"
           width={1920}
           height={1088}
           className="h-[76vh] w-full object-cover"
