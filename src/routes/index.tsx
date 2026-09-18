@@ -69,7 +69,7 @@ function Index() {
           alt="Analizador clínico moderno junto a una gradilla con tubos y una caja Petri sobre una mesa blanca en un laboratorio luminoso"
           width={1920}
           height={1088}
-          className="h-[76vh] w-full object-cover object-[30%_center] sm:object-center"
+          className="h-[76vh] w-full object-cover object-[58%_center] sm:object-center"
         />
         <div
           aria-hidden="true"
