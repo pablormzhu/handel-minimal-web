@@ -49,7 +49,7 @@ function ProductoPage() {
               alt={product.name}
               width={1200}
               height={900}
-              className="aspect-[4/3] w-full object-cover"
+              className="aspect-[4/3] w-full object-contain p-4"
             />
           </div>
           <div>
@@ -130,7 +130,7 @@ function ProductoPage() {
                       loading="lazy"
                       width={1200}
                       height={900}
-                      className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                      className="aspect-[4/3] w-full object-contain p-4 transition-transform duration-700 group-hover:scale-[1.03]"
                     />
                   </div>
                   <p className="mt-4 text-base font-medium tracking-tight">{p.name}</p>
