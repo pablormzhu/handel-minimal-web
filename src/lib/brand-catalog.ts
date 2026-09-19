@@ -5210,3 +5210,11 @@ export const catalogProducts: CatalogProduct[] = [
     "features": []
   }
 ];
+
+export function brandBySlug(slug: string): CatalogBrand | undefined {
+  return catalogBrands.find((b) => b.slug === slug);
+}
+
+export function productsByBrand(name: string): CatalogProduct[] {
+  return catalogProducts.filter((p) => p.brand === name);
+}
