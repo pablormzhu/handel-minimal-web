@@ -1,10 +1,10 @@
-import { createFileRoute, notFound } from "@tanstack/react-router";
+import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { Page, CtaBand } from "@/components/site/Page";
 import { BackLink } from "@/components/site/BackLink";
 import { brandBySlug, productsByBrand } from "@/lib/brand-catalog";
 import { productImage } from "@/lib/product-images";
-import { formatFeature, sentenceCase } from "@/lib/format-product";
+import { productDisplayInfo } from "@/lib/format-product";
 
 
 
@@ -67,15 +67,19 @@ function MarcaPage() {
 
       <section className="mx-auto max-w-6xl px-6 pb-10">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {list.map((p) => (
-            <article
+          {list.map((p) => {
+            const info = productDisplayInfo(p);
+            return (
+            <Link
               key={p.slug}
+              to="/marca/$marca/producto/$producto"
+              params={{ marca: brand.slug, producto: p.slug }}
               className="flex flex-col overflow-hidden rounded-3xl border border-border/30 bg-background/50 shadow-xl backdrop-blur-xl transition-shadow duration-300 hover:shadow-2xl"
             >
               <div className="aspect-square w-full overflow-hidden bg-muted/30">
                 <img
                   src={productImage(p)}
-                  alt={p.name}
+                  alt={info.title}
                   loading="lazy"
                   width={1024}
                   height={1024}
@@ -88,34 +92,15 @@ function MarcaPage() {
                   Clave {p.sku} <span className="text-muted-foreground/60">·</span> {p.brand}
                 </p>
                 <h2 className="mt-2 text-base font-semibold leading-snug tracking-tight">
-                  {sentenceCase(p.name)}
+                  {info.title}
                 </h2>
-                <p className="mt-3 text-sm text-muted-foreground">{sentenceCase(p.description)}</p>
-                {p.features.length > 0 && (
-                  <ul className="mt-4 space-y-2 border-t border-border/40 pt-4 text-[13px] text-muted-foreground">
-                    {p.features.map((f) => {
-                      const formatted = formatFeature(f);
-                      if (!formatted) return null;
-                      const { label, value } = formatted;
-                      return (
-                        <li key={f}>
-                          {label ? (
-                            <>
-                              <span className="font-semibold text-foreground">{label}:</span>{" "}
-                              {value}
-                            </>
-                          ) : (
-                            value
-                          )}
-                        </li>
-                      );
-                    })}
-                  </ul>
-                )}
+                {info.detail && <p className="mt-3 text-sm text-muted-foreground">{info.detail}</p>}
+                <span className="mt-auto pt-5 text-sm font-medium text-foreground">Ver información</span>
               </div>
 
-            </article>
-          ))}
+            </Link>
+            );
+          })}
         </div>
         {list.length === 0 && (
           <p className="py-10 text-sm text-muted-foreground">No encontramos productos con ese término.</p>
