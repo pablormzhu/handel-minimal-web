@@ -11,6 +11,14 @@ function findProduct(brandSlug: string, productSlug: string) {
   return catalogProducts.find((product) => product.brand === brand.name && product.slug === productSlug);
 }
 
+function comparableValue(value: string) {
+  return value
+    .toLocaleLowerCase()
+    .replace(/\b(?:frasco|caja|bolsa|paquete|bid[oó]n|kit|estuche)\s+(?:de|con)\s+/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export const Route = createFileRoute("/marca/$marca_/producto/$producto")({
   loader: ({ params }) => {
     const product = findProduct(params.marca, params.producto);
@@ -45,6 +53,23 @@ function BrandProductPage() {
   const features = product.features
     .map(formatFeature)
     .filter((feature): feature is { label: string; value: string } => Boolean(feature));
+  const specificationRows = info.specifications
+    .map(formatFeature)
+    .filter((feature): feature is { label: string; value: string } => Boolean(feature));
+  const rows = [
+    ...(info.type ? [{ label: "Tipo", value: info.type.replace(/^tipo\s+/i, "") }] : []),
+    ...(info.presentation ? [{ label: "Presentación", value: info.presentation.replace(/^(?:presentación|contenido|cantidad)\s*:\s*/i, "") }] : []),
+    ...features,
+    ...specificationRows,
+  ].filter(
+    (row, index, allRows) =>
+      allRows.findIndex(
+        (candidate) =>
+          comparableValue(candidate.value) === comparableValue(row.value) ||
+          `${candidate.label} ${candidate.value}`.toLocaleLowerCase() ===
+            `${row.label} ${row.value}`.toLocaleLowerCase(),
+      ) === index,
+  );
 
   return (
     <Page>
@@ -53,7 +78,7 @@ function BrandProductPage() {
           Regresar a {brand.name}
         </BackLink>
 
-        <div className="mt-8 grid items-start gap-12 lg:grid-cols-2">
+        <div className="mt-8 grid items-start gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.92fr)] lg:gap-14">
           <div className="aspect-square overflow-hidden rounded-3xl bg-muted/30">
             <img
               src={productImage(product)}
@@ -64,13 +89,28 @@ function BrandProductPage() {
             />
           </div>
 
-          <div className="pt-2">
+          <div className="pt-2 lg:sticky lg:top-24">
             <p className="text-xs font-medium text-muted-foreground">
               Clave {product.sku} <span className="text-muted-foreground/60">·</span> {product.brand}
             </p>
             <h1 className="mt-3 text-4xl font-semibold leading-tight sm:text-5xl">{info.title}</h1>
-            {info.detail && <p className="mt-4 text-lg text-muted-foreground">{info.detail}</p>}
-            <p className="mt-8 text-sm leading-7 text-muted-foreground">{info.description}</p>
+            {info.description && (
+              <p className="mt-5 max-w-xl text-base leading-7 text-muted-foreground">{info.description}</p>
+            )}
+
+            {rows.length > 0 && (
+              <dl className="mt-8 overflow-hidden rounded-2xl border border-border/60 bg-muted/20">
+                {rows.map(({ label, value }, index) => (
+                  <div
+                    key={`${label}-${value}`}
+                    className={`grid grid-cols-[minmax(7rem,0.42fr)_1fr] gap-5 px-5 py-4 text-sm ${index > 0 ? "border-t border-border/60" : ""}`}
+                  >
+                    <dt className="text-muted-foreground">{label || "Detalle"}</dt>
+                    <dd className="text-right font-medium leading-6">{value}</dd>
+                  </div>
+                ))}
+              </dl>
+            )}
             <Link
               to="/contacto"
               className="mt-9 inline-flex rounded-full bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-85"
@@ -80,36 +120,6 @@ function BrandProductPage() {
           </div>
         </div>
       </section>
-
-      {(info.specifications.length > 0 || features.length > 0) && (
-        <section className="border-t border-border/60 py-16">
-          <div className="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-2">
-            {info.specifications.length > 0 && (
-              <div>
-                <h2 className="text-sm font-medium text-muted-foreground">Especificaciones técnicas</h2>
-                <ul className="mt-5 divide-y divide-border/60 border-y border-border/60">
-                  {info.specifications.map((specification) => (
-                    <li key={specification} className="py-4 text-sm leading-6">{specification}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            {features.length > 0 && (
-              <div>
-                <h2 className="text-sm font-medium text-muted-foreground">Presentación</h2>
-                <ul className="mt-5 divide-y divide-border/60 border-y border-border/60">
-                  {features.map(({ label, value }) => (
-                    <li key={`${label}-${value}`} className="flex justify-between gap-6 py-4 text-sm">
-                      {label && <span className="text-muted-foreground">{label}</span>}
-                      <span className="text-right font-medium">{value}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-        </section>
-      )}
 
       <CtaBand title="¿Necesitas confirmar esta presentación?" action="Hablar con un asesor" />
     </Page>
