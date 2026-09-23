@@ -83,7 +83,7 @@ function cleanProductText(value: string): string {
 }
 
 function readableCase(value: string): string {
-  const normalized = restoreTechnicalCase(cleanProductText(value).toLowerCase());
+  const normalized = restoreTechnicalCase(cleanProductText(value).toLowerCase()).replace(/°\s*c\b/gi, "°C");
   return normalized ? normalized.charAt(0).toUpperCase() + normalized.slice(1) : "";
 }
 
@@ -134,6 +134,7 @@ function restoreTechnicalCase(value: string): string {
 }
 
 function briefDescription(value: string, title: string): string {
+  if (/aceite de inmersi[oó]n/i.test(title)) return "Aceite para observación de muestras por microscopía.";
   let brief = cleanProductText(value)
     .replace(TECHNICAL_START_PATTERN, "|||")
     .split("|||")[0] ?? "";
@@ -145,7 +146,6 @@ function briefDescription(value: string, title: string): string {
   if (presentationStart >= 0) brief = brief.slice(0, presentationStart);
   brief = cleanProductText(brief);
   if (!brief || brief.toLowerCase() === cleanProductText(title).toLowerCase()) {
-    if (/aceite de inmersi[oó]n/i.test(title)) return "Aceite óptico para observación microscópica.";
     return `Producto de laboratorio ${title.toLowerCase()}.`;
   }
   const concise = brief.length > 150 ? brief.slice(0, 151).replace(/\s+\S*$/, "") : brief;
