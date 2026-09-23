@@ -4,7 +4,7 @@ import { BackLink } from "@/components/site/BackLink";
 import { CtaBand, Page } from "@/components/site/Page";
 import { Button } from "@/components/ui/button";
 import { equipmentBySlug } from "@/lib/equipment";
-import nihonKohdenLogo from "@/assets/nihon-kohden-logo.png.asset.json";
+import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
 
 export const Route = createFileRoute("/equipos/$modelo")({
   loader: ({ params }) => {
@@ -38,7 +38,7 @@ function EquipmentDetailPage() {
         <div className="relative mx-auto flex min-h-[68vh] max-w-6xl flex-col justify-between px-6 py-12 text-primary-foreground">
           <BackLink to="/equipos">Regresar a equipos</BackLink>
           <div className="max-w-2xl pb-5">
-            <img src={nihonKohdenLogo.url} alt="Nihon Kohden" width={617} height={316} className="h-9 w-auto object-contain brightness-0 invert" />
+            <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="h-8 w-auto object-contain brightness-0 invert" />
             <p className="mt-8 text-sm font-semibold text-primary-foreground/65">{item.model}</p>
             <h1 className="mt-2 text-5xl font-semibold leading-none sm:text-7xl">{item.name}</h1>
             <p className="mt-5 max-w-xl text-lg leading-7 text-primary-foreground/85">{item.category}</p>

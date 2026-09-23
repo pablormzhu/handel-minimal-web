@@ -4,7 +4,7 @@ import { BackLink } from "@/components/site/BackLink";
 import { CtaBand, Page } from "@/components/site/Page";
 import { Button } from "@/components/ui/button";
 import { equipment } from "@/lib/equipment";
-import nihonKohdenLogo from "@/assets/nihon-kohden-logo.png.asset.json";
+import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
 
 export const Route = createFileRoute("/equipos/")({
   head: () => ({
@@ -31,7 +31,7 @@ function EquipmentPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/10" aria-hidden="true" />
         <div className="relative mx-auto flex min-h-[72vh] max-w-6xl flex-col justify-center px-6 py-20 text-primary-foreground">
           <BackLink to="/">Regresar al inicio</BackLink>
-          <img src={nihonKohdenLogo.url} alt="Nihon Kohden" width={617} height={316} className="mt-10 h-12 w-auto max-w-[220px] object-contain brightness-0 invert sm:h-14" />
+          <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="mt-10 h-9 w-auto max-w-[220px] object-contain brightness-0 invert sm:h-10" />
           <p className="mt-8 text-xs font-medium uppercase text-primary-foreground/60">Analizadores hematológicos</p>
           <h1 className="mt-4 max-w-3xl text-balance text-4xl font-semibold leading-[1.06] sm:text-6xl">Precisión que acompaña cada decisión clínica.</h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-primary-foreground/75">Tecnología de Nihon Kohden para laboratorios que buscan resultados confiables y flujos de trabajo eficientes.</p>
