@@ -17,6 +17,8 @@ import { Route as NosotrosRouteImport } from './routes/nosotros'
 import { Route as PatchesRouteImport } from './routes/patches'
 import { Route as CatalogoIndexRouteImport } from './routes/catalogo/index'
 import { Route as CatalogoFamiliaRouteImport } from './routes/catalogo/$familia'
+import { Route as EquiposIndexRouteImport } from './routes/equipos.index'
+import { Route as EquiposModeloRouteImport } from './routes/equipos.$modelo'
 import { Route as MarcaMarcaRouteImport } from './routes/marca/$marca'
 import { Route as ProductoSlugRouteImport } from './routes/producto/$slug'
 import { Route as MarcaMarcaProductoProductoRouteImport } from './routes/marca/$marca_.producto.$producto'
@@ -61,6 +63,16 @@ const CatalogoFamiliaRoute = CatalogoFamiliaRouteImport.update({
   path: '/catalogo/$familia',
   getParentRoute: () => rootRouteImport,
 } as any)
+const EquiposIndexRoute = EquiposIndexRouteImport.update({
+  id: '/equipos/',
+  path: '/equipos/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EquiposModeloRoute = EquiposModeloRouteImport.update({
+  id: '/equipos/$modelo',
+  path: '/equipos/$modelo',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const MarcaMarcaRoute = MarcaMarcaRouteImport.update({
   id: '/marca/$marca',
   path: '/marca/$marca',
@@ -86,9 +98,11 @@ export interface FileRoutesByFullPath {
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
+  '/equipos/$modelo': typeof EquiposModeloRoute
   '/marca/$marca': typeof MarcaMarcaRoute
   '/producto/$slug': typeof ProductoSlugRoute
   '/catalogo/': typeof CatalogoIndexRoute
+  '/equipos/': typeof EquiposIndexRoute
   '/marca/$marca/producto/$producto': typeof MarcaMarcaProductoProductoRoute
 }
 export interface FileRoutesByTo {
@@ -99,9 +113,11 @@ export interface FileRoutesByTo {
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
+  '/equipos/$modelo': typeof EquiposModeloRoute
   '/marca/$marca': typeof MarcaMarcaRoute
   '/producto/$slug': typeof ProductoSlugRoute
   '/catalogo': typeof CatalogoIndexRoute
+  '/equipos': typeof EquiposIndexRoute
   '/marca/$marca/producto/$producto': typeof MarcaMarcaProductoProductoRoute
 }
 export interface FileRoutesById {
@@ -113,9 +129,11 @@ export interface FileRoutesById {
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
+  '/equipos/$modelo': typeof EquiposModeloRoute
   '/marca/$marca': typeof MarcaMarcaRoute
   '/producto/$slug': typeof ProductoSlugRoute
   '/catalogo/': typeof CatalogoIndexRoute
+  '/equipos/': typeof EquiposIndexRoute
   '/marca/$marca_/producto/$producto': typeof MarcaMarcaProductoProductoRoute
 }
 export interface FileRouteTypes {
@@ -128,9 +146,11 @@ export interface FileRouteTypes {
     | '/nosotros'
     | '/patches'
     | '/catalogo/$familia'
+    | '/equipos/$modelo'
     | '/marca/$marca'
     | '/producto/$slug'
     | '/catalogo/'
+    | '/equipos/'
     | '/marca/$marca/producto/$producto'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -141,9 +161,11 @@ export interface FileRouteTypes {
     | '/nosotros'
     | '/patches'
     | '/catalogo/$familia'
+    | '/equipos/$modelo'
     | '/marca/$marca'
     | '/producto/$slug'
     | '/catalogo'
+    | '/equipos'
     | '/marca/$marca/producto/$producto'
   id:
     | '__root__'
@@ -154,9 +176,11 @@ export interface FileRouteTypes {
     | '/nosotros'
     | '/patches'
     | '/catalogo/$familia'
+    | '/equipos/$modelo'
     | '/marca/$marca'
     | '/producto/$slug'
     | '/catalogo/'
+    | '/equipos/'
     | '/marca/$marca_/producto/$producto'
   fileRoutesById: FileRoutesById
 }
@@ -168,9 +192,11 @@ export interface RootRouteChildren {
   NosotrosRoute: typeof NosotrosRoute
   PatchesRoute: typeof PatchesRoute
   CatalogoFamiliaRoute: typeof CatalogoFamiliaRoute
+  EquiposModeloRoute: typeof EquiposModeloRoute
   MarcaMarcaRoute: typeof MarcaMarcaRoute
   ProductoSlugRoute: typeof ProductoSlugRoute
   CatalogoIndexRoute: typeof CatalogoIndexRoute
+  EquiposIndexRoute: typeof EquiposIndexRoute
   MarcaMarcaProductoProductoRoute: typeof MarcaMarcaProductoProductoRoute
 }
 
@@ -232,6 +258,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CatalogoFamiliaRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/equipos/': {
+      id: '/equipos/'
+      path: '/equipos'
+      fullPath: '/equipos/'
+      preLoaderRoute: typeof EquiposIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/equipos/$modelo': {
+      id: '/equipos/$modelo'
+      path: '/equipos/$modelo'
+      fullPath: '/equipos/$modelo'
+      preLoaderRoute: typeof EquiposModeloRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/marca/$marca': {
       id: '/marca/$marca'
       path: '/marca/$marca'
@@ -264,9 +304,11 @@ const rootRouteChildren: RootRouteChildren = {
   NosotrosRoute: NosotrosRoute,
   PatchesRoute: PatchesRoute,
   CatalogoFamiliaRoute: CatalogoFamiliaRoute,
+  EquiposModeloRoute: EquiposModeloRoute,
   MarcaMarcaRoute: MarcaMarcaRoute,
   ProductoSlugRoute: ProductoSlugRoute,
   CatalogoIndexRoute: CatalogoIndexRoute,
+  EquiposIndexRoute: EquiposIndexRoute,
   MarcaMarcaProductoProductoRoute: MarcaMarcaProductoProductoRoute,
 }
 export const routeTree = rootRouteImport
