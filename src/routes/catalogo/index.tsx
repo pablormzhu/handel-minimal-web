@@ -95,7 +95,7 @@ function Catalogo() {
                   loading="lazy"
                   width={1200}
                   height={900}
-                  className="aspect-[4/3] w-full object-contain p-4 transition-transform duration-700 group-hover:scale-[1.03]"
+                  className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                 />
               </div>
               <h2 className="mt-6 text-2xl font-semibold tracking-tight">{f.name}</h2>
