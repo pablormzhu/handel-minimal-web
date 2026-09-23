@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page, CtaBand } from "@/components/site/Page";
 import { catalogBrands } from "@/lib/brand-catalog";
 import patchesLogo from "@/assets/patches-logo.png.asset.json";
-import nihonKohdenLogo from "@/assets/nihon-kohden-logo.png.asset.json";
+import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
 
 
 export const Route = createFileRoute("/marcas")({
@@ -71,12 +71,12 @@ function Marcas() {
         >
           <div className="flex flex-col items-center gap-6 sm:flex-row">
             <img
-              src={nihonKohdenLogo.url}
+              src={nihonKohdenLogo}
               alt="Nihon Kohden"
               loading="lazy"
-              width={600}
-              height={120}
-              className="h-10 w-auto object-contain"
+              width={499}
+              height={66}
+              className="h-9 w-auto object-contain sm:h-10"
             />
             <div>
               <p className="text-xs uppercase tracking-widest text-muted-foreground">
