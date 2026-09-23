@@ -5,6 +5,7 @@ import { CtaBand, Page } from "@/components/site/Page";
 import { Button } from "@/components/ui/button";
 import { equipment } from "@/lib/equipment";
 import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
+import equipmentCover from "@/assets/special-lines/nihon-kohden-cover.jpg";
 
 export const Route = createFileRoute("/equipos/")({
   head: () => ({
@@ -27,8 +28,8 @@ function EquipmentPage() {
   return (
     <Page>
       <section className="relative min-h-[72vh] overflow-hidden bg-primary">
-        <img src={featuredEquipment.image} alt="Analizador Celltac G+ MEK-9200" width={1920} height={640} className="absolute inset-0 h-full w-full object-cover object-[62%_center]" />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/10" aria-hidden="true" />
+        <img src={equipmentCover} alt="Familia de analizadores hematológicos Nihon Kohden" width={1920} height={1080} className="absolute inset-0 h-full w-full object-cover object-[68%_center]" />
+        <div className="absolute inset-0 bg-primary/80 sm:bg-transparent sm:bg-gradient-to-r sm:from-primary sm:via-primary/90 sm:via-[42%] sm:to-transparent sm:to-[72%]" aria-hidden="true" />
         <div className="relative mx-auto flex min-h-[72vh] max-w-6xl flex-col justify-center px-6 py-20 text-primary-foreground">
           <BackLink to="/">Regresar al inicio</BackLink>
           <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="mt-10 h-9 w-auto max-w-[220px] object-contain brightness-0 invert sm:h-10" />
@@ -47,8 +48,8 @@ function EquipmentPage() {
           {equipment.map((item) => (
             <article key={item.slug} className="group">
               <Link to="/equipos/$modelo" params={{ modelo: item.slug }} className="block">
-                <div className="aspect-[16/10] overflow-hidden rounded-2xl bg-primary">
-                  <img src={item.image} alt={`${item.name} ${item.model}`} width={1920} height={640} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.025]" />
+                <div className="aspect-[16/10] overflow-hidden rounded-2xl bg-[#f7f7f8]">
+                  <img src={item.image} alt={`${item.name} ${item.model}`} width={1600} height={1000} className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-[1.015]" />
                 </div>
                 <div className="mt-5 flex items-start justify-between gap-6">
                   <div>
