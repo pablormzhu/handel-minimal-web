@@ -196,7 +196,7 @@ function Index() {
                     loading="lazy"
                     width={1200}
                     height={900}
-                    className="aspect-[5/4] w-full object-contain p-4 transition-transform duration-700 group-hover:scale-[1.03]"
+                    className="aspect-[5/4] w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                   />
                 </div>
                 <h3 className="mt-5 text-lg font-medium tracking-tight">{f.name}</h3>
