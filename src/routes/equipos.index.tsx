@@ -37,7 +37,7 @@ function EquipmentPage() {
             <p className="mt-6 max-w-xl text-lg leading-8 text-muted-foreground">Tecnología de Nihon Kohden para laboratorios que buscan resultados confiables y flujos de trabajo eficientes.</p>
           </div>
           <div className="min-h-[360px] overflow-hidden bg-secondary lg:min-h-full">
-            <img src={equipmentCover} alt="Familia de analizadores hematológicos Nihon Kohden" width={1920} height={1080} className="h-full w-full object-cover object-right" />
+            <img src={equipmentCover} alt="Familia de analizadores hematológicos Nihon Kohden" width={1920} height={1080} className="h-full w-full object-contain" />
           </div>
         </div>
       </section>

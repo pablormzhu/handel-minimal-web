@@ -143,7 +143,7 @@ function Index() {
                 <span className="mt-7 inline-flex items-center gap-2 text-sm font-semibold">Conocer PATCHES <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /></span>
               </div>
                <div className="order-first min-h-[280px] overflow-hidden bg-secondary sm:order-last sm:min-h-0">
-                 <img src={patchesCover} alt="Selección de productos PATCHES" loading="eager" width={1600} height={1000} className="h-full w-full object-cover object-right transition-transform duration-700 group-hover:scale-[1.015]" />
+                 <img src={patchesCover} alt="Selección de productos PATCHES" loading="eager" width={1600} height={1000} className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-[1.015]" />
                </div>
             </Link>
             <Link to="/equipos" className="group grid min-h-[500px] overflow-hidden rounded-3xl border border-border bg-background sm:min-h-[520px] sm:grid-cols-[minmax(0,0.72fr)_minmax(0,1.28fr)]">
@@ -153,7 +153,7 @@ function Index() {
                 <span className="mt-7 inline-flex items-center gap-2 text-sm font-semibold">Explorar equipos <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /></span>
               </div>
                <div className="order-first min-h-[280px] overflow-hidden bg-secondary sm:order-last sm:min-h-0">
-                 <img src={nihonEquipment} alt="Analizadores hematológicos Nihon Kohden" loading="eager" width={1600} height={1000} className="h-full w-full object-cover object-right transition-transform duration-700 group-hover:scale-[1.015]" />
+                 <img src={nihonEquipment} alt="Analizadores hematológicos Nihon Kohden" loading="eager" width={1600} height={1000} className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-[1.015]" />
                </div>
             </Link>
           </div>
