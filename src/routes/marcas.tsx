@@ -78,7 +78,7 @@ function Marcas() {
               >
                 {b.name}
                 <span className="text-[11px] uppercase tracking-widest text-muted-foreground/70">
-                  {b.count} productos
+                  {b.count} {b.count === 1 ? "producto" : "productos"}
                 </span>
               </Link>
             ))}

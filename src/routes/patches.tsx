@@ -36,7 +36,7 @@ function PatchesPage() {
         <p className="mt-5 text-sm uppercase tracking-widest text-muted-foreground">Nuestra marca</p>
         <img
           src={patchesLogo.url}
-          alt="Logotipo PATCHES"
+          alt="Logotipo de PATCHES"
           width={800}
           height={160}
           className="mt-6 h-16 w-auto object-contain"

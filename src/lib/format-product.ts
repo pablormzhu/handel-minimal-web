@@ -6,7 +6,7 @@ function stripListMarkers(value: string): string {
 }
 
 export function sentenceCase(value: string): string {
-  const lowered = stripListMarkers(value).toLowerCase().trim();
+  const lowered = restoreTechnicalCase(correctCommonSpelling(stripListMarkers(value).toLowerCase().trim()));
   if (!lowered) return "";
   return lowered.charAt(0).toUpperCase() + lowered.slice(1);
 }
@@ -60,16 +60,65 @@ function labelQuantity(value: string): { label: string; value: string } | null {
 }
 
 function cleanProductText(value: string): string {
-  return stripListMarkers(value)
+  return correctCommonSpelling(stripListMarkers(value))
     .replace(/\s+/g, " ")
+    .replace(/\(\s+/g, "(")
+    .replace(/\s+\)/g, ")")
+    .replace(/[´’]{2}/g, '"')
     .replace(/\s+([,.;:])/g, "$1")
     .replace(/\s*[.,;:]+\s*$/g, "")
     .trim();
 }
 
 function readableCase(value: string): string {
-  const normalized = cleanProductText(value).toLowerCase();
+  const normalized = restoreTechnicalCase(cleanProductText(value).toLowerCase());
   return normalized ? normalized.charAt(0).toUpperCase() + normalized.slice(1) : "";
+}
+
+function correctCommonSpelling(value: string): string {
+  const corrections: Array<[RegExp, string]> = [
+    [/\bdiagnostico\b/gi, "diagnóstico"],
+    [/\bclinico\b/gi, "clínico"],
+    [/\belastica\b/gi, "elástica"],
+    [/\besteril\b/gi, "estéril"],
+    [/\blatex\b/gi, "látex"],
+    [/\brayon\b/gi, "rayón"],
+    [/\bindice\b/gi, "índice"],
+    [/\binmersion\b/gi, "inmersión"],
+    [/\brefraccion\b/gi, "refracción"],
+    [/\bsolucion\b/gi, "solución"],
+    [/\bdeterminacion\b/gi, "determinación"],
+    [/\bquimica\b/gi, "química"],
+    [/\bplastico\b/gi, "plástico"],
+    [/\bbiologia\b/gi, "biología"],
+    [/\bhematologia\b/gi, "hematología"],
+    [/\bmicrobiologia\b/gi, "microbiología"],
+    [/\bserologia\b/gi, "serología"],
+    [/\bcoagulacion\b/gi, "coagulación"],
+    [/\bcentrifugacion\b/gi, "centrifugación"],
+    [/\bidentificacion\b/gi, "identificación"],
+    [/\bcalibracion\b/gi, "calibración"],
+    [/\bconcentracion\b/gi, "concentración"],
+    [/\bmedicion\b/gi, "medición"],
+    [/\breaccion\b/gi, "reacción"],
+    [/\bproteccion\b/gi, "protección"],
+    [/\bexploracion\b/gi, "exploración"],
+    [/\bporta\s+objetos\b/gi, "portaobjetos"],
+    [/\bcubre\s+objetos\b/gi, "cubreobjetos"],
+    [/\bsnibe\s+dignostic\b/gi, "SNIBE Diagnostic"],
+  ];
+  return corrections.reduce((text, [pattern, replacement]) => text.replace(pattern, replacement), value);
+}
+
+function restoreTechnicalCase(value: string): string {
+  return value
+    .replace(/\bhba1c\b/gi, "HbA1c")
+    .replace(/\bedta\b/gi, "EDTA")
+    .replace(/\bph\b/gi, "pH")
+    .replace(/\brpbi\b/gi, "RPBI")
+    .replace(/\b(?:tsh|hiv|hcg|pcr|vsg)\b/gi, (term) => term.toUpperCase())
+    .replace(/\bml\b/gi, "ml")
+    .replace(/\bµl\b/gi, "µl");
 }
 
 function briefDescription(value: string, title: string): string {
@@ -77,7 +126,7 @@ function briefDescription(value: string, title: string): string {
     .replace(TECHNICAL_START_PATTERN, "|||")
     .split("|||")[0] ?? "";
   const escapedTitle = cleanProductText(title).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  brief = brief.replace(new RegExp(`^${escapedTitle}\b[,.:;]?\s*`, "i"), "");
+  brief = brief.replace(new RegExp(`^${escapedTitle}\\b[,.:;]?\\s*`, "i"), "");
   brief = brief.replace(/\btipo\s+["“”']?\s*[a-z0-9-]+\s*["“”']?\s*/gi, "");
   brief = brief.replace(QUANTITY_PATTERN, "");
   const presentationStart = brief.search(PRESENTATION_PATTERN);
