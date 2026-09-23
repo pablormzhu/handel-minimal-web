@@ -6,7 +6,7 @@ import hero from "@/assets/hero-home.jpg";
 import patchesLogo from "@/assets/patches-logo-corrected.png.asset.json";
 import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
 import nihonEquipment from "@/assets/special-lines/nihon-kohden-home-card-new.jpg";
-import patchesCover from "@/assets/special-lines/patches-home-card-new.jpg";
+import patchesCover from "@/assets/special-lines/patches-home-card-final.jpg";
 
 
 export const Route = createFileRoute("/")({
