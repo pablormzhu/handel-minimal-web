@@ -55,6 +55,13 @@ function readableCase(value: string): string {
   return normalized ? normalized.charAt(0).toUpperCase() + normalized.slice(1) : "";
 }
 
+function conciseTitle(value: string): string {
+  const clean = cleanProductText(value);
+  if (clean.length <= 64) return readableCase(clean);
+  const shortened = clean.slice(0, 65).replace(/\s+\S*$/, "").replace(/\s+(?:de|con|en|para|seg[uú]n|y|o)\s*$/i, "");
+  return readableCase(shortened);
+}
+
 function removeBrand(value: string, brand: string): string {
   const escapedBrand = brand.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   return value
@@ -137,6 +144,6 @@ export function productDisplayInfo(product: {
     title: readableCase(title),
     detail: detailParts.join(" · "),
     description: readableCase(source),
-    specifications: splitSpecifications(source),
+    specifications: splitSpecifications(source).map(readableCase),
   };
 }
