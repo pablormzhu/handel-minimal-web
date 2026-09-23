@@ -4,6 +4,7 @@ import logo from "@/assets/handel-logo.png.asset.json";
 
 const nav = [
   { to: "/catalogo", label: "Catálogo" },
+  { to: "/equipos", label: "Equipos" },
   { to: "/marcas", label: "Marcas" },
   { to: "/nosotros", label: "Nosotros" },
   { to: "/contacto", label: "Contacto" },
@@ -16,7 +17,7 @@ export function SiteHeader() {
         <Link to="/" aria-label="Inicio de Handel" className="flex items-center">
           <img src={logo.url} alt="Handel" className="h-7 w-auto" />
         </Link>
-        <nav className="flex items-center gap-7">
+        <nav className="flex items-center gap-4 sm:gap-7">
           {nav.map((item) => (
             <Link
               key={item.to}
