@@ -141,7 +141,7 @@ export function productDisplayInfo(product: {
   }
 
   return {
-    title: readableCase(title),
+    title: conciseTitle(title),
     detail: detailParts.join(" · "),
     description: readableCase(source),
     specifications: splitSpecifications(source).map(readableCase),
