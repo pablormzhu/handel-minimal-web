@@ -89,7 +89,7 @@ function splitSpecifications(value: string): string[] {
   return marked
     .split("|||")
     .slice(1)
-    .map((item) => cleanProductText(item.split(/,\s*(?=[A-ZÁÉÍÓÚ])/)[0]))
+    .map((item) => cleanProductText(item.split(/,\s*(?=[A-ZÁÉÍÓÚ])/)[0] ?? ""))
     .filter(Boolean);
 }
 
@@ -117,7 +117,8 @@ export function productDisplayInfo(product: {
     (part, index, parts) => part && parts.indexOf(part) === index,
   );
   if (detailParts.length === 0 && product.features.length > 0) {
-    const feature = formatFeature(product.features[0]);
+    const firstFeature = product.features[0];
+    const feature = firstFeature ? formatFeature(firstFeature) : null;
     if (feature) detailParts.push(feature.label ? `${feature.label}: ${feature.value}` : feature.value);
   }
 
