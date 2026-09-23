@@ -184,6 +184,16 @@ function extractType(value: string): string {
   return /^tipo\s+\d+(?:[.,]\d+)?$/i.test(normalized) ? "" : readableCase(normalized);
 }
 
+function labeledCardDetail(value: string): string {
+  const clean = readableCase(value);
+  if (/^[^:]+:\s*.+/.test(clean)) return clean;
+
+  const container = clean.match(/^(Frasco|Caja|Bolsa|Paquete|Bid[oó]n|Kit|Estuche)\s+(?:de|con)\s+(.+)$/i);
+  if (container) return `${sentenceCase(container[1] ?? "Presentación")}: ${container[2] ?? ""}`;
+
+  return `Presentación: ${clean}`;
+}
+
 function splitSpecifications(value: string): string[] {
   const normalized = cleanProductText(value)
     .replace(/\bT\.?\s*de ebullici[oó]n\b/gi, "Temperatura de ebullición")
@@ -241,7 +251,10 @@ export function productDisplayInfo(product: {
 
   const type = extractType(source);
   const presentation = extractPresentation(source);
-  const detailParts = [type, presentation].filter(
+  const detailParts = [
+    ...(type ? [`Tipo: ${type.replace(/^tipo\s+/i, "")}`] : []),
+    ...(presentation ? [labeledCardDetail(presentation)] : []),
+  ].filter(
     (part, index, parts) => part && parts.indexOf(part) === index,
   );
   if (detailParts.length === 0 && product.features.length > 0) {
