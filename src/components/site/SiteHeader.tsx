@@ -13,7 +13,7 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/30 bg-background/70 shadow-sm backdrop-blur-2xl">
       <div className="mx-auto flex h-12 max-w-6xl items-center justify-between px-6">
-        <Link to="/" aria-label="Handel inicio" className="flex items-center">
+        <Link to="/" aria-label="Inicio de Handel" className="flex items-center">
           <img src={logo.url} alt="Handel" className="h-7 w-auto" />
         </Link>
         <nav className="flex items-center gap-7">

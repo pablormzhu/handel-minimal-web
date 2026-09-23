@@ -55,7 +55,7 @@ function Contacto() {
               <input required type="email" placeholder="Correo" className={field} />
               <input placeholder="Teléfono" className={field} />
               <input placeholder="Estado" className={field} />
-              <input placeholder="Qué estás buscando" className={field} />
+              <input placeholder="¿Qué estás buscando?" className={field} />
               <select defaultValue="" className={`${field} sm:col-span-2`}>
                 <option value="">Familia o producto de interés</option>
                 {families.map((f) => (
