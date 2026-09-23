@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page, CtaBand } from "@/components/site/Page";
 import { catalogBrands } from "@/lib/brand-catalog";
 import patchesLogo from "@/assets/patches-logo.png.asset.json";
+import nihonKohdenLogo from "@/assets/nihon-kohden-logo.png.asset.json";
 
 
 export const Route = createFileRoute("/marcas")({
