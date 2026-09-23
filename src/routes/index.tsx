@@ -3,7 +3,7 @@ import { Page } from "@/components/site/Page";
 import { ArrowUpRight } from "lucide-react";
 import { families, brands } from "@/lib/catalog";
 import hero from "@/assets/hero-home.jpg";
-import patchesLogo from "@/assets/patches-logo.png.asset.json";
+import patchesLogo from "@/assets/patches-logo-corrected.png.asset.json";
 import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
 import nihonEquipment from "@/assets/equipos/mek-9200.webp";
 import patchesCover from "@/assets/fam-bioseguridad.jpg";
@@ -140,7 +140,7 @@ function Index() {
               <img src={patchesCover} alt="Línea de productos PATCHES" loading="lazy" width={1440} height={1080} className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.025]" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent" aria-hidden="true" />
               <div className="absolute inset-x-0 bottom-0 p-7 text-primary-foreground sm:p-10">
-                <img src={patchesLogo.url} alt="PATCHES" width={600} height={120} className="h-9 w-auto object-contain brightness-0 invert" />
+                <img src={patchesLogo.url} alt="PATCHES" width={350} height={56} className="h-9 w-auto object-contain brightness-0 invert" />
                 <p className="mt-5 max-w-md text-base leading-7 text-primary-foreground/80">Nuestra línea de consumibles para curación, protección y trabajo de laboratorio.</p>
                 <span className="mt-7 inline-flex items-center gap-2 text-sm font-semibold">Conocer PATCHES <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /></span>
               </div>
