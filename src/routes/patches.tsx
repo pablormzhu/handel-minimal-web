@@ -5,7 +5,7 @@ import { BackLink } from "@/components/site/BackLink";
 import { catalogProducts } from "@/lib/brand-catalog";
 import { productImage } from "@/lib/product-images";
 import { productDisplayInfo } from "@/lib/format-product";
-import patchesLogo from "@/assets/patches-logo.png.asset.json";
+import patchesLogo from "@/assets/patches-logo-corrected.png.asset.json";
 import bioseguridad from "@/assets/fam-bioseguridad.jpg";
 
 export const Route = createFileRoute("/patches")({
@@ -40,7 +40,7 @@ function PatchesPage() {
         <div className="relative mx-auto flex min-h-[72vh] max-w-6xl flex-col justify-center px-6 py-20">
           <BackLink to="/">Regresar al inicio</BackLink>
           <p className="mt-10 text-xs font-medium uppercase text-muted-foreground">Marca propia de Handel</p>
-          <img src={patchesLogo.url} alt="Logotipo de PATCHES" width={800} height={160} className="mt-6 h-14 w-auto max-w-[250px] object-contain sm:h-16" />
+          <img src={patchesLogo.url} alt="Logotipo de PATCHES" width={350} height={56} className="mt-6 h-12 w-auto max-w-[250px] object-contain sm:h-14" />
           <h1 className="mt-9 max-w-2xl text-balance text-4xl font-semibold leading-[1.06] sm:text-6xl">Material confiable para el trabajo que no puede detenerse.</h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-muted-foreground">Consumibles para curación, protección y laboratorio con presentaciones pensadas para el uso clínico cotidiano.</p>
           <a href="#productos-patches" className="mt-8 inline-flex w-fit items-center gap-2 text-sm font-semibold">Explorar la línea <ArrowRight className="h-4 w-4" /></a>
