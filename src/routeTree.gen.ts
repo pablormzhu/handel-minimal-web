@@ -19,6 +19,7 @@ import { Route as CatalogoIndexRouteImport } from './routes/catalogo/index'
 import { Route as CatalogoFamiliaRouteImport } from './routes/catalogo/$familia'
 import { Route as MarcaMarcaRouteImport } from './routes/marca/$marca'
 import { Route as ProductoSlugRouteImport } from './routes/producto/$slug'
+import { Route as MarcaMarcaProductoProductoRouteImport } from './routes/marca/$marca/producto/$producto'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -70,6 +71,12 @@ const ProductoSlugRoute = ProductoSlugRouteImport.update({
   path: '/producto/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const MarcaMarcaProductoProductoRoute =
+  MarcaMarcaProductoProductoRouteImport.update({
+    id: '/producto/$producto',
+    path: '/producto/$producto',
+    getParentRoute: () => MarcaMarcaRoute,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -79,9 +86,10 @@ export interface FileRoutesByFullPath {
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
-  '/marca/$marca': typeof MarcaMarcaRoute
+  '/marca/$marca': typeof MarcaMarcaRouteWithChildren
   '/producto/$slug': typeof ProductoSlugRoute
   '/catalogo/': typeof CatalogoIndexRoute
+  '/marca/$marca/producto/$producto': typeof MarcaMarcaProductoProductoRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -91,9 +99,10 @@ export interface FileRoutesByTo {
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
-  '/marca/$marca': typeof MarcaMarcaRoute
+  '/marca/$marca': typeof MarcaMarcaRouteWithChildren
   '/producto/$slug': typeof ProductoSlugRoute
   '/catalogo': typeof CatalogoIndexRoute
+  '/marca/$marca/producto/$producto': typeof MarcaMarcaProductoProductoRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -104,9 +113,10 @@ export interface FileRoutesById {
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
-  '/marca/$marca': typeof MarcaMarcaRoute
+  '/marca/$marca': typeof MarcaMarcaRouteWithChildren
   '/producto/$slug': typeof ProductoSlugRoute
   '/catalogo/': typeof CatalogoIndexRoute
+  '/marca/$marca/producto/$producto': typeof MarcaMarcaProductoProductoRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -121,6 +131,7 @@ export interface FileRouteTypes {
     | '/marca/$marca'
     | '/producto/$slug'
     | '/catalogo/'
+    | '/marca/$marca/producto/$producto'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -133,6 +144,7 @@ export interface FileRouteTypes {
     | '/marca/$marca'
     | '/producto/$slug'
     | '/catalogo'
+    | '/marca/$marca/producto/$producto'
   id:
     | '__root__'
     | '/'
@@ -145,6 +157,7 @@ export interface FileRouteTypes {
     | '/marca/$marca'
     | '/producto/$slug'
     | '/catalogo/'
+    | '/marca/$marca/producto/$producto'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -155,7 +168,7 @@ export interface RootRouteChildren {
   NosotrosRoute: typeof NosotrosRoute
   PatchesRoute: typeof PatchesRoute
   CatalogoFamiliaRoute: typeof CatalogoFamiliaRoute
-  MarcaMarcaRoute: typeof MarcaMarcaRoute
+  MarcaMarcaRoute: typeof MarcaMarcaRouteWithChildren
   ProductoSlugRoute: typeof ProductoSlugRoute
   CatalogoIndexRoute: typeof CatalogoIndexRoute
 }
@@ -232,8 +245,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProductoSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/marca/$marca/producto/$producto': {
+      id: '/marca/$marca/producto/$producto'
+      path: '/producto/$producto'
+      fullPath: '/marca/$marca/producto/$producto'
+      preLoaderRoute: typeof MarcaMarcaProductoProductoRouteImport
+      parentRoute: typeof MarcaMarcaRoute
+    }
   }
 }
+
+interface MarcaMarcaRouteChildren {
+  MarcaMarcaProductoProductoRoute: typeof MarcaMarcaProductoProductoRoute
+}
+
+const MarcaMarcaRouteChildren: MarcaMarcaRouteChildren = {
+  MarcaMarcaProductoProductoRoute: MarcaMarcaProductoProductoRoute,
+}
+
+const MarcaMarcaRouteWithChildren = MarcaMarcaRoute._addFileChildren(
+  MarcaMarcaRouteChildren,
+)
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
@@ -243,7 +275,7 @@ const rootRouteChildren: RootRouteChildren = {
   NosotrosRoute: NosotrosRoute,
   PatchesRoute: PatchesRoute,
   CatalogoFamiliaRoute: CatalogoFamiliaRoute,
-  MarcaMarcaRoute: MarcaMarcaRoute,
+  MarcaMarcaRoute: MarcaMarcaRouteWithChildren,
   ProductoSlugRoute: ProductoSlugRoute,
   CatalogoIndexRoute: CatalogoIndexRoute,
 }
