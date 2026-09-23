@@ -21,10 +21,13 @@ export const Route = createFileRoute("/equipos/")({
 });
 
 function EquipmentPage() {
+  const featuredEquipment = equipment[0];
+  if (!featuredEquipment) return null;
+
   return (
     <Page>
       <section className="relative min-h-[72vh] overflow-hidden bg-primary">
-        <img src={equipment[0].image} alt="Analizador Celltac G+ MEK-9200" width={1920} height={640} className="absolute inset-0 h-full w-full object-cover object-[62%_center]" />
+        <img src={featuredEquipment.image} alt="Analizador Celltac G+ MEK-9200" width={1920} height={640} className="absolute inset-0 h-full w-full object-cover object-[62%_center]" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/10" aria-hidden="true" />
         <div className="relative mx-auto flex min-h-[72vh] max-w-6xl flex-col justify-center px-6 py-20 text-primary-foreground">
           <BackLink to="/">Regresar al inicio</BackLink>
