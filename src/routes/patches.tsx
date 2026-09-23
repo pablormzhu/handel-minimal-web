@@ -45,7 +45,7 @@ function PatchesPage() {
             <a href="#productos-patches" className="mt-8 inline-flex w-fit items-center gap-2 text-sm font-semibold">Explorar la línea <ArrowRight className="h-4 w-4" /></a>
           </div>
           <div className="aspect-[7/6] overflow-hidden bg-background lg:aspect-auto lg:min-h-full">
-            <img src={patchesCover} alt="Selección de productos reales PATCHES" width={1400} height={1200} className="h-full w-full object-cover" />
+            <img src={patchesCover} alt="Selección de productos reales PATCHES" width={1400} height={1200} className="h-full w-full object-contain" />
           </div>
         </div>
       </section>
