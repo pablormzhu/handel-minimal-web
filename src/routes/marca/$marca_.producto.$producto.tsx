@@ -59,7 +59,6 @@ function BrandProductPage() {
     .map(formatFeature)
     .filter((feature): feature is { label: string; value: string } => Boolean(feature));
   const rows = [
-    ...(info.type ? [{ label: "Clasificación", value: info.type.replace(/^tipo\s+/i, "") }] : []),
     ...(info.presentation ? [{ label: "Presentación", value: info.presentation.replace(/^(?:presentación|contenido|cantidad)\s*:\s*/i, "") }] : []),
     ...features,
     ...specificationRows,

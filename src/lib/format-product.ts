@@ -35,6 +35,11 @@ export function formatFeature(feature: string): { label: string; value: string }
   const trimmed = feature.trim();
   if (!trimmed) return null;
 
+  // “Tipo A”, “Tipo 300” and isolated classification letters come from the
+  // source spreadsheet, but do not describe a useful customer-facing detail.
+  if (/^(?:tipo|clasificaci[oó]n)\s*:?[\s"“”']*[a-z0-9.-]+[\s"“”']*$/i.test(trimmed)) return null;
+  if (/^[a-z]$/i.test(trimmed)) return null;
+
   const separatorIndex = trimmed.indexOf(":");
   if (separatorIndex === -1) {
     const quantity = labelQuantity(trimmed);
@@ -249,10 +254,9 @@ export function productDisplayInfo(product: {
     .replace(QUANTITY_PATTERN, "")
     .replace(/\s+(?:de|con|en|para|seg[uú]n|y|o)\s*$/i, "");
 
-  const type = extractType(source);
+  const type = "";
   const presentation = extractPresentation(source);
   const detailParts = [
-    ...(type ? [`Tipo: ${type.replace(/^tipo\s+/i, "")}`] : []),
     ...(presentation ? [labeledCardDetail(presentation)] : []),
   ].filter(
     (part, index, parts) => part && parts.indexOf(part) === index,
