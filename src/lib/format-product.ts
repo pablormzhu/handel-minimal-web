@@ -25,7 +25,8 @@ export function formatFeature(feature: string): { label: string; value: string }
 
   const separatorIndex = trimmed.indexOf(":");
   if (separatorIndex === -1) {
-    return { label: "", value: sentenceCase(trimmed) };
+    const quantity = labelQuantity(trimmed);
+    return quantity ?? { label: "Detalle", value: sentenceCase(trimmed) };
   }
 
   const label = trimmed.slice(0, separatorIndex).trim();
@@ -41,6 +42,22 @@ const PRESENTATION_PATTERN = /\b(caja\s+(?:con|c\/)|frasco\s+(?:con|de)|bolsa\s+
 const TECHNICAL_START_PATTERN = /\b(?:con\s*:|[ií]ndice de refracci[oó]n|viscosidad|densidad|temperatura de ebullici[oó]n|t\.?\s*de ebullici[oó]n|fluorescencia)\b/i;
 const QUANTITY_PATTERN = /\b\d+(?:[.,]\d+)?\s*(?:x\s*\d+(?:[.,]\d+)?\s*)?(?:ml|µl|l(?:itros?)?|grs?|g|kg|piezas?|pzas?|pruebas?|determinaciones?|discos?|tubos?|placas?)\b/i;
 const DETAIL_START_PATTERN = /\b(?:emplead[oa]s?|utilizad[oa]s?|para\s+(?:la|el|tinci[oó]n|prueba|conteo|detectar)|seg[uú]n\s+(?:el|la|m[eé]todo|f[oó]rmula)|soluci[oó]n\s+(?:colorante|estabilizada|para|con)|en\s+concentraci[oó]n)\b/i;
+
+function normalizedQuantity(value: string): string {
+  return cleanProductText(value)
+    .replace(/(\d)(ml|µl|kg|grs?|pzas?)/gi, "$1 $2")
+    .replace(/\bml\b/gi, "ml")
+    .replace(/\bkg\b/gi, "kg")
+    .replace(/\bgrs?\b/gi, "g")
+    .replace(/\bpzas?\b/gi, "piezas");
+}
+
+function labelQuantity(value: string): { label: string; value: string } | null {
+  const clean = normalizedQuantity(value);
+  if (!QUANTITY_PATTERN.test(clean)) return null;
+  const isCount = /\b(?:piezas?|pruebas?|determinaciones?|discos?|tubos?|placas?)\b/i.test(clean);
+  return { label: isCount ? "Cantidad" : "Contenido", value: readableCase(clean) };
+}
 
 function cleanProductText(value: string): string {
   return stripListMarkers(value)
@@ -71,8 +88,12 @@ function removeBrand(value: string, brand: string): string {
 
 function extractPresentation(value: string): string {
   const clean = cleanProductText(value);
-  const match = clean.match(PRESENTATION_PATTERN) ?? clean.match(QUANTITY_PATTERN);
-  return match ? readableCase(match[0]) : "";
+  const presentation = clean.match(PRESENTATION_PATTERN);
+  if (presentation) return readableCase(normalizedQuantity(presentation[0]));
+  const quantity = clean.match(QUANTITY_PATTERN);
+  if (!quantity) return "";
+  const labeled = labelQuantity(quantity[0]);
+  return labeled ? `${labeled.label}: ${labeled.value}` : "";
 }
 
 function extractType(value: string): string {
