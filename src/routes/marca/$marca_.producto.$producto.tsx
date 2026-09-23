@@ -11,6 +11,14 @@ function findProduct(brandSlug: string, productSlug: string) {
   return catalogProducts.find((product) => product.brand === brand.name && product.slug === productSlug);
 }
 
+function comparableValue(value: string) {
+  return value
+    .toLocaleLowerCase()
+    .replace(/\b(?:frasco|caja|bolsa|paquete|bid[oó]n|kit|estuche)\s+(?:de|con)\s+/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export const Route = createFileRoute("/marca/$marca_/producto/$producto")({
   loader: ({ params }) => {
     const product = findProduct(params.marca, params.producto);
@@ -57,7 +65,7 @@ function BrandProductPage() {
     (row, index, allRows) =>
       allRows.findIndex(
         (candidate) =>
-          candidate.value.toLocaleLowerCase() === row.value.toLocaleLowerCase() ||
+          comparableValue(candidate.value) === comparableValue(row.value) ||
           `${candidate.label} ${candidate.value}`.toLocaleLowerCase() ===
             `${row.label} ${row.value}`.toLocaleLowerCase(),
       ) === index,
