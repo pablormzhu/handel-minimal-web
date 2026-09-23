@@ -73,15 +73,17 @@ function readableCase(value: string): string {
 }
 
 function briefDescription(value: string, title: string): string {
-  let brief = removeBrand(cleanProductText(value), "")
+  let brief = cleanProductText(value)
     .replace(TECHNICAL_START_PATTERN, "|||")
     .split("|||")[0] ?? "";
+  const escapedTitle = cleanProductText(title).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  brief = brief.replace(new RegExp(`^${escapedTitle}\b[,.:;]?\s*`, "i"), "");
+  brief = brief.replace(/\btipo\s+["“”']?\s*[a-z0-9-]+\s*["“”']?\s*/gi, "");
+  brief = brief.replace(QUANTITY_PATTERN, "");
   const presentationStart = brief.search(PRESENTATION_PATTERN);
-  if (presentationStart > 0) brief = brief.slice(0, presentationStart);
+  if (presentationStart >= 0) brief = brief.slice(0, presentationStart);
   brief = cleanProductText(brief);
-  if (!brief || brief.toLowerCase() === cleanProductText(title).toLowerCase()) {
-    return `${title}.`;
-  }
+  if (!brief || brief.toLowerCase() === cleanProductText(title).toLowerCase()) return "";
   const concise = brief.length > 150 ? brief.slice(0, 151).replace(/\s+\S*$/, "") : brief;
   return `${readableCase(concise).replace(/[.]$/, "")}.`;
 }

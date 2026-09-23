@@ -57,8 +57,9 @@ function BrandProductPage() {
     (row, index, allRows) =>
       allRows.findIndex(
         (candidate) =>
+          candidate.value.toLocaleLowerCase() === row.value.toLocaleLowerCase() ||
           `${candidate.label} ${candidate.value}`.toLocaleLowerCase() ===
-          `${row.label} ${row.value}`.toLocaleLowerCase(),
+            `${row.label} ${row.value}`.toLocaleLowerCase(),
       ) === index,
   );
 
@@ -85,7 +86,9 @@ function BrandProductPage() {
               Clave {product.sku} <span className="text-muted-foreground/60">·</span> {product.brand}
             </p>
             <h1 className="mt-3 text-4xl font-semibold leading-tight sm:text-5xl">{info.title}</h1>
-            <p className="mt-5 max-w-xl text-base leading-7 text-muted-foreground">{info.description}</p>
+            {info.description && (
+              <p className="mt-5 max-w-xl text-base leading-7 text-muted-foreground">{info.description}</p>
+            )}
 
             {rows.length > 0 && (
               <dl className="mt-8 overflow-hidden rounded-2xl border border-border/60 bg-muted/20">
