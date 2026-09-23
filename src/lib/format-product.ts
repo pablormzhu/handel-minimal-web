@@ -130,7 +130,8 @@ function restoreTechnicalCase(value: string): string {
     .replace(/\brpbi\b/gi, "RPBI")
     .replace(/\b(?:tsh|hiv|hcg|pcr|vsg)\b/gi, (term) => term.toUpperCase())
     .replace(/\bml\b/gi, "ml")
-    .replace(/\bµl\b/gi, "µl");
+    .replace(/\bµl\b/gi, "µl")
+    .replace(/°\s*c\b/gi, "°C");
 }
 
 function briefDescription(value: string, title: string): string {
@@ -199,7 +200,7 @@ function splitSpecifications(value: string): string[] {
     "Fluorescencia",
   ];
   const escaped = labels.map((label) => label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|");
-  const marked = normalized.replace(new RegExp(`\\b(${escaped})\\s*:`, "gi"), "|||$1:");
+  const marked = normalized.replace(new RegExp(`(${escaped})\\s*:`, "gi"), "|||$1:");
   return marked
     .split("|||")
     .slice(1)
