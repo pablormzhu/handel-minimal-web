@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page, CtaBand } from "@/components/site/Page";
 import { catalogBrands } from "@/lib/brand-catalog";
 import patchesLogo from "@/assets/patches-logo.png.asset.json";
+import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
 
 
 export const Route = createFileRoute("/marcas")({
@@ -61,6 +62,33 @@ function Marcas() {
           </div>
           <span className="text-sm text-primary underline-offset-4 group-hover:underline">
             Descubrir PATCHES
+          </span>
+        </Link>
+
+        <Link
+          to="/equipos"
+          className="group mt-6 flex flex-col items-center gap-6 rounded-3xl border border-border/30 bg-background/50 px-8 py-10 text-center shadow-xl backdrop-blur-xl transition-shadow duration-300 hover:shadow-2xl sm:flex-row sm:justify-between sm:text-left"
+        >
+          <div className="flex flex-col items-center gap-6 sm:flex-row">
+            <img
+              src={nihonKohdenLogo}
+              alt="Nihon Kohden"
+              loading="lazy"
+              width={499}
+              height={66}
+              className="h-9 w-auto object-contain sm:h-10"
+            />
+            <div>
+              <p className="text-xs uppercase tracking-widest text-muted-foreground">
+                Equipos de hematología
+              </p>
+              <p className="mt-2 text-lg font-medium tracking-tight">
+                Nihon Kohden, analizadores Celltac para conteo celular completo y diferencial.
+              </p>
+            </div>
+          </div>
+          <span className="text-sm text-primary underline-offset-4 group-hover:underline">
+            Descubrir Nihon Kohden
           </span>
         </Link>
       </section>
