@@ -5,7 +5,7 @@ import { CtaBand, Page } from "@/components/site/Page";
 import { Button } from "@/components/ui/button";
 import { equipment } from "@/lib/equipment";
 import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
-import equipmentCover from "@/assets/special-lines/nihon-kohden-page-hero.jpg";
+import equipmentCover from "@/assets/special-lines/nihon-kohden-page-hero-new.jpg";
 
 export const Route = createFileRoute("/equipos/")({
   head: () => ({
@@ -28,7 +28,7 @@ function EquipmentPage() {
   return (
     <Page>
       <section className="bg-background">
-        <div className="mx-auto grid min-h-[72vh] max-w-7xl lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
+        <div className="mx-auto grid max-w-7xl lg:min-h-[680px] lg:grid-cols-[minmax(0,1.02fr)_minmax(0,0.98fr)]">
           <div className="flex min-w-0 flex-col justify-center px-6 py-14 lg:px-12 lg:py-20">
             <BackLink to="/">Regresar al inicio</BackLink>
             <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="mt-10 h-9 w-auto max-w-[220px] object-contain sm:h-10" />
@@ -36,8 +36,8 @@ function EquipmentPage() {
             <h1 className="mt-4 max-w-3xl text-balance text-4xl font-semibold leading-[1.06] sm:text-6xl">Precisión que acompaña cada decisión clínica.</h1>
             <p className="mt-6 max-w-xl text-lg leading-8 text-muted-foreground">Tecnología de Nihon Kohden para laboratorios que buscan resultados confiables y flujos de trabajo eficientes.</p>
           </div>
-          <div className="min-h-[360px] overflow-hidden bg-secondary lg:min-h-full">
-            <img src={equipmentCover} alt="Familia de analizadores hematológicos Nihon Kohden" width={1920} height={1080} className="h-full w-full object-contain" />
+          <div className="aspect-[7/6] overflow-hidden bg-background lg:aspect-auto lg:min-h-full">
+            <img src={equipmentCover} alt="Familia de analizadores hematológicos Nihon Kohden" width={1400} height={1200} className="h-full w-full object-cover" />
           </div>
         </div>
       </section>
@@ -51,7 +51,7 @@ function EquipmentPage() {
           {equipment.map((item) => (
             <article key={item.slug} className="group">
               <Link to="/equipos/$modelo" params={{ modelo: item.slug }} className="block">
-                <div className="aspect-[16/10] overflow-hidden rounded-2xl bg-secondary">
+                <div className="aspect-[16/10] overflow-hidden rounded-2xl bg-background">
                   <img src={item.image} alt={`${item.name} ${item.model}`} width={1600} height={1000} className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-[1.015]" />
                 </div>
                 <div className="mt-5 flex items-start justify-between gap-6">

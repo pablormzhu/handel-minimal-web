@@ -5,8 +5,8 @@ import { families, brands } from "@/lib/catalog";
 import hero from "@/assets/hero-home.jpg";
 import patchesLogo from "@/assets/patches-logo-corrected.png.asset.json";
 import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
-import nihonEquipment from "@/assets/special-lines/nihon-kohden-home-card.jpg";
-import patchesCover from "@/assets/special-lines/patches-home-card.jpg";
+import nihonEquipment from "@/assets/special-lines/nihon-kohden-home-card-new.jpg";
+import patchesCover from "@/assets/special-lines/patches-home-card-new.jpg";
 
 
 export const Route = createFileRoute("/")({
@@ -136,24 +136,24 @@ function Index() {
             <p className="hidden max-w-sm text-right text-sm leading-6 text-muted-foreground sm:block">Accede directamente a nuestra marca propia y a los equipos de hematología Nihon Kohden.</p>
           </div>
           <div className="grid gap-5 lg:grid-cols-2">
-            <Link to="/patches" className="group grid min-h-[500px] overflow-hidden rounded-3xl border border-border bg-background sm:min-h-[520px] sm:grid-cols-[minmax(0,0.72fr)_minmax(0,1.28fr)]">
-               <div className="flex min-w-0 flex-col justify-end p-7 sm:p-9">
+            <Link to="/patches" className="group grid overflow-hidden rounded-3xl border border-border bg-background">
+               <div className="order-last flex min-w-0 flex-col p-7 sm:p-9">
                   <img src={patchesLogo.url} alt="PATCHES" width={350} height={56} className="h-8 w-auto max-w-full self-start object-contain" />
-                  <p className="mt-5 text-base leading-7 text-muted-foreground">Nuestra línea de consumibles para curación, protección y trabajo de laboratorio.</p>
-                <span className="mt-7 inline-flex items-center gap-2 text-sm font-semibold">Conocer PATCHES <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /></span>
+                   <p className="mt-4 max-w-md text-base leading-7 text-muted-foreground">Nuestra línea de consumibles para curación, protección y trabajo de laboratorio.</p>
+                 <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold">Conocer PATCHES <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /></span>
               </div>
-               <div className="order-first min-h-[280px] overflow-hidden bg-secondary sm:order-last sm:min-h-0">
-                 <img src={patchesCover} alt="Selección de productos PATCHES" loading="eager" width={1600} height={1000} className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-[1.015]" />
+                <div className="aspect-[8/5] overflow-hidden bg-background">
+                  <img src={patchesCover} alt="Selección de productos PATCHES" loading="eager" width={1600} height={1000} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.015]" />
                </div>
             </Link>
-            <Link to="/equipos" className="group grid min-h-[500px] overflow-hidden rounded-3xl border border-border bg-background sm:min-h-[520px] sm:grid-cols-[minmax(0,0.72fr)_minmax(0,1.28fr)]">
-               <div className="flex min-w-0 flex-col justify-end p-7 sm:p-9">
+            <Link to="/equipos" className="group grid overflow-hidden rounded-3xl border border-border bg-background">
+               <div className="order-last flex min-w-0 flex-col p-7 sm:p-9">
                  <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="h-7 w-auto max-w-full self-start object-contain" />
-                 <p className="mt-5 text-base leading-7 text-muted-foreground">Analizadores hematológicos de alta precisión para distintos flujos de trabajo clínico.</p>
-                <span className="mt-7 inline-flex items-center gap-2 text-sm font-semibold">Explorar equipos <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /></span>
+                  <p className="mt-4 max-w-md text-base leading-7 text-muted-foreground">Analizadores hematológicos de alta precisión para distintos flujos de trabajo clínico.</p>
+                 <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold">Explorar equipos <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /></span>
               </div>
-               <div className="order-first min-h-[280px] overflow-hidden bg-secondary sm:order-last sm:min-h-0">
-                 <img src={nihonEquipment} alt="Analizadores hematológicos Nihon Kohden" loading="eager" width={1600} height={1000} className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-[1.015]" />
+                <div className="aspect-[8/5] overflow-hidden bg-background">
+                  <img src={nihonEquipment} alt="Analizadores hematológicos Nihon Kohden" loading="eager" width={1600} height={1000} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.015]" />
                </div>
             </Link>
           </div>
