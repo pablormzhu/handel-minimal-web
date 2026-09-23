@@ -72,6 +72,20 @@ function readableCase(value: string): string {
   return normalized ? normalized.charAt(0).toUpperCase() + normalized.slice(1) : "";
 }
 
+function briefDescription(value: string, title: string): string {
+  let brief = removeBrand(cleanProductText(value), "")
+    .replace(TECHNICAL_START_PATTERN, "|||")
+    .split("|||")[0] ?? "";
+  const presentationStart = brief.search(PRESENTATION_PATTERN);
+  if (presentationStart > 0) brief = brief.slice(0, presentationStart);
+  brief = cleanProductText(brief);
+  if (!brief || brief.toLowerCase() === cleanProductText(title).toLowerCase()) {
+    return `${title}.`;
+  }
+  const concise = brief.length > 150 ? brief.slice(0, 151).replace(/\s+\S*$/, "") : brief;
+  return `${readableCase(concise).replace(/[.]$/, "")}.`;
+}
+
 function conciseTitle(value: string): string {
   const clean = cleanProductText(value);
   if (clean.length <= 64) return readableCase(clean);
@@ -129,6 +143,8 @@ export type ProductDisplayInfo = {
   detail: string;
   description: string;
   specifications: string[];
+  type: string;
+  presentation: string;
 };
 
 export function productDisplayInfo(product: {
@@ -152,7 +168,9 @@ export function productDisplayInfo(product: {
     .replace(QUANTITY_PATTERN, "")
     .replace(/\s+(?:de|con|en|para|seg[uú]n|y|o)\s*$/i, "");
 
-  const detailParts = [extractType(source), extractPresentation(source)].filter(
+  const type = extractType(source);
+  const presentation = extractPresentation(source);
+  const detailParts = [type, presentation].filter(
     (part, index, parts) => part && parts.indexOf(part) === index,
   );
   if (detailParts.length === 0 && product.features.length > 0) {
@@ -164,7 +182,9 @@ export function productDisplayInfo(product: {
   return {
     title: conciseTitle(title),
     detail: detailParts.join(" · "),
-    description: readableCase(source),
+    description: briefDescription(source, conciseTitle(title)),
     specifications: splitSpecifications(source).map(readableCase),
+    type,
+    presentation,
   };
 }
