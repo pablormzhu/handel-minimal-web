@@ -64,6 +64,33 @@ function Marcas() {
             Descubrir PATCHES
           </span>
         </Link>
+
+        <Link
+          to="/equipos"
+          className="group mt-6 flex flex-col items-center gap-6 rounded-3xl border border-border/30 bg-background/50 px-8 py-10 text-center shadow-xl backdrop-blur-xl transition-shadow duration-300 hover:shadow-2xl sm:flex-row sm:justify-between sm:text-left"
+        >
+          <div className="flex flex-col items-center gap-6 sm:flex-row">
+            <img
+              src={nihonKohdenLogo.url}
+              alt="Nihon Kohden"
+              loading="lazy"
+              width={600}
+              height={120}
+              className="h-10 w-auto object-contain"
+            />
+            <div>
+              <p className="text-xs uppercase tracking-widest text-muted-foreground">
+                Equipos de hematología
+              </p>
+              <p className="mt-2 text-lg font-medium tracking-tight">
+                Nihon Kohden, analizadores Celltac para conteo celular completo y diferencial.
+              </p>
+            </div>
+          </div>
+          <span className="text-sm text-primary underline-offset-4 group-hover:underline">
+            Descubrir Nihon Kohden
+          </span>
+        </Link>
       </section>
 
       <section className="mx-auto max-w-6xl px-6 pb-28">
