@@ -36,7 +36,7 @@ function PatchesPage() {
     <Page>
       <section className="relative min-h-[72vh] overflow-hidden bg-muted">
         <img src={patchesCover} alt="Selección de productos reales PATCHES" width={1920} height={1080} className="absolute inset-0 h-full w-full object-cover object-[68%_center]" />
-        <div className="absolute inset-0 bg-background/80 sm:bg-transparent sm:bg-gradient-to-r sm:from-background sm:via-background/90 sm:via-[42%] sm:to-transparent sm:to-[72%]" aria-hidden="true" />
+        <div className="absolute inset-0 bg-background/90 sm:bg-transparent sm:bg-gradient-to-r sm:from-background sm:via-background/90 sm:via-[42%] sm:to-transparent sm:to-[72%]" aria-hidden="true" />
         <div className="relative mx-auto flex min-h-[72vh] max-w-6xl flex-col justify-center px-6 py-20">
           <BackLink to="/">Regresar al inicio</BackLink>
           <p className="mt-10 text-xs font-medium uppercase text-muted-foreground">Marca propia de Handel</p>

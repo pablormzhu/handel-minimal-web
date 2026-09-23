@@ -33,7 +33,7 @@ function EquipmentDetailPage() {
   return (
     <Page>
       <section className="relative min-h-[68vh] overflow-hidden bg-[#f7f7f8]">
-        <img src={item.image} alt={`${item.name} ${item.model}`} width={1600} height={1000} className="absolute inset-0 h-full w-full object-cover object-[68%_center]" />
+        <img src={item.image} alt={`${item.name} ${item.model}`} width={1600} height={1000} className="absolute inset-0 h-full w-full object-contain object-right" />
         <div className="absolute inset-0 bg-primary/80 sm:bg-transparent sm:bg-gradient-to-r sm:from-primary sm:via-primary/90 sm:via-[42%] sm:to-transparent sm:to-[72%]" aria-hidden="true" />
         <div className="relative mx-auto flex min-h-[68vh] max-w-6xl flex-col justify-between px-6 py-12 text-primary-foreground">
           <BackLink to="/equipos">Regresar a equipos</BackLink>
