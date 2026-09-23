@@ -11,7 +11,7 @@ function findProduct(brandSlug: string, productSlug: string) {
   return catalogProducts.find((product) => product.brand === brand.name && product.slug === productSlug);
 }
 
-export const Route = createFileRoute("/marca/$marca/producto/$producto")({
+export const Route = createFileRoute("/marca/$marca_/producto/$producto")({
   loader: ({ params }) => {
     const product = findProduct(params.marca, params.producto);
     if (!product) throw notFound();

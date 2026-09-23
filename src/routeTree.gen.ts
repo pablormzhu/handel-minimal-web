@@ -19,7 +19,7 @@ import { Route as CatalogoIndexRouteImport } from './routes/catalogo/index'
 import { Route as CatalogoFamiliaRouteImport } from './routes/catalogo/$familia'
 import { Route as MarcaMarcaRouteImport } from './routes/marca/$marca'
 import { Route as ProductoSlugRouteImport } from './routes/producto/$slug'
-import { Route as MarcaMarcaProductoProductoRouteImport } from './routes/marca/$marca/producto/$producto'
+import { Route as MarcaMarcaProductoProductoRouteImport } from './routes/marca/$marca_.producto.$producto'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -73,9 +73,9 @@ const ProductoSlugRoute = ProductoSlugRouteImport.update({
 } as any)
 const MarcaMarcaProductoProductoRoute =
   MarcaMarcaProductoProductoRouteImport.update({
-    id: '/producto/$producto',
-    path: '/producto/$producto',
-    getParentRoute: () => MarcaMarcaRoute,
+    id: '/marca/$marca_/producto/$producto',
+    path: '/marca/$marca/producto/$producto',
+    getParentRoute: () => rootRouteImport,
   } as any)
 
 export interface FileRoutesByFullPath {
@@ -86,7 +86,7 @@ export interface FileRoutesByFullPath {
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
-  '/marca/$marca': typeof MarcaMarcaRouteWithChildren
+  '/marca/$marca': typeof MarcaMarcaRoute
   '/producto/$slug': typeof ProductoSlugRoute
   '/catalogo/': typeof CatalogoIndexRoute
   '/marca/$marca/producto/$producto': typeof MarcaMarcaProductoProductoRoute
@@ -99,7 +99,7 @@ export interface FileRoutesByTo {
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
-  '/marca/$marca': typeof MarcaMarcaRouteWithChildren
+  '/marca/$marca': typeof MarcaMarcaRoute
   '/producto/$slug': typeof ProductoSlugRoute
   '/catalogo': typeof CatalogoIndexRoute
   '/marca/$marca/producto/$producto': typeof MarcaMarcaProductoProductoRoute
@@ -113,10 +113,10 @@ export interface FileRoutesById {
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
-  '/marca/$marca': typeof MarcaMarcaRouteWithChildren
+  '/marca/$marca': typeof MarcaMarcaRoute
   '/producto/$slug': typeof ProductoSlugRoute
   '/catalogo/': typeof CatalogoIndexRoute
-  '/marca/$marca/producto/$producto': typeof MarcaMarcaProductoProductoRoute
+  '/marca/$marca_/producto/$producto': typeof MarcaMarcaProductoProductoRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -157,7 +157,7 @@ export interface FileRouteTypes {
     | '/marca/$marca'
     | '/producto/$slug'
     | '/catalogo/'
-    | '/marca/$marca/producto/$producto'
+    | '/marca/$marca_/producto/$producto'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -168,9 +168,10 @@ export interface RootRouteChildren {
   NosotrosRoute: typeof NosotrosRoute
   PatchesRoute: typeof PatchesRoute
   CatalogoFamiliaRoute: typeof CatalogoFamiliaRoute
-  MarcaMarcaRoute: typeof MarcaMarcaRouteWithChildren
+  MarcaMarcaRoute: typeof MarcaMarcaRoute
   ProductoSlugRoute: typeof ProductoSlugRoute
   CatalogoIndexRoute: typeof CatalogoIndexRoute
+  MarcaMarcaProductoProductoRoute: typeof MarcaMarcaProductoProductoRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -245,27 +246,15 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProductoSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/marca/$marca/producto/$producto': {
-      id: '/marca/$marca/producto/$producto'
-      path: '/producto/$producto'
+    '/marca/$marca_/producto/$producto': {
+      id: '/marca/$marca_/producto/$producto'
+      path: '/marca/$marca/producto/$producto'
       fullPath: '/marca/$marca/producto/$producto'
       preLoaderRoute: typeof MarcaMarcaProductoProductoRouteImport
-      parentRoute: typeof MarcaMarcaRoute
+      parentRoute: typeof rootRouteImport
     }
   }
 }
-
-interface MarcaMarcaRouteChildren {
-  MarcaMarcaProductoProductoRoute: typeof MarcaMarcaProductoProductoRoute
-}
-
-const MarcaMarcaRouteChildren: MarcaMarcaRouteChildren = {
-  MarcaMarcaProductoProductoRoute: MarcaMarcaProductoProductoRoute,
-}
-
-const MarcaMarcaRouteWithChildren = MarcaMarcaRoute._addFileChildren(
-  MarcaMarcaRouteChildren,
-)
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
@@ -275,9 +264,10 @@ const rootRouteChildren: RootRouteChildren = {
   NosotrosRoute: NosotrosRoute,
   PatchesRoute: PatchesRoute,
   CatalogoFamiliaRoute: CatalogoFamiliaRoute,
-  MarcaMarcaRoute: MarcaMarcaRouteWithChildren,
+  MarcaMarcaRoute: MarcaMarcaRoute,
   ProductoSlugRoute: ProductoSlugRoute,
   CatalogoIndexRoute: CatalogoIndexRoute,
+  MarcaMarcaProductoProductoRoute: MarcaMarcaProductoProductoRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
