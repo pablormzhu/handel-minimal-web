@@ -32,16 +32,19 @@ function EquipmentDetailPage() {
 
   return (
     <Page>
-      <section className="relative min-h-[68vh] overflow-hidden bg-[#f7f7f8]">
-        <img src={item.image} alt={`${item.name} ${item.model}`} width={1600} height={1000} className="absolute inset-0 h-full w-full object-contain object-right" />
-        <div className="absolute inset-0 bg-primary/80 sm:bg-transparent sm:bg-gradient-to-r sm:from-primary sm:via-primary/90 sm:via-[42%] sm:to-transparent sm:to-[72%]" aria-hidden="true" />
-        <div className="relative mx-auto flex min-h-[68vh] max-w-6xl flex-col justify-between px-6 py-12 text-primary-foreground">
-          <BackLink to="/equipos">Regresar a equipos</BackLink>
-          <div className="max-w-2xl pb-5">
-            <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="h-8 w-auto object-contain brightness-0 invert" />
-            <p className="mt-8 text-sm font-semibold text-primary-foreground/65">{item.model}</p>
-            <h1 className="mt-2 text-5xl font-semibold leading-none sm:text-7xl">{item.name}</h1>
-            <p className="mt-5 max-w-xl text-lg leading-7 text-primary-foreground/85">{item.category}</p>
+      <section className="bg-background">
+        <div className="mx-auto grid min-h-[68vh] max-w-7xl lg:grid-cols-[minmax(0,0.78fr)_minmax(0,1.22fr)]">
+          <div className="flex min-w-0 flex-col justify-between px-6 py-12 lg:px-12">
+            <BackLink to="/equipos">Regresar a equipos</BackLink>
+            <div className="pb-5 pt-16 lg:pt-10">
+              <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="h-8 w-auto max-w-full object-contain" />
+              <p className="mt-8 text-sm font-semibold text-accent">{item.model}</p>
+              <h1 className="mt-2 text-5xl font-semibold leading-none sm:text-7xl">{item.name}</h1>
+              <p className="mt-5 max-w-xl text-lg leading-7 text-muted-foreground">{item.category}</p>
+            </div>
+          </div>
+          <div className="min-h-[360px] overflow-hidden bg-secondary lg:min-h-full">
+            <img src={item.image} alt={`${item.name} ${item.model}`} width={1600} height={1000} className="h-full w-full object-contain" />
           </div>
         </div>
       </section>

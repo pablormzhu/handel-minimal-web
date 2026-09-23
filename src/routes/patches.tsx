@@ -6,7 +6,7 @@ import { catalogProducts } from "@/lib/brand-catalog";
 import { productImage } from "@/lib/product-images";
 import { productDisplayInfo } from "@/lib/format-product";
 import patchesLogo from "@/assets/patches-logo-corrected.png.asset.json";
-import patchesCover from "@/assets/special-lines/patches-cover.jpg";
+import patchesCover from "@/assets/special-lines/patches-page-hero.jpg";
 
 export const Route = createFileRoute("/patches")({
   head: () => ({
@@ -34,16 +34,19 @@ function PatchesPage() {
 
   return (
     <Page>
-      <section className="relative min-h-[72vh] overflow-hidden bg-muted">
-        <img src={patchesCover} alt="Selección de productos reales PATCHES" width={1920} height={1080} className="absolute inset-0 h-full w-full object-cover object-[68%_center]" />
-        <div className="absolute inset-0 bg-background/90 sm:bg-transparent sm:bg-gradient-to-r sm:from-background sm:via-background/90 sm:via-[42%] sm:to-transparent sm:to-[72%]" aria-hidden="true" />
-        <div className="relative mx-auto flex min-h-[72vh] max-w-6xl flex-col justify-center px-6 py-20">
-          <BackLink to="/">Regresar al inicio</BackLink>
-          <p className="mt-10 text-xs font-medium uppercase text-muted-foreground">Marca propia de Handel</p>
-          <img src={patchesLogo.url} alt="Logotipo de PATCHES" width={350} height={56} className="mt-6 h-12 w-auto max-w-[250px] object-contain sm:h-14" />
-          <h1 className="mt-9 max-w-2xl text-balance text-4xl font-semibold leading-[1.06] sm:text-6xl">Material confiable para el trabajo que no puede detenerse.</h1>
-          <p className="mt-6 max-w-xl text-lg leading-8 text-muted-foreground">Consumibles para curación, protección y laboratorio con presentaciones pensadas para el uso clínico cotidiano.</p>
-          <a href="#productos-patches" className="mt-8 inline-flex w-fit items-center gap-2 text-sm font-semibold">Explorar la línea <ArrowRight className="h-4 w-4" /></a>
+      <section className="bg-background">
+        <div className="mx-auto grid min-h-[72vh] max-w-7xl lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
+          <div className="flex min-w-0 flex-col justify-center px-6 py-14 lg:px-12 lg:py-20">
+            <BackLink to="/">Regresar al inicio</BackLink>
+            <p className="mt-10 text-xs font-medium uppercase text-muted-foreground">Marca propia de Handel</p>
+            <img src={patchesLogo.url} alt="Logotipo de PATCHES" width={350} height={56} className="mt-6 h-12 w-auto max-w-[250px] object-contain sm:h-14" />
+            <h1 className="mt-9 max-w-2xl text-balance text-4xl font-semibold leading-[1.06] sm:text-6xl">Material confiable para el trabajo que no puede detenerse.</h1>
+            <p className="mt-6 max-w-xl text-lg leading-8 text-muted-foreground">Consumibles para curación, protección y laboratorio con presentaciones pensadas para el uso clínico cotidiano.</p>
+            <a href="#productos-patches" className="mt-8 inline-flex w-fit items-center gap-2 text-sm font-semibold">Explorar la línea <ArrowRight className="h-4 w-4" /></a>
+          </div>
+          <div className="min-h-[360px] overflow-hidden bg-secondary lg:min-h-full">
+            <img src={patchesCover} alt="Selección de productos reales PATCHES" width={1920} height={1080} className="h-full w-full object-contain" />
+          </div>
         </div>
       </section>
 
@@ -58,7 +61,7 @@ function PatchesPage() {
             return (
               <Link key={product.slug} to="/marca/$marca/producto/$producto" params={{ marca: "patches", producto: product.slug }} className="group">
                 <div className="aspect-square overflow-hidden rounded-2xl bg-muted/50">
-                  <img src={productImage(product)} alt={info.title} loading="lazy" width={1024} height={1024} className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-[1.02]" />
+                   <img src={productImage(product)} alt={info.title} loading="eager" width={1024} height={1024} className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-[1.02]" />
                 </div>
                 <p className="mt-5 text-xs font-medium text-muted-foreground">Clave {product.sku}</p>
                 <div className="mt-2 flex items-start justify-between gap-4">
