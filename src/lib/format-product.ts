@@ -19,6 +19,18 @@ export function titleCase(value: string): string {
     .join(" ");
 }
 
+const LOWERCASE_CONNECTORS = new Set(["a", "al", "con", "de", "del", "en", "o", "para", "por", "sin", "y"]);
+
+function productTitleCase(value: string): string {
+  return restoreTechnicalCase(cleanProductText(value).toLowerCase())
+    .split(/\s+/)
+    .map((word, index) => {
+      if (index > 0 && LOWERCASE_CONNECTORS.has(word)) return word;
+      return word ? word.charAt(0).toUpperCase() + word.slice(1) : word;
+    })
+    .join(" ");
+}
+
 export function formatFeature(feature: string): { label: string; value: string } | null {
   const trimmed = feature.trim();
   if (!trimmed) return null;
@@ -71,7 +83,7 @@ function cleanProductText(value: string): string {
 }
 
 function readableCase(value: string): string {
-  const normalized = restoreTechnicalCase(cleanProductText(value).toLowerCase());
+  const normalized = restoreTechnicalCase(cleanProductText(value).toLowerCase()).replace(/°\s*c\b/gi, "°C");
   return normalized ? normalized.charAt(0).toUpperCase() + normalized.slice(1) : "";
 }
 
@@ -118,10 +130,12 @@ function restoreTechnicalCase(value: string): string {
     .replace(/\brpbi\b/gi, "RPBI")
     .replace(/\b(?:tsh|hiv|hcg|pcr|vsg)\b/gi, (term) => term.toUpperCase())
     .replace(/\bml\b/gi, "ml")
-    .replace(/\bµl\b/gi, "µl");
+    .replace(/\bµl\b/gi, "µl")
+    .replace(/°\s*c\b/gi, "°C");
 }
 
 function briefDescription(value: string, title: string): string {
+  if (/aceite de inmersi[oó]n/i.test(title)) return "Aceite para observación de muestras por microscopía.";
   let brief = cleanProductText(value)
     .replace(TECHNICAL_START_PATTERN, "|||")
     .split("|||")[0] ?? "";
@@ -132,16 +146,18 @@ function briefDescription(value: string, title: string): string {
   const presentationStart = brief.search(PRESENTATION_PATTERN);
   if (presentationStart >= 0) brief = brief.slice(0, presentationStart);
   brief = cleanProductText(brief);
-  if (!brief || brief.toLowerCase() === cleanProductText(title).toLowerCase()) return "";
+  if (!brief || brief.toLowerCase() === cleanProductText(title).toLowerCase()) {
+    return `Producto de laboratorio ${title.toLowerCase()}.`;
+  }
   const concise = brief.length > 150 ? brief.slice(0, 151).replace(/\s+\S*$/, "") : brief;
   return `${readableCase(concise).replace(/[.]$/, "")}.`;
 }
 
 function conciseTitle(value: string): string {
   const clean = cleanProductText(value);
-  if (clean.length <= 64) return readableCase(clean);
+  if (clean.length <= 64) return productTitleCase(clean);
   const shortened = clean.slice(0, 65).replace(/\s+\S*$/, "").replace(/\s+(?:de|con|en|para|seg[uú]n|y|o)\s*$/i, "");
-  return readableCase(shortened);
+  return productTitleCase(shortened);
 }
 
 function removeBrand(value: string, brand: string): string {
@@ -163,12 +179,15 @@ function extractPresentation(value: string): string {
 
 function extractType(value: string): string {
   const match = cleanProductText(value).match(/\btipo\s+["“”']?\s*[a-z0-9-]+\s*["“”']?/i);
-  return match ? readableCase(match[0].replace(/["“”']/g, "")) : "";
+  if (!match) return "";
+  const normalized = match[0].replace(/["“”']/g, "").replace(/\s+/g, " ").trim();
+  return /^tipo\s+\d+(?:[.,]\d+)?$/i.test(normalized) ? "" : readableCase(normalized);
 }
 
 function splitSpecifications(value: string): string[] {
   const normalized = cleanProductText(value)
     .replace(/\bT\.?\s*de ebullici[oó]n\b/gi, "Temperatura de ebullición")
+    .replace(/(\d)\s*["”º°]\s*C\b/gi, "$1 °C")
     .replace(/\s*=\s*/g, ": ");
 
   const labels = [
@@ -181,11 +200,12 @@ function splitSpecifications(value: string): string[] {
     "Fluorescencia",
   ];
   const escaped = labels.map((label) => label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|");
-  const marked = normalized.replace(new RegExp(`\\b(${escaped})\\s*:`, "gi"), "|||$1:");
+  const marked = normalized.replace(new RegExp(`(${escaped})\\s*:`, "gi"), "|||$1:");
   return marked
     .split("|||")
     .slice(1)
     .map((item) => cleanProductText(item.split(/,\s*(?=[A-ZÁÉÍÓÚ])/)[0] ?? ""))
+    .map((item) => item.replace(/^Baja viscosidad\s*:/i, "Viscosidad: Baja,"))
     .filter(Boolean);
 }
 
