@@ -5,8 +5,8 @@ import { families, brands } from "@/lib/catalog";
 import hero from "@/assets/hero-home.jpg";
 import patchesLogo from "@/assets/patches-logo-corrected.png.asset.json";
 import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
-import nihonEquipment from "@/assets/equipos/mek-9200.webp";
-import patchesCover from "@/assets/fam-bioseguridad.jpg";
+import nihonEquipment from "@/assets/special-lines/nihon-kohden-cover.jpg";
+import patchesCover from "@/assets/special-lines/patches-cover.jpg";
 
 
 export const Route = createFileRoute("/")({
@@ -137,17 +137,17 @@ function Index() {
           </div>
           <div className="grid gap-5 lg:grid-cols-2">
             <Link to="/patches" className="group relative min-h-[440px] overflow-hidden rounded-3xl bg-muted sm:min-h-[520px]">
-              <img src={patchesCover} alt="Línea de productos PATCHES" loading="lazy" width={1440} height={1080} className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.025]" />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent" aria-hidden="true" />
-              <div className="absolute inset-x-0 bottom-0 p-7 text-primary-foreground sm:p-10">
-                <img src={patchesLogo.url} alt="PATCHES" width={350} height={56} className="h-9 w-auto object-contain brightness-0 invert" />
-                <p className="mt-5 max-w-md text-base leading-7 text-primary-foreground/80">Nuestra línea de consumibles para curación, protección y trabajo de laboratorio.</p>
+               <img src={patchesCover} alt="Selección de productos PATCHES" loading="lazy" width={1920} height={1080} className="absolute inset-0 h-full w-full object-cover object-[66%_center] transition-transform duration-700 group-hover:scale-[1.025]" />
+               <div className="absolute inset-0 bg-gradient-to-t from-primary/85 via-transparent to-transparent" aria-hidden="true" />
+               <div className="absolute inset-x-0 bottom-0 p-7 text-primary-foreground sm:p-10">
+                 <img src={patchesLogo.url} alt="PATCHES" width={350} height={56} className="h-9 w-auto object-contain brightness-0 invert" />
+                 <p className="mt-5 max-w-md text-base leading-7 text-primary-foreground/85">Nuestra línea de consumibles para curación, protección y trabajo de laboratorio.</p>
                 <span className="mt-7 inline-flex items-center gap-2 text-sm font-semibold">Conocer PATCHES <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /></span>
               </div>
             </Link>
             <Link to="/equipos" className="group relative min-h-[440px] overflow-hidden rounded-3xl bg-primary sm:min-h-[520px]">
-              <img src={nihonEquipment} alt="Analizador hematológico Nihon Kohden" loading="lazy" width={1920} height={640} className="absolute inset-0 h-full w-full object-cover object-[65%_center] transition-transform duration-700 group-hover:scale-[1.025]" />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/30 to-transparent" aria-hidden="true" />
+               <img src={nihonEquipment} alt="Familia de analizadores hematológicos Nihon Kohden" loading="lazy" width={1920} height={1080} className="absolute inset-0 h-full w-full object-cover object-[68%_center] transition-transform duration-700 group-hover:scale-[1.025]" />
+               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/5 to-transparent" aria-hidden="true" />
               <div className="absolute inset-x-0 bottom-0 p-7 text-primary-foreground sm:p-10">
                 <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="h-8 w-auto object-contain brightness-0 invert" />
                 <p className="mt-5 max-w-md text-base leading-7 text-primary-foreground/80">Analizadores hematológicos de alta precisión para distintos flujos de trabajo clínico.</p>
