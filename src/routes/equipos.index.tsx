@@ -4,7 +4,7 @@ import { BackLink } from "@/components/site/BackLink";
 import { CtaBand, Page } from "@/components/site/Page";
 import { Button } from "@/components/ui/button";
 import { equipment } from "@/lib/equipment";
-import nihonKohdenLogo from "@/assets/nihon-kohden-logo.png.asset.json";
+import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
 
 export const Route = createFileRoute("/equipos/")({
   head: () => ({
@@ -21,27 +21,34 @@ export const Route = createFileRoute("/equipos/")({
 });
 
 function EquipmentPage() {
+  const featuredEquipment = equipment[0];
+  if (!featuredEquipment) return null;
+
   return (
     <Page>
-      <section className="mx-auto max-w-6xl px-6 pb-12 pt-24">
-        <BackLink to="/">Regresar al inicio</BackLink>
-        <p className="mt-5 text-sm uppercase text-muted-foreground">Equipos de diagnóstico</p>
-        <img src={nihonKohdenLogo.url} alt="Nihon Kohden" width={617} height={316} className="mt-7 h-14 w-auto object-contain sm:h-16" />
-        <h1 className="mt-9 max-w-4xl text-balance text-4xl font-semibold leading-[1.08] sm:text-6xl">
-          Tecnología hematológica para decisiones clínicas confiables.
-        </h1>
-        <p className="mt-5 max-w-2xl text-lg leading-8 text-muted-foreground">
-          Soluciones automatizadas para laboratorios de distintos tamaños, desde análisis de rutina hasta diferenciales avanzados y reticulocitos.
-        </p>
+      <section className="relative min-h-[72vh] overflow-hidden bg-primary">
+        <img src={featuredEquipment.image} alt="Analizador Celltac G+ MEK-9200" width={1920} height={640} className="absolute inset-0 h-full w-full object-cover object-[62%_center]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/10" aria-hidden="true" />
+        <div className="relative mx-auto flex min-h-[72vh] max-w-6xl flex-col justify-center px-6 py-20 text-primary-foreground">
+          <BackLink to="/">Regresar al inicio</BackLink>
+          <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="mt-10 h-9 w-auto max-w-[220px] object-contain brightness-0 invert sm:h-10" />
+          <p className="mt-8 text-xs font-medium uppercase text-primary-foreground/60">Analizadores hematológicos</p>
+          <h1 className="mt-4 max-w-3xl text-balance text-4xl font-semibold leading-[1.06] sm:text-6xl">Precisión que acompaña cada decisión clínica.</h1>
+          <p className="mt-6 max-w-xl text-lg leading-8 text-primary-foreground/75">Tecnología de Nihon Kohden para laboratorios que buscan resultados confiables y flujos de trabajo eficientes.</p>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 pb-24">
-        <div className="grid gap-x-6 gap-y-10 md:grid-cols-2">
+      <section className="mx-auto max-w-6xl px-6 py-24">
+        <div className="mb-10 grid gap-5 border-b border-border pb-7 md:grid-cols-2 md:items-end">
+          <h2 className="text-3xl font-semibold sm:text-5xl">Familia Celltac</h2>
+          <p className="max-w-md text-sm leading-6 text-muted-foreground md:justify-self-end">Cuatro plataformas para diferentes necesidades de rendimiento y complejidad analítica.</p>
+        </div>
+        <div className="grid gap-x-6 gap-y-14 md:grid-cols-2">
           {equipment.map((item) => (
-            <article key={item.slug} className="group border-t border-border pt-5">
+            <article key={item.slug} className="group">
               <Link to="/equipos/$modelo" params={{ modelo: item.slug }} className="block">
-                <div className="aspect-[3/2] overflow-hidden bg-muted">
-                  <img src={item.image} alt={`${item.name} ${item.model}`} width={1920} height={640} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.015]" />
+                <div className="aspect-[16/10] overflow-hidden rounded-2xl bg-primary">
+                  <img src={item.image} alt={`${item.name} ${item.model}`} width={1920} height={640} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.025]" />
                 </div>
                 <div className="mt-5 flex items-start justify-between gap-6">
                   <div>

@@ -1,7 +1,10 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { ArrowRight } from "lucide-react";
 import { Page, CtaBand } from "@/components/site/Page";
 import { BackLink } from "@/components/site/BackLink";
-import { ownBrandProducts } from "@/lib/catalog";
+import { catalogProducts } from "@/lib/brand-catalog";
+import { productImage } from "@/lib/product-images";
+import { productDisplayInfo } from "@/lib/format-product";
 import patchesLogo from "@/assets/patches-logo.png.asset.json";
 import bioseguridad from "@/assets/fam-bioseguridad.jpg";
 
@@ -27,55 +30,45 @@ export const Route = createFileRoute("/patches")({
 });
 
 function PatchesPage() {
-  const items = ownBrandProducts();
+  const items = catalogProducts.filter((product) => product.brand === "PATCHES");
 
   return (
     <Page>
-      <section className="mx-auto max-w-6xl px-6 pb-12 pt-24">
-        <BackLink to="/">Regresar al inicio</BackLink>
-        <p className="mt-5 text-sm uppercase tracking-widest text-muted-foreground">Nuestra marca</p>
-        <img
-          src={patchesLogo.url}
-          alt="Logotipo de PATCHES"
-          width={800}
-          height={160}
-          className="mt-6 h-16 w-auto object-contain"
-        />
-        <h1 className="mt-8 max-w-3xl text-balance text-4xl font-semibold leading-[1.08] tracking-tight sm:text-6xl">
-          Nuestra marca propia de curación y protección.
-        </h1>
-        <p className="mt-5 max-w-xl text-lg text-muted-foreground">
-          PATCHES es la línea desarrollada por Handel: banditas, vendas, gasas y guantes con
-          especificaciones controladas y disponibilidad constante para tu institución.
-        </p>
+      <section className="relative min-h-[72vh] overflow-hidden bg-muted">
+        <img src={bioseguridad} alt="Material de curación y protección PATCHES" width={1920} height={1088} className="absolute inset-0 h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/10" aria-hidden="true" />
+        <div className="relative mx-auto flex min-h-[72vh] max-w-6xl flex-col justify-center px-6 py-20">
+          <BackLink to="/">Regresar al inicio</BackLink>
+          <p className="mt-10 text-xs font-medium uppercase text-muted-foreground">Marca propia de Handel</p>
+          <img src={patchesLogo.url} alt="Logotipo de PATCHES" width={800} height={160} className="mt-6 h-14 w-auto max-w-[250px] object-contain sm:h-16" />
+          <h1 className="mt-9 max-w-2xl text-balance text-4xl font-semibold leading-[1.06] sm:text-6xl">Material confiable para el trabajo que no puede detenerse.</h1>
+          <p className="mt-6 max-w-xl text-lg leading-8 text-muted-foreground">Consumibles para curación, protección y laboratorio con presentaciones pensadas para el uso clínico cotidiano.</p>
+          <a href="#productos-patches" className="mt-8 inline-flex w-fit items-center gap-2 text-sm font-semibold">Explorar la línea <ArrowRight className="h-4 w-4" /></a>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 pb-16">
-        <img
-          src={bioseguridad}
-          alt="Material de curación y protección PATCHES"
-          loading="lazy"
-          width={1920}
-          height={1088}
-          className="aspect-[16/7] w-full rounded-3xl object-cover shadow-xl"
-        />
-      </section>
-
-      <section className="mx-auto max-w-6xl px-6 pb-24">
-        <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">Productos PATCHES</h2>
-        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {items.map((p) => (
-            <Link
-              key={p.slug}
-              to="/producto/$slug"
-              params={{ slug: p.slug }}
-              className="rounded-2xl border border-border/30 bg-background/50 p-6 shadow-xl backdrop-blur-xl transition-shadow duration-300 hover:shadow-2xl"
-            >
-              <h3 className="text-lg font-medium tracking-tight">{p.name}</h3>
-              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{p.description}</p>
-              <span className="mt-4 inline-block text-sm text-primary">Ver producto</span>
-            </Link>
-          ))}
+      <section id="productos-patches" className="mx-auto max-w-6xl scroll-mt-16 px-6 py-24">
+        <div className="grid gap-6 border-b border-border pb-7 md:grid-cols-[1fr_1fr] md:items-end">
+          <h2 className="text-3xl font-semibold sm:text-5xl">Productos PATCHES</h2>
+          <p className="max-w-lg text-sm leading-6 text-muted-foreground md:justify-self-end">{items.length} soluciones con información clara, fotografía individual y presentaciones disponibles.</p>
+        </div>
+        <div className="mt-10 grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+          {items.map((product) => {
+            const info = productDisplayInfo(product);
+            return (
+              <Link key={product.slug} to="/marca/$marca/producto/$producto" params={{ marca: "patches", producto: product.slug }} className="group">
+                <div className="aspect-square overflow-hidden rounded-2xl bg-muted/50">
+                  <img src={productImage(product)} alt={info.title} loading="lazy" width={1024} height={1024} className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-[1.02]" />
+                </div>
+                <p className="mt-5 text-xs font-medium text-muted-foreground">Clave {product.sku}</p>
+                <div className="mt-2 flex items-start justify-between gap-4">
+                  <h3 className="text-lg font-semibold leading-snug">{info.title}</h3>
+                  <ArrowRight className="mt-1 h-4 w-4 shrink-0 transition-transform group-hover:translate-x-1" />
+                </div>
+                {info.detail && <p className="mt-2 text-sm text-muted-foreground">{info.detail}</p>}
+              </Link>
+            );
+          })}
         </div>
       </section>
 

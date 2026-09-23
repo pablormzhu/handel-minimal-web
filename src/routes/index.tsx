@@ -1,8 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page } from "@/components/site/Page";
+import { ArrowUpRight } from "lucide-react";
 import { families, brands } from "@/lib/catalog";
 import hero from "@/assets/hero-home.jpg";
 import patchesLogo from "@/assets/patches-logo.png.asset.json";
+import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
+import nihonEquipment from "@/assets/equipos/mek-9200.webp";
+import patchesCover from "@/assets/fam-bioseguridad.jpg";
 
 
 export const Route = createFileRoute("/")({
@@ -121,35 +125,36 @@ function Index() {
         </div>
       </section>
 
-      {/* Marca propia */}
-      <section className="pb-4">
+      {/* Secciones especiales */}
+      <section className="pb-16 pt-4">
         <div className="mx-auto max-w-6xl px-6">
-          <Link
-            to="/patches"
-            className="group flex flex-col items-center gap-6 rounded-3xl border border-border/30 bg-background/50 px-8 py-8 text-center shadow-xl backdrop-blur-xl transition-shadow duration-300 hover:shadow-2xl sm:flex-row sm:justify-between sm:text-left"
-          >
-            <div className="flex flex-col items-center gap-5 sm:flex-row sm:gap-7">
-              <img
-                src={patchesLogo.url}
-                alt="PATCHES, marca propia de Handel"
-                loading="lazy"
-                width={600}
-                height={120}
-                className="h-9 w-auto object-contain"
-              />
-              <div>
-                <p className="text-xs uppercase tracking-widest text-muted-foreground">
-                  Conoce nuestra marca
-                </p>
-                <p className="mt-2 text-lg font-medium tracking-tight">
-                  PATCHES, nuestra marca propia de curación y protección.
-                </p>
-              </div>
+          <div className="mb-8 flex items-end justify-between gap-6 border-b border-border pb-5">
+            <div>
+              <p className="text-xs font-medium uppercase text-muted-foreground">Selección Handel</p>
+              <h2 className="mt-2 text-3xl font-semibold sm:text-4xl">Líneas especiales.</h2>
             </div>
-            <span className="text-sm text-primary underline-offset-4 group-hover:underline">
-              Descubrir PATCHES
-            </span>
-          </Link>
+            <p className="hidden max-w-sm text-right text-sm leading-6 text-muted-foreground sm:block">Accede directamente a nuestra marca propia y a los equipos de hematología Nihon Kohden.</p>
+          </div>
+          <div className="grid gap-5 lg:grid-cols-2">
+            <Link to="/patches" className="group relative min-h-[440px] overflow-hidden rounded-3xl bg-muted sm:min-h-[520px]">
+              <img src={patchesCover} alt="Línea de productos PATCHES" loading="lazy" width={1440} height={1080} className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.025]" />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent" aria-hidden="true" />
+              <div className="absolute inset-x-0 bottom-0 p-7 text-primary-foreground sm:p-10">
+                <img src={patchesLogo.url} alt="PATCHES" width={600} height={120} className="h-9 w-auto object-contain brightness-0 invert" />
+                <p className="mt-5 max-w-md text-base leading-7 text-primary-foreground/80">Nuestra línea de consumibles para curación, protección y trabajo de laboratorio.</p>
+                <span className="mt-7 inline-flex items-center gap-2 text-sm font-semibold">Conocer PATCHES <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /></span>
+              </div>
+            </Link>
+            <Link to="/equipos" className="group relative min-h-[440px] overflow-hidden rounded-3xl bg-primary sm:min-h-[520px]">
+              <img src={nihonEquipment} alt="Analizador hematológico Nihon Kohden" loading="lazy" width={1920} height={640} className="absolute inset-0 h-full w-full object-cover object-[65%_center] transition-transform duration-700 group-hover:scale-[1.025]" />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/30 to-transparent" aria-hidden="true" />
+              <div className="absolute inset-x-0 bottom-0 p-7 text-primary-foreground sm:p-10">
+                <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="h-8 w-auto object-contain brightness-0 invert" />
+                <p className="mt-5 max-w-md text-base leading-7 text-primary-foreground/80">Analizadores hematológicos de alta precisión para distintos flujos de trabajo clínico.</p>
+                <span className="mt-7 inline-flex items-center gap-2 text-sm font-semibold">Explorar equipos <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /></span>
+              </div>
+            </Link>
+          </div>
         </div>
       </section>
 
