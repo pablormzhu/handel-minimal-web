@@ -39,6 +39,8 @@ export function formatFeature(feature: string): { label: string; value: string }
 
 const PRESENTATION_PATTERN = /\b(caja\s+(?:con|c\/)|frasco\s+(?:con|de)|bolsa\s+(?:con|de)|paquete\s+(?:con|de)|bid[oó]n\s+(?:con|de)|kit\s+(?:con|de)|estuche\s+(?:con|de)|pieza\b|presentaci[oó]n\s*:?)\s*[^,.;]*/i;
 const TECHNICAL_START_PATTERN = /\b(?:con\s*:|[ií]ndice de refracci[oó]n|viscosidad|densidad|temperatura de ebullici[oó]n|t\.?\s*de ebullici[oó]n|fluorescencia)\b/i;
+const QUANTITY_PATTERN = /\b\d+(?:[.,]\d+)?\s*(?:x\s*\d+(?:[.,]\d+)?\s*)?(?:ml|µl|l(?:itros?)?|grs?|g|kg|piezas?|pzas?|pruebas?|determinaciones?|discos?|tubos?|placas?)\b/i;
+const DETAIL_START_PATTERN = /\b(?:emplead[oa]s?|utilizad[oa]s?|para\s+(?:la|el|tinci[oó]n|prueba|conteo|detectar)|seg[uú]n\s+(?:el|la|m[eé]todo|f[oó]rmula)|soluci[oó]n\s+(?:colorante|estabilizada|para|con)|en\s+concentraci[oó]n)\b/i;
 
 function cleanProductText(value: string): string {
   return stripListMarkers(value)
@@ -61,7 +63,8 @@ function removeBrand(value: string, brand: string): string {
 }
 
 function extractPresentation(value: string): string {
-  const match = cleanProductText(value).match(PRESENTATION_PATTERN);
+  const clean = cleanProductText(value);
+  const match = clean.match(PRESENTATION_PATTERN) ?? clean.match(QUANTITY_PATTERN);
   return match ? readableCase(match[0]) : "";
 }
 
@@ -112,6 +115,14 @@ export function productDisplayInfo(product: {
   if (technicalStart > 0) title = title.slice(0, technicalStart);
   const presentationStart = title.search(PRESENTATION_PATTERN);
   if (presentationStart > 0) title = title.slice(0, presentationStart);
+  const commaStart = title.indexOf(",");
+  if (commaStart > 0) title = title.slice(0, commaStart);
+  const detailStart = title.search(DETAIL_START_PATTERN);
+  if (detailStart > 0) title = title.slice(0, detailStart);
+  title = title
+    .replace(/\btipo\s+["“”']?\s*[a-z0-9-]+\s*["“”']?/gi, "")
+    .replace(QUANTITY_PATTERN, "")
+    .replace(/\s+(?:de|con|en|para|seg[uú]n|y|o)\s*$/i, "");
 
   const detailParts = [extractType(source), extractPresentation(source)].filter(
     (part, index, parts) => part && parts.indexOf(part) === index,
