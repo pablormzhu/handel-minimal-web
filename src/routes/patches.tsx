@@ -35,7 +35,7 @@ function PatchesPage() {
   return (
     <Page>
       <section className="bg-background">
-        <div className="mx-auto max-w-7xl lg:relative lg:aspect-video lg:overflow-hidden">
+        <div className="w-full lg:relative lg:aspect-video lg:overflow-hidden">
           <div className="relative z-10 flex min-w-0 flex-col justify-center px-6 py-14 lg:absolute lg:inset-y-0 lg:left-0 lg:w-[48%] lg:px-12 lg:py-20">
             <BackLink to="/">Regresar al inicio</BackLink>
             <p className="mt-10 text-xs font-medium uppercase text-muted-foreground">Marca propia de Handel</p>
