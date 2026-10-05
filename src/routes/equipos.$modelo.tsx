@@ -59,7 +59,7 @@ function EquipmentDetailPage() {
         </div>
 
         <div className="mx-auto grid max-w-7xl gap-14 px-5 py-16 sm:px-8 sm:py-20 md:grid-cols-12 lg:gap-16 lg:px-10 lg:py-24">
-          <div>
+          <div className="md:col-span-4">
             <p className="text-xs font-semibold uppercase text-accent">01 / Descripción</p>
             <h2 className="mt-7 text-3xl font-semibold leading-tight">Precisión en cada análisis.</h2>
             <p className="mt-5 text-lg leading-8 text-muted-foreground">{item.summary}</p>
