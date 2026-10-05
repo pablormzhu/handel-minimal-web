@@ -6,5 +6,5 @@
 - [x] Audit and correct 4 promotional compositions without changing layout or copy.
 - [x] Apply the approved bright neutral studio background consistently.
 - [x] Save a 29-entry source and fidelity manifest.
-- [ ] Verify all listing, brand, search, detail, and equipment views on desktop and mobile.
-- [ ] Confirm build health and actual credits used; do not publish.
+- [x] Verify all listing, brand, search, detail, and equipment views on desktop and mobile.
+- [x] Confirm build health and actual credits used; do not publish.
