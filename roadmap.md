@@ -31,3 +31,4 @@
 - [ ] Resolve remaining MCD packaging photos when an exact, visually legible presentation source becomes available (6 originales MCD integrados; 18 MCD siguen pendientes).
 - [x] Update the per-SKU evidence manifest and export a compact before/after review sheet.
 - [x] Verify the modified labels, both brand routes, and build health once; keep unpublished.
+- [x] Integrate 6 SNIBE reconstructions with verified original labels and preserve their separate evidence category.
