@@ -107,6 +107,12 @@ import mcdMio450Asset from "@/assets/prod/verified-original/265010000PT7441.webp
 import mcdMacConkey450Asset from "@/assets/prod/verified-original/265010000PT6051-empaque-original-fondo.png.asset.json";
 import mcdSalManitol450Asset from "@/assets/prod/verified-original/265010000PT6061-empaque-original-fondo.png.asset.json";
 import mcdMuellerHinton500Asset from "@/assets/prod/verified-original/265010000PT7132-empaque-original-fondo.png.asset.json";
+import ca125LabelAsset from "@/assets/prod/reconstructed-verified/20701130201031M-rotulo-verificado.png.asset.json";
+import cea100LabelAsset from "@/assets/prod/reconstructed-verified/20701130201032M-rotulo-verificado.png.asset.json";
+import cea50LabelAsset from "@/assets/prod/reconstructed-verified/20701130601032M-rotulo-verificado.png.asset.json";
+import afp100LabelAsset from "@/assets/prod/reconstructed-verified/20701130201033M-rotulo-verificado.png.asset.json";
+import totalPsa100LabelAsset from "@/assets/prod/reconstructed-verified/20701130201034M-rotulo-verificado.png.asset.json";
+import freePsa100LabelAsset from "@/assets/prod/reconstructed-verified/20701130201035M-rotulo-verificado.png.asset.json";
 import agarCdcAnaerobico from "@/assets/prod/real/agar-cdc-anaerobico.jpg";
 import agarCromogenicoSalmonella from "@/assets/prod/real/agar-cromogenico-salmonella.jpg";
 import agarCitratoSimmons from "@/assets/prod/real/agar-citrato-simmons.jpg";
@@ -183,6 +189,17 @@ const VERIFIED_ORIGINAL_SKU_IMAGES: Record<string, string> = {
   "265010000PT6051": mcdMacConkey450Asset.url,
   "265010000PT6061": mcdSalManitol450Asset.url,
   "265010000PT7132": mcdMuellerHinton500Asset.url,
+};
+
+// Reconstrucciones cuya rotulación exacta se verificó contra documentación
+// primaria. No son fotografías originales del producto físico exacto.
+const RECONSTRUCTED_VERIFIED_SKU_IMAGES: Record<string, string> = {
+  "20701130201031M": ca125LabelAsset.url,
+  "20701130201032M": cea100LabelAsset.url,
+  "20701130601032M": cea50LabelAsset.url,
+  "20701130201033M": afp100LabelAsset.url,
+  "20701130201034M": totalPsa100LabelAsset.url,
+  "20701130201035M": freePsa100LabelAsset.url,
 };
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
@@ -388,6 +405,10 @@ const RULES: Array<[RegExp, string]> = [
 export function productImage(input: { name: string; description?: string; sku?: string }): string {
   const verifiedOriginal = input.sku ? VERIFIED_ORIGINAL_SKU_IMAGES[input.sku] : undefined;
   if (verifiedOriginal) return verifiedOriginal;
+  const reconstructedVerified = input.sku
+    ? RECONSTRUCTED_VERIFIED_SKU_IMAGES[input.sku]
+    : undefined;
+  if (reconstructedVerified) return reconstructedVerified;
   const refreshed = input.sku ? REFRESHED_SKU_IMAGES[input.sku] : undefined;
   if (refreshed) return refreshed;
   const verified = input.sku ? VERIFIED_CURRENT_SKU_IMAGES[input.sku] : undefined;
