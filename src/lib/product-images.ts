@@ -127,13 +127,13 @@ import patchesVendaElastica from "@/assets/prod/real/patches-venda-elastica.jpg"
 import patchesPortaobjetosBanda from "@/assets/prod/real/patches-portaobjetos-banda.jpg";
 
 const refreshedProductImages = import.meta.glob<string>(
-  "../assets/prod/photo-refresh/*.jpg",
+  "../assets/prod/photo-refresh/*.{jpg,png}",
   { eager: true, import: "default" },
 );
 
 const REFRESHED_SKU_IMAGES: Record<string, string> = Object.fromEntries(
   Object.entries(refreshedProductImages).map(([path, image]) => [
-    path.split("/").pop()!.replace(/\.jpg$/i, ""),
+    path.split("/").pop()!.replace(/\.(?:jpg|png)$/i, ""),
     image,
   ]),
 );
@@ -320,7 +320,6 @@ const VERIFIED_CURRENT_SKU_IMAGES: Record<string, string> = {
   "265010000PT7375": caldoSelenitoSodio,
   "265010000PT7405": infusionCerebroCorazon,
   "265010000PT7975": kitBioquimicas,
-  "265010000004215": medioTransporteViral,
   "265010000PT7445": medioMio,
 };
 
