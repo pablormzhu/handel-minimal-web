@@ -13,4 +13,4 @@
 - [x] Update the 2026-10-05 manifest and validate only the affected web views.
 - [x] Audit all 29 PATCHES/Nihon backgrounds against the approved neutral references.
 - [x] Neutralize only affected backgrounds while preserving products, labels, framing, and layout.
-- [ ] Compare final backgrounds side by side and validate affected desktop/mobile views without publishing.
+- [x] Compare final backgrounds side by side and validate affected desktop/mobile views without publishing.

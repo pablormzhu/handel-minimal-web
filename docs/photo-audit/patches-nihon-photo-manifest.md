@@ -62,6 +62,6 @@ Las fotografías públicas exactas de todos los empaques regionales mexicanos de
 
 ## Control cromático del 2026-10-05
 
-Se compararon visualmente los 29 activos contra las tres referencias SNIBE/MCD aportadas. Se conservaron sin edición nueve activos cuyo fondo ya era neutro: `001010000007102`, `001010000007106`, `001010000007202`, `001010007.0-8.0`, `001010008.0-9.0`, `0010100KZ4021-1`, `00104000NLD6052` y los equipos `MEK-1303` y `MEK-1305`.
+Se compararon visualmente los 29 activos contra las tres referencias SNIBE/MCD aportadas. Se conservaron sin edición nueve activos cuyo fondo ya era neutro: `001010000007102`, `001010000007106`, `001010000007202`, `001010000KZ4021`, `001010007.0-8.0`, `001010008.0-9.0`, `0010100KZ4021-1`, `00104000NLD6052` y el equipo `MEK-1303`.
 
 Se neutralizó únicamente el fondo/superficie de estos 20 activos: `001010000007201`, `001010000KZ4022`, `001010007201-18`, `00101LAR2022012`, `4890100000CAL01`, `489010000CR-420`, `489010000HA-420`, `489010000MK-310`, `489010000MK-710`, `4890100MEK-620I`, `4890100MEK-641I`, `489010MEK-3CLNH`, `489010MEK-5DLNH`, `MEK-1305`, `MEK-7300`, `MEK-9200`, las dos tarjetas de inicio y los dos banners de marca. Los objetos, etiquetas, cantidades, encuadres y escalas permanecieron sin cambios.
