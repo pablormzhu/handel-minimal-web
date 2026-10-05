@@ -20,3 +20,4 @@
 - [x] Redesign all four Nihon Kohden equipment detail pages with an integrated premium product layout.
 - [x] Present three borderless Nihon Kohden detail-page proposals using the real equipment photograph.
 - [x] Implement the requested full-width photo-banner direction across all four equipment detail pages.
+- [x] Refine the banner direction into the selected Clinical Precision composition.
