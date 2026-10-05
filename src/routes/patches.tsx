@@ -6,7 +6,7 @@ import { catalogProducts } from "@/lib/brand-catalog";
 import { productImage } from "@/lib/product-images";
 import { productDisplayInfo } from "@/lib/format-product";
 import patchesLogo from "@/assets/patches-logo-corrected.png.asset.json";
-import patchesCover from "@/assets/special-lines/patches-page-hero-final.jpg";
+import patchesCover from "@/assets/special-lines/patches-page-hero-wide.jpg";
 
 export const Route = createFileRoute("/patches")({
   head: () => ({
@@ -35,8 +35,8 @@ function PatchesPage() {
   return (
     <Page>
       <section className="bg-background">
-        <div className="mx-auto grid max-w-7xl lg:min-h-[680px] lg:grid-cols-[minmax(0,1.08fr)_minmax(0,0.92fr)]">
-          <div className="flex min-w-0 flex-col justify-center px-6 py-14 lg:px-12 lg:py-20">
+        <div className="mx-auto max-w-7xl lg:relative lg:aspect-video lg:overflow-hidden">
+          <div className="relative z-10 flex min-w-0 flex-col justify-center px-6 py-14 lg:absolute lg:inset-y-0 lg:left-0 lg:w-[48%] lg:px-12 lg:py-20">
             <BackLink to="/">Regresar al inicio</BackLink>
             <p className="mt-10 text-xs font-medium uppercase text-muted-foreground">Marca propia de Handel</p>
             <img src={patchesLogo.url} alt="Logotipo de PATCHES" width={350} height={56} className="mt-6 h-12 w-auto max-w-[250px] object-contain sm:h-14" />
@@ -44,8 +44,8 @@ function PatchesPage() {
             <p className="mt-6 max-w-xl text-lg leading-8 text-muted-foreground">Consumibles para curación, protección y laboratorio con presentaciones pensadas para el uso clínico cotidiano.</p>
             <a href="#productos-patches" className="mt-8 inline-flex w-fit items-center gap-2 text-sm font-semibold">Explorar la línea <ArrowRight className="h-4 w-4" /></a>
           </div>
-          <div className="aspect-[7/6] overflow-hidden bg-background lg:aspect-auto lg:min-h-full">
-            <img src={patchesCover} alt="Selección de productos reales PATCHES" width={1400} height={1200} className="h-full w-full object-contain" />
+          <div className="aspect-video overflow-hidden bg-background lg:absolute lg:inset-0">
+            <img src={patchesCover} alt="Selección de productos reales PATCHES" width={1600} height={900} className="h-full w-full object-contain" />
           </div>
         </div>
       </section>
