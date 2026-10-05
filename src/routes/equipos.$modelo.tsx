@@ -110,13 +110,18 @@ function EquipmentDetailPage() {
         </div>
       </section>
 
-      <section className="bg-foreground px-5 py-16 text-center text-background sm:px-8 sm:py-20">
-        <div className="mx-auto max-w-4xl">
-          <p className="text-xs font-semibold uppercase text-background/60">Nihon Kohden · {item.model}</p>
-          <h2 className="mt-5 text-3xl font-semibold leading-tight sm:text-5xl">Optimiza tu laboratorio con el {item.model}</h2>
-          <Button asChild size="lg" variant="secondary" className="mt-9 rounded-full px-8">
-            <Link to="/contacto">Hablar con un asesor <ArrowRight aria-hidden="true" /></Link>
-          </Button>
+      <section className="border-t border-border bg-background">
+        <div className="mx-auto max-w-7xl px-5 py-20 text-center sm:px-8 sm:py-24 lg:px-10">
+          <p className="text-sm font-semibold uppercase text-muted-foreground">Nihon Kohden · {item.model}</p>
+          <h2 className="mx-auto mt-6 max-w-3xl text-3xl font-semibold leading-tight sm:text-5xl">Optimiza tu laboratorio con el {item.model}</h2>
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-x-7 gap-y-4">
+            <Button asChild size="lg" className="rounded-full px-8">
+              <Link to="/contacto">Hablar con un asesor <ArrowRight aria-hidden="true" /></Link>
+            </Button>
+            <a href={item.source} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline">
+              Ficha del fabricante <ExternalLink className="h-4 w-4" aria-hidden="true" />
+            </a>
+          </div>
         </div>
       </section>
     </Page>
