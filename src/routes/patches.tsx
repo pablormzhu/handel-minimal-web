@@ -35,8 +35,8 @@ function PatchesPage() {
   return (
     <Page>
       <section className="bg-background">
-        <div className="w-full lg:relative lg:aspect-video lg:overflow-hidden">
-          <div className="relative z-10 flex min-w-0 flex-col justify-center px-6 py-14 lg:absolute lg:inset-y-0 lg:left-0 lg:w-[48%] lg:px-12 lg:py-20">
+        <div className="w-full overflow-hidden lg:relative lg:aspect-[2/1]">
+          <div className="relative z-10 flex min-w-0 flex-col justify-center px-6 py-10 lg:absolute lg:inset-y-0 lg:left-0 lg:w-[48%] lg:px-12 lg:py-12">
             <BackLink to="/">Regresar al inicio</BackLink>
             <p className="mt-10 text-xs font-medium uppercase text-muted-foreground">Marca propia de Handel</p>
             <img src={patchesLogo.url} alt="Logotipo de PATCHES" width={350} height={56} className="mt-6 h-12 w-auto max-w-[250px] object-contain sm:h-14" />
@@ -44,8 +44,8 @@ function PatchesPage() {
             <p className="mt-6 max-w-xl text-lg leading-8 text-muted-foreground">Consumibles para curación, protección y laboratorio con presentaciones pensadas para el uso clínico cotidiano.</p>
             <a href="#productos-patches" className="mt-8 inline-flex w-fit items-center gap-2 text-sm font-semibold">Explorar la línea <ArrowRight className="h-4 w-4" /></a>
           </div>
-          <div className="aspect-video overflow-hidden bg-background lg:absolute lg:inset-0">
-            <img src={patchesCover} alt="Selección de productos reales PATCHES" width={1600} height={900} className="h-full w-full object-contain" />
+          <div className="aspect-[2/1] w-full overflow-hidden bg-background lg:absolute lg:inset-0">
+            <img src={patchesCover} alt="Selección de productos reales PATCHES" width={1600} height={900} className="h-full w-full object-cover object-center" />
           </div>
         </div>
       </section>
@@ -53,7 +53,7 @@ function PatchesPage() {
       <section id="productos-patches" className="mx-auto max-w-6xl scroll-mt-16 px-6 py-24">
         <div className="grid gap-6 border-b border-border pb-7 md:grid-cols-[1fr_1fr] md:items-end">
           <h2 className="text-3xl font-semibold sm:text-5xl">Productos PATCHES</h2>
-          <p className="max-w-lg text-sm leading-6 text-muted-foreground md:justify-self-end">{items.length} soluciones con información clara, fotografía individual y presentaciones disponibles.</p>
+          <p className="max-w-lg text-sm leading-6 text-muted-foreground md:justify-self-end">Nuestra marca propia para acompañar el trabajo clínico y de laboratorio de todos los días.</p>
         </div>
         <div className="mt-10 grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((product) => {
