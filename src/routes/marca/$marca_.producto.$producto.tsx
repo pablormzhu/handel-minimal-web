@@ -75,9 +75,13 @@ function BrandProductPage() {
   return (
     <Page>
       <section className="mx-auto max-w-6xl px-6 pb-14 pt-24">
-        <BackLink to="/marca/$marca" params={{ marca: brand.slug }}>
-          Regresar a {brand.name}
-        </BackLink>
+        {brand.name === "PATCHES" ? (
+          <BackLink to="/patches">Regresar a PATCHES</BackLink>
+        ) : (
+          <BackLink to="/marca/$marca" params={{ marca: brand.slug }}>
+            Regresar a {brand.name}
+          </BackLink>
+        )}
 
         <div className="mt-8 grid items-start gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-16">
           <div className="aspect-square overflow-hidden rounded-2xl border border-border/60 bg-muted/30">
