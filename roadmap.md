@@ -27,3 +27,7 @@
 - [x] Save the 129-entry SNIBE/MCD LAB source, status, presentation, and limitation manifest.
 - [x] Verify final 129-SKU contact sheets, listing, detail, search, desktop/mobile, build health, and actual credit use without publishing.
 - [x] Rebuild the final 129-SKU contact sheet from the live resolver, verify all 29 aliases, and synchronize the manifest counts and PT7034 row.
+- [x] Replace defective SNIBE photos with visually verified original DIAGMEX packaging.
+- [ ] Resolve remaining MCD packaging photos when an exact, visually legible presentation source becomes available.
+- [x] Update the per-SKU evidence manifest and export a compact before/after review sheet.
+- [x] Verify the modified labels, both brand routes, and build health once; keep unpublished.
