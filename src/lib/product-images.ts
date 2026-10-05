@@ -101,6 +101,9 @@ import testosterone100Asset from "@/assets/prod/verified-original/20701130252010
 import totalT3100Asset from "@/assets/prod/verified-original/20701130253003M.jpg.asset.json";
 import totalT4100Asset from "@/assets/prod/verified-original/20701130253002M.jpg.asset.json";
 import tsh100Asset from "@/assets/prod/verified-original/20701130203023M.jpg.asset.json";
+import mcdSabouraud450Asset from "@/assets/prod/verified-original/265010000PT7031.webp.asset.json";
+import mcdDextrosaPapa450Asset from "@/assets/prod/verified-original/265010000PT7041.webp.asset.json";
+import mcdMio450Asset from "@/assets/prod/verified-original/265010000PT7441.webp.asset.json";
 import agarCdcAnaerobico from "@/assets/prod/real/agar-cdc-anaerobico.jpg";
 import agarCromogenicoSalmonella from "@/assets/prod/real/agar-cromogenico-salmonella.jpg";
 import agarCitratoSimmons from "@/assets/prod/real/agar-citrato-simmons.jpg";
@@ -171,6 +174,9 @@ const VERIFIED_ORIGINAL_SKU_IMAGES: Record<string, string> = {
   "20701130253003M": totalT3100Asset.url,
   "20701130253002M": totalT4100Asset.url,
   "20701130203023M": tsh100Asset.url,
+  "265010000PT7031": mcdSabouraud450Asset.url,
+  "265010000PT7041": mcdDextrosaPapa450Asset.url,
+  "265010000PT7441": mcdMio450Asset.url,
 };
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).

@@ -5,11 +5,11 @@
     "MCD LAB": 53
   },
   "statuses": {
-    "original verificado o correcto conservado": 44,
+    "original verificado o correcto conservado": 47,
     "reconstruido con referencia": 9,
-    "pendiente fuente": 76
+    "pendiente fuente": 73
   },
-  "modified": 15,
+  "modified": 18,
   "imagegen_calls": 0,
   "pending_skus": [
     "20701130661004M",
@@ -66,11 +66,9 @@
     "20701130653007M",
     "265010000PT7584",
     "265010000PT7001",
-    "265010000PT7031",
     "265010000PT6051",
     "265010000PT6061",
     "265010000PT7035",
-    "265010000PT7041",
     "265010000PT7054",
     "265010000PT7092",
     "265010000PT8204",
@@ -86,7 +84,6 @@
     "265010000PT5874",
     "265010000004215",
     "265010000PT7455",
-    "26501000PTC4100",
-    "265010000PT7441"
+    "26501000PTC4100"
   ]
 }
