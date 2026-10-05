@@ -75,7 +75,7 @@ function BrandProductPage() {
   return (
     <Page>
       <section className="mx-auto max-w-6xl px-6 pb-14 pt-24">
-        {brand.name === "PATCHES" ? (
+        {params.marca.toLocaleLowerCase() === "patches" ? (
           <BackLink to="/patches">Regresar a PATCHES</BackLink>
         ) : (
           <BackLink to="/marca/$marca" params={{ marca: brand.slug }}>
