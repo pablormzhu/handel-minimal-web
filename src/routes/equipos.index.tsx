@@ -28,7 +28,7 @@ function EquipmentPage() {
   return (
     <Page>
       <section className="bg-background">
-        <div className="mx-auto max-w-7xl lg:relative lg:aspect-video lg:overflow-hidden">
+        <div className="w-full lg:relative lg:aspect-video lg:overflow-hidden">
           <div className="relative z-10 flex min-w-0 flex-col justify-center px-6 py-14 lg:absolute lg:inset-y-0 lg:left-0 lg:w-[48%] lg:px-12 lg:py-20">
             <BackLink to="/">Regresar al inicio</BackLink>
             <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="mt-10 h-9 w-auto max-w-[220px] object-contain sm:h-10" />
