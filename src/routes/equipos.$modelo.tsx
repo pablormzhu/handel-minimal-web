@@ -70,18 +70,18 @@ function EquipmentDetailPage() {
           <p className="text-sm font-semibold uppercase text-muted-foreground">En cifras</p>
           <dl className="mt-10 grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
             {item.specifications.slice(0, 4).map((specification) => (
-              <div key={specification.label} className="flex flex-col-reverse">
+              <div key={specification.label} className="flex flex-col-reverse justify-end">
                 <dt className="mt-3 text-sm leading-6 text-muted-foreground">{specification.label}</dt>
-                <dd className="text-3xl font-semibold leading-tight sm:text-4xl">{specification.value}</dd>
+                <dd className="text-2xl font-semibold leading-tight lg:text-3xl">{specification.value}</dd>
               </div>
             ))}
           </dl>
           {item.specifications.length > 4 && (
             <dl className="mt-10 grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
               {item.specifications.slice(4).map((specification) => (
-                <div key={specification.label} className="flex flex-col-reverse">
+                <div key={specification.label} className="flex flex-col-reverse justify-end">
                   <dt className="mt-3 text-sm leading-6 text-muted-foreground">{specification.label}</dt>
-                  <dd className="text-3xl font-semibold leading-tight sm:text-4xl">{specification.value}</dd>
+                  <dd className="text-2xl font-semibold leading-tight lg:text-3xl">{specification.value}</dd>
                 </div>
               ))}
             </dl>
@@ -94,7 +94,7 @@ function EquipmentDetailPage() {
         <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 sm:px-8 sm:py-24 lg:grid-cols-2 lg:gap-20 lg:px-10">
           <div>
             <p className="text-sm font-semibold uppercase text-accent">Descripción</p>
-            <h2 className="mt-6 text-3xl font-semibold leading-tight sm:text-4xl">{item.summary}</h2>
+            <h2 className="mt-6 text-2xl font-semibold leading-tight lg:text-3xl">{item.summary}</h2>
           </div>
           <div>
             <p className="text-sm font-semibold uppercase text-accent">Tecnología</p>
