@@ -10,3 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Nihon Kohden equipment detail pages share one borderless layout: text beside the uncropped product photo, which blends into a matching stage colour via an edge mask, so all four models stay consistent and the photo is never cropped.
+- Product photos with visually verified printed name, reference, and capacity override refreshed or generated SKU assets so exact original packaging is never hidden.

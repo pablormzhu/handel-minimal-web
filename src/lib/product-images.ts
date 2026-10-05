@@ -86,6 +86,21 @@ import tuboGoldenVacAzul from "@/assets/prod/real/tubo-golden-vac-azul.jpg";
 import guantesMgEs from "@/assets/prod/real/guantes-mg-es.jpg";
 import medioSim from "@/assets/prod/real/medio-sim.jpg";
 import medioMio from "@/assets/prod/real/medio-mio.jpg";
+import cortisol50Asset from "@/assets/prod/verified-original/20701130670002M.jpg.asset.json";
+import vitaminD100Asset from "@/assets/prod/verified-original/20701130261004M.jpg.asset.json";
+import antiTpo100Asset from "@/assets/prod/verified-original/20701130253011M.jpg.asset.json";
+import bnp100Asset from "@/assets/prod/verified-original/20701130206016M.jpg.asset.json";
+import estradiol100Asset from "@/assets/prod/verified-original/20701130252007M.jpg.asset.json";
+import ferritin100Asset from "@/assets/prod/verified-original/20701130251001M.jpg.asset.json";
+import freeT3100Asset from "@/assets/prod/verified-original/20701130253005M.jpg.asset.json";
+import freeT4100Asset from "@/assets/prod/verified-original/20701130253004M.jpg.asset.json";
+import freeTestosterone100Asset from "@/assets/prod/verified-original/20701130252011M.jpg.asset.json";
+import igm100Asset from "@/assets/prod/verified-original/20701130258002M.jpg.asset.json";
+import prolactin100Asset from "@/assets/prod/verified-original/20701130252006M.jpg.asset.json";
+import testosterone100Asset from "@/assets/prod/verified-original/20701130252010M.jpg.asset.json";
+import totalT3100Asset from "@/assets/prod/verified-original/20701130253003M.jpg.asset.json";
+import totalT4100Asset from "@/assets/prod/verified-original/20701130253002M.jpg.asset.json";
+import tsh100Asset from "@/assets/prod/verified-original/20701130203023M.jpg.asset.json";
 import agarCdcAnaerobico from "@/assets/prod/real/agar-cdc-anaerobico.jpg";
 import agarCromogenicoSalmonella from "@/assets/prod/real/agar-cromogenico-salmonella.jpg";
 import agarCitratoSimmons from "@/assets/prod/real/agar-citrato-simmons.jpg";
@@ -137,6 +152,26 @@ const REFRESHED_SKU_IMAGES: Record<string, string> = Object.fromEntries(
     image,
   ]),
 );
+
+// Fotografías originales de distribuidor verificadas contra la REF y capacidad
+// impresas en el propio empaque. Tienen prioridad sobre reconstrucciones previas.
+const VERIFIED_ORIGINAL_SKU_IMAGES: Record<string, string> = {
+  "20701130670002M": cortisol50Asset.url,
+  "20701130261004M": vitaminD100Asset.url,
+  "20701130253011M": antiTpo100Asset.url,
+  "20701130206016M": bnp100Asset.url,
+  "20701130252007M": estradiol100Asset.url,
+  "20701130251001M": ferritin100Asset.url,
+  "20701130253005M": freeT3100Asset.url,
+  "20701130253004M": freeT4100Asset.url,
+  "20701130252011M": freeTestosterone100Asset.url,
+  "20701130258002M": igm100Asset.url,
+  "20701130252006M": prolactin100Asset.url,
+  "20701130252010M": testosterone100Asset.url,
+  "20701130253003M": totalT3100Asset.url,
+  "20701130253002M": totalT4100Asset.url,
+  "20701130203023M": tsh100Asset.url,
+};
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
@@ -339,6 +374,8 @@ const RULES: Array<[RegExp, string]> = [
 ];
 
 export function productImage(input: { name: string; description?: string; sku?: string }): string {
+  const verifiedOriginal = input.sku ? VERIFIED_ORIGINAL_SKU_IMAGES[input.sku] : undefined;
+  if (verifiedOriginal) return verifiedOriginal;
   const refreshed = input.sku ? REFRESHED_SKU_IMAGES[input.sku] : undefined;
   if (refreshed) return refreshed;
   const verified = input.sku ? VERIFIED_CURRENT_SKU_IMAGES[input.sku] : undefined;
