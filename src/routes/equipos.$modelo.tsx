@@ -32,63 +32,80 @@ function EquipmentDetailPage() {
 
   return (
     <Page>
-      <section className="bg-background">
-        <div className="mx-auto max-w-7xl px-5 pb-12 pt-7 sm:px-8 sm:pb-14 sm:pt-10 lg:px-10 lg:pb-16">
+      {/* Escenario: la foto completa se funde con un fondo de su mismo tono */}
+      <section className="bg-stage">
+        <div className="mx-auto max-w-7xl px-5 pt-7 sm:px-8 sm:pt-10 lg:px-10">
           <BackLink to="/equipos">Regresar a equipos</BackLink>
-          <div className="mt-10 grid gap-10 sm:mt-14 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end">
-            <div className="min-w-0">
-              <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="h-8 w-auto max-w-full object-contain sm:h-10" />
-              <div className="mt-9 border-l-2 border-accent pl-4">
-                <p className="text-xs font-semibold uppercase text-accent">{item.model}</p>
-                <h1 className="mt-3 text-5xl font-semibold leading-none sm:text-6xl lg:text-7xl">{item.name}</h1>
-              </div>
-              <p className="mt-6 max-w-3xl text-lg leading-8 text-muted-foreground sm:text-xl">{item.category}</p>
+        </div>
+        <div className="mx-auto grid max-w-7xl items-end gap-4 px-5 sm:px-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-6 lg:px-10">
+          <div className="pt-10 sm:pt-14 lg:self-center lg:pb-16 lg:pt-8">
+            <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="h-7 w-auto max-w-full object-contain sm:h-8" />
+            <p className="mt-10 text-sm font-semibold uppercase text-accent">{item.model}</p>
+            <h1 className="mt-3 text-5xl font-semibold leading-[0.95] sm:text-6xl lg:text-7xl">{item.name}</h1>
+            <p className="mt-6 max-w-md text-lg leading-8 text-muted-foreground">{item.category}</p>
+            <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
+              <Button asChild size="lg" className="rounded-full px-7">
+                <Link to="/contacto">Solicitar información <ArrowRight aria-hidden="true" /></Link>
+              </Button>
+              <a href={item.source} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline">
+                Ficha del fabricante <ExternalLink className="h-4 w-4" aria-hidden="true" />
+              </a>
             </div>
-            <Button asChild size="lg" className="group w-fit rounded-none px-7">
-              <Link to="/contacto">Solicitar información <ArrowRight aria-hidden="true" /></Link>
-            </Button>
+          </div>
+          <div className="-mx-5 sm:-mx-8 lg:mx-0">
+            <img
+              src={item.image}
+              alt={`${item.name} ${item.model}`}
+              width={1264}
+              height={848}
+              className="photo-stage-blend block h-auto w-full"
+            />
           </div>
         </div>
+      </section>
 
-        <div className="relative h-[72vw] min-h-[300px] max-h-[640px] w-full overflow-hidden bg-secondary sm:h-[50vw] lg:h-[34vw]">
-          <img src={item.image} alt={`${item.name} ${item.model}`} width={1600} height={1000} className="h-full w-full object-cover object-center" />
-          <div className="absolute bottom-7 left-5 text-foreground sm:bottom-10 sm:left-8 lg:left-[max(2.5rem,calc((100vw-80rem)/2+2.5rem))]">
-            <p className="text-xs font-semibold uppercase text-muted-foreground">Equipo hematológico</p>
-            <p className="mt-1 text-3xl font-semibold sm:text-4xl">{item.model}</p>
-          </div>
-        </div>
-
-        <div className="mx-auto grid max-w-7xl gap-14 px-5 py-16 sm:px-8 sm:py-20 md:grid-cols-12 lg:gap-16 lg:px-10 lg:py-24">
-          <div className="md:col-span-4">
-            <p className="text-xs font-semibold uppercase text-accent">01 / Descripción</p>
-            <h2 className="mt-7 text-3xl font-semibold leading-tight">Precisión en cada análisis.</h2>
-            <p className="mt-5 text-lg leading-8 text-muted-foreground">{item.summary}</p>
-          </div>
-
-          <div className="md:col-span-5">
-            <h2 className="text-xs font-semibold uppercase text-accent">02 / Tecnología</h2>
-            <ol className="mt-7 space-y-7">
-              {item.highlights.map((highlight, index) => (
-                <li key={highlight} className="group grid grid-cols-[2.5rem_minmax(0,1fr)] gap-4 border-b border-border pb-5 text-sm leading-6 text-foreground">
-                  <span className="font-semibold text-muted-foreground transition-colors group-hover:text-accent">0{index + 1}</span><span>{highlight}</span>
-                </li>
-              ))}
-            </ol>
-          </div>
-
-          <div className="md:col-span-3">
-            <h2 className="text-xs font-semibold uppercase text-accent">03 / Datos técnicos</h2>
-            <dl className="mt-7 space-y-6">
-              {item.specifications.map((specification) => (
+      {/* Cifras clave */}
+      <section className="bg-background">
+        <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-10">
+          <p className="text-sm font-semibold uppercase text-muted-foreground">En cifras</p>
+          <dl className="mt-10 grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
+            {item.specifications.slice(0, 4).map((specification) => (
+              <div key={specification.label}>
+                <dd className="text-3xl font-semibold leading-tight sm:text-4xl">{specification.value}</dd>
+                <dt className="mt-3 text-sm leading-6 text-muted-foreground">{specification.label}</dt>
+              </div>
+            ))}
+          </dl>
+          {item.specifications.length > 4 && (
+            <dl className="mt-10 grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
+              {item.specifications.slice(4).map((specification) => (
                 <div key={specification.label}>
-                  <dt className="text-xs font-semibold uppercase leading-5 text-muted-foreground">{specification.label}</dt>
-                  <dd className="mt-1 text-lg font-semibold leading-6">{specification.value}</dd>
+                  <dd className="text-3xl font-semibold leading-tight sm:text-4xl">{specification.value}</dd>
+                  <dt className="mt-3 text-sm leading-6 text-muted-foreground">{specification.label}</dt>
                 </div>
               ))}
             </dl>
-            <a href={item.source} target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-2 border-b-2 border-accent pb-1 text-sm font-semibold text-accent">
-              Información del fabricante <ExternalLink className="h-4 w-4" aria-hidden="true" />
-            </a>
+          )}
+        </div>
+      </section>
+
+      {/* Descripción y tecnología */}
+      <section className="bg-secondary">
+        <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 sm:px-8 sm:py-24 lg:grid-cols-2 lg:gap-20 lg:px-10">
+          <div>
+            <p className="text-sm font-semibold uppercase text-accent">Descripción</p>
+            <h2 className="mt-6 text-3xl font-semibold leading-tight sm:text-4xl">{item.summary}</h2>
+          </div>
+          <div>
+            <p className="text-sm font-semibold uppercase text-accent">Tecnología</p>
+            <ul className="mt-6 space-y-6">
+              {item.highlights.map((highlight) => (
+                <li key={highlight} className="flex gap-4 text-lg leading-8 text-foreground">
+                  <span aria-hidden="true" className="mt-3.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
+                  <span>{highlight}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>
@@ -97,7 +114,7 @@ function EquipmentDetailPage() {
         <div className="mx-auto max-w-4xl">
           <p className="text-xs font-semibold uppercase text-background/60">Nihon Kohden · {item.model}</p>
           <h2 className="mt-5 text-3xl font-semibold leading-tight sm:text-5xl">Optimiza tu laboratorio con el {item.model}</h2>
-          <Button asChild size="lg" variant="secondary" className="mt-9 rounded-none px-8">
+          <Button asChild size="lg" variant="secondary" className="mt-9 rounded-full px-8">
             <Link to="/contacto">Hablar con un asesor <ArrowRight aria-hidden="true" /></Link>
           </Button>
         </div>
