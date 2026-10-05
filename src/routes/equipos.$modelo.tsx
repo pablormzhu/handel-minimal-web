@@ -70,18 +70,18 @@ function EquipmentDetailPage() {
           <p className="text-sm font-semibold uppercase text-muted-foreground">En cifras</p>
           <dl className="mt-10 grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
             {item.specifications.slice(0, 4).map((specification) => (
-              <div key={specification.label}>
-                <dd className="text-3xl font-semibold leading-tight sm:text-4xl">{specification.value}</dd>
+              <div key={specification.label} className="flex flex-col-reverse">
                 <dt className="mt-3 text-sm leading-6 text-muted-foreground">{specification.label}</dt>
+                <dd className="text-3xl font-semibold leading-tight sm:text-4xl">{specification.value}</dd>
               </div>
             ))}
           </dl>
           {item.specifications.length > 4 && (
             <dl className="mt-10 grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
               {item.specifications.slice(4).map((specification) => (
-                <div key={specification.label}>
-                  <dd className="text-3xl font-semibold leading-tight sm:text-4xl">{specification.value}</dd>
+                <div key={specification.label} className="flex flex-col-reverse">
                   <dt className="mt-3 text-sm leading-6 text-muted-foreground">{specification.label}</dt>
+                  <dd className="text-3xl font-semibold leading-tight sm:text-4xl">{specification.value}</dd>
                 </div>
               ))}
             </dl>

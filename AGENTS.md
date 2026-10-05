@@ -9,4 +9,4 @@
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
 
-- Nihon Kohden equipment detail pages share one borderless layout with a full-width product-photo banner so all four models remain visually consistent.
+- Nihon Kohden equipment detail pages share one borderless layout: text beside the uncropped product photo, which blends into a matching stage colour via an edge mask, so all four models stay consistent and the photo is never cropped.
