@@ -1,0 +1,61 @@
+# Manifiesto de corrección fotográfica: PATCHES y Nihon Kohden
+
+Fecha: 2026-10-04  
+Estado: integrado en proyecto, pendiente de publicación.
+
+## Criterio común
+
+Todos los activos finales usan fondo blanco grisáceo luminoso, neutro/frío, gradación suave y sombra de contacto. No se modificaron textos, catálogo, navegación ni layouts.
+
+## Productos PATCHES (12)
+
+| SKU | Fuente comprobada | Activo final | Resultado / limitación |
+|---|---|---|---|
+| 00101LAR2022012 | Empaque PATCHES existente y PDF aportado | `src/assets/prod/photo-refresh/00101LAR2022012.jpg` | Fondo corregido; caja de 100 preservada. |
+| 001010007201-18 | Empaque existente y PDF, página 2 | `src/assets/prod/photo-refresh/001010007201-18.jpg` | Variante 18 × 18 mm diferenciada. |
+| 001010000007201 | Empaque existente y PDF, página 3 | `src/assets/prod/photo-refresh/001010000007201.jpg` | Variante 22 × 22 mm diferenciada; no se alteró el dato web. |
+| 001010000007202 | Empaque existente y PDF, página 4 | `src/assets/prod/photo-refresh/001010000007202.jpg` | Variante 24 × 24 mm diferenciada; no se alteró el dato web. |
+| 001010008.0-9.0 | Empaque existente y PDF, página 5 | `src/assets/prod/photo-refresh/001010008.0-9.0.jpg` | Guante grande preservado. |
+| 001010007.0-8.0 | Empaque existente y PDF, página 5 | `src/assets/prod/photo-refresh/001010007.0-8.0.jpg` | Guante mediano preservado. |
+| 00104000NLD6052 | Empaque existente y PDF, página 6 | `src/assets/prod/photo-refresh/00104000NLD6052.jpg` | Hisopo y caja de 100 preservados. |
+| 001010000007106 | Empaque existente y PDF, página 10 | `src/assets/prod/photo-refresh/001010000007106.jpg` | Portaobjetos con banda diferenciado. |
+| 001010000007102 | Empaque existente y PDF, página 9 | `src/assets/prod/photo-refresh/001010000007102.jpg` | Portaobjetos sin banda diferenciado. |
+| 001010000KZ4022 | Empaque existente y PDF, página 12 | `src/assets/prod/photo-refresh/001010000KZ4022.jpg` | NEÓN, caja de 36, diferenciado. |
+| 001010000KZ4021 | Empaque existente y PDF, página 12 | `src/assets/prod/photo-refresh/001010000KZ4021.jpg` | TAN, caja de 36, diferenciado. |
+| 0010100KZ4021-1 | Empaque existente y PDF, página 12 | `src/assets/prod/photo-refresh/0010100KZ4021-1.jpg` | TAN, pieza individual, diferenciado. |
+
+## Consumibles Nihon Kohden (9)
+
+| SKU | Fuente comprobada | Activo final | Resultado / limitación |
+|---|---|---|---|
+| 4890100MEK-620I | Catálogo interno + material técnico regional MEK-620I | `src/assets/prod/photo-refresh/4890100MEK-620I.jpg` | Presentación de tres piezas preservada. La etiqueta regional exacta no pudo verificarse públicamente; no se inventó rotulación. |
+| 489010000MK-710 | Catálogo interno + manual oficial MK-710 | `src/assets/prod/photo-refresh/489010000MK-710.jpg` | Contenedor de 3 L preservado; sin rotulación regional inventada. |
+| 489010000CR-420 | Catálogo interno + manual oficial CR-420W/421W | `src/assets/prod/photo-refresh/489010000CR-420.jpg` | Presentación de caja/cartuchos preservada; no se convirtió en frascos genéricos. |
+| 489010000HA-420 | Catálogo interno + manual oficial HA-420W/421W | `src/assets/prod/photo-refresh/489010000HA-420.jpg` | Presentación de caja/cartuchos preservada; no se convirtió en frascos genéricos. |
+| 489010000MK-310 | Catálogo interno + manual oficial MK-310W | `src/assets/prod/photo-refresh/489010000MK-310.jpg` | Botella de 250 mL preservada; sin rotulación regional inventada. |
+| 4890100000CAL01 | Catálogo interno + ficha oficial MEK-CAL | `src/assets/prod/photo-refresh/4890100000CAL01.jpg` | Vial único de 2 mL preservado. |
+| 4890100MEK-641I | Catálogo interno + referencia regional MEK-641I | `src/assets/prod/photo-refresh/4890100MEK-641I.jpg` | Presentación existente preservada; etiqueta exacta no verificable públicamente. |
+| 489010MEK-3CLNH | Catálogo interno + familia oficial MEK-3CL/N/H | `src/assets/prod/photo-refresh/489010MEK-3CLNH.jpg` | Kit de tres viales preservado; sufijo regional y 2.5 mL no confirmados en foto oficial pública. |
+| 489010MEK-5DLNH | Catálogo interno + familia oficial MEK-5DL/N/H | `src/assets/prod/photo-refresh/489010MEK-5DLNH.jpg` | Kit de tres viales preservado; 3 mL contrastado, sin rotulación inventada. |
+
+## Equipos Nihon Kohden (4)
+
+| Modelo | Fuente comprobada | Activo final | Resultado |
+|---|---|---|---|
+| MEK-9200 | Página oficial MX enlazada en `src/lib/equipment.ts` | `src/assets/equipos/photo-refresh/mek-9200.jpg` | Modelo y geometría preservados; fondo corregido. |
+| MEK-1305 | Página oficial MX enlazada en `src/lib/equipment.ts` | `src/assets/equipos/photo-refresh/mek-1305.jpg` | Modelo y geometría preservados; fondo corregido. |
+| MEK-1303 | Página oficial MX enlazada en `src/lib/equipment.ts` | `src/assets/equipos/photo-refresh/mek-1303.jpg` | Modelo y geometría preservados; fondo corregido. |
+| MEK-7300 | Página oficial MX enlazada en `src/lib/equipment.ts` | `src/assets/equipos/photo-refresh/mek-7300.jpg` | Modelo y geometría preservados; fondo corregido. |
+
+## Ubicaciones promocionales (4)
+
+| Ubicación | Fuente | Activo final | Resultado |
+|---|---|---|---|
+| Inicio · tarjeta PATCHES | Composición aprobada existente | `src/assets/special-lines/photo-refresh/patches-home-card.jpg` | Mismos productos y encuadre; fondo armonizado. |
+| PATCHES · banner | Banner horizontal aprobado existente | `src/assets/special-lines/photo-refresh/patches-page-hero.jpg` | Mismos productos y espacio negativo; fondo armonizado. |
+| Inicio · tarjeta Nihon Kohden | Composición aprobada existente | `src/assets/special-lines/photo-refresh/nihon-kohden-home-card.jpg` | Mismos equipos y encuadre; fondo armonizado. |
+| Equipos · banner Nihon Kohden | Banner horizontal aprobado existente | `src/assets/special-lines/photo-refresh/nihon-kohden-page-hero.jpg` | Mismos equipos y espacio negativo; fondo armonizado. |
+
+## Nota de fidelidad
+
+Las fotografías públicas exactas de los nueve empaques regionales mexicanos de reactivos Nihon Kohden no están disponibles de forma inequívoca en las fuentes oficiales consultadas. Por ello se conservaron las presentaciones existentes y se corrigió únicamente su tratamiento fotográfico; las etiquetas se mantuvieron neutras antes que inventar códigos o rotulación.

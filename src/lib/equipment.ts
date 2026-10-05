@@ -1,7 +1,7 @@
-import mek9200Image from "@/assets/equipos/studio/mek-9200-new.jpg";
-import mek1305Image from "@/assets/equipos/studio/mek-1305-new.jpg";
-import mek1303Image from "@/assets/equipos/studio/mek-1303-new.jpg";
-import mek7300Image from "@/assets/equipos/studio/mek-7300-new.jpg";
+import mek9200Image from "@/assets/equipos/photo-refresh/mek-9200.jpg";
+import mek1305Image from "@/assets/equipos/photo-refresh/mek-1305.jpg";
+import mek1303Image from "@/assets/equipos/photo-refresh/mek-1303.jpg";
+import mek7300Image from "@/assets/equipos/photo-refresh/mek-7300.jpg";
 
 export type Equipment = {
   slug: string;

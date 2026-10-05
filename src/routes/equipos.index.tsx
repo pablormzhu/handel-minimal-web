@@ -5,7 +5,7 @@ import { CtaBand, Page } from "@/components/site/Page";
 import { Button } from "@/components/ui/button";
 import { equipment } from "@/lib/equipment";
 import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
-import equipmentCover from "@/assets/special-lines/nihon-kohden-page-hero-neutral-wide-final.jpg";
+import equipmentCover from "@/assets/special-lines/photo-refresh/nihon-kohden-page-hero.jpg";
 
 export const Route = createFileRoute("/equipos/")({
   head: () => ({
