@@ -126,6 +126,18 @@ import patchesPeTape from "@/assets/prod/real/patches-pe-tape.jpg";
 import patchesVendaElastica from "@/assets/prod/real/patches-venda-elastica.jpg";
 import patchesPortaobjetosBanda from "@/assets/prod/real/patches-portaobjetos-banda.jpg";
 
+const refreshedProductImages = import.meta.glob<string>(
+  "../assets/prod/photo-refresh/*.jpg",
+  { eager: true, import: "default" },
+);
+
+const REFRESHED_SKU_IMAGES: Record<string, string> = Object.fromEntries(
+  Object.entries(refreshedProductImages).map(([path, image]) => [
+    path.split("/").pop()!.replace(/\.jpg$/i, ""),
+    image,
+  ]),
+);
+
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
 const SKU_IMAGES: Record<string, string> = {
   "09901ALCO-GALON": alcohol96Galon,
@@ -293,6 +305,8 @@ const RULES: Array<[RegExp, string]> = [
 ];
 
 export function productImage(input: { name: string; description?: string; sku?: string }): string {
+  const refreshed = input.sku ? REFRESHED_SKU_IMAGES[input.sku] : undefined;
+  if (refreshed) return refreshed;
   const ai = input.sku ? AI_IMAGES[input.sku] : undefined;
   if (ai) return ai;
   const real = input.sku ? SKU_IMAGES[input.sku] : undefined;
