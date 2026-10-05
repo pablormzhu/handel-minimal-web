@@ -14,6 +14,6 @@
 - [x] Audit all 29 PATCHES/Nihon backgrounds against the approved neutral references.
 - [x] Neutralize only affected backgrounds while preserving products, labels, framing, and layout.
 - [x] Compare final backgrounds side by side and validate affected desktop/mobile views without publishing.
-- [ ] Restore original foreground pixels through contour-fitted masks for the 20 neutralized assets.
-- [ ] Inspect mask boundaries and prove protected pixels match the pre-neutralization originals.
-- [ ] Correct the manifest claims, verify build health, and keep the repair unpublished.
+- [x] Restore original foreground pixels through contour-fitted masks for the 20 neutralized assets.
+- [x] Inspect mask boundaries and prove protected pixels match the pre-neutralization originals.
+- [x] Correct the manifest claims, verify build health, and keep the repair unpublished.

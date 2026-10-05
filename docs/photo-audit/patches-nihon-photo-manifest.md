@@ -5,7 +5,7 @@ Estado: integrado en proyecto, pendiente de publicación.
 
 ## Criterio común
 
-Todos los activos finales usan fondo blanco con gris neutro muy claro, casi blanco, gradación suave y sombra de contacto. No se modificaron textos, catálogo, navegación ni layouts. En la revisión cromática del 2026-10-05 se retiró la dominante celeste de 20 fondos, preservando los azules reales de productos, logotipos y empaques.
+Todos los activos finales usan fondo blanco con gris neutro muy claro, casi blanco, gradación suave y sombra de contacto. No se modificaron textos, catálogo, navegación ni layouts. En la revisión cromática del 2026-10-05 se retiró la dominante celeste de 20 fondos. Después se reparó el alcance de ese ajuste: los píxeles del primer plano se recuperaron de las versiones previas mediante máscaras ajustadas al contorno, preservando los colores reales —incluidos azules pastel, grises y etiquetas blancas— de productos, logotipos y empaques.
 
 ## Productos PATCHES (12)
 
@@ -64,4 +64,6 @@ Las fotografías públicas exactas de todos los empaques regionales mexicanos de
 
 Se compararon visualmente los 29 activos contra las tres referencias SNIBE/MCD aportadas. Se conservaron sin edición nueve activos cuyo fondo ya era neutro: `001010000007102`, `001010000007106`, `001010000007202`, `001010000KZ4021`, `001010007.0-8.0`, `001010008.0-9.0`, `0010100KZ4021-1`, `00104000NLD6052` y el equipo `MEK-1303`.
 
-Se neutralizó únicamente el fondo/superficie de estos 20 activos: `001010000007201`, `001010000KZ4022`, `001010007201-18`, `00101LAR2022012`, `4890100000CAL01`, `489010000CR-420`, `489010000HA-420`, `489010000MK-310`, `489010000MK-710`, `4890100MEK-620I`, `4890100MEK-641I`, `489010MEK-3CLNH`, `489010MEK-5DLNH`, `MEK-1305`, `MEK-7300`, `MEK-9200`, las dos tarjetas de inicio y los dos banners de marca. Los objetos, etiquetas, cantidades, encuadres y escalas permanecieron sin cambios.
+Los 20 activos afectados por el ajuste global inicial fueron reparados con máscaras de primer plano ajustadas al contorno: `001010000007201`, `001010000KZ4022`, `001010007201-18`, `00101LAR2022012`, `4890100000CAL01`, `489010000CR-420`, `489010000HA-420`, `489010000MK-310`, `489010000MK-710`, `4890100MEK-620I`, `4890100MEK-641I`, `489010MEK-3CLNH`, `489010MEK-5DLNH`, `MEK-1305`, `MEK-7300`, `MEK-9200`, las dos tarjetas de inicio y los dos banners de marca. Dentro de cada máscara, los píxeles se restauraron desde la versión inmediatamente anterior a la neutralización; fuera de ella se conservó el fondo neutro. La comparación en memoria confirmó coincidencia exacta en todas las regiones protegidas. La revisión visual de la hoja de máscaras y de los resultados finales confirmó contornos sin grandes parches rectangulares; las sombras de contacto permanecen fuera de la protección cuando forman parte del fondo.
+
+La afirmación anterior de que el ajuste global no había cambiado los objetos no estaba respaldada: la comparación detectó píxeles alterados en el primer plano de los 20 activos. Esta reparación sustituye esa afirmación por la comprobación enmascarada y exacta descrita arriba. Los nueve activos enumerados en el párrafo anterior no recibieron ni necesitaron esta reparación.
