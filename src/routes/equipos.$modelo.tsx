@@ -1,5 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { ArrowRight, Check, ExternalLink, Gauge, TestTube } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 import { BackLink } from "@/components/site/BackLink";
 import { CtaBand, Page } from "@/components/site/Page";
 import { Button } from "@/components/ui/button";
@@ -32,69 +32,57 @@ function EquipmentDetailPage() {
 
   return (
     <Page>
-      <section className="bg-secondary/60 px-4 py-6 sm:px-6 sm:py-10 lg:px-10 lg:py-14">
-        <div className="mx-auto max-w-7xl overflow-hidden rounded-2xl border border-border bg-background shadow-sm">
-          <div className="grid lg:grid-cols-[minmax(0,0.72fr)_minmax(0,1.28fr)]">
-            <div className="flex min-w-0 flex-col px-6 py-8 sm:px-10 sm:py-10 lg:px-14 lg:py-12">
-              <BackLink to="/equipos">Regresar a equipos</BackLink>
-              <div className="mt-12 lg:mt-20">
-                <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="h-8 w-auto max-w-full object-contain sm:h-9" />
-                <p className="mt-7 inline-flex rounded-md bg-accent/10 px-3 py-1.5 text-xs font-semibold text-accent">{item.model}</p>
-                <h1 className="mt-4 text-5xl font-semibold leading-none sm:text-6xl lg:text-7xl">{item.name}</h1>
-                <p className="mt-5 max-w-md text-lg leading-8 text-muted-foreground">{item.category}</p>
-              </div>
-              <Button asChild size="lg" className="mt-10 w-fit rounded-lg px-6 lg:mt-auto">
-                <Link to="/contacto">Solicitar información <ArrowRight aria-hidden="true" /></Link>
-              </Button>
+      <section className="bg-background">
+        <div className="mx-auto max-w-7xl px-5 pb-8 pt-7 sm:px-8 sm:pb-10 sm:pt-10 lg:px-10">
+          <BackLink to="/equipos">Regresar a equipos</BackLink>
+          <div className="mt-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end">
+            <div className="min-w-0">
+              <img src={nihonKohdenLogo} alt="Nihon Kohden" width={499} height={66} className="h-7 w-auto max-w-full object-contain sm:h-8" />
+              <p className="mt-7 text-xs font-semibold text-accent">{item.model}</p>
+              <h1 className="mt-3 text-5xl font-semibold leading-none sm:text-6xl lg:text-7xl">{item.name}</h1>
+              <p className="mt-5 max-w-2xl text-lg leading-8 text-muted-foreground">{item.category}</p>
             </div>
+            <Button asChild size="lg" className="w-fit rounded-lg px-6">
+              <Link to="/contacto">Solicitar información <ArrowRight aria-hidden="true" /></Link>
+            </Button>
+          </div>
+        </div>
 
-            <div className="relative flex min-h-[360px] items-center justify-center overflow-hidden border-t border-border bg-secondary p-5 sm:min-h-[480px] sm:p-8 lg:min-h-[620px] lg:border-l lg:border-t-0 lg:p-10">
-              <img src={item.image} alt={`${item.name} ${item.model}`} width={1600} height={1000} className="relative z-10 h-full max-h-[560px] w-full object-contain transition-transform duration-700 ease-out hover:scale-[1.015]" />
-              <div className="absolute bottom-5 right-5 z-20 rounded-lg border border-border bg-background/90 px-4 py-3 shadow-sm backdrop-blur-sm sm:bottom-8 sm:right-8">
-                <p className="text-xs text-muted-foreground">Equipo</p>
-                <p className="mt-0.5 text-sm font-semibold">{item.model}</p>
-              </div>
-            </div>
+        <div className="relative h-[42vw] min-h-[300px] max-h-[620px] w-full overflow-hidden bg-secondary">
+          <img src={item.image} alt={`${item.name} ${item.model}`} width={1600} height={1000} className="h-full w-full object-cover object-center" />
+        </div>
+
+        <div className="mx-auto grid max-w-7xl gap-12 px-5 py-14 sm:px-8 sm:py-16 lg:grid-cols-[0.9fr_1.1fr_1fr] lg:gap-16 lg:px-10 lg:py-20">
+          <div>
+            <p className="text-xs font-semibold uppercase text-accent">Descripción general</p>
+            <h2 className="mt-4 text-2xl font-semibold leading-tight">Análisis confiable y eficiente.</h2>
+            <p className="mt-4 leading-7 text-muted-foreground">{item.summary}</p>
           </div>
 
-          <div className="grid gap-10 border-t border-border bg-secondary/35 px-6 py-10 sm:px-10 lg:grid-cols-3 lg:gap-12 lg:px-14 lg:py-14">
-            <div>
-              <p className="text-xs font-semibold uppercase text-accent">Descripción general</p>
-              <h2 className="mt-4 text-2xl font-semibold leading-tight">Análisis confiable y eficiente.</h2>
-              <p className="mt-4 leading-7 text-muted-foreground">{item.summary}</p>
-            </div>
+          <div>
+            <h2 className="text-xs font-semibold uppercase text-accent">Características</h2>
+            <ol className="mt-5 space-y-5">
+              {item.highlights.map((highlight, index) => (
+                <li key={highlight} className="grid grid-cols-[2rem_minmax(0,1fr)] gap-3 text-sm leading-6 text-muted-foreground">
+                  <span className="font-semibold text-foreground">0{index + 1}</span><span>{highlight}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
 
-            <div>
-              <div className="flex items-center gap-2">
-                <Gauge className="h-4 w-4 text-accent" aria-hidden="true" />
-                <h2 className="text-xs font-semibold uppercase text-accent">Características</h2>
-              </div>
-              <ul className="mt-4 divide-y divide-border">
-                {item.highlights.map((highlight) => (
-                  <li key={highlight} className="flex gap-3 py-3 first:pt-0 text-sm leading-6 text-muted-foreground">
-                    <Check className="mt-1 h-4 w-4 shrink-0 text-accent" aria-hidden="true" />{highlight}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div>
-              <div className="flex items-center gap-2">
-                <TestTube className="h-4 w-4 text-accent" aria-hidden="true" />
-                <h2 className="text-xs font-semibold uppercase text-accent">Datos técnicos</h2>
-              </div>
-              <dl className="mt-4 overflow-hidden rounded-lg border border-border bg-background px-4">
-                {item.specifications.map((specification) => (
-                  <div key={specification.label} className="grid gap-1 border-b border-border py-3 last:border-b-0">
-                    <dt className="text-xs text-muted-foreground">{specification.label}</dt>
-                    <dd className="text-sm font-semibold leading-5">{specification.value}</dd>
-                  </div>
-                ))}
-              </dl>
-              <a href={item.source} target="_blank" rel="noreferrer" className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-accent hover:underline">
-                Información del fabricante <ExternalLink className="h-4 w-4" aria-hidden="true" />
-              </a>
-            </div>
+          <div>
+            <h2 className="text-xs font-semibold uppercase text-accent">Datos técnicos</h2>
+            <dl className="mt-3">
+              {item.specifications.map((specification) => (
+                <div key={specification.label} className="grid grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)] gap-5 border-b border-border py-3">
+                  <dt className="text-xs leading-5 text-muted-foreground">{specification.label}</dt>
+                  <dd className="text-right text-sm font-semibold leading-5">{specification.value}</dd>
+                </div>
+              ))}
+            </dl>
+            <a href={item.source} target="_blank" rel="noreferrer" className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-accent hover:underline">
+              Información del fabricante <ExternalLink className="h-4 w-4" aria-hidden="true" />
+            </a>
           </div>
         </div>
       </section>

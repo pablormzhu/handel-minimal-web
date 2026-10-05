@@ -18,5 +18,5 @@
 - [x] Inspect mask boundaries and prove protected pixels match the pre-neutralization originals.
 - [x] Correct the manifest claims, verify build health, and keep the repair unpublished.
 - [x] Redesign all four Nihon Kohden equipment detail pages with an integrated premium product layout.
-- [ ] Present three borderless Nihon Kohden detail-page proposals using the real equipment photograph.
-- [ ] Implement the selected proposal consistently across all four equipment detail pages.
+- [x] Present three borderless Nihon Kohden detail-page proposals using the real equipment photograph.
+- [x] Implement the requested full-width photo-banner direction across all four equipment detail pages.
