@@ -26,3 +26,4 @@
 - [x] Integrate verified per-SKU coverage through the shared image resolver without touching Nihon or page design.
 - [x] Save the 129-entry SNIBE/MCD LAB source, status, presentation, and limitation manifest.
 - [x] Verify final 129-SKU contact sheets, listing, detail, search, desktop/mobile, build health, and actual credit use without publishing.
+- [x] Rebuild the final 129-SKU contact sheet from the live resolver, verify all 29 aliases, and synchronize the manifest counts and PT7034 row.

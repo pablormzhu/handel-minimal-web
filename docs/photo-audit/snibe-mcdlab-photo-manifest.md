@@ -14,8 +14,8 @@
 
 ## Resumen de activos
 
-- **Reutilizados sin edición:** 94 activos dedicados por SKU.
-- **Equivalencias a fotografías reales existentes:** 30 (2 SNIBE y 28 MCD).
+- **Reutilizados sin edición:** 95 activos dedicados por SKU.
+- **Equivalencias a fotografías reales existentes:** 29 (2 SNIBE y 27 MCD).
 - **Fondos corregidos localmente con máscara:** 5 (2 SNIBE y 3 MCD); los píxeles protegidos del producto conservan igualdad exacta con el original.
 - **Nuevos por generación:** 0.
 - **Cobertura faltante o placeholder compartido:** 0; cada SKU resuelve a un activo dedicado o equivalencia explícita.
@@ -127,7 +127,7 @@
 | MCD LAB | 265010000PT6051 | AGAR DESHIDRATADO MAC CONKEY 450 GR DESHIDRATADO | Contenido: 450 GR | Reutilizado dedicado | `src/assets/prod/ai/265010000PT6051.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. |
 | MCD LAB | 265010000PT6061 | AGAR DESHIDRATADO SAL Y MANITOL 450 GRS | Contenido: 450 GRS | Corregido | `src/assets/prod/photo-refresh/265010000PT6061.png` | Solo se neutralizó el fondo conectado a bordes mediante máscara; producto protegido píxel a píxel. |
 | MCD LAB | 265010000PT7035 | AGAR DEXTROSA SABOURAUD | Presentación: CAJA CON 10 TUBOS | Reutilizado dedicado | `src/assets/prod/ai/265010000PT7035.jpg` | Activo dedicado de caja con 10 tubos; no se reutilizó la foto real correspondiente a placas. |
-| MCD LAB | 265010000PT7034 | AGAR DEXTROSA SABOURAUD C/10 PLACAS | No indicada en catálogo | Reutilizado dedicado | `src/assets/prod/ai/265010000PT7034.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. |
+| MCD LAB | 265010000PT7034 | AGAR DEXTROSA SABOURAUD C/10 PLACAS | No indicada en catálogo | Reutilizado real | Equivalencia explícita en `VERIFIED_CURRENT_SKU_IMAGES` → `src/assets/prod/real/agar-dextrosa-sabouraud.jpg` | Fotografía real de la presentación en placas; no se reutilizó para `265010000PT7035`, que conserva su activo dedicado de caja con 10 tubos. |
 | MCD LAB | 265010000PT7041 | AGAR DEXTROSA Y PAPA 450 GRS | Contenido: 450 GRS | Reutilizado dedicado | `src/assets/prod/ai/265010000PT7041.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. |
 | MCD LAB | 265010000PT7054 | AGAR EOSINA Y AZUL DE METILENO | Presentación: BOLSA CON 10 PLACAS | Reutilizado dedicado | `src/assets/prod/ai/265010000PT7054.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. |
 | MCD LAB | 265010000PT7284 | AGAR GELOSA CHOCOLATE | Presentación: PAQUETE CON 10 PIEZAS | Reutilizado real | Equivalencia explícita en `VERIFIED_CURRENT_SKU_IMAGES` | Fotografía local de la presentación; rotulación fina sujeta a legibilidad del original. |
@@ -174,7 +174,9 @@
 
 ## Control técnico
 
-- Inventario: 129/129 archivos dedicados existentes antes de resolver equivalencias; 0 SKUs ausentes.
+- Resolución final reconstruida automáticamente desde el catálogo y el resolver vigente: 129/129 (95 dedicados + 29 equivalencias reales + 5 correcciones de fondo); 0 SKUs ausentes.
+- Hoja final: `docs/photo-audit/final-129-resolved-with-references.jpg`, creada directamente desde el archivo efectivo de cada SKU en el orden `photo-refresh` PNG/JPG → `VERIFIED_CURRENT_SKU_IMAGES` → `AI_IMAGES`, junto con las tres referencias aprobadas.
+- Los 29 fondos de equivalencias reales se inspeccionaron visualmente y se midieron en píxeles exteriores claros, excluyendo objeto, detalle y sombras mediante umbrales de luminosidad, cromaticidad y gradiente. Medianas: luminosidad 235.3–255/255, separación máxima entre canales 0–4 y exceso azul −1.5–4; todos permanecen blanco/gris neutro casi blanco. No se modificó ninguna fotografía en esta comprobación.
 - Los cinco cambios de fondo preservaron exactamente todos los píxeles fuera de la máscara conectada al fondo.
 - No se aplicaron filtros globales de saturación/color al producto.
 - No se generaron fotografías y no se tocó ningún activo Nihon Kohden.
