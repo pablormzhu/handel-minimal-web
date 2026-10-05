@@ -10,4 +10,4 @@
 - [x] Confirm build health and actual credits used; do not publish.
 - [x] Replace only CLEANAC·3 with the verified MEK-620I one-box source photo.
 - [x] Verify ISOTONAC·4, CR-420, and HA-420 packaging; replace only proven errors.
-- [ ] Update the 2026-10-05 manifest and validate only the affected web views.
+- [x] Update the 2026-10-05 manifest and validate only the affected web views.
