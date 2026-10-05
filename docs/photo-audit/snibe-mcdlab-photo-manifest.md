@@ -14,8 +14,8 @@
 
 ## Resumen de activos
 
-- **Reutilizados sin edición:** 93 activos dedicados por SKU.
-- **Equivalencias a fotografías reales existentes:** 31 (3 SNIBE y 28 MCD).
+- **Reutilizados sin edición:** 94 activos dedicados por SKU.
+- **Equivalencias a fotografías reales existentes:** 30 (2 SNIBE y 28 MCD).
 - **Fondos corregidos localmente con máscara:** 5 (2 SNIBE y 3 MCD); los píxeles protegidos del producto conservan igualdad exacta con el original.
 - **Nuevos por generación:** 0.
 - **Cobertura faltante o placeholder compartido:** 0; cada SKU resuelve a un activo dedicado o equivalencia explícita.
@@ -94,7 +94,7 @@
 | SNIBE DIAGNOSTIC | 20701130252009M | MAGLUMI PROGESTERONE ( PGR) 2G MARCA SNIBE DIGNOSTIC | Contenido: 2G | Reutilizado dedicado | `src/assets/prod/ai/20701130252009M.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. “2G” se interpreta como segunda generación, nunca como gramos en la imagen. |
 | SNIBE DIAGNOSTIC | 20701130652006M | MAGLUMI PROLACTIN (CLIA) 50 PRUEBAS 2G | Presentación: 50 PRUEBAS; Contenido: 2G | Reutilizado dedicado | `src/assets/prod/ai/20701130652006M.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. “2G” se interpreta como segunda generación, nunca como gramos en la imagen. |
 | SNIBE DIAGNOSTIC | 20701130201034M | MAGLUMI PSA CON 100 PRUEBAS | Presentación: 100 PRUEBAS | Reutilizado dedicado | `src/assets/prod/ai/20701130201034M.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. |
-| SNIBE DIAGNOSTIC | 2070100630003-1 | MAGLUMI REACTION MODULES 1 | Presentación: CAJA CON 64 TIRAS | Reutilizado real | Equivalencia explícita en `VERIFIED_CURRENT_SKU_IMAGES` | Fotografía local de la presentación; rotulación fina sujeta a legibilidad del original. |
+| SNIBE DIAGNOSTIC | 2070100630003-1 | MAGLUMI REACTION MODULES 1 | Presentación: CAJA CON 64 TIRAS | Reutilizado dedicado | `src/assets/prod/ai/2070100630003-1.jpg` | Activo dedicado que muestra una caja; se evitó reutilizar la foto real rotulada como 6×64. |
 | SNIBE DIAGNOSTIC | 207010000630003 | MAGLUMI REACTION MODULES 6 CAJAS CON 64 TIRAS | Presentación: 64 TIRAS | Reutilizado real | Equivalencia explícita en `VERIFIED_CURRENT_SKU_IMAGES` | Fotografía local de la presentación; rotulación fina sujeta a legibilidad del original. |
 | SNIBE DIAGNOSTIC | 2070130299004M1 | MAGLUMI STARTER KIT1X230 ML. C/U STARTER 1 Y 2 | No indicada en catálogo | Reutilizado dedicado | `src/assets/prod/ai/2070130299004M1.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. |
 | SNIBE DIAGNOSTIC | 20701130299004M | MAGLUMI STARTER KIT3X230 ML. C/U STARTER 1 Y 2 | No indicada en catálogo | Reutilizado dedicado | `src/assets/prod/ai/20701130299004M.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. |
@@ -126,7 +126,7 @@
 | MCD LAB | 265010000PT7031 | AGAR DESHIDRATADO DEXTROSA SABOURAUD 450 GRS | Contenido: 450 GRS | Reutilizado dedicado | `src/assets/prod/ai/265010000PT7031.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. |
 | MCD LAB | 265010000PT6051 | AGAR DESHIDRATADO MAC CONKEY 450 GR DESHIDRATADO | Contenido: 450 GR | Reutilizado dedicado | `src/assets/prod/ai/265010000PT6051.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. |
 | MCD LAB | 265010000PT6061 | AGAR DESHIDRATADO SAL Y MANITOL 450 GRS | Contenido: 450 GRS | Corregido | `src/assets/prod/photo-refresh/265010000PT6061.png` | Solo se neutralizó el fondo conectado a bordes mediante máscara; producto protegido píxel a píxel. |
-| MCD LAB | 265010000PT7035 | AGAR DEXTROSA SABOURAUD | Presentación: CAJA CON 10 TUBOS | Reutilizado real | Equivalencia explícita en `VERIFIED_CURRENT_SKU_IMAGES` | Fotografía local de la presentación; rotulación fina sujeta a legibilidad del original. |
+| MCD LAB | 265010000PT7035 | AGAR DEXTROSA SABOURAUD | Presentación: CAJA CON 10 TUBOS | Reutilizado dedicado | `src/assets/prod/ai/265010000PT7035.jpg` | Activo dedicado de caja con 10 tubos; no se reutilizó la foto real correspondiente a placas. |
 | MCD LAB | 265010000PT7034 | AGAR DEXTROSA SABOURAUD C/10 PLACAS | No indicada en catálogo | Reutilizado dedicado | `src/assets/prod/ai/265010000PT7034.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. |
 | MCD LAB | 265010000PT7041 | AGAR DEXTROSA Y PAPA 450 GRS | Contenido: 450 GRS | Reutilizado dedicado | `src/assets/prod/ai/265010000PT7041.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. |
 | MCD LAB | 265010000PT7054 | AGAR EOSINA Y AZUL DE METILENO | Presentación: BOLSA CON 10 PLACAS | Reutilizado dedicado | `src/assets/prod/ai/265010000PT7054.jpg` | Activo dedicado por SKU; no se afirma certificación inequívoca del empaque cuando la fuente pública no expone esta variante exacta. |
