@@ -11,3 +11,6 @@
 - [x] Replace only CLEANAC·3 with the verified MEK-620I one-box source photo.
 - [x] Verify ISOTONAC·4, CR-420, and HA-420 packaging; replace only proven errors.
 - [x] Update the 2026-10-05 manifest and validate only the affected web views.
+- [ ] Audit all 29 PATCHES/Nihon backgrounds against the approved neutral references.
+- [ ] Neutralize only affected backgrounds while preserving products, labels, framing, and layout.
+- [ ] Compare final backgrounds side by side and validate affected desktop/mobile views without publishing.
