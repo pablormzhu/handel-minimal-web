@@ -104,6 +104,9 @@ import tsh100Asset from "@/assets/prod/verified-original/20701130203023M.jpg.ass
 import mcdSabouraud450Asset from "@/assets/prod/verified-original/265010000PT7031.webp.asset.json";
 import mcdDextrosaPapa450Asset from "@/assets/prod/verified-original/265010000PT7041.webp.asset.json";
 import mcdMio450Asset from "@/assets/prod/verified-original/265010000PT7441.webp.asset.json";
+import mcdMacConkey450Asset from "@/assets/prod/verified-original/265010000PT6051-empaque-original-fondo.png.asset.json";
+import mcdSalManitol450Asset from "@/assets/prod/verified-original/265010000PT6061-empaque-original-fondo.png.asset.json";
+import mcdMuellerHinton500Asset from "@/assets/prod/verified-original/265010000PT7132-empaque-original-fondo.png.asset.json";
 import agarCdcAnaerobico from "@/assets/prod/real/agar-cdc-anaerobico.jpg";
 import agarCromogenicoSalmonella from "@/assets/prod/real/agar-cromogenico-salmonella.jpg";
 import agarCitratoSimmons from "@/assets/prod/real/agar-citrato-simmons.jpg";
@@ -177,6 +180,9 @@ const VERIFIED_ORIGINAL_SKU_IMAGES: Record<string, string> = {
   "265010000PT7031": mcdSabouraud450Asset.url,
   "265010000PT7041": mcdDextrosaPapa450Asset.url,
   "265010000PT7441": mcdMio450Asset.url,
+  "265010000PT6051": mcdMacConkey450Asset.url,
+  "265010000PT6061": mcdSalManitol450Asset.url,
+  "265010000PT7132": mcdMuellerHinton500Asset.url,
 };
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
