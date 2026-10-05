@@ -1,6 +1,6 @@
 # Manifiesto de corrección fotográfica: PATCHES y Nihon Kohden
 
-Fecha: 2026-10-04  
+Fecha: 2026-10-05  
 Estado: integrado en proyecto, pendiente de publicación.
 
 ## Criterio común
@@ -28,13 +28,13 @@ Todos los activos finales usan fondo blanco grisáceo luminoso, neutro/frío, gr
 
 | SKU | Fuente comprobada | Activo final | Resultado / limitación |
 |---|---|---|---|
-| 4890100MEK-620I | Catálogo interno + material técnico regional MEK-620I | `src/assets/prod/photo-refresh/4890100MEK-620I.jpg` | Presentación de tres piezas preservada. La etiqueta regional exacta no pudo verificarse públicamente; no se inventó rotulación. |
+| 4890100MEK-620I | Fotografía exacta MEK-620I aportada mediante trio-medical.ru / cdn.insales-shop.ru | `src/assets/prod/photo-refresh/4890100MEK-620I.jpg` | Corregido a una caja real CLEANAC·3 de 1 L. «3» pertenece al nombre y no indica tres piezas; empaque y etiqueta multilingüe con español preservados. |
 | 489010000MK-710 | Catálogo interno + manual oficial MK-710 | `src/assets/prod/photo-refresh/489010000MK-710.jpg` | Contenedor de 3 L preservado; sin rotulación regional inventada. |
-| 489010000CR-420 | Catálogo interno + manual oficial CR-420W/421W | `src/assets/prod/photo-refresh/489010000CR-420.jpg` | Presentación de caja/cartuchos preservada; no se convirtió en frascos genéricos. |
-| 489010000HA-420 | Catálogo interno + manual oficial HA-420W/421W | `src/assets/prod/photo-refresh/489010000HA-420.jpg` | Presentación de caja/cartuchos preservada; no se convirtió en frascos genéricos. |
+| 489010000CR-420 | Fotografía oficial CR-420W, página 3 del brochure MEK-1303K | `src/assets/prod/photo-refresh/489010000CR-420.jpg` | Corregido al empaque oficial con cartuchos CRP; la ficha comercial conserva caja de 50. No se usaron frascos genéricos. El sufijo regional mexicano exacto no aparece en la fuente pública. |
+| 489010000HA-420 | Fotografía oficial HA-420W, página 3 del brochure MEK-1303K | `src/assets/prod/photo-refresh/489010000HA-420.jpg` | Corregido al empaque oficial con cartuchos HbA1c; la ficha comercial conserva caja de 50. No se usaron frascos genéricos. El sufijo regional mexicano exacto no aparece en la fuente pública. |
 | 489010000MK-310 | Catálogo interno + manual oficial MK-310W | `src/assets/prod/photo-refresh/489010000MK-310.jpg` | Botella de 250 mL preservada; sin rotulación regional inventada. |
 | 4890100000CAL01 | Catálogo interno + ficha oficial MEK-CAL | `src/assets/prod/photo-refresh/4890100000CAL01.jpg` | Vial único de 2 mL preservado. |
-| 4890100MEK-641I | Catálogo interno + referencia regional MEK-641I | `src/assets/prod/photo-refresh/4890100MEK-641I.jpg` | Presentación existente preservada; etiqueta exacta no verificable públicamente. |
+| 4890100MEK-641I | Fotografía de producto MEK-641I de Cellashop, contrastada con Servizi Diagnostici y geometría oficial Nihon Kohden | `src/assets/prod/photo-refresh/4890100MEK-641I.jpg` | Corregido a una unidad real ISOTONAC·4 de 20 L en caja/cubitainer. «4» pertenece al nombre y no indica cuatro recipientes. Se preservó el código I visible; la variante regional D del fabricante no se trasladó. |
 | 489010MEK-3CLNH | Catálogo interno + familia oficial MEK-3CL/N/H | `src/assets/prod/photo-refresh/489010MEK-3CLNH.jpg` | Kit de tres viales preservado; sufijo regional y 2.5 mL no confirmados en foto oficial pública. |
 | 489010MEK-5DLNH | Catálogo interno + familia oficial MEK-5DL/N/H | `src/assets/prod/photo-refresh/489010MEK-5DLNH.jpg` | Kit de tres viales preservado; 3 mL contrastado, sin rotulación inventada. |
 
@@ -58,4 +58,4 @@ Todos los activos finales usan fondo blanco grisáceo luminoso, neutro/frío, gr
 
 ## Nota de fidelidad
 
-Las fotografías públicas exactas de los nueve empaques regionales mexicanos de reactivos Nihon Kohden no están disponibles de forma inequívoca en las fuentes oficiales consultadas. Por ello se conservaron las presentaciones existentes y se corrigió únicamente su tratamiento fotográfico; las etiquetas se mantuvieron neutras antes que inventar códigos o rotulación.
+Las fotografías públicas exactas de todos los empaques regionales mexicanos de reactivos Nihon Kohden no están disponibles de forma inequívoca. CLEANAC·3 MEK-620I y la caja internacional ISOTONAC·4 MEK-641I sí quedaron contrastados con fotografías reales. CR-420 y HA-420 conservan la geometría oficial CR-420W/HA-420W del fabricante, pero su sufijo regional mexicano exacto sigue sin verificarse públicamente. No se trasladaron códigos de la variante regional D ni se inventaron etiquetas.
