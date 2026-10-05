@@ -291,7 +291,6 @@ const SKU_IMAGES: Record<string, string> = {
 // Fotografías reales verificadas para los SKUs actuales de MCD LAB y consumibles SNIBE.
 // Estas equivalencias corrigen claves históricas sin "PT" y tienen prioridad sobre renders IA.
 const VERIFIED_CURRENT_SKU_IMAGES: Record<string, string> = {
-  "2070100630003-1": maglumiReaction,
   "207010000630003": maglumiReaction,
   "2070130299005M1": maglumiWash,
   "265010000PT7004": agarBiggy,
@@ -303,7 +302,7 @@ const VERIFIED_CURRENT_SKU_IMAGES: Record<string, string> = {
   "265010000PT7864": agarColumbiaCna,
   "265010000PT8694": agarCromogenicoSalmonella,
   "265010000PT7095": agarHierroLisina,
-  "265010000PT7035": agarDextrosaSabouraud,
+  "265010000PT7034": agarDextrosaSabouraud,
   "265010000PT7284": agarGelosaChocolateMcd,
   "265010000PT7114": agarMacConkeyMcd,
   "265010000PT7134": agarMuellerHinton,

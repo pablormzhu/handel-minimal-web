@@ -24,5 +24,5 @@
 - [x] Inventory and visually audit all 76 SNIBE and 53 MCD LAB SKU images against the three approved references.
 - [x] Reuse exact existing photos and correct current-SKU aliases before creating any new assets.
 - [x] Integrate verified per-SKU coverage through the shared image resolver without touching Nihon or page design.
-- [ ] Save the 129-entry SNIBE/MCD LAB source, status, presentation, and limitation manifest.
-- [ ] Verify final 129-SKU contact sheets, listing, detail, search, desktop/mobile, build health, and actual credit use without publishing.
+- [x] Save the 129-entry SNIBE/MCD LAB source, status, presentation, and limitation manifest.
+- [x] Verify final 129-SKU contact sheets, listing, detail, search, desktop/mobile, build health, and actual credit use without publishing.
