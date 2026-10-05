@@ -288,6 +288,42 @@ const SKU_IMAGES: Record<string, string> = {
   "33301000GD027SC": tuboGoldenVacAzul, // TUBO TAPON AZUL CITRATO 2.7 ML (Golden Vac)
 };
 
+// Fotografías reales verificadas para los SKUs actuales de MCD LAB y consumibles SNIBE.
+// Estas equivalencias corrigen claves históricas sin "PT" y tienen prioridad sobre renders IA.
+const VERIFIED_CURRENT_SKU_IMAGES: Record<string, string> = {
+  "2070100630003-1": maglumiReaction,
+  "207010000630003": maglumiReaction,
+  "2070130299005M1": maglumiWash,
+  "265010000PT7004": agarBiggy,
+  "265010000PT7854": agarCampylobacter,
+  "265010000PT7834": agarCasman,
+  "265010000PT8094": agarCdcAnaerobico,
+  "265010000PT8684": agarCromogenicoCandida,
+  "265010000PT7025": agarCitratoSimmons,
+  "265010000PT7864": agarColumbiaCna,
+  "265010000PT8694": agarCromogenicoSalmonella,
+  "265010000PT7095": agarHierroLisina,
+  "265010000PT7035": agarDextrosaSabouraud,
+  "265010000PT7284": agarGelosaChocolateMcd,
+  "265010000PT7114": agarMacConkeyMcd,
+  "265010000PT7134": agarMuellerHinton,
+  "265010000PT7644": agarMuellerHintonSangre,
+  "265010000PT7154": agarSalManitol,
+  "265010000PT7164": agarSalmonellaShigellaMcd,
+  "265010000PT7504": agarSangreMcd,
+  "265010000PT7214": agarTcbs,
+  "265020000PT7514": agarThayerMartinMcd,
+  "265010000PT7265": agarUreaChristensen,
+  "265010000PT7194": agarVerdeBrillante,
+  "265010000PT7204": agarXld,
+  "26501000PT8085M": aguaPeptonadaAlcalina,
+  "265010000PT7375": caldoSelenitoSodio,
+  "265010000PT7405": infusionCerebroCorazon,
+  "265010000PT7975": kitBioquimicas,
+  "265010000004215": medioTransporteViral,
+  "265010000PT7445": medioMio,
+};
+
 
 
 const RULES: Array<[RegExp, string]> = [
@@ -307,6 +343,8 @@ const RULES: Array<[RegExp, string]> = [
 export function productImage(input: { name: string; description?: string; sku?: string }): string {
   const refreshed = input.sku ? REFRESHED_SKU_IMAGES[input.sku] : undefined;
   if (refreshed) return refreshed;
+  const verified = input.sku ? VERIFIED_CURRENT_SKU_IMAGES[input.sku] : undefined;
+  if (verified) return verified;
   const ai = input.sku ? AI_IMAGES[input.sku] : undefined;
   if (ai) return ai;
   const real = input.sku ? SKU_IMAGES[input.sku] : undefined;
