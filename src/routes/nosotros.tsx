@@ -181,10 +181,10 @@ function Nosotros() {
       <section className="border-t border-border/60 py-20">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <p className="text-sm text-muted-foreground">
-            Socios comerciales · {brands.length} marcas
+            Socios comerciales · {catalogBrands.length} marcas
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
-            {brands.slice(0, 18).map((b) => (
+            {catalogBrands.slice(0, 18).map((b) => (
               <span
                 key={b}
                 className="text-lg font-medium tracking-tight text-muted-foreground"
