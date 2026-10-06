@@ -10,7 +10,7 @@ type ContactSearch = { sku?: string; product?: string; presentation?: string; fa
 const text = (v: unknown, max = 300) => (typeof v === "string" && v.trim() ? v.trim().slice(0, max) : undefined);
 
 export const Route = createFileRoute("/contacto")({
-  validateSearch: (search: Record<string, unknown>): ContactSearch => ({
+  validateSearch: (search: { sku?: unknown; product?: unknown; presentation?: unknown; family?: unknown }): ContactSearch => ({
     sku: text(search.sku, 100),
     product: text(search.product),
     presentation: text(search.presentation),
