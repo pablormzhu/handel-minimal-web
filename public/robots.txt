@@ -11,9 +11,6 @@ User-agent: facebookexternalhit
 Allow: /
 
 User-agent: *
-Allow: /
-
-User-agent: *
 Disallow: /api/
 Allow: /
 
