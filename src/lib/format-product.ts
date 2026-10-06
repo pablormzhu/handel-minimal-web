@@ -197,7 +197,13 @@ const TITLES: Record<string,string> = {
   '027010000000200':'Caja de Petri estéril sin división',
   '265010000PT7455':'Medio líquido de tioglicolato sin dextrosa ni indicador',
   '125010HS-15991A':'Caja económica azul para 100 portaobjetos',
-  '187010000216000':'Torundas de algodón',
+'187010000216000':'Torundas de algodón',
+  '4890100MEK-620I':'CLEANAC 3',
+  '489010000MK-710':'CLEANAC 710',
+  '489010000MK-310':'HEMOLYNAC 310',
+  '4890100MEK-641I':'ISOTONAC 4',
+  '489010MEK-3CLNH':'Kit Hematology Control',
+  '489010MEK-5DLNH':'Kit Hematology Control',
   '001010000KZ4022':'Venda elástica autoadherible estirada',
   '001010000KZ4021':'Venda elástica autoadherible estirada',
   '0010100KZ4021-1':'Venda elástica autoadherible estirada',
@@ -210,7 +216,11 @@ const PRESENTATIONS:Record<string,string>={
   '1680100000PT-06':'Equipo con 6 frascos de 5 mL y sueros control',
   '1680100000PT-40':'10 frascos',
   '207010000630003':'6 cajas con 64 tiras',
-  '0330164840-1000':'Equipo de 1000 (unidad no indicada)',
+'0330164840-1000':'Equipo de 1000 (unidad no indicada)',
+  '4890100MEK-620I':'Pieza con 1 L',
+  '489010000MK-710':'Pieza con 3 L',
+  '489010000MK-310':'Pieza con 250 mL',
+  '4890100MEK-641I':'Pieza con 20 L',
 };
 const NUM='\\d+(?:[.,]\\d+)?';
 const VOLUME=new RegExp(`(?:${NUM}\\s*(?:x|×|a|–|-)\\s*)?${NUM}\\s*(?:mL|µL|uL|mlts?|litros?|lts?\\.?|lto\\.?|L|gramos?|grs?\\.?|kg|g)\\b`,'gi');
@@ -289,9 +299,9 @@ export function productDisplayInfo(product:ProductInput):ProductDisplayInfo {
     const packs=[...source.matchAll(PACK)].map(m=>canonicalPresentation(m[0]));
     if(packs.length) presentation=[...new Set(packs)].join(' / ');
     else {
-      const counts=[...source.matchAll(COUNT)].filter(m=>!/\b(?:para|capacidad\s*(?:de)?)\s*$/i.test(source.slice(0,m.index)));
+      const counts=[...source.matchAll(COUNT)].filter(m=>!/\b(?:para|capacidad\s*(?:de)?|[x×])\s*$/i.test(source.slice(0,m.index)));
       const lastCount=counts.at(-1)?.[0];
-      if(lastCount) presentation=sentenceCase(lastCount);
+      if(lastCount) presentation=/^1\s*pieza$/i.test(lastCount)?'Pieza':sentenceCase(lastCount);
       else if(/\bpieza\b/i.test(source)) presentation='Pieza';
       else if(source.match(/\bc\s*\/\s*(\d+)\b(?!\s*(?:mL|µL|uL|mm|cm|g)\b)/i)) presentation=source.match(/\bc\s*\/\s*(\d+)\b/i)![1]+' (unidad no indicada)';
       else if(/\bcon\s+200\s*$/i.test(source)) presentation='200 (unidad no indicada)';
