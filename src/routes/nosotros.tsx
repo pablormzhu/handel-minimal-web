@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Page, CtaBand } from "@/components/site/Page";
-import { brands } from "@/lib/catalog";
+import { brands, families, products } from "@/lib/catalog";
+import { equipment } from "@/lib/equipment";
 import hero from "@/assets/hero.jpg";
 
 export const Route = createFileRoute("/nosotros")({
@@ -24,13 +25,74 @@ export const Route = createFileRoute("/nosotros")({
   component: Nosotros,
 });
 
+const stats = [
+  { value: `${brands.length}`, label: "Marcas representadas" },
+  { value: `${products.length}`, label: "Productos en catálogo" },
+  { value: `${families.length}`, label: "Familias de solución" },
+  { value: `${equipment.length}`, label: "Equipos de hematología" },
+];
+
+const services = [
+  {
+    title: "Reactivos y controles",
+    text: "Química clínica, inmunoensayo, microbiología, control de calidad y medios de cultivo de las marcas líderes del sector.",
+  },
+  {
+    title: "Materiales y consumibles",
+    text: "Vidriería, plásticos, toma de muestra y material desechable para el trabajo diario del laboratorio.",
+  },
+  {
+    title: "Equipos y soluciones",
+    text: "Equipos de hematología Nihon Kohden y PATCHES, nuestra marca propia, con instalación y soporte técnico.",
+  },
+];
+
+const principles = [
+  {
+    title: "Portafolio seleccionado",
+    text: "Cada marca y producto del catálogo se elige por su calidad, trazabilidad y desempeño en el trabajo clínico real.",
+  },
+  {
+    title: "Asesoría técnica cercana",
+    text: "Acompañamos la elección, instalación y operación de reactivos y equipos, con respuesta directa de nuestro equipo.",
+  },
+  {
+    title: "Suministro confiable",
+    text: "Planeamos la disponibilidad y los tiempos de entrega para que el laboratorio nunca detenga su operación.",
+  },
+];
+
+const audiences = [
+  "Laboratorios clínicos",
+  "Hospitales y redes de salud",
+  "Instituciones públicas",
+  "Laboratorios de investigación y industria",
+];
+
 function Nosotros() {
   return (
     <Page>
-      <section className="mx-auto max-w-6xl px-6 pb-16 pt-28">
-        <h1 className="max-w-3xl text-balance text-4xl font-semibold leading-[1.08] tracking-tight sm:text-6xl">
+      <section className="mx-auto max-w-6xl px-6 pt-28">
+        <p className="text-sm uppercase tracking-widest text-muted-foreground">Nosotros</p>
+        <h1 className="mt-5 max-w-3xl text-balance text-4xl font-semibold leading-[1.08] tracking-tight sm:text-6xl">
           Especialistas en diagnóstico y laboratorio.
         </h1>
+        <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
+          Handel distribuye reactivos, materiales y equipos de diagnóstico clínico en México,
+          representando marcas internacionales y acompañando a cada laboratorio con asesoría
+          técnica de cerca.
+        </p>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-6 pb-16 pt-14">
+        <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-3xl border border-border/60 bg-border/60 sm:grid-cols-4">
+          {stats.map((s) => (
+            <div key={s.label} className="bg-card px-6 py-10 text-center">
+              <dd className="text-4xl font-semibold tracking-tight sm:text-5xl">{s.value}</dd>
+              <dt className="mt-3 text-sm text-muted-foreground">{s.label}</dt>
+            </div>
+          ))}
+        </dl>
       </section>
 
       <section className="mx-auto max-w-6xl px-6 pb-24">
@@ -44,38 +106,98 @@ function Nosotros() {
         />
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 pb-28">
+      <section className="mx-auto max-w-6xl px-6 pb-24">
         <div className="grid gap-14 md:grid-cols-2">
           <div>
             <h2 className="text-sm uppercase tracking-widest text-muted-foreground">
               Quiénes somos
             </h2>
             <p className="mt-5 text-xl leading-relaxed">
-              Acompañamos a laboratorios clínicos, hospitales e instituciones con un portafolio
-              seleccionado y asesoría técnica cercana.
+              Somos una empresa mexicana dedicada a la distribución de productos para diagnóstico
+              in vitro. Trabajamos de la mano de laboratorios clínicos, hospitales e instituciones
+              públicas, llevando marcas de reconocimiento internacional con respaldo y servicio
+              local.
             </p>
           </div>
           <div>
-            <h2 className="text-sm uppercase tracking-widest text-muted-foreground">Qué hacemos</h2>
-            <ul className="mt-5 space-y-3 text-xl leading-relaxed">
-              <li>Reactivos</li>
-              <li>Materiales</li>
-              <li>Equipos y soluciones</li>
+            <h2 className="text-sm uppercase tracking-widest text-muted-foreground">
+              A quién atendemos
+            </h2>
+            <ul className="mt-5 space-y-4 text-xl leading-relaxed">
+              {audiences.map((a) => (
+                <li key={a} className="flex items-start gap-3">
+                  <span aria-hidden className="mt-3 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/30" />
+                  {a}
+                </li>
+              ))}
             </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-border/60 py-24">
+        <div className="mx-auto max-w-6xl px-6">
+          <h2 className="max-w-2xl text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
+            Qué hacemos
+          </h2>
+          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground">
+            Un solo proveedor para el suministro completo del laboratorio: del reactivo al equipo,
+            y del pedido a la asesoría de uso.
+          </p>
+          <div className="mt-14 grid gap-6 md:grid-cols-3">
+            {services.map((s) => (
+              <div
+                key={s.title}
+                className="rounded-3xl border border-border/60 bg-muted/50 px-8 py-10"
+              >
+                <h3 className="text-xl font-semibold tracking-tight">{s.title}</h3>
+                <p className="mt-4 leading-relaxed text-muted-foreground">{s.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-border/60 py-24">
+        <div className="mx-auto max-w-6xl px-6">
+          <h2 className="max-w-2xl text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
+            Cómo trabajamos
+          </h2>
+          <div className="mt-14 grid gap-10 md:grid-cols-3">
+            {principles.map((p, i) => (
+              <div key={p.title}>
+                <span className="text-sm font-medium text-muted-foreground">
+                  0{i + 1}
+                </span>
+                <h3 className="mt-3 text-xl font-semibold tracking-tight">{p.title}</h3>
+                <p className="mt-4 leading-relaxed text-muted-foreground">{p.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       <section className="border-t border-border/60 py-20">
         <div className="mx-auto max-w-6xl px-6 text-center">
-          <p className="text-sm text-muted-foreground">Socios comerciales</p>
+          <p className="text-sm text-muted-foreground">
+            Socios comerciales · {brands.length} marcas
+          </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
-            {brands.slice(0, 10).map((b) => (
-              <span key={b} className="text-lg font-medium tracking-tight text-muted-foreground">
+            {brands.slice(0, 18).map((b) => (
+              <span
+                key={b}
+                className="text-lg font-medium tracking-tight text-muted-foreground"
+              >
                 {b}
               </span>
             ))}
           </div>
+          <a
+            href="/marcas"
+            className="mt-10 inline-flex items-center gap-1 text-sm font-medium text-foreground underline-offset-4 hover:underline"
+          >
+            Ver todas las marcas
+          </a>
         </div>
       </section>
 
