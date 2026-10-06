@@ -4,7 +4,7 @@ import { Page, CtaBand } from "@/components/site/Page";
 import { BackLink } from "@/components/site/BackLink";
 import { brandBySlug, productsByBrand } from "@/lib/brand-catalog";
 import { productImage } from "@/lib/product-images";
-import { productDisplayInfo } from "@/lib/format-product";
+import { productDisplayInfo, brandDisplayName, normalizeSearch } from "@/lib/format-product";
 
 
 
@@ -16,7 +16,7 @@ export const Route = createFileRoute("/marca/$marca")({
   },
   head: ({ params }) => {
     const brand = brandBySlug(params.marca);
-    const name = brand?.name ?? "Marca";
+    const name = brand ? brandDisplayName(brand.name) : "Marca";
     const title = `${name} · Marcas · Handel`;
     const desc = `Catálogo de productos ${name} distribuidos por Handel: clave, descripción y características técnicas.`;
     return {
@@ -39,13 +39,13 @@ function MarcaPage() {
   const all = productsByBrand(brand.name);
   const [q, setQ] = useState("");
 
-  const term = q.trim().toLowerCase();
+  const term = normalizeSearch(q);
   const list = term
     ? all.filter(
         (p) =>
-          p.name.toLowerCase().includes(term) ||
-          p.sku.toLowerCase().includes(term) ||
-          p.description.toLowerCase().includes(term),
+          normalizeSearch(p.name).includes(term) ||
+          normalizeSearch(p.sku).includes(term) ||
+          normalizeSearch(p.description).includes(term),
       )
     : all;
 
@@ -53,7 +53,7 @@ function MarcaPage() {
     <Page>
       <section className="mx-auto max-w-6xl px-6 pb-10 pt-24">
         <BackLink to="/marcas">Todas las marcas</BackLink>
-        <h1 className="mt-4 text-4xl font-semibold tracking-tight sm:text-6xl">{brand.name}</h1>
+        <h1 className="mt-4 text-4xl font-semibold tracking-tight sm:text-6xl">{brandDisplayName(brand.name)}</h1>
         <p className="mt-4 max-w-xl text-lg text-muted-foreground">
           {all.length} {all.length === 1 ? "producto" : "productos"} disponibles bajo esta marca.
         </p>
@@ -89,7 +89,7 @@ function MarcaPage() {
 
               <div className="flex flex-1 flex-col p-6">
                 <p className="text-[11px] font-medium tracking-wide text-muted-foreground">
-                  Clave {p.sku} <span className="text-muted-foreground/60">·</span> {p.brand}
+                  Clave {p.sku} <span className="text-muted-foreground/60">·</span> {brandDisplayName(p.brand)}
                 </p>
                 <h2 className="mt-2 text-base font-semibold leading-snug tracking-tight">
                   {info.title}

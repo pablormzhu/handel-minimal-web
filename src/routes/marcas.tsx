@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Page, CtaBand } from "@/components/site/Page";
+import { brandDisplayName } from "@/lib/format-product";
 import { catalogBrands } from "@/lib/brand-catalog";
 import patchesLogo from "@/assets/patches-logo.png.asset.json";
 import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
@@ -104,7 +105,7 @@ function Marcas() {
                 params={{ marca: b.slug }}
                 className="flex h-32 flex-col items-center justify-center gap-1 bg-background px-4 text-center text-base font-medium tracking-tight text-muted-foreground transition-colors hover:text-foreground"
               >
-                {b.name}
+                {brandDisplayName(b.name)}
                 <span className="text-[11px] uppercase tracking-widest text-muted-foreground/70">
                   {b.count} {b.count === 1 ? "producto" : "productos"}
                 </span>

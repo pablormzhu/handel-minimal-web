@@ -4,7 +4,7 @@ import { Page, CtaBand } from "@/components/site/Page";
 import { BackLink } from "@/components/site/BackLink";
 import { Button } from "@/components/ui/button";
 import { brandBySlug, catalogProducts } from "@/lib/brand-catalog";
-import { productDisplayInfo } from "@/lib/format-product";
+import { productDisplayInfo, brandDisplayName } from "@/lib/format-product";
 import { productImage } from "@/lib/product-images";
 
 function findProduct(brandSlug: string, productSlug: string) {
@@ -22,7 +22,7 @@ export const Route = createFileRoute("/marca/$marca_/producto/$producto")({
   head: ({ params }) => {
     const product = findProduct(params.marca, params.producto);
     const info = product ? productDisplayInfo(product) : undefined;
-    const title = info && product ? `${info.title} · ${product.brand} · Handel` : "Producto · Handel";
+    const title = info && product ? `${info.title} · ${brandDisplayName(product.brand)} · Handel` : "Producto · Handel";
     const description = info?.description ?? "Información técnica de producto distribuido por Handel.";
     return {
       meta: [
@@ -53,7 +53,7 @@ function BrandProductPage() {
           <BackLink to="/patches">Regresar a PATCHES</BackLink>
         ) : (
           <BackLink to="/marca/$marca" params={{ marca: brand.slug }}>
-            Regresar a {brand.name}
+            Regresar a {brandDisplayName(brand.name)}
           </BackLink>
         )}
 
@@ -70,7 +70,7 @@ function BrandProductPage() {
 
           <div className="pt-1 lg:sticky lg:top-24">
             <div className="flex items-center gap-3 text-xs font-semibold uppercase text-muted-foreground">
-              <span>{product.brand}</span>
+              <span>{brandDisplayName(product.brand)}</span>
               <span className="h-1 w-1 rounded-full bg-accent" />
               <span>Clave {product.sku}</span>
             </div>
