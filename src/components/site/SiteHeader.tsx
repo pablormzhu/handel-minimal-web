@@ -3,6 +3,7 @@ import { Search } from "lucide-react";
 import logo from "@/assets/handel-logo.png.asset.json";
 
 const nav = [
+  { to: "/", label: "Inicio" },
   { to: "/catalogo", label: "Catálogo" },
   { to: "/marcas", label: "Marcas" },
   { to: "/nosotros", label: "Nosotros" },
