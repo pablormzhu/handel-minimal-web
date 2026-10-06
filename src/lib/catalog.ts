@@ -68,7 +68,6 @@ export const families: Family[] = [
     subfamilies: [
       "Inmunoensayo",
       "Química clínica",
-      "Diabetes y HbA1c",
       "Coagulación",
       "Uroanálisis",
     ],

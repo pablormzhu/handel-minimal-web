@@ -189,8 +189,9 @@ function Contacto() {
               <h2 className="text-sm uppercase tracking-widest text-muted-foreground">
                 Ventas y atención a clientes
               </h2>
-              <p className="mt-4">ventas@handel.com.mx</p>
-              <p>+52 55 0000 0000</p>
+              <p className="mt-4">Teléfono: 55 5425 3217</p>
+              <p>Celular ventas: +52 55 2699 8553</p>
+              <p>servicio.clientes01@handelmedical.com.mx</p>
             </div>
             <div>
               <h2 className="text-sm uppercase tracking-widest text-muted-foreground">Horario</h2>
