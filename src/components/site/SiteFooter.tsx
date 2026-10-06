@@ -9,7 +9,7 @@ export function SiteFooter() {
         <div className="grid gap-10 border-b border-border pb-10 sm:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)] sm:gap-12 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)_minmax(0,0.75fr)]">
           <div className="sm:col-span-2 lg:col-span-1">
             <Link to="/" aria-label="Inicio de Handel" className="inline-block">
-              <img src={logo.url} alt="Handel" className="h-9 w-auto" />
+              <img src={logo.url} alt="Handel" className="h-11 w-auto" />
             </Link>
             <p className="mt-5 max-w-sm text-sm leading-6 text-muted-foreground">
               Soluciones especializadas para diagnóstico clínico, laboratorio y atención médica.
