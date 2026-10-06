@@ -43,7 +43,7 @@ function Aviso() {
           </p>
           <p>
             El titular puede ejercer sus derechos de acceso, rectificación, cancelación y oposición
-            escribiendo a ventas@handel.com.mx.
+            escribiendo a servicio.clientes01@handelmedical.com.mx.
           </p>
           <p>Última actualización: agosto de 2026.</p>
         </div>
