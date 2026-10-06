@@ -218,7 +218,8 @@ const PRESENTATIONS:Record<string,string>={
   '207010000630003':'6 cajas con 64 tiras',
 '0330164840-1000':'Equipo de 1000 (unidad no indicada)',
   '4890100MEK-620I':'Pieza con 1 L',
-  '489010000MK-710':'Pieza con 3 L',
+'489010000MEK-710':'Pieza con 3 L',
+  '054020000009820':'Pieza', '054030000009820':'Pieza',
   '489010000MK-310':'Pieza con 250 mL',
   '4890100MEK-641I':'Pieza con 20 L',
 };
