@@ -28,7 +28,7 @@
 - [x] Verify final 129-SKU contact sheets, listing, detail, search, desktop/mobile, build health, and actual credit use without publishing.
 - [x] Rebuild the final 129-SKU contact sheet from the live resolver, verify all 29 aliases, and synchronize the manifest counts and PT7034 row.
 - [x] Replace defective SNIBE photos with visually verified original DIAGMEX packaging.
-- [ ] Resolve remaining MCD packaging photos when an exact, visually legible presentation source becomes available (6 originales MCD integrados; 18 MCD siguen pendientes).
+- [x] Resolve the remaining 46 SNIBE and 18 MCD-category photos with user-approved labeled recreations from the prepared ZIP; 0 remain under the updated criterion.
 - [x] Update the per-SKU evidence manifest and export a compact before/after review sheet.
 - [x] Verify the modified labels, both brand routes, and build health once; keep unpublished.
 - [x] Integrate 6 SNIBE reconstructions with verified original labels and preserve their separate evidence category.

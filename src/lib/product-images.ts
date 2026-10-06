@@ -1,3 +1,4 @@
+import { APPROVED_LABELED_SKU_IMAGES } from "./approved-product-photos";
 import medios from "@/assets/prod/medios.jpg";
 import reactivos from "@/assets/prod/reactivos.jpg";
 import tubos from "@/assets/prod/tubos.jpg";
@@ -409,6 +410,8 @@ export function productImage(input: { name: string; description?: string; sku?: 
     ? RECONSTRUCTED_VERIFIED_SKU_IMAGES[input.sku]
     : undefined;
   if (reconstructedVerified) return reconstructedVerified;
+  const approvedLabeled = input.sku ? APPROVED_LABELED_SKU_IMAGES[input.sku] : undefined;
+  if (approvedLabeled) return approvedLabeled;
   const refreshed = input.sku ? REFRESHED_SKU_IMAGES[input.sku] : undefined;
   if (refreshed) return refreshed;
   const verified = input.sku ? VERIFIED_CURRENT_SKU_IMAGES[input.sku] : undefined;
@@ -423,3 +426,4 @@ export function productImage(input: { name: string; description?: string; sku?: 
   }
   return general;
 }
+
