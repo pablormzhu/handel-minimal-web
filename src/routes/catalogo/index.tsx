@@ -5,7 +5,8 @@ import { Search } from "lucide-react";
 import { Page, CtaBand } from "@/components/site/Page";
 import { families } from "@/lib/catalog";
 import { searchCatalog, siteBrands, productBrandName, siteProducts } from "@/lib/site-catalog";
-import { productImage } from "@/lib/product-images";
+import { productImageSources } from "@/lib/product-image-sources";
+import { SiteImage } from "@/components/site/SiteImage";
 import { pageSeo } from "@/lib/seo";
 
 export const Route = createFileRoute("/catalogo/")({
@@ -51,7 +52,11 @@ function Catalogo() {
           Buscar en el catálogo por producto, marca o clave
         </label>
         <div className="mt-10 flex max-w-xl items-center gap-3 rounded-full border border-border bg-muted/40 px-5 py-3 focus-within:ring-2 focus-within:ring-ring">
-          <Search className="h-4 w-4 shrink-0 text-muted-foreground" strokeWidth={1.5} aria-hidden="true" />
+          <Search
+            className="h-4 w-4 shrink-0 text-muted-foreground"
+            strokeWidth={1.5}
+            aria-hidden="true"
+          />
           <input
             id="catalog-search"
             type="search"
@@ -84,8 +89,9 @@ function Catalogo() {
                   className="flex items-center gap-5 py-5"
                 >
                   <div className="h-20 w-20 shrink-0 overflow-hidden rounded-xl bg-muted/30">
-                    <img
-                      src={productImage(p)}
+                    <SiteImage
+                      {...productImageSources(p)}
+                      sizes="80px"
                       alt={info.title}
                       loading="lazy"
                       width={160}
@@ -98,7 +104,9 @@ function Catalogo() {
                       Clave {p.sku} · {productBrandName(p)}
                     </p>
                     <p className="text-base font-medium tracking-tight">{info.title}</p>
-                    <p className="text-sm text-muted-foreground">Presentación: {info.presentation}</p>
+                    <p className="text-sm text-muted-foreground">
+                      Presentación: {info.presentation}
+                    </p>
                   </div>
                 </Link>
               );

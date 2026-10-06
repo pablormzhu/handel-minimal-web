@@ -93,33 +93,33 @@ import tuboGoldenVacAzul from "@/assets/prod/real/tubo-golden-vac-azul.jpg";
 import guantesMgEs from "@/assets/prod/real/guantes-mg-es.jpg";
 import medioSim from "@/assets/prod/real/medio-sim.jpg";
 import medioMio from "@/assets/prod/real/medio-mio.jpg";
-import cortisol50Asset from "@/assets/prod/verified-original/20701130670002M.jpg.asset.json";
-import vitaminD100Asset from "@/assets/prod/verified-original/20701130261004M.jpg.asset.json";
-import antiTpo100Asset from "@/assets/prod/verified-original/20701130253011M.jpg.asset.json";
-import bnp100Asset from "@/assets/prod/verified-original/20701130206016M.jpg.asset.json";
-import estradiol100Asset from "@/assets/prod/verified-original/20701130252007M.jpg.asset.json";
-import ferritin100Asset from "@/assets/prod/verified-original/20701130251001M.jpg.asset.json";
-import freeT3100Asset from "@/assets/prod/verified-original/20701130253005M.jpg.asset.json";
-import freeT4100Asset from "@/assets/prod/verified-original/20701130253004M.jpg.asset.json";
-import freeTestosterone100Asset from "@/assets/prod/verified-original/20701130252011M.jpg.asset.json";
-import igm100Asset from "@/assets/prod/verified-original/20701130258002M.jpg.asset.json";
-import prolactin100Asset from "@/assets/prod/verified-original/20701130252006M.jpg.asset.json";
-import testosterone100Asset from "@/assets/prod/verified-original/20701130252010M.jpg.asset.json";
-import totalT3100Asset from "@/assets/prod/verified-original/20701130253003M.jpg.asset.json";
-import totalT4100Asset from "@/assets/prod/verified-original/20701130253002M.jpg.asset.json";
-import tsh100Asset from "@/assets/prod/verified-original/20701130203023M.jpg.asset.json";
-import mcdSabouraud450Asset from "@/assets/prod/verified-original/265010000PT7031.webp.asset.json";
-import mcdDextrosaPapa450Asset from "@/assets/prod/verified-original/265010000PT7041.webp.asset.json";
-import mcdMio450Asset from "@/assets/prod/verified-original/265010000PT7441.webp.asset.json";
-import mcdMacConkey450Asset from "@/assets/prod/verified-original/265010000PT6051-empaque-original-fondo.png.asset.json";
-import mcdSalManitol450Asset from "@/assets/prod/verified-original/265010000PT6061-empaque-original-fondo.png.asset.json";
-import mcdMuellerHinton500Asset from "@/assets/prod/verified-original/265010000PT7132-empaque-original-fondo.png.asset.json";
-import ca125LabelAsset from "@/assets/prod/reconstructed-verified/20701130201031M-rotulo-verificado.png.asset.json";
-import cea100LabelAsset from "@/assets/prod/reconstructed-verified/20701130201032M-rotulo-verificado.png.asset.json";
-import cea50LabelAsset from "@/assets/prod/reconstructed-verified/20701130601032M-rotulo-verificado.png.asset.json";
-import afp100LabelAsset from "@/assets/prod/reconstructed-verified/20701130201033M-rotulo-verificado.png.asset.json";
-import totalPsa100LabelAsset from "@/assets/prod/reconstructed-verified/20701130201034M-rotulo-verificado.png.asset.json";
-import freePsa100LabelAsset from "@/assets/prod/reconstructed-verified/20701130201035M-rotulo-verificado.png.asset.json";
+import cortisol50Asset from "@/assets/prod/verified-original/20701130670002M.jpg";
+import vitaminD100Asset from "@/assets/prod/verified-original/20701130261004M.jpg";
+import antiTpo100Asset from "@/assets/prod/verified-original/20701130253011M.jpg";
+import bnp100Asset from "@/assets/prod/verified-original/20701130206016M.jpg";
+import estradiol100Asset from "@/assets/prod/verified-original/20701130252007M.jpg";
+import ferritin100Asset from "@/assets/prod/verified-original/20701130251001M.jpg";
+import freeT3100Asset from "@/assets/prod/verified-original/20701130253005M.jpg";
+import freeT4100Asset from "@/assets/prod/verified-original/20701130253004M.jpg";
+import freeTestosterone100Asset from "@/assets/prod/verified-original/20701130252011M.jpg";
+import igm100Asset from "@/assets/prod/verified-original/20701130258002M.jpg";
+import prolactin100Asset from "@/assets/prod/verified-original/20701130252006M.jpg";
+import testosterone100Asset from "@/assets/prod/verified-original/20701130252010M.jpg";
+import totalT3100Asset from "@/assets/prod/verified-original/20701130253003M.jpg";
+import totalT4100Asset from "@/assets/prod/verified-original/20701130253002M.jpg";
+import tsh100Asset from "@/assets/prod/verified-original/20701130203023M.jpg";
+import mcdSabouraud450Asset from "@/assets/prod/verified-original/265010000PT7031.webp";
+import mcdDextrosaPapa450Asset from "@/assets/prod/verified-original/265010000PT7041.webp";
+import mcdMio450Asset from "@/assets/prod/verified-original/265010000PT7441.webp";
+import mcdMacConkey450Asset from "@/assets/prod/verified-original/265010000PT6051-empaque-original-fondo.png";
+import mcdSalManitol450Asset from "@/assets/prod/verified-original/265010000PT6061-empaque-original-fondo.png";
+import mcdMuellerHinton500Asset from "@/assets/prod/verified-original/265010000PT7132-empaque-original-fondo.png";
+import ca125LabelAsset from "@/assets/prod/reconstructed-verified/20701130201031M-rotulo-verificado.png";
+import cea100LabelAsset from "@/assets/prod/reconstructed-verified/20701130201032M-rotulo-verificado.png";
+import cea50LabelAsset from "@/assets/prod/reconstructed-verified/20701130601032M-rotulo-verificado.png";
+import afp100LabelAsset from "@/assets/prod/reconstructed-verified/20701130201033M-rotulo-verificado.png";
+import totalPsa100LabelAsset from "@/assets/prod/reconstructed-verified/20701130201034M-rotulo-verificado.png";
+import freePsa100LabelAsset from "@/assets/prod/reconstructed-verified/20701130201035M-rotulo-verificado.png";
 import agarCdcAnaerobico from "@/assets/prod/real/agar-cdc-anaerobico.jpg";
 import agarCromogenicoSalmonella from "@/assets/prod/real/agar-cromogenico-salmonella.jpg";
 import agarCitratoSimmons from "@/assets/prod/real/agar-citrato-simmons.jpg";
@@ -167,7 +167,10 @@ const refreshedProductImages = import.meta.glob<string>(
 
 const REFRESHED_SKU_IMAGES: Record<string, string> = Object.fromEntries(
   Object.entries(refreshedProductImages).map(([path, image]) => [
-    path.split("/").pop()!.replace(/\.(?:jpg|png)$/i, ""),
+    path
+      .split("/")
+      .pop()!
+      .replace(/\.(?:jpg|png)$/i, ""),
     image,
   ]),
 );
@@ -175,38 +178,38 @@ const REFRESHED_SKU_IMAGES: Record<string, string> = Object.fromEntries(
 // Fotografías originales de distribuidor verificadas contra la REF y capacidad
 // impresas en el propio empaque. Tienen prioridad sobre reconstrucciones previas.
 const VERIFIED_ORIGINAL_SKU_IMAGES: Record<string, string> = {
-  "20701130670002M": cortisol50Asset.url,
-  "20701130261004M": vitaminD100Asset.url,
-  "20701130253011M": antiTpo100Asset.url,
-  "20701130206016M": bnp100Asset.url,
-  "20701130252007M": estradiol100Asset.url,
-  "20701130251001M": ferritin100Asset.url,
-  "20701130253005M": freeT3100Asset.url,
-  "20701130253004M": freeT4100Asset.url,
-  "20701130252011M": freeTestosterone100Asset.url,
-  "20701130258002M": igm100Asset.url,
-  "20701130252006M": prolactin100Asset.url,
-  "20701130252010M": testosterone100Asset.url,
-  "20701130253003M": totalT3100Asset.url,
-  "20701130253002M": totalT4100Asset.url,
-  "20701130203023M": tsh100Asset.url,
-  "265010000PT7031": mcdSabouraud450Asset.url,
-  "265010000PT7041": mcdDextrosaPapa450Asset.url,
-  "265010000PT7441": mcdMio450Asset.url,
-  "265010000PT6051": mcdMacConkey450Asset.url,
-  "265010000PT6061": mcdSalManitol450Asset.url,
-  "265010000PT7132": mcdMuellerHinton500Asset.url,
+  "20701130670002M": cortisol50Asset,
+  "20701130261004M": vitaminD100Asset,
+  "20701130253011M": antiTpo100Asset,
+  "20701130206016M": bnp100Asset,
+  "20701130252007M": estradiol100Asset,
+  "20701130251001M": ferritin100Asset,
+  "20701130253005M": freeT3100Asset,
+  "20701130253004M": freeT4100Asset,
+  "20701130252011M": freeTestosterone100Asset,
+  "20701130258002M": igm100Asset,
+  "20701130252006M": prolactin100Asset,
+  "20701130252010M": testosterone100Asset,
+  "20701130253003M": totalT3100Asset,
+  "20701130253002M": totalT4100Asset,
+  "20701130203023M": tsh100Asset,
+  "265010000PT7031": mcdSabouraud450Asset,
+  "265010000PT7041": mcdDextrosaPapa450Asset,
+  "265010000PT7441": mcdMio450Asset,
+  "265010000PT6051": mcdMacConkey450Asset,
+  "265010000PT6061": mcdSalManitol450Asset,
+  "265010000PT7132": mcdMuellerHinton500Asset,
 };
 
 // Reconstrucciones cuya rotulación exacta se verificó contra documentación
 // primaria. No son fotografías originales del producto físico exacto.
 const RECONSTRUCTED_VERIFIED_SKU_IMAGES: Record<string, string> = {
-  "20701130201031M": ca125LabelAsset.url,
-  "20701130201032M": cea100LabelAsset.url,
-  "20701130601032M": cea50LabelAsset.url,
-  "20701130201033M": afp100LabelAsset.url,
-  "20701130201034M": totalPsa100LabelAsset.url,
-  "20701130201035M": freePsa100LabelAsset.url,
+  "20701130201031M": ca125LabelAsset,
+  "20701130201032M": cea100LabelAsset,
+  "20701130601032M": cea50LabelAsset,
+  "20701130201033M": afp100LabelAsset,
+  "20701130201034M": totalPsa100LabelAsset,
+  "20701130201035M": freePsa100LabelAsset,
 };
 
 // Fotos reales por clave de producto (tienen prioridad sobre las genéricas).
@@ -393,20 +396,36 @@ const VERIFIED_CURRENT_SKU_IMAGES: Record<string, string> = {
   "265010000PT7445": medioMio,
 };
 
-
-
 const RULES: Array<[RegExp, string]> = [
   [/\b(agar|caldo|medio de cultivo|gelosa|peptonad|placa)\b/i, medios],
   [/\b(guante|cubrebocas|bata|gorro|botas|careta|mascarilla|respirador)\b/i, guantes],
-  [/\b(venda|gasa|apósito|aposito|algod[oó]n|micropore|tela adhesiva|curaci[oó]n|abatelengua|torunda)\b/i, curacion],
+  [
+    /\b(venda|gasa|apósito|aposito|algod[oó]n|micropore|tela adhesiva|curaci[oó]n|abatelengua|torunda)\b/i,
+    curacion,
+  ],
   [/\b(jeringa|aguja|lanceta|cat[eé]ter|punz[oó]n|vacutainer|hipod[eé]rmica)\b/i, jeringas],
-  [/\b(tubo|microtubo|capilar|vial|criovial|frasco de recolecci|contenedor de orina|copro)\b/i, tubos],
-  [/\b(microscopio|portaobjeto|cubreobjeto|laminilla|aceite de inmersi[oó]n|asa bacteriol)\b/i, microscopia],
+  [
+    /\b(tubo|microtubo|capilar|vial|criovial|frasco de recolecci|contenedor de orina|copro)\b/i,
+    tubos,
+  ],
+  [
+    /\b(microscopio|portaobjeto|cubreobjeto|laminilla|aceite de inmersi[oó]n|asa bacteriol)\b/i,
+    microscopia,
+  ],
   [/\b(tira|prueba r[aá]pida|cassette|test|panel|kit de detecci|inmunocrom)\b/i, pruebas],
-  [/\b(analizador|equipo|centr[ií]fuga|incubadora|ba[ñn]o|autoclave|espectro|lector|impresora|monitor|electrocardi|balanza|agitador|micropipeta autom)\b/i, equipos],
+  [
+    /\b(analizador|equipo|centr[ií]fuga|incubadora|ba[ñn]o|autoclave|espectro|lector|impresora|monitor|electrocardi|balanza|agitador|micropipeta autom)\b/i,
+    equipos,
+  ],
   [/\b(punta|pipeta|micropipeta|celda|gradilla|asa|cubeta|placa de 96|puntilla)\b/i, consumibles],
-  [/\b(alcohol|cloro|desinfect|antis[eé]ptic|jab[oó]n|sanitizante|benzal|yodo|glutaralde|agua destilada|agua inyectable|agua bidestilada|soluci[oó]n salina)\b/i, soluciones],
-  [/\b(reactivo|colorante|control|calibrador|est[aá]ndar|buffer|diluyente|suero|antisuero|glucosa|colesterol|triglic[eé]rid|creatinina|urea|[aá]cido|hemoglobina|tinci[oó]n|wright|giemsa|gram)\b/i, reactivos],
+  [
+    /\b(alcohol|cloro|desinfect|antis[eé]ptic|jab[oó]n|sanitizante|benzal|yodo|glutaralde|agua destilada|agua inyectable|agua bidestilada|soluci[oó]n salina)\b/i,
+    soluciones,
+  ],
+  [
+    /\b(reactivo|colorante|control|calibrador|est[aá]ndar|buffer|diluyente|suero|antisuero|glucosa|colesterol|triglic[eé]rid|creatinina|urea|[aá]cido|hemoglobina|tinci[oó]n|wright|giemsa|gram)\b/i,
+    reactivos,
+  ],
 ];
 
 export function productImage(input: { name: string; description?: string; sku?: string }): string {
@@ -444,4 +463,3 @@ export function productImage(input: { name: string; description?: string; sku?: 
   }
   return general;
 }
-

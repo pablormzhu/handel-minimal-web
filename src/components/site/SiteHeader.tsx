@@ -1,7 +1,7 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { Menu, Search, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import logo from "@/assets/handel-logo.png.asset.json";
+import logo from "@/assets/handel-logo.png";
 
 const nav = [
   { to: "/", label: "Inicio" },
@@ -29,7 +29,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border/30 bg-background/70 shadow-sm backdrop-blur-2xl">
       <div className="mx-auto flex h-12 max-w-6xl items-center justify-between px-6">
         <Link to="/" aria-label="Inicio de Handel" className={`flex items-center ${focus}`}>
-          <img src={logo.url} alt="Handel" className="h-11 w-auto" />
+          <img src={logo} alt="Handel" width={1119} height={947} className="h-11 w-auto" />
         </Link>
         <nav aria-label="Principal" className="hidden items-center gap-7 md:flex">
           {nav.map((item) => (
@@ -43,7 +43,11 @@ export function SiteHeader() {
               {item.label}
             </Link>
           ))}
-          <Link to="/catalogo" aria-label="Buscar" className={`text-muted-foreground transition-colors hover:text-foreground ${focus}`}>
+          <Link
+            to="/catalogo"
+            aria-label="Buscar"
+            className={`text-muted-foreground transition-colors hover:text-foreground ${focus}`}
+          >
             <Search className="h-4 w-4" strokeWidth={1.5} />
           </Link>
         </nav>

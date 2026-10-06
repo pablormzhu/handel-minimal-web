@@ -15,6 +15,7 @@ import { Route as ContactoRouteImport } from './routes/contacto'
 import { Route as MarcasRouteImport } from './routes/marcas'
 import { Route as NosotrosRouteImport } from './routes/nosotros'
 import { Route as PatchesRouteImport } from './routes/patches'
+import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as ApiContactoRouteImport } from './routes/api/contacto'
 import { Route as CatalogoIndexRouteImport } from './routes/catalogo/index'
@@ -53,6 +54,11 @@ const NosotrosRoute = NosotrosRouteImport.update({
 const PatchesRoute = PatchesRouteImport.update({
   id: '/patches',
   path: '/patches',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RobotsDottxtRoute = RobotsDottxtRouteImport.update({
+  id: '/robots.txt',
+  path: '/robots.txt',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
@@ -109,6 +115,7 @@ export interface FileRoutesByFullPath {
   '/marcas': typeof MarcasRoute
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
+  '/robots.txt': typeof RobotsDottxtRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/api/contacto': typeof ApiContactoRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
@@ -126,6 +133,7 @@ export interface FileRoutesByTo {
   '/marcas': typeof MarcasRoute
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
+  '/robots.txt': typeof RobotsDottxtRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/api/contacto': typeof ApiContactoRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
@@ -144,6 +152,7 @@ export interface FileRoutesById {
   '/marcas': typeof MarcasRoute
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
+  '/robots.txt': typeof RobotsDottxtRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/api/contacto': typeof ApiContactoRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
@@ -163,6 +172,7 @@ export interface FileRouteTypes {
     | '/marcas'
     | '/nosotros'
     | '/patches'
+    | '/robots.txt'
     | '/sitemap.xml'
     | '/api/contacto'
     | '/catalogo/$familia'
@@ -180,6 +190,7 @@ export interface FileRouteTypes {
     | '/marcas'
     | '/nosotros'
     | '/patches'
+    | '/robots.txt'
     | '/sitemap.xml'
     | '/api/contacto'
     | '/catalogo/$familia'
@@ -197,6 +208,7 @@ export interface FileRouteTypes {
     | '/marcas'
     | '/nosotros'
     | '/patches'
+    | '/robots.txt'
     | '/sitemap.xml'
     | '/api/contacto'
     | '/catalogo/$familia'
@@ -215,6 +227,7 @@ export interface RootRouteChildren {
   MarcasRoute: typeof MarcasRoute
   NosotrosRoute: typeof NosotrosRoute
   PatchesRoute: typeof PatchesRoute
+  RobotsDottxtRoute: typeof RobotsDottxtRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   ApiContactoRoute: typeof ApiContactoRoute
   CatalogoFamiliaRoute: typeof CatalogoFamiliaRoute
@@ -268,6 +281,13 @@ declare module '@tanstack/react-router' {
       path: '/patches'
       fullPath: '/patches'
       preLoaderRoute: typeof PatchesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/robots.txt': {
+      id: '/robots.txt'
+      path: '/robots.txt'
+      fullPath: '/robots.txt'
+      preLoaderRoute: typeof RobotsDottxtRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap.xml': {
@@ -343,6 +363,7 @@ const rootRouteChildren: RootRouteChildren = {
   MarcasRoute: MarcasRoute,
   NosotrosRoute: NosotrosRoute,
   PatchesRoute: PatchesRoute,
+  RobotsDottxtRoute: RobotsDottxtRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   ApiContactoRoute: ApiContactoRoute,
   CatalogoFamiliaRoute: CatalogoFamiliaRoute,

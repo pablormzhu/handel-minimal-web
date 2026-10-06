@@ -5,7 +5,9 @@ import { Page, CtaBand } from "@/components/site/Page";
 import { BackLink } from "@/components/site/BackLink";
 import { getFamily, ownBrandFirst, OWN_BRAND } from "@/lib/catalog";
 import { siteProductsByFamily, productBrandName } from "@/lib/site-catalog";
-import { productImage } from "@/lib/product-images";
+import { productImageSources } from "@/lib/product-image-sources";
+import { SiteImage } from "@/components/site/SiteImage";
+import { useProgressiveList } from "@/hooks/use-progressive-list";
 import { pageSeo } from "@/lib/seo";
 
 export const Route = createFileRoute("/catalogo/$familia")({
@@ -55,6 +57,10 @@ function FamiliaPage() {
   const list = all.filter(
     (p) => (!sub || p.subfamily === sub) && (!brand || productBrandName(p) === brand),
   );
+  const { visible, hasMore, sentinelRef } = useProgressiveList(
+    list,
+    `${family.slug}|${sub ?? ""}|${brand ?? ""}`,
+  );
 
   const pill = (active: boolean) =>
     `whitespace-nowrap rounded-sm text-[13px] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${active ? "text-foreground" : "text-muted-foreground hover:text-foreground"}`;
@@ -77,7 +83,12 @@ function FamiliaPage() {
             Todo
           </button>
           {subfamilies.map((s) => (
-            <button key={s} onClick={() => setSub(s)} aria-pressed={sub === s} className={pill(sub === s)}>
+            <button
+              key={s}
+              onClick={() => setSub(s)}
+              aria-pressed={sub === s}
+              className={pill(sub === s)}
+            >
               {s}
             </button>
           ))}
@@ -87,12 +98,19 @@ function FamiliaPage() {
       <section className="mx-auto max-w-6xl px-6 pb-4 pt-12">
         {brandOptions.length > 1 && (
           <div className="mb-10 flex flex-wrap items-center gap-2">
-            <span className="mr-2 text-xs uppercase tracking-widest text-muted-foreground">Marca</span>
+            <span className="mr-2 text-xs uppercase tracking-widest text-muted-foreground">
+              Marca
+            </span>
             <button onClick={() => setBrand(null)} aria-pressed={!brand} className={chip(!brand)}>
               Todas
             </button>
             {brandOptions.map((b) => (
-              <button key={b} onClick={() => setBrand(b)} aria-pressed={brand === b} className={chip(brand === b)}>
+              <button
+                key={b}
+                onClick={() => setBrand(b)}
+                aria-pressed={brand === b}
+                className={chip(brand === b)}
+              >
                 {b}
               </button>
             ))}
@@ -104,7 +122,7 @@ function FamiliaPage() {
         </p>
 
         <div className="divide-y divide-border border-y border-border">
-          {list.map((p) => {
+          {visible.map((p) => {
             const info = productDisplayInfo(p);
             return (
               <Link
@@ -114,8 +132,9 @@ function FamiliaPage() {
                 className="group flex flex-col gap-4 py-8 sm:flex-row sm:items-center sm:gap-10"
               >
                 <div className="aspect-square w-full shrink-0 overflow-hidden rounded-2xl bg-muted/30 sm:w-40">
-                  <img
-                    src={productImage(p)}
+                  <SiteImage
+                    {...productImageSources(p)}
+                    sizes="(min-width: 640px) 160px, calc(100vw - 48px)"
                     alt={info.title}
                     loading="lazy"
                     width={512}
@@ -134,7 +153,9 @@ function FamiliaPage() {
                   </p>
                   <p className="mt-1 text-[11px] text-muted-foreground">Clave {p.sku}</p>
                   <h2 className="mt-2 text-2xl font-medium tracking-tight">{info.title}</h2>
-                  <p className="mt-2 max-w-lg whitespace-pre-line text-sm text-muted-foreground">{info.detail}</p>
+                  <p className="mt-2 max-w-lg whitespace-pre-line text-sm text-muted-foreground">
+                    {info.detail}
+                  </p>
                 </div>
                 <span className="text-sm text-primary">Ver producto</span>
               </Link>
@@ -146,6 +167,7 @@ function FamiliaPage() {
             </p>
           )}
         </div>
+        {hasMore && <div ref={sentinelRef} aria-hidden="true" />}
       </section>
 
       <CtaBand title="¿Necesitas asesoría técnica?" action="Solicitar información" />

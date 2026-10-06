@@ -1,5 +1,8 @@
-// Current public domain. Replace only when the client supplies its own domain.
-export const SITE_URL = "https://handel-minimal-web.lovable.app";
+// Public domain, set per deployment with VITE_SITE_URL (the client domain).
+// VITE_ because head() also runs in the browser. Falls back to the Lovable domain.
+export const SITE_URL = (
+  import.meta.env["VITE_SITE_URL"] || "https://handel-minimal-web.lovable.app"
+).replace(/\/+$/, "");
 export const DEFAULT_OG_IMAGE = `${SITE_URL}/hero-nosotros-wide-v2.webp`;
 
 export function absoluteUrl(path: string): string {

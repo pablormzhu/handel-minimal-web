@@ -4,9 +4,8 @@ import { Page, CtaBand } from "@/components/site/Page";
 import { normalizeSearch } from "@/lib/format-product";
 import { siteBrands } from "@/lib/site-catalog";
 import { pageSeo } from "@/lib/seo";
-import patchesLogo from "@/assets/patches-logo.png.asset.json";
+import patchesLogo from "@/assets/patches-logo.png";
 import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
-
 
 export const Route = createFileRoute("/marcas")({
   head: () => {
@@ -57,7 +56,7 @@ function Marcas() {
         >
           <div className="flex flex-col items-center gap-6 sm:flex-row">
             <img
-              src={patchesLogo.url}
+              src={patchesLogo}
               alt="PATCHES, marca propia de Handel"
               loading="lazy"
               width={600}
@@ -137,10 +136,11 @@ function Marcas() {
           ))}
         </div>
         {visible.length === 0 && (
-          <p className="py-8 text-sm text-muted-foreground">No encontramos una marca con ese nombre.</p>
+          <p className="py-8 text-sm text-muted-foreground">
+            No encontramos una marca con ese nombre.
+          </p>
         )}
       </section>
-
 
       <CtaBand title="¿Buscas una marca en particular?" action="Hablar con un asesor" />
     </Page>
