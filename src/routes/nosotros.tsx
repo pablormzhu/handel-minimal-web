@@ -186,10 +186,10 @@ function Nosotros() {
           <div className="mt-8 flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
             {catalogBrands.slice(0, 18).map((b) => (
               <span
-                key={b}
+                key={b.name}
                 className="text-lg font-medium tracking-tight text-muted-foreground"
               >
-                {b}
+                {b.name}
               </span>
             ))}
           </div>
