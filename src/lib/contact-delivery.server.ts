@@ -1,4 +1,4 @@
-type DeliveryConfig = { url?: string; secret?: string };
+type DeliveryConfig = { url?: string | undefined; secret?: string | undefined };
 const messageUnavailable = 'En este momento no pudimos enviar tu solicitud. Por favor inténtalo más tarde.';
 const respond = (status: number, message: string) => Response.json({ ok: status === 200, message }, {
   status, headers: { 'Cache-Control': 'no-store' },
@@ -20,7 +20,7 @@ export async function handleContactRequest(request: Request, config: DeliveryCon
     if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error('Invalid body');
     body = value as Record<string, unknown>;
   } catch { return respond(400, 'Revisa los datos de tu solicitud.'); }
-  if (body.website) return respond(400, 'No se pudo enviar la solicitud.');
+  if (body['website']) return respond(400, 'No se pudo enviar la solicitud.');
   const limits: Record<string, number> = { name: 120, company: 180, email: 254, phone: 60, state: 120, product: 300, sku: 100, presentation: 300, family: 100, message: 5000 };
   const payload: Record<string, string> = {};
   for (const [key, max] of Object.entries(limits)) {
@@ -28,7 +28,7 @@ export async function handleContactRequest(request: Request, config: DeliveryCon
     if (typeof value !== 'string' || value.length > max) return respond(400, 'Revisa los datos de tu solicitud.');
     payload[key] = value.trim();
   }
-  if (!payload.name || !payload.company || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(payload.email)) {
+  if (!payload['name'] || !payload['company'] || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(payload['email'] ?? '')) {
     return respond(400, 'Completa nombre, empresa y un correo válido.');
   }
   if (!config.url) return respond(503, messageUnavailable);

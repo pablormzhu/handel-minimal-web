@@ -5,8 +5,8 @@ export const Route = createFileRoute('/api/contacto')({
   server: {
     handlers: {
       POST: ({ request }) => handleContactRequest(request, {
-        url: process.env.HANDEL_CONTACT_WEBHOOK_URL,
-        secret: process.env.HANDEL_CONTACT_WEBHOOK_SECRET,
+        url: process.env['HANDEL_CONTACT_WEBHOOK_URL'],
+        secret: process.env['HANDEL_CONTACT_WEBHOOK_SECRET'],
       }),
     },
   },

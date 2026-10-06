@@ -6,7 +6,7 @@ import { siteProducts } from "@/lib/site-catalog";
 import { productDisplayInfo } from "@/lib/format-product";
 import { pageSeo } from "@/lib/seo";
 
-type ContactSearch = { sku?: string; product?: string; presentation?: string; family?: string };
+type ContactSearch = { sku?: string | undefined; product?: string | undefined; presentation?: string | undefined; family?: string | undefined };
 const text = (v: unknown, max = 300) => (typeof v === "string" && v.trim() ? v.trim().slice(0, max) : undefined);
 
 export const Route = createFileRoute("/contacto")({
@@ -42,7 +42,7 @@ const field =
   "w-full border-b border-border bg-transparent py-3 text-[15px] outline-none transition-colors placeholder:text-muted-foreground focus:border-foreground focus-visible:ring-2 focus-visible:ring-ring";
 const labelCls = "text-xs uppercase tracking-widest text-muted-foreground";
 
-type Status = { kind: "idle" | "sending" | "success" | "error"; message?: string };
+type Status = { kind: "idle" | "sending" | "success" | "error"; message?: string | undefined };
 
 function initialContext(search: ContactSearch) {
   const match = search.sku ? siteProducts.find((p) => p.sku === search.sku) : undefined;
