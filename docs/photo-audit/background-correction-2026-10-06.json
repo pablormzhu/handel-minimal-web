@@ -1,0 +1,921 @@
+{
+  "dateUTC": "2026-10-06",
+  "scope": "SNIBE and MCDLAB only",
+  "reviewed": 129,
+  "corrected": 43,
+  "correctedSnibe": 15,
+  "correctedMcdlab": 28,
+  "preserved": 86,
+  "pending": 0,
+  "style": "Light neutral gray, visible gray shading and contact shadow; no pure-white cutout or blue cast. No frame.",
+  "preparedIn": "ChatGPT",
+  "lovableRole": "Import final assets and connect SKU mappings only",
+  "published": false,
+  "files": [
+    {
+      "sku": "20701130670002M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "CORTISOL CON 50 PRUEBAS; Presentación: 50 PRUEBAS",
+      "beforeAsset": "src/assets/prod/verified-original/20701130670002M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130670002M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130670002M.webp",
+      "sha256": "d8241c2660fd5682814bd6870cfacc877d7fbf28b076ee8a14c1a14a0a1daaed",
+      "editedCornerRGB": [
+        245.2,
+        246.23,
+        248.48
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130261004M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI 25 OH VITAMIN D (2G) MARCA SNIBE DIGNOSTIC; Contenido: 2G",
+      "beforeAsset": "src/assets/prod/verified-original/20701130261004M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130261004M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130261004M.webp",
+      "sha256": "80b0023b6a2922463ca85352ff5d99585ae232233d55969bbbb29d407259a3f1",
+      "editedCornerRGB": [
+        243.63,
+        244.15,
+        246.05
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130253011M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI ANTI-TPO 2G DE 100 PRUEBAS. MARCA SNIBE DIGNOSTIC; Presentación: 100 PRUEBAS; Contenido: 2G",
+      "beforeAsset": "src/assets/prod/verified-original/20701130253011M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130253011M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130253011M.webp",
+      "sha256": "27b578e96a2569fa866891b5aa31ddba4b63e1429b7e1f4a1a9a345a68e2e2bd",
+      "editedCornerRGB": [
+        244.37,
+        245.12,
+        247.07
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130206016M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI BNP CON 100 PRUEBAS; Presentación: 100 PRUEBAS",
+      "beforeAsset": "src/assets/prod/verified-original/20701130206016M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130206016M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130206016M.webp",
+      "sha256": "5b98c61b34d50bd5ded1c6bc9c7a2e93cb466b6300f790a3ba04d6443ebbc3d0",
+      "editedCornerRGB": [
+        240.81,
+        241.5,
+        243.26
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130252007M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI ESTRADIOL ( E2 ) 2 DA GENERACION. CON 100 PRUEBAS. MARCA SNIBE DIGNOSTIC; Presentación: 100 PRUEBAS",
+      "beforeAsset": "src/assets/prod/verified-original/20701130252007M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130252007M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130252007M.webp",
+      "sha256": "ec90365a0665e55d7a55b73241078d232a6f17745a7fbd1abb17807f29bc4ee8",
+      "editedCornerRGB": [
+        241.46,
+        242.14,
+        244.26
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130251001M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI FERRITIN 2 DA GENERACION CON 100 PRUEBAS; Presentación: 100 PRUEBAS",
+      "beforeAsset": "src/assets/prod/verified-original/20701130251001M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130251001M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130251001M.webp",
+      "sha256": "c1038dd4c107b8f8a583b067e362c22270f987580efc819c1f9de6e9fc647b74",
+      "editedCornerRGB": [
+        243.3,
+        243.52,
+        244.6
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130252011M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI FREE-TESTOSTERONE 2 GENERACION. CON 100 PRUEBAS. MARCA SNIBE DIGNOSTIC; Presentación: 100 PRUEBAS",
+      "beforeAsset": "src/assets/prod/verified-original/20701130252011M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130252011M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130252011M.webp",
+      "sha256": "da82bd9beb8f9c095dfa68f51b5a6559178457418b516159d372ffdfa34e4ad8",
+      "editedCornerRGB": [
+        241.7,
+        242.0,
+        244.38
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130253005M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI FREE T3 (CLIA) 2G MARCA SNIBE DIGNOSTIC; Contenido: 2G",
+      "beforeAsset": "src/assets/prod/verified-original/20701130253005M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130253005M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130253005M.webp",
+      "sha256": "71aec0060c2f2293b2c758aa7e990cac04550c2bce288a265e0794b2bd24624b",
+      "editedCornerRGB": [
+        240.77,
+        241.48,
+        243.63
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130253004M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI FREE T4 CON 100 PRUEBAS; Presentación: 100 PRUEBAS",
+      "beforeAsset": "src/assets/prod/verified-original/20701130253004M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130253004M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130253004M.webp",
+      "sha256": "021362bf1833808c87102ef48ed69c1f5e708931975d8e3143ea57829807c5f6",
+      "editedCornerRGB": [
+        243.46,
+        244.2,
+        246.15
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130258002M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI IgM ( 2G ) CON 100 PRUEBAS; Presentación: 100 PRUEBAS; Contenido: 2G",
+      "beforeAsset": "src/assets/prod/verified-original/20701130258002M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130258002M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130258002M.webp",
+      "sha256": "6e5d00c23a7444f7e7b8635f304dda4672e6599d66c248b00305e0a52c6d8aba",
+      "editedCornerRGB": [
+        241.0,
+        241.66,
+        243.77
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130203023M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI TSH (CLIA) 2DA GENERACION MARCA SNIBE DIGNOSTIC; No indicada en catálogo",
+      "beforeAsset": "src/assets/prod/verified-original/20701130203023M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130203023M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130203023M.webp",
+      "sha256": "3eaa781bc2dd698a44be75fcc28765bd1545ef74e52bd8d45dc4faa45d86e8a8",
+      "editedCornerRGB": [
+        235.61,
+        236.26,
+        238.5
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130252006M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI PRL ( PRL ) 2 DA GENERACION. CON 100 PRUEBAS. MARCA SNIBE DIGNOSTIC; Presentación: 100 PRUEBAS",
+      "beforeAsset": "src/assets/prod/verified-original/20701130252006M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130252006M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130252006M.webp",
+      "sha256": "1e3654b98f69aa7b8cf8688e3865999978fdf59e4794244153c8bb89a1115937",
+      "editedCornerRGB": [
+        235.03,
+        235.57,
+        237.76
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130253003M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI TOTAL T3 (CLIA) 2G MARCA SNIBE DIGNOSTIC; Contenido: 2G",
+      "beforeAsset": "src/assets/prod/verified-original/20701130253003M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130253003M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130253003M.webp",
+      "sha256": "84c376469c0d438f7d075e66e0c6a829bd5cc84c1ab4c490d725a50c3ee2c994",
+      "editedCornerRGB": [
+        240.08,
+        240.74,
+        242.07
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130253002M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI TOTAL T4 CON 100 PRUEBAS; Presentación: 100 PRUEBAS",
+      "beforeAsset": "src/assets/prod/verified-original/20701130253002M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130253002M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130253002M.webp",
+      "sha256": "f179f2df991f7aaa2fb7bfe0f93516fc21e835239f91e17fe19124bda96720c3",
+      "editedCornerRGB": [
+        245.69,
+        246.17,
+        248.2
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "20701130252010M",
+      "brand": "SNIBE DIAGNOSTIC",
+      "label": "MAGLUMI TESTOSTERONA ( TEST ) CON 100 PRUEBAS; Presentación: 100 PRUEBAS",
+      "beforeAsset": "src/assets/prod/verified-original/20701130252010M.jpg.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/20701130252010M.webp",
+      "imageUrl": "/product-backgrounds-v2/20701130252010M.webp",
+      "sha256": "9d0a0c071eee94e47f575826afc7c849d1e6c1f397f0183249bbbcd0025be829",
+      "editedCornerRGB": [
+        245.54,
+        245.74,
+        247.55
+      ],
+      "size": [
+        1444,
+        1089
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7004",
+      "brand": "MCD LAB",
+      "label": "AGAR BIGGY; Presentación: BOLSA CON 10 PLACAS",
+      "beforeAsset": "src/assets/prod/real/agar-biggy.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7004.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7004.webp",
+      "sha256": "54e35d59d56f0145efb43410edf8f2f634e55a1ae20d70b93eb1922493cb260b",
+      "editedCornerRGB": [
+        239.53,
+        239.89,
+        241.9
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT8094",
+      "brand": "MCD LAB",
+      "label": "AGAR CDC ANAEROBICO CON SANGRE DE CARNERO AL 5%; Presentación: BOLSA CON 10 PLACAS",
+      "beforeAsset": "src/assets/prod/real/agar-cdc-anaerobico.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT8094.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT8094.webp",
+      "sha256": "5ad6f5bac2c13ba5ee6246d9bfc2d7491cf9bcac389ffa0f8d2c67b50b5d8c7d",
+      "editedCornerRGB": [
+        235.74,
+        236.46,
+        238.91
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT8684",
+      "brand": "MCD LAB",
+      "label": "AGAR CHROMAGAR CANDIDA; Presentación: BOLSA CON 10 PIEZAS",
+      "beforeAsset": "src/assets/prod/real/agar-cromogenico-candida.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT8684.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT8684.webp",
+      "sha256": "990ae7e3655a8619744eb7e62cd40b0645cf8396aa79df60f0e529cb44466d92",
+      "editedCornerRGB": [
+        237.01,
+        237.67,
+        239.71
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7025",
+      "brand": "MCD LAB",
+      "label": "AGAR CITRATO DE SIMMONS CAJA CON10 TUBOS; No indicada en catálogo",
+      "beforeAsset": "src/assets/prod/real/agar-citrato-simmons.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7025.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7025.webp",
+      "sha256": "21dd392d15f2383ae568b9f2a4e54e4945a7bd6e2d83d40b54892884cdb78df3",
+      "editedCornerRGB": [
+        239.27,
+        240.36,
+        242.62
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7854",
+      "brand": "MCD LAB",
+      "label": "AGAR CAMPYLOBACTER; Presentación: BOLSA CON 10 PLACAS",
+      "beforeAsset": "src/assets/prod/real/agar-campylobacter.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7854.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7854.webp",
+      "sha256": "7aa68d6a584834f5f72fe046b6bb761ec1dd4320a0207af9e3752cc3f0813f94",
+      "editedCornerRGB": [
+        237.69,
+        238.14,
+        240.33
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT8694",
+      "brand": "MCD LAB",
+      "label": "AGAR CROMOGENICO PARA SALMONELLA; Presentación: BOLSA CON 10 PLACAS",
+      "beforeAsset": "src/assets/prod/real/agar-cromogenico-salmonella.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT8694.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT8694.webp",
+      "sha256": "c8438e4175d96d6f56644bd195180f3a4be13f7ecadb14d4eedb162bb91985b2",
+      "editedCornerRGB": [
+        236.63,
+        237.15,
+        239.34
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7864",
+      "brand": "MCD LAB",
+      "label": "AGAR COLUMBIA CNA; Presentación: BOLSA CON 10 PLACAS",
+      "beforeAsset": "src/assets/prod/real/agar-columbia-cna.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7864.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7864.webp",
+      "sha256": "c138e39d1fd16c885ae6166e1c2d094c758cd574c0ab14c65ba86432594a4e20",
+      "editedCornerRGB": [
+        241.28,
+        242.52,
+        244.86
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7031",
+      "brand": "MCD LAB",
+      "label": "AGAR DESHIDRATADO DEXTROSA SABOURAUD 450 GRS; Contenido: 450 GRS",
+      "beforeAsset": "src/assets/prod/verified-original/265010000PT7031.webp.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7031.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7031.webp",
+      "sha256": "d4a4d6bd57448d30bca2c45ec4c23cc31756a01a63f38624883e818a3bfe76d0",
+      "editedCornerRGB": [
+        241.62,
+        242.29,
+        244.33
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7041",
+      "brand": "MCD LAB",
+      "label": "AGAR DEXTROSA Y PAPA 450 GRS; Contenido: 450 GRS",
+      "beforeAsset": "src/assets/prod/verified-original/265010000PT7041.webp.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7041.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7041.webp",
+      "sha256": "b4f935b546b38937a36aafc0998992e578dda9be310162344ddd635624457494",
+      "editedCornerRGB": [
+        241.69,
+        242.77,
+        244.83
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7095",
+      "brand": "MCD LAB",
+      "label": "AGAR DE HIERRO Y LISINA; Presentación: CAJA CON 10 TUBOS",
+      "beforeAsset": "src/assets/prod/real/agar-hierro-lisina.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7095.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7095.webp",
+      "sha256": "9de3d39ed699b46955888e8ce7e936e0a171ffae7503b5c0fc0d4c0fff1ddf33",
+      "editedCornerRGB": [
+        237.34,
+        238.17,
+        240.99
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7284",
+      "brand": "MCD LAB",
+      "label": "AGAR GELOSA CHOCOLATE; Presentación: PAQUETE CON 10 PIEZAS",
+      "beforeAsset": "src/assets/prod/real/agar-gelosa-chocolate-mcd.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7284.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7284.webp",
+      "sha256": "1516fa202c4b1099ef8684c1f2099f78c71d06aee4e29c4d4f9ef6a7b523225b",
+      "editedCornerRGB": [
+        239.0,
+        239.5,
+        241.53
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7114",
+      "brand": "MCD LAB",
+      "label": "AGAR MAC CONKEY; Presentación: PAQUETE CON 10 PLACAS",
+      "beforeAsset": "src/assets/prod/real/agar-mac-conkey-mcd.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7114.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7114.webp",
+      "sha256": "f94ffffc07c81c34775c229ef4abbcf49a4b01b1000eca62d9e57693b643294b",
+      "editedCornerRGB": [
+        237.18,
+        238.07,
+        240.26
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7134",
+      "brand": "MCD LAB",
+      "label": "AGAR MUELLER HINTON; Presentación: BOLSA CON 10 PLACAS",
+      "beforeAsset": "src/assets/prod/real/agar-mueller-hinton.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7134.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7134.webp",
+      "sha256": "b461c8b0cdbebc89aaaaef4ef6cd1244012aaa8e864ef4fa5623e5a8e5f66441",
+      "editedCornerRGB": [
+        235.23,
+        235.88,
+        239.31
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7644",
+      "brand": "MCD LAB",
+      "label": "AGAR MUELLER HINTON 5% SANGRE; Presentación: BOLSA CON 10 PLACAS",
+      "beforeAsset": "src/assets/prod/real/agar-mueller-hinton-sangre.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7644.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7644.webp",
+      "sha256": "1bb24ff20c5007295e00726db52a21149eb8a9947f42500f9dcff77a860c4fdc",
+      "editedCornerRGB": [
+        236.34,
+        238.64,
+        241.02
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7504",
+      "brand": "MCD LAB",
+      "label": "AGAR SANGRE; Presentación: BOLSA CON 10 PLACAS",
+      "beforeAsset": "src/assets/prod/real/agar-sangre-mcd.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7504.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7504.webp",
+      "sha256": "861c24d0a553222191bf88910d39b5dfe33de9a1aa960d265bf1710217ab76c6",
+      "editedCornerRGB": [
+        236.8,
+        238.35,
+        240.66
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7154",
+      "brand": "MCD LAB",
+      "label": "AGAR SAL Y MANITOL, PAQUETE C/10; No indicada en catálogo",
+      "beforeAsset": "src/assets/prod/real/agar-sal-manitol.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7154.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7154.webp",
+      "sha256": "31c1b97cbadf3ccfbba83bf2c9479813c96d4f745f7879f56a69d5bbf2ef50f2",
+      "editedCornerRGB": [
+        239.6,
+        240.28,
+        242.2
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7214",
+      "brand": "MCD LAB",
+      "label": "AGAR TCBS Para el cultivo y aislamiento de Vibrio cholerae y otras especies de vibrios de; No indicada en catálogo",
+      "beforeAsset": "src/assets/prod/real/agar-tcbs.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7214.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7214.webp",
+      "sha256": "1927a4dd6095aaf2acd8495210a9b4742c3d274f35396fd0a0fedf60bf182b34",
+      "editedCornerRGB": [
+        234.33,
+        235.09,
+        237.21
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7164",
+      "brand": "MCD LAB",
+      "label": "AGAR SALMONELLA Y SHIGELLA; Presentación: PAQUETE CON 10 PIEZAS",
+      "beforeAsset": "src/assets/prod/real/agar-salmonella-shigella-mcd.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7164.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7164.webp",
+      "sha256": "28a2cf9731d01a8b3a9fb04c8c1008be6d6e0de25b1251a8ea5f9e11dc92f885",
+      "editedCornerRGB": [
+        241.15,
+        242.17,
+        244.35
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265020000PT7514",
+      "brand": "MCD LAB",
+      "label": "AGAR THAYER MARTIN; Presentación: BOLSA CON 10 PLACAS",
+      "beforeAsset": "src/assets/prod/real/agar-thayer-martin-mcd.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265020000PT7514.webp",
+      "imageUrl": "/product-backgrounds-v2/265020000PT7514.webp",
+      "sha256": "8173c91716c09ef88497ee0ab8907c32831148f3e9b029049a64e029651605c4",
+      "editedCornerRGB": [
+        237.01,
+        238.07,
+        240.48
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7265",
+      "brand": "MCD LAB",
+      "label": "AGAR UREA DE CHRISTENSEN; Presentación: CAJA CON 10 TUBOS",
+      "beforeAsset": "src/assets/prod/real/agar-urea-christensen.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7265.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7265.webp",
+      "sha256": "64c9eecef2f7d31414401b3c491c04043baff0a528670abb46b1dabcf8c3b179",
+      "editedCornerRGB": [
+        237.3,
+        237.61,
+        239.6
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7194",
+      "brand": "MCD LAB",
+      "label": "AGAR VERDE BRILLANTE PAQUETE C/10; No indicada en catálogo",
+      "beforeAsset": "src/assets/prod/real/agar-verde-brillante.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7194.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7194.webp",
+      "sha256": "414eda165fc97036ec4bf6b0c3ba7d6d2b665ea5d71362861af05ff131331484",
+      "editedCornerRGB": [
+        238.3,
+        238.98,
+        240.57
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7204",
+      "brand": "MCD LAB",
+      "label": "AGAR XLD EN PLACA; Presentación: BOLSA CON 10 PIEZAS",
+      "beforeAsset": "src/assets/prod/real/agar-xld.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7204.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7204.webp",
+      "sha256": "0039539403535f07683d6e9cfe36ee982dd142247d0c469d70c583cb7e42345c",
+      "editedCornerRGB": [
+        235.9,
+        237.29,
+        239.61
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "26501000PT8085M",
+      "brand": "MCD LAB",
+      "label": "AGUA PEPTONADA ALCALINA; Presentación: PAQUETE CON 10 TUBOS",
+      "beforeAsset": "src/assets/prod/real/agua-peptonada-alcalina.jpg",
+      "afterAsset": "public/product-backgrounds-v2/26501000PT8085M.webp",
+      "imageUrl": "/product-backgrounds-v2/26501000PT8085M.webp",
+      "sha256": "daa4591f5ab40b95d9139ca7484cff191f896770fdb079e2d015729ddd55c848",
+      "editedCornerRGB": [
+        235.86,
+        236.54,
+        238.72
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7375",
+      "brand": "MCD LAB",
+      "label": "CALDO SELENITO DE SODIO; Presentación: CAJA CON 10 TUBOS",
+      "beforeAsset": "src/assets/prod/real/caldo-selenito-sodio.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7375.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7375.webp",
+      "sha256": "c7299779a105584141d4107e7d2901ee844f6698410612e8fbaa607b95f7a1b1",
+      "editedCornerRGB": [
+        235.87,
+        235.66,
+        237.64
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7405",
+      "brand": "MCD LAB",
+      "label": "INFUSION CEREBRO CORAZON ( CALDO ); Presentación: CAJA CON 10 TUBOS",
+      "beforeAsset": "src/assets/prod/real/infusion-cerebro-corazon.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7405.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7405.webp",
+      "sha256": "3a414e59add298cd996dc675b8c4907d45b8a281b129679957176416ed088798",
+      "editedCornerRGB": [
+        238.74,
+        239.74,
+        241.91
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7975",
+      "brand": "MCD LAB",
+      "label": "KIT/PRUEBAS BIOQUIMICAS Para identificación de Enterobacterias. Contiene: Agar Citrato de; Presentación: CAJA CON 10 TUBOS",
+      "beforeAsset": "src/assets/prod/real/kit-bioquimicas.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7975.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7975.webp",
+      "sha256": "97df5811048965781d735a8eb65320481420373bbe1d22cb41f20158bace6786",
+      "editedCornerRGB": [
+        238.02,
+        238.99,
+        241.25
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7445",
+      "brand": "MCD LAB",
+      "label": "MEDIO MIO; Presentación: CAJA CON 10 TUBOS",
+      "beforeAsset": "src/assets/prod/real/medio-mio.jpg",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7445.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7445.webp",
+      "sha256": "fa5b35707afe220f7c2cfe37a29e954ab4d20443c04608a0b5dce2fca1dad7d5",
+      "editedCornerRGB": [
+        235.08,
+        236.19,
+        238.88
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    },
+    {
+      "sku": "265010000PT7441",
+      "brand": "MCD LAB",
+      "label": "MEDIO MIO SOBRES MCD LAB 450 GRS; Contenido: 450 GRS",
+      "beforeAsset": "src/assets/prod/verified-original/265010000PT7441.webp.asset.json",
+      "afterAsset": "public/product-backgrounds-v2/265010000PT7441.webp",
+      "imageUrl": "/product-backgrounds-v2/265010000PT7441.webp",
+      "sha256": "1ff109ebdde1fbdd8abad710cfd626062007547eff635b1fbaff553cf8465b6c",
+      "editedCornerRGB": [
+        242.47,
+        243.58,
+        245.75
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "review": "Soft neutral gray studio background and contact shadow; principal brand/product/quantity visually checked. AI background edit from existing reference package; not an untouched manufacturer photo."
+    }
+  ],
+  "preservedSku": [
+    "20701130661004M",
+    "207011305990002",
+    "207011305990001",
+    "20701130603011M",
+    "20701130201031M",
+    "20701130201038M",
+    "20701130201037M",
+    "207011301050001",
+    "20701130212007M",
+    "20701130211004M",
+    "20701130670003M",
+    "20701130201033M",
+    "20701130617501M",
+    "20701130653011M",
+    "20701130617502M",
+    "20701130261002M",
+    "20701130201032M",
+    "20701130601032M",
+    "20701130270002M",
+    "20701130266002M",
+    "20701130206008M",
+    "20701130202007M",
+    "20701130201005M",
+    "20701130201035M",
+    "20701130651001M",
+    "20701130252001M",
+    "20701130652001M",
+    "20701130202001M",
+    "20701130601521M",
+    "20701130252003M",
+    "20701130255002M",
+    "20701130258004M",
+    "20701130258001M",
+    "20701130658001M",
+    "20701130258005M",
+    "20701130608002M",
+    "20701130658002M",
+    "20701130252002M",
+    "20701130202002M",
+    "2070130299006M1",
+    "20701130299006M",
+    "20701130606004M",
+    "20701130202006M",
+    "20701130666001M",
+    "20701130652009M",
+    "20701130252009M",
+    "20701130652006M",
+    "20701130201034M",
+    "2070100630003-1",
+    "207010000630003",
+    "2070130299004M1",
+    "20701130299004M",
+    "20701130203014M",
+    "20701130203003M",
+    "20701130653006M",
+    "20701130253007M",
+    "20701130603023M",
+    "20701130203001M",
+    "20701130299007M",
+    "2070130299005M1",
+    "20701130653007M",
+    "265010000PT7834",
+    "265010000PT7022",
+    "265010000PT7584",
+    "265010000PT7001",
+    "265010000PT6051",
+    "265010000PT6061",
+    "265010000PT7035",
+    "265010000PT7034",
+    "265010000PT7054",
+    "265010000PT7092",
+    "265010000PT8204",
+    "265010000PT5035",
+    "265010000PT7132",
+    "265010000PT7121",
+    "265010000PT7674",
+    "265010000PT7175",
+    "265010000PT7241",
+    "265010000PT7275",
+    "265010000007273",
+    "265010000PT7385",
+    "265010000007935",
+    "265010000PT5874",
+    "265010000004215",
+    "265010000PT7455",
+    "26501000PTC4100"
+  ]
+}

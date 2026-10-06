@@ -1,3 +1,4 @@
+import { BACKGROUND_CORRECTED_SKU_IMAGES } from "./background-corrected-product-photos";
 import { APPROVED_LABELED_SKU_IMAGES } from "./approved-product-photos";
 import { DIBICO_QCA_MAESA_SKU_IMAGES } from "./dibico-qca-maesa-product-photos";
 import { BRAND_BATCH_567_SKU_IMAGES } from "./brand-batch-567-product-photos";
@@ -408,6 +409,8 @@ const RULES: Array<[RegExp, string]> = [
 ];
 
 export function productImage(input: { name: string; description?: string; sku?: string }): string {
+  const backgroundCorrected = input.sku ? BACKGROUND_CORRECTED_SKU_IMAGES[input.sku] : undefined;
+  if (backgroundCorrected) return backgroundCorrected;
   const dibicoQcaMaesa = input.sku ? DIBICO_QCA_MAESA_SKU_IMAGES[input.sku] : undefined;
   if (dibicoQcaMaesa) return dibicoQcaMaesa;
   const brandBatch567 = input.sku ? BRAND_BATCH_567_SKU_IMAGES[input.sku] : undefined;
