@@ -101,9 +101,9 @@ function Nosotros() {
           src={hero}
           alt="Laboratorio de diagnóstico"
           loading="lazy"
-          width={1920}
+          width={1560}
           height={1088}
-          className="aspect-[16/7] w-full rounded-3xl object-cover"
+          className="aspect-[16/9] w-full rounded-3xl object-cover"
         />
       </section>
 
