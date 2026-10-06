@@ -112,6 +112,8 @@ const ORTHOGRAPHY_RULES = ORTHOGRAPHY.map(([from, to]) => ({
 export function correctOrthography(value: string): string {
   let text = value
     .replace(/\bstandar\s+diagnostics\b/gi, 'Standard Diagnostics')
+    .replace(/\bmac\s+conkey\b/gi, 'MacConkey')
+    .replace(/\bfecal\s+swab\b/gi, 'FecalSwab')
     .replace(/\bstandar\b/gi, 'estándar')
     .replace(/\baccu[ -]?check\b/gi, 'Accu-Chek')
     .replace(/\bcloraprep\b/gi, 'ChloraPrep')
