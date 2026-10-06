@@ -3,10 +3,13 @@ import { useState } from "react";
 import { toast } from "sonner";
 import { Page } from "@/components/site/Page";
 import { families } from "@/lib/catalog";
+import { pageSeo } from "@/lib/seo";
 
 export const Route = createFileRoute("/contacto")({
   head: () => ({
+    links: pageSeo("/contacto").links,
     meta: [
+      ...pageSeo("/contacto").meta,
       { title: "Contacto · Handel" },
       {
         name: "description",

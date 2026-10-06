@@ -7,10 +7,13 @@ import { productImage } from "@/lib/product-images";
 import { productDisplayInfo } from "@/lib/format-product";
 import patchesLogo from "@/assets/patches-logo-corrected.png.asset.json";
 import patchesCover from "@/assets/special-lines/photo-refresh/patches-page-hero.jpg";
+import { pageSeo } from "@/lib/seo";
 
 export const Route = createFileRoute("/patches")({
   head: () => ({
+    links: pageSeo("/patches").links,
     meta: [
+      ...pageSeo("/patches").meta,
       { title: "PATCHES · Nuestra marca propia | Handel" },
       {
         name: "description",

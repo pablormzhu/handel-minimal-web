@@ -1,9 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Page } from "@/components/site/Page";
+import { pageSeo } from "@/lib/seo";
 
 export const Route = createFileRoute("/aviso-privacidad")({
   head: () => ({
+    links: pageSeo("/aviso-privacidad").links,
     meta: [
+      ...pageSeo("/aviso-privacidad").meta,
       { title: "Aviso de privacidad · Handel" },
       {
         name: "description",
