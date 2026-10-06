@@ -3,7 +3,6 @@ import { Page, CtaBand } from "@/components/site/Page";
 import { catalogBrands, catalogProducts } from "@/lib/brand-catalog";
 import { families } from "@/lib/catalog";
 import { equipment } from "@/lib/equipment";
-import hero from "@/assets/hero.jpg";
 
 export const Route = createFileRoute("/nosotros")({
   head: () => ({
@@ -98,12 +97,12 @@ function Nosotros() {
 
       <section className="mx-auto max-w-6xl px-6 pb-24">
         <img
-          src={hero}
-          alt="Laboratorio de diagnóstico"
+          src="/hero-nosotros-wide-v2.webp"
+          alt="Analizador de laboratorio con reactivos, materiales y consumibles completos sobre una mesa amplia"
           loading="lazy"
-          width={1160}
-          height={1088}
-          className="aspect-[16/10] w-full rounded-3xl object-cover object-center"
+          width={1672}
+          height={941}
+          className="block h-auto w-full rounded-3xl"
         />
       </section>
 
