@@ -6,6 +6,9 @@ import { Button } from "@/components/ui/button";
 import { brandBySlug, catalogProducts } from "@/lib/brand-catalog";
 import { productDisplayInfo, brandDisplayName } from "@/lib/format-product";
 import { productImage } from "@/lib/product-images";
+import { productBrandName, siteProducts } from "@/lib/site-catalog";
+import { getFamily } from "@/lib/catalog";
+import { pageSeo } from "@/lib/seo";
 
 function findProduct(brandSlug: string, productSlug: string) {
   const brand = brandBySlug(brandSlug);
@@ -22,8 +25,9 @@ export const Route = createFileRoute("/marca/$marca_/producto/$producto")({
   head: ({ params }) => {
     const product = findProduct(params.marca, params.producto);
     const info = product ? productDisplayInfo(product) : undefined;
-    const title = info && product ? `${info.title} · ${brandDisplayName(product.brand)} · Handel` : "Producto · Handel";
+    const title = info && product ? `${info.title} · ${productBrandName(product)} · Handel` : "Producto · Handel";
     const description = info?.description ?? "Información técnica de producto distribuido por Handel.";
+    const seo = pageSeo(`/marca/${params.marca}/producto/${params.producto}`, product ? productImage(product) : undefined);
     return {
       meta: [
         { title },
@@ -32,7 +36,9 @@ export const Route = createFileRoute("/marca/$marca_/producto/$producto")({
         { property: "og:description", content: description },
         { property: "og:type", content: "website" },
         { name: "twitter:card", content: "summary_large_image" },
+        ...seo.meta,
       ],
+      links: seo.links,
     };
   },
   component: BrandProductPage,
@@ -45,6 +51,8 @@ function BrandProductPage() {
   if (!brand || !product) return null;
   const info = productDisplayInfo(product);
   const rows = info.fields;
+  const site = siteProducts.find((p) => p.sku === product.sku);
+  const familyName = site ? getFamily(site.family)?.name ?? site.family : undefined;
 
   return (
     <Page>
@@ -70,7 +78,7 @@ function BrandProductPage() {
 
           <div className="pt-1 lg:sticky lg:top-24">
             <div className="flex items-center gap-3 text-xs font-semibold uppercase text-muted-foreground">
-              <span>{brandDisplayName(product.brand)}</span>
+              <span>{productBrandName(product)}</span>
               <span className="h-1 w-1 rounded-full bg-accent" />
               <span>Clave {product.sku}</span>
             </div>
@@ -100,7 +108,10 @@ function BrandProductPage() {
               </div>
             )}
             <Button asChild size="lg" className="mt-8 rounded-full px-6">
-              <Link to="/contacto">
+              <Link
+                to="/contacto"
+                search={{ sku: product.sku, product: info.title, presentation: info.presentation, family: familyName }}
+              >
                 Solicitar información
                 <ArrowRight aria-hidden="true" />
               </Link>
