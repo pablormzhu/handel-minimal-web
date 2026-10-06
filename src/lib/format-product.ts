@@ -478,8 +478,9 @@ export function productDisplayInfo(product:ProductInput):ProductDisplayInfo {
   if(/snibe/i.test(product.brand)) for(const generation of source.matchAll(/\b([123])G\b/gi))push('Generación',generation[1]+'G');
   // Prefer an explicit physical amount already present in the source over an
   // incomplete C/1 token. Unknown quantities remain unknown; no photo is evidence.
-  if (/unidad no indicada/i.test(presentation) && amounts.length === 1 && presentation.match(/\d+/)?.[0] === amounts[0].match(/\d+/)?.[0]) {
-    presentation = sentenceCase(amounts[0]);
+  const onlyAmount = amounts.length === 1 ? amounts[0] : undefined;
+  if (onlyAmount && /unidad no indicada/i.test(presentation) && presentation.match(/\d+/)?.[0] === onlyAmount.match(/\d+/)?.[0]) {
+    presentation = sentenceCase(onlyAmount);
   }
   const unresolved = /unidad no indicada|cantidad no indicada/i.test(presentation);
   if (unresolved) {
