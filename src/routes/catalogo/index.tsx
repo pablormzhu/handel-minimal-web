@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { productDisplayInfo } from "@/lib/format-product";
+import { productDisplayInfo, normalizeSearch } from "@/lib/format-product";
 import { Search } from "lucide-react";
 import { Page, CtaBand } from "@/components/site/Page";
 import { families, products, brands } from "@/lib/catalog";
@@ -28,12 +28,10 @@ export const Route = createFileRoute("/catalogo/")({
 
 function Catalogo() {
   const [q, setQ] = useState("");
-  const term = q.trim().toLowerCase();
+  const term = normalizeSearch(q);
   const results = term
     ? products.filter((p) =>
-        [p.name, p.brand, p.sku, p.subfamily, p.description]
-          .join(" ")
-          .toLowerCase()
+        normalizeSearch([p.name, p.brand, p.sku, p.subfamily, p.description].join(" "))
           .includes(term),
       )
     : [];

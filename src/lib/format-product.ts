@@ -18,6 +18,128 @@ export type ProductDisplayInfo = {
   fields: DisplayField[];
 };
 
+// Orthography only. Commercial identifiers and source records are preserved.
+const ORTHOGRAPHY: ReadonlyArray<readonly [string, string]> = [
+  ["albumina", "albúmina"],
+  ["albuminas", "albúminas"],
+  ["anaerobico", "anaeróbico"],
+  ["anaerobicos", "anaeróbicos"],
+  ["aposito", "apósito"],
+  ["apositos", "apósitos"],
+  ["azucar", "azúcar"],
+  ["bacteriologia", "bacteriología"],
+  ["bidon", "bidón"],
+  ["bifasico", "bifásico"],
+  ["bifasica", "bifásica"],
+  ["borico", "bórico"],
+  ["centrifuga", "centrífuga"],
+  ["centrifugas", "centrífugas"],
+  ["coagulo", "coágulo"],
+  ["coagulos", "coágulos"],
+  ["cojin", "cojín"],
+  ["corazon", "corazón"],
+  ["deteccion", "detección"],
+  ["dimero", "dímero"],
+  ["dimeros", "dímeros"],
+  ["economica", "económica"],
+  ["economico", "económico"],
+  ["escobillon", "escobillón"],
+  ["facil", "fácil"],
+  ["formula", "fórmula"],
+  ["frio", "frío"],
+  ["graduacion", "graduación"],
+  ["hidroxido", "hidróxido"],
+  ["jabon", "jabón"],
+  ["limon", "limón"],
+  ["liquidos", "líquidos"],
+  ["liquidas", "líquidas"],
+  ["manipulacion", "manipulación"],
+  ["maxima", "máxima"],
+  ["maximo", "máximo"],
+  ["medula", "médula"],
+  ["metodo", "método"],
+  ["micobiotico", "micobiótico"],
+  ["modificacion", "modificación"],
+  ["patologicos", "patológicos"],
+  ["patologico", "patológico"],
+  ["policroma", "polícroma"],
+  ["presion", "presión"],
+  ["rapida", "rápida"],
+  ["rapidas", "rápidas"],
+  ["recoleccion", "recolección"],
+  ["sanguineos", "sanguíneos"],
+  ["solido", "sólido"],
+  ["solidos", "sólidos"],
+  ["tripticaseina", "tripticaseína"],
+  ["sudan", "Sudán"],
+  ["esteriles", "estériles"],
+  ["elasticos", "elásticos"],
+  ["quimicos", "químicos"],
+  ["plasticos", "plásticos"],
+  ["diagnosticos", "diagnósticos"],
+  ["clinicos", "clínicos"],
+  ["bacteriologico", "bacteriológico"],
+  ["bacteriologicos", "bacteriológicos"],
+  ["bacilios", "bacilos"],
+  ["blolsa", "bolsa"],
+  ["fluorecencia", "fluorescencia"],
+  ["minimpunta", "minipunta"],
+  ["transparante", "transparente"],
+  ["hemetico", "hermético"],
+  ["hemeticos", "herméticos"],
+  ["triglyceridos", "triglicéridos"],
+  ["universa", "universal"],
+  ["apoyeta", "ampolleta"],
+  ["lowestein", "Lowenstein"],
+  ["stenheimer", "Sternheimer"],
+  ["stuar", "Stuart"],
+  ["ependor", "Eppendorf"],
+  ["wellch", "Welch"],
+  ["scientiic", "Scientific"],
+  ["scientifi", "Scientific"],
+  ["sigmam", "Sigma"],
+  ["dignostic", "Diagnostic"],
+  ["diagnosti", "Diagnostic"],
+  ["globr", "Globe"],
+  ["ruisanchez", "Ruiz Sánchez"],
+  ["hjeathrow", "Heathrow"],
+  ["flockwab", "FLOQSwabs"],
+  ["benzoperrol", "benzopirrol"],
+];
+const ORTHOGRAPHY_RULES = ORTHOGRAPHY.map(([from, to]) => ({
+  pattern: new RegExp(`\\b${from}\\b`, 'gi'), replacement: to,
+}));
+export function correctOrthography(value: string): string {
+  let text = value
+    .replace(/\bstandar\s+diagnostics\b/gi, 'Standard Diagnostics')
+    .replace(/\bstandar\b/gi, 'estándar')
+    .replace(/\baccu[ -]?check\b/gi, 'Accu-Chek')
+    .replace(/\bcloraprep\b/gi, 'ChloraPrep')
+    .replace(/\binstan-view\b/gi, 'Instant-View')
+    .replace(/\bsangra\s+oculta\b/gi, 'sangre oculta')
+    .replace(/\b[aá]cido\s+desistentes\b/gi, 'ácido resistentes')
+    .replace(/\bbaarequipo\b/gi, 'BAAR; equipo')
+    .replace(/\bmaraca\b/gi, 'marca')
+    .replace(/\bmmcaja\b/gi, 'mm caja')
+    .replace(/(\d)\s*mmcaja\b/gi, '$1 mm caja')
+    .replace(/\bcoagulacion(?=\d)/gi, 'coagulación ');
+  for (const rule of ORTHOGRAPHY_RULES) {
+    text = text.replace(rule.pattern, rule.replacement);
+  }
+  return text;
+}
+export function brandDisplayName(value: string): string {
+  const aliases: Record<string, string> = {
+    'HJEATHROW': 'HEATHROW',
+    'ACCU CHECK': 'Accu-Chek',
+    'RUIZ SANCHEZ': 'RUIZ SÁNCHEZ',
+  };
+  return aliases[value] ?? value;
+}
+export function normalizeSearch(value: string): string {
+  return clean(value).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().trim();
+}
+
 const SPELLINGS: Array<[RegExp, string]> = [
   [/\bporta\s+objetos\b/gi, 'portaobjetos'], [/\bcubre\s+objetos\b/gi, 'cubreobjetos'],
   [/\bcubre\s+bocas\b/gi, 'cubrebocas'], [/\bvinyl\b/gi, 'vinilo'],
@@ -51,7 +173,7 @@ const SPELLINGS: Array<[RegExp, string]> = [
     }),
 ];
 function clean(value: string): string {
-  const separated=value.replace(/(\d)(?=(?:pzs|pzas?|pbas|piezas|pruebas)\b)/gi,'$1 ');
+  const separated=correctOrthography(value).replace(/(\d)(?=(?:pzs|pzas?|pbas|piezas|pruebas)\b)/gi,'$1 ');
   return SPELLINGS.reduce((s,[pattern,replacement]) => s.replace(pattern,replacement), separated)
     .replace(/^\s*(?:\(\*\)|\*)\s*/, '')
     .replace(/[´’]{2}/g, '″').replace(/\s+/g,' ')
@@ -77,7 +199,10 @@ function units(value: string): string {
     .replace(/(\d)\s*%/g,'$1%');
 }
 function technicalCase(value: string): string {
+  const properNames: Record<string, string> = {"sabouraud": "Sabouraud", "lowenstein": "Lowenstein", "jensen": "Jensen", "sternheimer": "Sternheimer", "malbin": "Malbin", "ehrlich": "Ehrlich", "kovac": "Kovac", "gram": "Gram", "wright": "Wright", "ziehl": "Ziehl", "neelsen": "Neelsen", "loeffler": "Loeffler", "hucker": "Hucker", "cargille": "Cargille", "ayre": "Ayre", "stuart": "Stuart", "amies": "Amies", "cary": "Cary", "blair": "Blair", "mueller": "Mueller", "hinton": "Hinton", "simmons": "Simmons", "christensen": "Christensen", "casman": "Casman", "kligler": "Kligler", "mazzini": "Mazzini", "bengala": "Bengala", "salmonella": "Salmonella", "shigella": "Shigella", "brucella": "Brucella", "vibrio": "Vibrio", "helicobacter": "Helicobacter", "campylobacter": "Campylobacter", "candida": "Candida", "streptococcus": "Streptococcus", "eppendorf": "Eppendorf", "gilson": "Gilson", "nichiryo": "Nichiryo", "heathrow": "Heathrow", "scientific": "Scientific", "welch": "Welch", "allyn": "Allyn", "snibe": "SNIBE", "diagnostic": "Diagnostic", "diagnostics": "Diagnostics", "copan": "Copan", "hycel": "Hycel", "maesa": "Maesa", "sigma": "Sigma", "globe": "Globe", "instant": "Instant", "view": "View", "standard": "Standard", "chek": "Chek", "fecalswab": "FecalSwab", "floqswabs": "FLOQSwabs", "cloraprep": "ChloraPrep", "sudán": "Sudán"};
+  const properPattern = /\b(?:sabouraud|lowenstein|jensen|sternheimer|malbin|ehrlich|kovac|gram|wright|ziehl|neelsen|loeffler|hucker|cargille|ayre|stuart|amies|cary|blair|mueller|hinton|simmons|christensen|casman|kligler|mazzini|bengala|salmonella|shigella|brucella|vibrio|helicobacter|campylobacter|candida|streptococcus|eppendorf|gilson|nichiryo|heathrow|scientific|welch|allyn|snibe|diagnostic|diagnostics|copan|hycel|maesa|sigma|globe|instant|view|standard|chek|fecalswab|floqswabs|cloraprep|sudán)\b/gi;
   return value
+    .replace(properPattern, name => properNames[name.toLowerCase()] ?? name)
     .replace(/\b(?:edta|rpbi|pcr|vsg|hiv|hcg|bnp|acth|cea|afp|fsh|lh|prl|pct|psa|tga|tg|crp|tsh|clia|hdl|ldl|ldh|ggt|ast|alt|tgo|tgp|gpt|gop|uv|sms|pp|pet|ac[d]|cna|cdc|tcbs|xld|lia|tsi|bhi|mio|sim|mr-vp|vcmu|nih|baar|dna|rna|ivd|std|ca|oh|fic-tr)\b/gi, m => m.toUpperCase())
     .replace(/\bvitamina?\s+d\b/gi,m=>m.slice(0,-1)+'D')
     .replace(/\bhba1c\b/gi,'HbA1c').replace(/\bph\b/gi,'pH')
@@ -94,7 +219,11 @@ function technicalCase(value: string): string {
 }
 export function sentenceCase(value: string): string {
   const text=technicalCase(units(clean(value).toLowerCase()));
-  return text ? text.charAt(0).toUpperCase()+text.slice(1) : '';
+  const sentences=text.replace(/([.!?]\s+)([a-záéíóúüñ])/g, (match, separator: string, letter: string, offset: number) => {
+    const previous=text.slice(0,offset).match(/([a-z]+)$/i)?.[1]?.toLowerCase() ?? '';
+    return ['aprox','mca','sol','eq','cat','ref','dr','dra','sr','sra'].includes(previous) ? match : separator+letter.toUpperCase();
+  });
+  return sentences ? sentences.charAt(0).toUpperCase()+sentences.slice(1) : '';
 }
 export function titleCase(value: string): string {
   return value.toLowerCase().split(' ').map(word=>word?word.charAt(0).toUpperCase()+word.slice(1):word).join(' ');
@@ -197,6 +326,7 @@ const TITLES: Record<string,string> = {
   '027010000000200':'Caja de Petri estéril sin división',
   '265010000PT7455':'Medio líquido de tioglicolato sin dextrosa ni indicador',
   '125010HS-15991A':'Caja económica azul para 100 portaobjetos',
+  '02701000002582A':'Escobillón para tubo · no estéril',
 '187010000216000':'Torundas de algodón',
   '4890100MEK-620I':'CLEANAC 3',
   '489010000MK-710':'CLEANAC 710',
@@ -249,7 +379,7 @@ function removeBrand(value:string,brand:string):string {
 }
 function titleFor(product:ProductInput):string {
   const explicitTitle=product.sku ? TITLES[product.sku] : undefined;
-  if (explicitTitle) return explicitTitle;
+  if (explicitTitle) return correctOrthography(explicitTitle);
   let title=removeBrand(clean(product.name),product.brand).replace(/\bc\s*\//gi,'con ');
   if (/snibe/i.test(product.brand)) title=title.replace(/\b([123])\s*(?:g\b|(?:da|ra)?\.?\s*generaci[oó]n\b)/gi,(_,n:string)=>`${n}G`);
   title=title.replace(PACK,'');
