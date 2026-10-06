@@ -84,7 +84,7 @@ function Nosotros() {
         </p>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 pb-16 pt-14">
+      <section className="mx-auto max-w-6xl px-6 pb-10 pt-8 sm:pb-12 sm:pt-10">
         <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-3xl border border-border/60 bg-border/60 sm:grid-cols-4">
           {stats.map((s) => (
             <div key={s.label} className="bg-card px-6 py-10 text-center">
@@ -95,7 +95,7 @@ function Nosotros() {
         </dl>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 pb-24">
+      <section className="mx-auto max-w-6xl px-6 pb-10 sm:pb-12">
         <img
           src="/hero-nosotros-wide-v2.webp"
           alt="Analizador de laboratorio con reactivos, materiales y consumibles completos sobre una mesa amplia"
@@ -106,8 +106,8 @@ function Nosotros() {
         />
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 pb-24">
-        <div className="grid gap-14 md:grid-cols-2">
+      <section className="mx-auto max-w-6xl px-6 pb-10 sm:pb-12">
+        <div className="grid gap-8 sm:gap-10 md:grid-cols-2">
           <div>
             <h2 className="text-sm uppercase tracking-widest text-muted-foreground">
               Quiénes somos
@@ -135,7 +135,7 @@ function Nosotros() {
         </div>
       </section>
 
-      <section className="border-t border-border/60 py-24">
+      <section className="border-t border-border/60 py-10 sm:py-12">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="max-w-2xl text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
             Qué hacemos
@@ -144,7 +144,7 @@ function Nosotros() {
             Un solo proveedor para el suministro completo del laboratorio: del reactivo al equipo,
             y del pedido a la asesoría de uso.
           </p>
-          <div className="mt-14 grid gap-6 md:grid-cols-3">
+          <div className="mt-8 grid sm:mt-10 gap-6 md:grid-cols-3">
             {services.map((s) => (
               <div
                 key={s.title}
@@ -158,12 +158,12 @@ function Nosotros() {
         </div>
       </section>
 
-      <section className="border-t border-border/60 py-24">
+      <section className="border-t border-border/60 py-10 sm:py-12">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="max-w-2xl text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
             Cómo trabajamos
           </h2>
-          <div className="mt-14 grid gap-10 md:grid-cols-3">
+          <div className="mt-8 grid sm:mt-10 gap-10 md:grid-cols-3">
             {principles.map((p, i) => (
               <div key={p.title}>
                 <span className="text-sm font-medium text-muted-foreground">
@@ -177,7 +177,7 @@ function Nosotros() {
         </div>
       </section>
 
-      <section className="border-t border-border/60 py-20">
+      <section className="border-t border-border/60 py-10 sm:py-12">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <p className="text-sm text-muted-foreground">
             Socios comerciales · {catalogBrands.length} marcas
