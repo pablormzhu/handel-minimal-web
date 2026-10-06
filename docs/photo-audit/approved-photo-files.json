@@ -1,0 +1,770 @@
+[
+  {
+    "sku": "20701130661004M",
+    "file": "public/product-photos-approved/20701130661004M.webp",
+    "bytes": 1096898,
+    "sha256": "9bddb2a92d0c20997a9e3c0083d1eb5a9dfdfa8c9c9d7203a060239309d12864",
+    "cornerRGB": [
+      238.7,
+      239.4,
+      241.4
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "207011305990002",
+    "file": "public/product-photos-approved/207011305990002.webp",
+    "bytes": 1065164,
+    "sha256": "9446e3fcea2a2be0a56279f1aad9955c9077154592982a73711b7d3dc4a77b50",
+    "cornerRGB": [
+      241.2,
+      242.2,
+      244.4
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "207011305990001",
+    "file": "public/product-photos-approved/207011305990001.webp",
+    "bytes": 1076262,
+    "sha256": "f5b8dcfa92da90589ed04580f6f1ee52db38a0e3e2aa1e98e13ee01f7347ea25",
+    "cornerRGB": [
+      240.9,
+      241.7,
+      243.9
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130603011M",
+    "file": "public/product-photos-approved/20701130603011M.webp",
+    "bytes": 1051254,
+    "sha256": "0a02c8cfe81b0748149be1f23523464559445f113057af53c697000ba775e94a",
+    "cornerRGB": [
+      239.6,
+      240.6,
+      242.9
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130201038M",
+    "file": "public/product-photos-approved/20701130201038M.webp",
+    "bytes": 1068436,
+    "sha256": "e544869c779efd98b31efbf01ee3e31b94870b8c9153321fea0724fddcaebea0",
+    "cornerRGB": [
+      234.4,
+      235.0,
+      237.2
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130201037M",
+    "file": "public/product-photos-approved/20701130201037M.webp",
+    "bytes": 1118678,
+    "sha256": "527878dbb7d6a9944670e85b6a98580587b5bbc83a080b78798abd794f213388",
+    "cornerRGB": [
+      240.5,
+      241.2,
+      243.3
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "207011301050001",
+    "file": "public/product-photos-approved/207011301050001.webp",
+    "bytes": 1122612,
+    "sha256": "3309ccea020d80c1332b957489d1dac47e54ae6054888d3dcc4f7e0f822f557b",
+    "cornerRGB": [
+      239.0,
+      240.1,
+      243.0
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130212007M",
+    "file": "public/product-photos-approved/20701130212007M.webp",
+    "bytes": 1085484,
+    "sha256": "bc0410fe7b179d07fd1254390e6afeeaaf78a57afaf7e59818784275e3a07118",
+    "cornerRGB": [
+      236.3,
+      237.4,
+      240.3
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130670003M",
+    "file": "public/product-photos-approved/20701130670003M.webp",
+    "bytes": 1159716,
+    "sha256": "4cfe4523b9e8a7a77baf4dda6c7f8fdee01daf44da8480dab57de1ce1bcec46f",
+    "cornerRGB": [
+      236.3,
+      238.4,
+      240.6
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130617501M",
+    "file": "public/product-photos-approved/20701130617501M.webp",
+    "bytes": 1074564,
+    "sha256": "37486edd94191d04d49ca0a79eb6526a75e49cba36671e5363df0b76f7b0285b",
+    "cornerRGB": [
+      238.1,
+      238.6,
+      240.9
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130653011M",
+    "file": "public/product-photos-approved/20701130653011M.webp",
+    "bytes": 1119746,
+    "sha256": "2677b79c352570335fdefc4f18b250dd76e169d10719cbfed148d303e4e50f85",
+    "cornerRGB": [
+      235.0,
+      235.4,
+      237.6
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130617502M",
+    "file": "public/product-photos-approved/20701130617502M.webp",
+    "bytes": 1087336,
+    "sha256": "0adbd3147545c472de2202b2ad68a3277e8ae657a7690fe4bb001ac5765ddf3c",
+    "cornerRGB": [
+      223.5,
+      224.6,
+      227.3
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130261002M",
+    "file": "public/product-photos-approved/20701130261002M.webp",
+    "bytes": 1078460,
+    "sha256": "56c91b453867b46f6c39e26da1729ad00dbe3a9c294a037a7c1072582b4e21cd",
+    "cornerRGB": [
+      237.3,
+      237.8,
+      240.0
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130270002M",
+    "file": "public/product-photos-approved/20701130270002M.webp",
+    "bytes": 1072960,
+    "sha256": "734cc4087490703882ff3cd0ee94e78a8bf5ee1005ce165c5a529af2663c0e4d",
+    "cornerRGB": [
+      237.0,
+      237.7,
+      240.0
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130266002M",
+    "file": "public/product-photos-approved/20701130266002M.webp",
+    "bytes": 1067132,
+    "sha256": "b22b0ad026fbda634a9799298135124b256531bcaeafa7f42637ffc8a4dc9847",
+    "cornerRGB": [
+      233.7,
+      234.2,
+      236.8
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130206008M",
+    "file": "public/product-photos-approved/20701130206008M.webp",
+    "bytes": 1059246,
+    "sha256": "cf5f12b2f29400a86d6ba1faaa5af78571c5382b09e1e77d8243209d28f63b2f",
+    "cornerRGB": [
+      237.7,
+      239.1,
+      241.6
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130201005M",
+    "file": "public/product-photos-approved/20701130201005M.webp",
+    "bytes": 1049068,
+    "sha256": "dd55aae1a9c77c6946e07d1ce5053dc092f40d5d7028c263c1885f83de4ced62",
+    "cornerRGB": [
+      242.6,
+      243.7,
+      245.9
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130651001M",
+    "file": "public/product-photos-approved/20701130651001M.webp",
+    "bytes": 1092080,
+    "sha256": "973f8abea43e384999ed0450546fc9d524b24688b750f18d9f948c94d9b3934d",
+    "cornerRGB": [
+      236.9,
+      237.9,
+      240.2
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130252001M",
+    "file": "public/product-photos-approved/20701130252001M.webp",
+    "bytes": 1102218,
+    "sha256": "9f5b36d56825e79d1dbd4dcc364f36713d75ef90b36b6ad985720991e19e8dab",
+    "cornerRGB": [
+      231.0,
+      231.7,
+      234.3
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130652001M",
+    "file": "public/product-photos-approved/20701130652001M.webp",
+    "bytes": 1187114,
+    "sha256": "3bd9e9474ca717f976e8b7cbc1deff8ee4eddbf3727fd5ac96d01db7b8b055d7",
+    "cornerRGB": [
+      238.4,
+      239.2,
+      241.3
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130202001M",
+    "file": "public/product-photos-approved/20701130202001M.webp",
+    "bytes": 1069406,
+    "sha256": "294a8a50461a6adf56670ebcaf93385af2e7235d0269386b68defe1adbfc764b",
+    "cornerRGB": [
+      233.9,
+      235.0,
+      237.7
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130601521M",
+    "file": "public/product-photos-approved/20701130601521M.webp",
+    "bytes": 1053230,
+    "sha256": "ee19bd484f3b0ce71488ced76b8ec7821510d9df37fa0383069bfd74af8133d6",
+    "cornerRGB": [
+      240.5,
+      241.9,
+      244.2
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130252003M",
+    "file": "public/product-photos-approved/20701130252003M.webp",
+    "bytes": 1124112,
+    "sha256": "d379443b01a011f301f6a87bce210e96f8c1fc32f77e582e750307639a20e806",
+    "cornerRGB": [
+      234.7,
+      235.5,
+      239.0
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130255002M",
+    "file": "public/product-photos-approved/20701130255002M.webp",
+    "bytes": 1079196,
+    "sha256": "55efaba89a898013d8e35b42c75443579e5ed21432112fb9800e21bcb17d054a",
+    "cornerRGB": [
+      241.0,
+      241.9,
+      244.2
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130258004M",
+    "file": "public/product-photos-approved/20701130258004M.webp",
+    "bytes": 1066006,
+    "sha256": "09d00c16936a47d1834c1f09599a829479155f7ea57e9bf001cdd7ddbefc5f70",
+    "cornerRGB": [
+      242.2,
+      243.1,
+      244.3
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130258001M",
+    "file": "public/product-photos-approved/20701130258001M.webp",
+    "bytes": 886402,
+    "sha256": "da0a855b4bdfcff7665097a1c23b80c59087ffe83e1139747fefbc2176c4a2bb",
+    "cornerRGB": [
+      244.8,
+      244.7,
+      244.7
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130658001M",
+    "file": "public/product-photos-approved/20701130658001M.webp",
+    "bytes": 1080496,
+    "sha256": "2c7d6d56f67a5e91ec99bc026beb8bcd141dbebc725c1bac6562568e0b556ea6",
+    "cornerRGB": [
+      242.6,
+      243.4,
+      245.3
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130258005M",
+    "file": "public/product-photos-approved/20701130258005M.webp",
+    "bytes": 1112306,
+    "sha256": "552093464ac3554d91ab986002d7bbdf02788c491a8435d24852a11874eaa151",
+    "cornerRGB": [
+      243.0,
+      244.0,
+      245.8
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130608002M",
+    "file": "public/product-photos-approved/20701130608002M.webp",
+    "bytes": 1012384,
+    "sha256": "97006492257642c5ad9d04f1de1179b1dc2c419db67e4c19734b960c6e40ef15",
+    "cornerRGB": [
+      242.4,
+      243.0,
+      243.8
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130658002M",
+    "file": "public/product-photos-approved/20701130658002M.webp",
+    "bytes": 936344,
+    "sha256": "526c879838416246fc0253df7ef1fd13467cee0e6d76fceda7abbc6a1a93ef9a",
+    "cornerRGB": [
+      243.9,
+      244.7,
+      245.3
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130252002M",
+    "file": "public/product-photos-approved/20701130252002M.webp",
+    "bytes": 953286,
+    "sha256": "d3a1ef435e84c232baebdd3b122b03883f6c40cfbd7dd2a7e690c1d1b8f438f1",
+    "cornerRGB": [
+      243.9,
+      244.6,
+      245.3
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130202002M",
+    "file": "public/product-photos-approved/20701130202002M.webp",
+    "bytes": 1053296,
+    "sha256": "7e884968a93e74d7a5d20c31a3b3898ae4cc8be9841faddb790f6e8a552a9ef3",
+    "cornerRGB": [
+      244.1,
+      245.1,
+      246.6
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130606004M",
+    "file": "public/product-photos-approved/20701130606004M.webp",
+    "bytes": 1089992,
+    "sha256": "18e846728ad3a6e2ad092a953e5a4717a89c9f229f541e0b27194c0bddd3b3f8",
+    "cornerRGB": [
+      240.3,
+      241.2,
+      242.1
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130202006M",
+    "file": "public/product-photos-approved/20701130202006M.webp",
+    "bytes": 1038192,
+    "sha256": "b021d01ee586b05e53f1d2904912494ccc6e65bea728854097f5391ecff99bf2",
+    "cornerRGB": [
+      244.8,
+      245.4,
+      246.4
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130666001M",
+    "file": "public/product-photos-approved/20701130666001M.webp",
+    "bytes": 1067918,
+    "sha256": "e4b0b4aa10f9dbf4cbf27254aa899e80d3848c31df77b96b9e461bf4c4344ab4",
+    "cornerRGB": [
+      243.3,
+      244.5,
+      246.3
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130652009M",
+    "file": "public/product-photos-approved/20701130652009M.webp",
+    "bytes": 1032082,
+    "sha256": "a27e34f9fd990cc74892b319e1b278e1d435a994dab3e669f9bf211f974af647",
+    "cornerRGB": [
+      242.2,
+      242.8,
+      243.8
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130252009M",
+    "file": "public/product-photos-approved/20701130252009M.webp",
+    "bytes": 976702,
+    "sha256": "c988aafe1e14d2ff15b87b946a86e5d7b398e2cce31292e0969873b33986414a",
+    "cornerRGB": [
+      244.8,
+      245.5,
+      245.7
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130652006M",
+    "file": "public/product-photos-approved/20701130652006M.webp",
+    "bytes": 966676,
+    "sha256": "77a05140c943bfe17ea478607411b8b45892d0924422459ccd14beecc32fcfc3",
+    "cornerRGB": [
+      243.0,
+      242.7,
+      243.7
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "2070100630003-1",
+    "file": "public/product-photos-approved/2070100630003-1.webp",
+    "bytes": 906660,
+    "sha256": "90cb6c368f942d006ff5ca878fc538bc6c13c3bc0ec8cd29e36c6d8e21bde81c",
+    "cornerRGB": [
+      244.4,
+      244.8,
+      244.9
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130203014M",
+    "file": "public/product-photos-approved/20701130203014M.webp",
+    "bytes": 1125694,
+    "sha256": "bacc108b4f6e1c049abee9b82471a0fde59cbdff9fdefbdda53e83a858442f20",
+    "cornerRGB": [
+      243.6,
+      244.5,
+      245.4
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130203003M",
+    "file": "public/product-photos-approved/20701130203003M.webp",
+    "bytes": 1084120,
+    "sha256": "8b1f7c60f21fa65ff26bffd386971e2bf94981e174ab8ef07dcf3a1eb1d00869",
+    "cornerRGB": [
+      243.3,
+      244.1,
+      245.9
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130653006M",
+    "file": "public/product-photos-approved/20701130653006M.webp",
+    "bytes": 1084998,
+    "sha256": "738a6dd8a2931d12ee19ce512b9cf7fff4152a1c115801659cec324f2170ffe9",
+    "cornerRGB": [
+      238.9,
+      239.3,
+      241.4
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130253007M",
+    "file": "public/product-photos-approved/20701130253007M.webp",
+    "bytes": 1009278,
+    "sha256": "52455968beceb360fe21d30e804098e2a7d16e080b33404376db99ae958f5123",
+    "cornerRGB": [
+      243.8,
+      244.4,
+      245.5
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130603023M",
+    "file": "public/product-photos-approved/20701130603023M.webp",
+    "bytes": 966012,
+    "sha256": "1f8f00fbb1ca55402eab991851d64e63899610aed5892bffab524791cb15565e",
+    "cornerRGB": [
+      243.3,
+      244.0,
+      245.0
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130203001M",
+    "file": "public/product-photos-approved/20701130203001M.webp",
+    "bytes": 1044356,
+    "sha256": "8d17e17220fdac8256ed5b8be7172ff84f71610feb082c8b41719d04af0dd82a",
+    "cornerRGB": [
+      244.4,
+      245.6,
+      246.4
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "20701130653007M",
+    "file": "public/product-photos-approved/20701130653007M.webp",
+    "bytes": 1109696,
+    "sha256": "ddf86b43a629a2961176459187d6e5ec07be0a61a918a4e02d5b99ed37b51999",
+    "cornerRGB": [
+      242.2,
+      242.5,
+      244.5
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT7584",
+    "file": "public/product-photos-approved/265010000PT7584.webp",
+    "bytes": 1200810,
+    "sha256": "abad2947e9483998d4b4baf8a138976fc3c1ccac41a001f49ddc86123814e1e6",
+    "cornerRGB": [
+      244.7,
+      246.0,
+      248.1
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT7001",
+    "file": "public/product-photos-approved/265010000PT7001.webp",
+    "bytes": 848356,
+    "sha256": "48bd63b7bb9551875c0f273c6fc40360bc40bc3daa78218a5f7ce946a6fec2f4",
+    "cornerRGB": [
+      245.0,
+      244.8,
+      244.7
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT7035",
+    "file": "public/product-photos-approved/265010000PT7035.webp",
+    "bytes": 1077202,
+    "sha256": "3d9f16269d0f158c64442d51cd77cfcedb31d94fa69b75635f7840b8248d8540",
+    "cornerRGB": [
+      244.3,
+      245.4,
+      247.2
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT7054",
+    "file": "public/product-photos-approved/265010000PT7054.webp",
+    "bytes": 1150326,
+    "sha256": "a9613c70d9f0f34ea943f62bc8594032f2960df44b75d665ed9025f6f3c68c3b",
+    "cornerRGB": [
+      244.7,
+      245.8,
+      247.8
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT7092",
+    "file": "public/product-photos-approved/265010000PT7092.webp",
+    "bytes": 865424,
+    "sha256": "eb2be29b9310a05e401c5df215ae69b01db02fc73f5232c75fcf444516d47d0b",
+    "cornerRGB": [
+      245.2,
+      244.9,
+      244.9
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT8204",
+    "file": "public/product-photos-approved/265010000PT8204.webp",
+    "bytes": 1213492,
+    "sha256": "289704e22e80d192a22ac104abd669430c4d169eeb929c109c25971450fd0d55",
+    "cornerRGB": [
+      244.3,
+      245.2,
+      247.0
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT5035",
+    "file": "public/product-photos-approved/265010000PT5035.webp",
+    "bytes": 1063064,
+    "sha256": "b8f2f63bf335ea5c643552cc1e7bdc475b7370153516f713c3baaea7f3da6819",
+    "cornerRGB": [
+      243.4,
+      244.3,
+      246.3
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT7121",
+    "file": "public/product-photos-approved/265010000PT7121.webp",
+    "bytes": 1043494,
+    "sha256": "cfb73632715e29d2b414ae1ed77e0fdef4bb43bbcada681fad7cd4b859d1974f",
+    "cornerRGB": [
+      244.3,
+      245.4,
+      246.6
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT7674",
+    "file": "public/product-photos-approved/265010000PT7674.webp",
+    "bytes": 1241912,
+    "sha256": "6a6e0bfe245daf74d6b77b9b785fdf9e5e68f8196b7b259784a1f1a0998e3745",
+    "cornerRGB": [
+      241.5,
+      243.0,
+      245.1
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT7175",
+    "file": "public/product-photos-approved/265010000PT7175.webp",
+    "bytes": 1049728,
+    "sha256": "74bdedd81bd0d7b34e3a7f3fcc278ebc520ef6c49e3726dbaec1073901ca4e3c",
+    "cornerRGB": [
+      242.9,
+      244.0,
+      245.5
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT7241",
+    "file": "public/product-photos-approved/265010000PT7241.webp",
+    "bytes": 1052676,
+    "sha256": "f5e6380bf23b7982244061b0ed67fa26b687b2dcb181ef91ee2aa510d4cb45cf",
+    "cornerRGB": [
+      245.5,
+      247.0,
+      248.6
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT7275",
+    "file": "public/product-photos-approved/265010000PT7275.webp",
+    "bytes": 999284,
+    "sha256": "827e2a667cb3a04177999701c73ba15882da0b68fb7e579d62f3367ef992eab4",
+    "cornerRGB": [
+      246.0,
+      246.9,
+      248.7
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT7385",
+    "file": "public/product-photos-approved/265010000PT7385.webp",
+    "bytes": 1058314,
+    "sha256": "5183e70822422c3acc3360e4f9a0ea48aac2a5295dbb8a4f8ad0014939d317d6",
+    "cornerRGB": [
+      244.5,
+      245.7,
+      247.4
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000007935",
+    "file": "public/product-photos-approved/265010000007935.webp",
+    "bytes": 1070442,
+    "sha256": "b8c1427f6bd8d27d29bb514fe026656018098fe1cd26b8c6a40c088bcc687723",
+    "cornerRGB": [
+      243.9,
+      245.3,
+      247.3
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT5874",
+    "file": "public/product-photos-approved/265010000PT5874.webp",
+    "bytes": 1222668,
+    "sha256": "80f51975d148acfb2142be6020c29b367e91f2efe83ed57bd9e38fa4a8c3867c",
+    "cornerRGB": [
+      244.4,
+      245.7,
+      247.6
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000004215",
+    "file": "public/product-photos-approved/265010000004215.webp",
+    "bytes": 1100604,
+    "sha256": "8052294f6ed9d6dbfaac1e57d9745e9e0c67ab40a2818f60fa31407fdcabd543",
+    "cornerRGB": [
+      242.6,
+      244.4,
+      246.4
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "265010000PT7455",
+    "file": "public/product-photos-approved/265010000PT7455.webp",
+    "bytes": 1042530,
+    "sha256": "b1efc17693670c982d68a1496e4a512f904cb6ded23dbbfdcba564214e32cfc4",
+    "cornerRGB": [
+      245.9,
+      247.0,
+      248.8
+    ],
+    "losslessVerified": true
+  },
+  {
+    "sku": "26501000PTC4100",
+    "file": "public/product-photos-approved/26501000PTC4100.webp",
+    "bytes": 1095236,
+    "sha256": "e6a8ad1c18e6c06f9449913e11c94e73a0d1541414f958ca887b088d81851807",
+    "cornerRGB": [
+      243.3,
+      245.0,
+      247.0
+    ],
+    "losslessVerified": true
+  }
+]
