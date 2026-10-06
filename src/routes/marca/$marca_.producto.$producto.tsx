@@ -4,21 +4,13 @@ import { Page, CtaBand } from "@/components/site/Page";
 import { BackLink } from "@/components/site/BackLink";
 import { Button } from "@/components/ui/button";
 import { brandBySlug, catalogProducts } from "@/lib/brand-catalog";
-import { formatFeature, productDisplayInfo } from "@/lib/format-product";
+import { productDisplayInfo } from "@/lib/format-product";
 import { productImage } from "@/lib/product-images";
 
 function findProduct(brandSlug: string, productSlug: string) {
   const brand = brandBySlug(brandSlug);
   if (!brand) return undefined;
   return catalogProducts.find((product) => product.brand === brand.name && product.slug === productSlug);
-}
-
-function comparableValue(value: string) {
-  return value
-    .toLocaleLowerCase()
-    .replace(/\b(?:frasco|caja|bolsa|paquete|bid[oó]n|kit|estuche)\s+(?:de|con)\s+/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
 }
 
 export const Route = createFileRoute("/marca/$marca_/producto/$producto")({
@@ -52,25 +44,7 @@ function BrandProductPage() {
   const product = findProduct(params.marca, params.producto);
   if (!brand || !product) return null;
   const info = productDisplayInfo(product);
-  const features = product.features
-    .map(formatFeature)
-    .filter((feature): feature is { label: string; value: string } => Boolean(feature));
-  const specificationRows = info.specifications
-    .map(formatFeature)
-    .filter((feature): feature is { label: string; value: string } => Boolean(feature));
-  const rows = [
-    ...(info.presentation ? [{ label: "Presentación", value: info.presentation.replace(/^(?:presentación|contenido|cantidad)\s*:\s*/i, "") }] : []),
-    ...features,
-    ...specificationRows,
-  ].filter(
-    (row, index, allRows) =>
-      allRows.findIndex(
-        (candidate) =>
-          comparableValue(candidate.value) === comparableValue(row.value) ||
-          `${candidate.label} ${candidate.value}`.toLocaleLowerCase() ===
-            `${row.label} ${row.value}`.toLocaleLowerCase(),
-      ) === index,
-  );
+  const rows = info.fields;
 
   return (
     <Page>

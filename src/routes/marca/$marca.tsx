@@ -94,7 +94,7 @@ function MarcaPage() {
                 <h2 className="mt-2 text-base font-semibold leading-snug tracking-tight">
                   {info.title}
                 </h2>
-                {info.detail && <p className="mt-3 text-sm text-muted-foreground">{info.detail}</p>}
+                {info.detail && <p className="mt-3 whitespace-pre-line text-sm text-muted-foreground">{info.detail}</p>}
                 <span className="mt-auto pt-5 text-sm font-medium text-foreground">Ver información</span>
               </div>
 

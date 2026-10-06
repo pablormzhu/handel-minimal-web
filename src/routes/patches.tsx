@@ -68,7 +68,7 @@ function PatchesPage() {
                   <h3 className="text-lg font-semibold leading-snug">{info.title}</h3>
                   <ArrowRight className="mt-1 h-4 w-4 shrink-0 transition-transform group-hover:translate-x-1" />
                 </div>
-                {info.detail && <p className="mt-2 text-sm text-muted-foreground">{info.detail}</p>}
+                {info.detail && <p className="mt-2 whitespace-pre-line text-sm text-muted-foreground">{info.detail}</p>}
               </Link>
             );
           })}

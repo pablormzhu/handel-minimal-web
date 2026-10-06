@@ -1,5 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useState } from "react";
+import { productDisplayInfo } from "@/lib/format-product";
 import { Page, CtaBand } from "@/components/site/Page";
 import { BackLink } from "@/components/site/BackLink";
 import { getFamily, productsByFamily, ownBrandFirst, OWN_BRAND } from "@/lib/catalog";
@@ -96,7 +97,9 @@ function FamiliaPage() {
         )}
 
         <div className="divide-y divide-border border-y border-border">
-          {list.map((p) => (
+          {list.map((p) => {
+            const info = productDisplayInfo(p);
+            return (
             <Link
               key={p.slug}
               to="/producto/$slug"
@@ -106,7 +109,7 @@ function FamiliaPage() {
               <div className="w-full shrink-0 overflow-hidden rounded-2xl bg-muted/50 sm:w-52">
                 <img
                   src={family.image}
-                  alt={p.name}
+                  alt={info.title}
                   loading="lazy"
                   width={1200}
                   height={900}
@@ -123,12 +126,13 @@ function FamiliaPage() {
                   )}
                 </p>
 
-                <h2 className="mt-2 text-2xl font-medium tracking-tight">{p.name}</h2>
-                <p className="mt-2 max-w-lg text-sm text-muted-foreground">{p.description}</p>
+                <h2 className="mt-2 text-2xl font-medium tracking-tight">{info.title}</h2>
+                <p className="mt-2 max-w-lg whitespace-pre-line text-sm text-muted-foreground">{info.detail}</p>
               </div>
               <span className="text-sm text-primary">Ver producto</span>
             </Link>
-          ))}
+            );
+          })}
           {list.length === 0 && (
             <p className="py-10 text-sm text-muted-foreground">
               No hay productos publicados con estos filtros.

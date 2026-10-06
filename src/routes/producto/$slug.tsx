@@ -1,4 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { productDisplayInfo, sentenceCase } from "@/lib/format-product";
 import { Page } from "@/components/site/Page";
 import { BackLink } from "@/components/site/BackLink";
 import { getProduct, getFamily, productsByFamily } from "@/lib/catalog";
@@ -11,8 +12,8 @@ export const Route = createFileRoute("/producto/$slug")({
   },
   head: ({ params }) => {
     const p = getProduct(params.slug);
-    const title = p ? `${p.name} · ${p.brand} · Handel` : "Producto · Handel";
-    const desc = p?.description ?? "Ficha de producto Handel.";
+    const title = p ? `${productDisplayInfo(p).title} · ${p.brand} · Handel` : "Producto · Handel";
+    const desc = p ? productDisplayInfo(p).description : "Ficha de producto Handel.";
     return {
       meta: [
         { title },
@@ -30,6 +31,7 @@ export const Route = createFileRoute("/producto/$slug")({
 function ProductoPage() {
   const params = Route.useParams();
   const product = getProduct(params.slug)!;
+  const info = productDisplayInfo(product);
   const family = getFamily(product.family)!;
   const related = productsByFamily(product.family)
     .filter((p) => p.slug !== product.slug)
@@ -46,7 +48,7 @@ function ProductoPage() {
           <div className="overflow-hidden rounded-3xl bg-muted/50">
             <img
               src={family.image}
-              alt={product.name}
+              alt={info.title}
               width={1200}
               height={900}
               className="aspect-[4/3] w-full object-contain p-4"
@@ -57,9 +59,9 @@ function ProductoPage() {
               {product.brand}
             </p>
             <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">
-              {product.name}
+              {info.title}
             </h1>
-            <p className="mt-5 max-w-md text-lg text-muted-foreground">{product.description}</p>
+            <p className="mt-5 max-w-md text-lg text-muted-foreground">{info.description}</p>
             <Link
               to="/contacto"
               className="mt-9 inline-flex rounded-full bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-85"
@@ -79,17 +81,17 @@ function ProductoPage() {
             </h2>
             <ul className="mt-5 space-y-3 text-[15px]">
               {product.features.map((f) => (
-                <li key={f}>{f}</li>
+                <li key={f}>{sentenceCase(f)}</li>
               ))}
             </ul>
           </div>
           <div>
             <h2 className="text-sm uppercase tracking-widest text-muted-foreground">
-              Presentaciones
+              Presentación
             </h2>
             <ul className="mt-5 space-y-3 text-[15px]">
               {product.presentations.map((p) => (
-                <li key={p}>{p}</li>
+                <li key={p}>{sentenceCase(p)}</li>
               ))}
             </ul>
           </div>
@@ -126,14 +128,14 @@ function ProductoPage() {
                   <div className="overflow-hidden rounded-2xl bg-muted/50">
                     <img
                       src={family.image}
-                      alt={p.name}
+                      alt={productDisplayInfo(p).title}
                       loading="lazy"
                       width={1200}
                       height={900}
                       className="aspect-[4/3] w-full object-contain p-4 transition-transform duration-700 group-hover:scale-[1.03]"
                     />
                   </div>
-                  <p className="mt-4 text-base font-medium tracking-tight">{p.name}</p>
+                  <p className="mt-4 text-base font-medium tracking-tight">{productDisplayInfo(p).title}</p>
                   <p className="text-sm text-muted-foreground">{p.brand}</p>
                 </Link>
               ))}

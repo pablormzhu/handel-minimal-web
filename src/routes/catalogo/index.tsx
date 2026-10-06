@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
+import { productDisplayInfo } from "@/lib/format-product";
 import { Search } from "lucide-react";
 import { Page, CtaBand } from "@/components/site/Page";
 import { families, products, brands } from "@/lib/catalog";
@@ -62,19 +63,23 @@ function Catalogo() {
                 Sin resultados. Escribe a un asesor y te ayudamos a encontrarlo.
               </p>
             )}
-            {results.map((p) => (
+            {results.map((p) => {
+              const info = productDisplayInfo(p);
+              return (
               <Link
                 key={p.slug}
                 to="/producto/$slug"
                 params={{ slug: p.slug }}
                 className="block py-5"
               >
-                <p className="text-base font-medium tracking-tight">{p.name}</p>
+                <p className="text-base font-medium tracking-tight">{info.title}</p>
                 <p className="text-sm text-muted-foreground">
                   {p.brand} · {p.subfamily}
                 </p>
+                <p className="mt-2 whitespace-pre-line text-sm text-muted-foreground">{info.detail}</p>
               </Link>
-            ))}
+              );
+            })}
           </div>
         )}
       </section>
