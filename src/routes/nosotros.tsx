@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Page, CtaBand } from "@/components/site/Page";
-import { brands, families, products } from "@/lib/catalog";
+import { catalogBrands, catalogProducts } from "@/lib/brand-catalog";
+import { families } from "@/lib/catalog";
 import { equipment } from "@/lib/equipment";
 import hero from "@/assets/hero.jpg";
 
