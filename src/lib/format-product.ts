@@ -94,10 +94,10 @@ function technicalCase(value: string): string {
 }
 export function sentenceCase(value: string): string {
   const text=technicalCase(units(clean(value).toLowerCase()));
-  return text ? text[0].toUpperCase()+text.slice(1) : '';
+  return text ? text.charAt(0).toUpperCase()+text.slice(1) : '';
 }
 export function titleCase(value: string): string {
-  return value.toLowerCase().split(' ').map(word=>word?word[0].toUpperCase()+word.slice(1):word).join(' ');
+  return value.toLowerCase().split(' ').map(word=>word?word.charAt(0).toUpperCase()+word.slice(1):word).join(' ');
 }
 export function formatFeature(feature: string): DisplayField | null {
   const text=clean(feature); if(!text) return null;
@@ -237,7 +237,8 @@ function removeBrand(value:string,brand:string):string {
     .replace(new RegExp(`\\s+${escaped}\\s*$`,'i'),'');
 }
 function titleFor(product:ProductInput):string {
-  if (product.sku && TITLES[product.sku]) return TITLES[product.sku];
+  const explicitTitle=product.sku ? TITLES[product.sku] : undefined;
+  if (explicitTitle) return explicitTitle;
   let title=removeBrand(clean(product.name),product.brand).replace(/\bc\s*\//gi,'con ');
   if (/snibe/i.test(product.brand)) title=title.replace(/\b([123])\s*(?:g\b|(?:da|ra)?\.?\s*generaci[oó]n\b)/gi,(_,n:string)=>`${n}G`);
   title=title.replace(PACK,'');
@@ -282,19 +283,22 @@ export function productDisplayInfo(product:ProductInput):ProductDisplayInfo {
     const label=row.label==='Medida'?'Medidas':row.label==='Contenido' && /capacidad/i.test(source)?'Capacidad':row.label;
     push(label,row.value);
   }
-  if(product.sku && PRESENTATIONS[product.sku]) presentation=PRESENTATIONS[product.sku];
+  const explicitPresentation=product.sku ? PRESENTATIONS[product.sku] : undefined;
+  if(explicitPresentation) presentation=explicitPresentation;
   if(!presentation){
     const packs=[...source.matchAll(PACK)].map(m=>canonicalPresentation(m[0]));
     if(packs.length) presentation=[...new Set(packs)].join(' / ');
     else {
       const counts=[...source.matchAll(COUNT)].filter(m=>!/\b(?:para|capacidad\s*(?:de)?)\s*$/i.test(source.slice(0,m.index)));
-      if(counts.length) presentation=sentenceCase(counts[counts.length-1][0]);
+      const lastCount=counts.at(-1)?.[0];
+      if(lastCount) presentation=sentenceCase(lastCount);
       else if(/\bpieza\b/i.test(source)) presentation='Pieza';
       else if(source.match(/\bc\s*\/\s*(\d+)\b(?!\s*(?:mL|µL|uL|mm|cm|g)\b)/i)) presentation=source.match(/\bc\s*\/\s*(\d+)\b/i)![1]+' (unidad no indicada)';
       else if(/\bcon\s+200\s*$/i.test(source)) presentation='200 (unidad no indicada)';
       else if(/\bpiezas\s*$/i.test(source)) presentation='Piezas (cantidad no indicada)';
       else if(amounts.length) {
-        const amountIndex=source.indexOf(amounts[0]);
+        const firstAmount=amounts[0] ?? '';
+        const amountIndex=source.indexOf(firstAmount);
         presentation=/^(QCA|SPIN REACT)$/i.test(product.brand)?sentenceCase(source.slice(amountIndex)):amounts.map(sentenceCase).join(' · ');
       }
     }
@@ -306,10 +310,15 @@ export function productDisplayInfo(product:ProductInput):ProductDisplayInfo {
   }
   for(const dimension of source.matchAll(/\d+(?:\/\d+|[.,]\d+)?\s*["″](?:\s*[x×]\s*\d+(?:[.,]\d+)?\s*(?:yds?|["″]))?/gi))push('Medidas',dimension[0]);
   const model=source.match(/\b(?:modelo|model|ref\.?|cat\.?)\s*:?\s*([a-z0-9][a-z0-9.-]+)/i);
-  if(model)push('Modelo',model[1].replace(/[.,;]+$/g,''));
+  const modelValue=model?.[1];
+  if(modelValue)push('Modelo',modelValue.replace(/[.,;]+$/g,''));
   const ph=source.match(/\bpH\s*[,;:]?\s*(\d+(?:[.,]\d+)?)(?:\s*[-–]\s*(\d+(?:[.,]\d+)?))?/i);
-  if(ph)push('pH',ph[2]?ph[1]+'–'+ph[2]:ph[1]);
-  for(const measurement of source.matchAll(/\b(longitud|largo|ancho|altura|espesor de pared|di[aá]metro interior|di[aá]metro exterior)\s*(?:de|:)?\s*(\d+(?:[.,]\d+)?(?:\s*[-–]\s*\d+(?:[.,]\d+)?)?\s*(?:mm|cm|m)\b)/gi))push(sentenceCase(measurement[1]),measurement[2]);
+  const phStart=ph?.[1];
+  if(phStart)push('pH',ph[2]?phStart+'–'+ph[2]:phStart);
+  for(const measurement of source.matchAll(/\b(longitud|largo|ancho|altura|espesor de pared|di[aá]metro interior|di[aá]metro exterior)\s*(?:de|:)?\s*(\d+(?:[.,]\d+)?(?:\s*[-–]\s*\d+(?:[.,]\d+)?)?\s*(?:mm|cm|m)\b)/gi)) {
+    const label=measurement[1], value=measurement[2];
+    if(label && value)push(sentenceCase(label),value);
+  }
   if(/snibe/i.test(product.brand)) for(const generation of source.matchAll(/\b([123])G\b/gi))push('Generación',generation[1]+'G');
   // Presentation always uses one label; do not invent a missing pack or quantity.
   presentation=presentation || 'No especificada';
