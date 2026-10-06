@@ -1,4 +1,5 @@
 import { APPROVED_LABELED_SKU_IMAGES } from "./approved-product-photos";
+import { BRAND_BATCH_234_SKU_IMAGES } from "./brand-batch-234-product-photos";
 import { BRAND_BATCH_SKU_IMAGES } from "./brand-batch-product-photos";
 import medios from "@/assets/prod/medios.jpg";
 import reactivos from "@/assets/prod/reactivos.jpg";
@@ -405,6 +406,8 @@ const RULES: Array<[RegExp, string]> = [
 ];
 
 export function productImage(input: { name: string; description?: string; sku?: string }): string {
+  const brandBatch234 = input.sku ? BRAND_BATCH_234_SKU_IMAGES[input.sku] : undefined;
+  if (brandBatch234) return brandBatch234;
   const brandBatch = input.sku ? BRAND_BATCH_SKU_IMAGES[input.sku] : undefined;
   if (brandBatch) return brandBatch;
   const verifiedOriginal = input.sku ? VERIFIED_ORIGINAL_SKU_IMAGES[input.sku] : undefined;
