@@ -27,8 +27,8 @@ export const Route = createFileRoute("/nosotros")({
 });
 
 const stats = [
-  { value: `${brands.length}`, label: "Marcas representadas" },
-  { value: `${products.length}`, label: "Productos en catálogo" },
+  { value: `${catalogBrands.length}`, label: "Marcas representadas" },
+  { value: `${catalogProducts.length}`, label: "Productos en catálogo" },
   { value: `${families.length}`, label: "Familias de solución" },
   { value: `${equipment.length}`, label: "Equipos de hematología" },
 ];
