@@ -1,4 +1,5 @@
 import { APPROVED_LABELED_SKU_IMAGES } from "./approved-product-photos";
+import { BRAND_BATCH_SKU_IMAGES } from "./brand-batch-product-photos";
 import medios from "@/assets/prod/medios.jpg";
 import reactivos from "@/assets/prod/reactivos.jpg";
 import tubos from "@/assets/prod/tubos.jpg";
@@ -404,6 +405,8 @@ const RULES: Array<[RegExp, string]> = [
 ];
 
 export function productImage(input: { name: string; description?: string; sku?: string }): string {
+  const brandBatch = input.sku ? BRAND_BATCH_SKU_IMAGES[input.sku] : undefined;
+  if (brandBatch) return brandBatch;
   const verifiedOriginal = input.sku ? VERIFIED_ORIGINAL_SKU_IMAGES[input.sku] : undefined;
   if (verifiedOriginal) return verifiedOriginal;
   const reconstructedVerified = input.sku

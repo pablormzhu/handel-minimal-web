@@ -11,4 +11,4 @@
 
 - Nihon Kohden equipment detail pages share one borderless layout: text beside the uncropped product photo, which blends into a matching stage colour via an edge mask, so all four models stay consistent and the photo is never cropped.
 - Product photos with visually verified printed name, reference, and capacity override refreshed or generated SKU assets so exact original packaging is never hidden.
-- Product image resolution keeps verified originals first, then explicitly mapped reconstructions with verified labels, then user-approved labeled recreations, before refreshed, generated, or aliased assets, so photographic provenance remains distinct.
+- Product image resolution gives explicitly approved replacement batches priority for their mapped SKUs, then keeps verified originals, verified-label reconstructions, approved recreations, refreshed, generated, and aliased assets in provenance order, so newer authorized batches cannot be shadowed by legacy images.
