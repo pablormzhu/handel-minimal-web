@@ -3,7 +3,10 @@ import { useState } from "react";
 import { productDisplayInfo } from "@/lib/format-product";
 import { Page, CtaBand } from "@/components/site/Page";
 import { BackLink } from "@/components/site/BackLink";
-import { getFamily, productsByFamily, ownBrandFirst, OWN_BRAND } from "@/lib/catalog";
+import { getFamily, ownBrandFirst, OWN_BRAND } from "@/lib/catalog";
+import { siteProductsByFamily, productBrandName } from "@/lib/site-catalog";
+import { productImage } from "@/lib/product-images";
+import { pageSeo } from "@/lib/seo";
 
 export const Route = createFileRoute("/catalogo/$familia")({
   loader: ({ params }) => {
@@ -15,6 +18,7 @@ export const Route = createFileRoute("/catalogo/$familia")({
     const family = getFamily(params.familia);
     const name = family?.name ?? "Catálogo";
     const desc = family?.intro ?? "Catálogo Handel.";
+    const seo = pageSeo(`/catalogo/${params.familia}`);
     return {
       meta: [
         { title: `${name} · Handel` },
@@ -23,7 +27,9 @@ export const Route = createFileRoute("/catalogo/$familia")({
         { property: "og:description", content: desc },
         { property: "og:type", content: "website" },
         { name: "twitter:card", content: "summary_large_image" },
+        ...seo.meta,
       ],
+      links: seo.links,
     };
   },
   component: FamiliaPage,
@@ -32,15 +38,28 @@ export const Route = createFileRoute("/catalogo/$familia")({
 function FamiliaPage() {
   const params = Route.useParams();
   const family = getFamily(params.familia)!;
-  const all = ownBrandFirst(productsByFamily(family.slug));
+  const all = ownBrandFirst(siteProductsByFamily(family.slug));
   const [sub, setSub] = useState<string | null>(null);
   const [brand, setBrand] = useState<string | null>(null);
 
-  const brandOptions = Array.from(new Set(all.map((p) => p.brand)));
+  // Only subfamilies that actually contain products; known order first.
+  const present = new Set(all.map((p) => p.subfamily));
+  const subfamilies = [
+    ...family.subfamilies.filter((s) => present.has(s)),
+    ...[...present].filter((s) => !family.subfamilies.includes(s)),
+  ];
+  const brandOptions = Array.from(new Set(all.map((p) => productBrandName(p)))).sort((a, b) =>
+    a.localeCompare(b, "es", { sensitivity: "base" }),
+  );
 
   const list = all.filter(
-    (p) => (!sub || p.subfamily === sub) && (!brand || p.brand === brand),
+    (p) => (!sub || p.subfamily === sub) && (!brand || productBrandName(p) === brand),
   );
+
+  const pill = (active: boolean) =>
+    `whitespace-nowrap rounded-sm text-[13px] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${active ? "text-foreground" : "text-muted-foreground hover:text-foreground"}`;
+  const chip = (active: boolean) =>
+    `rounded-full border px-3 py-1.5 text-xs transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${active ? "border-foreground text-foreground" : "border-border text-muted-foreground"}`;
 
   return (
     <Page>
@@ -54,18 +73,11 @@ function FamiliaPage() {
 
       <div className="sticky top-12 z-40 border-y border-border/60 bg-background/85 backdrop-blur-xl">
         <div className="mx-auto flex max-w-6xl gap-6 overflow-x-auto px-6 py-3">
-          <button
-            onClick={() => setSub(null)}
-            className={`whitespace-nowrap text-[13px] transition-colors ${!sub ? "text-foreground" : "text-muted-foreground hover:text-foreground"}`}
-          >
+          <button onClick={() => setSub(null)} aria-pressed={!sub} className={pill(!sub)}>
             Todo
           </button>
-          {family.subfamilies.map((s) => (
-            <button
-              key={s}
-              onClick={() => setSub(s)}
-              className={`whitespace-nowrap text-[13px] transition-colors ${sub === s ? "text-foreground" : "text-muted-foreground hover:text-foreground"}`}
-            >
+          {subfamilies.map((s) => (
+            <button key={s} onClick={() => setSub(s)} aria-pressed={sub === s} className={pill(sub === s)}>
               {s}
             </button>
           ))}
@@ -75,62 +87,57 @@ function FamiliaPage() {
       <section className="mx-auto max-w-6xl px-6 pb-4 pt-12">
         {brandOptions.length > 1 && (
           <div className="mb-10 flex flex-wrap items-center gap-2">
-            <span className="mr-2 text-xs uppercase tracking-widest text-muted-foreground">
-              Marca
-            </span>
-            <button
-              onClick={() => setBrand(null)}
-              className={`rounded-full border px-3 py-1.5 text-xs transition-colors ${!brand ? "border-foreground text-foreground" : "border-border text-muted-foreground"}`}
-            >
+            <span className="mr-2 text-xs uppercase tracking-widest text-muted-foreground">Marca</span>
+            <button onClick={() => setBrand(null)} aria-pressed={!brand} className={chip(!brand)}>
               Todas
             </button>
             {brandOptions.map((b) => (
-              <button
-                key={b}
-                onClick={() => setBrand(b)}
-                className={`rounded-full border px-3 py-1.5 text-xs transition-colors ${brand === b ? "border-foreground text-foreground" : "border-border text-muted-foreground"}`}
-              >
+              <button key={b} onClick={() => setBrand(b)} aria-pressed={brand === b} className={chip(brand === b)}>
                 {b}
               </button>
             ))}
           </div>
         )}
 
+        <p className="mb-4 text-xs text-muted-foreground" aria-live="polite">
+          {list.length} {list.length === 1 ? "producto" : "productos"}
+        </p>
+
         <div className="divide-y divide-border border-y border-border">
           {list.map((p) => {
             const info = productDisplayInfo(p);
             return (
-            <Link
-              key={p.slug}
-              to="/producto/$slug"
-              params={{ slug: p.slug }}
-              className="group flex flex-col gap-4 py-8 sm:flex-row sm:items-center sm:gap-10"
-            >
-              <div className="w-full shrink-0 overflow-hidden rounded-2xl bg-muted/50 sm:w-52">
-                <img
-                  src={family.image}
-                  alt={info.title}
-                  loading="lazy"
-                  width={1200}
-                  height={900}
-                  className="aspect-[4/3] w-full object-contain p-2"
-                />
-              </div>
-              <div className="flex-1">
-                <p className="flex items-center gap-2 text-xs uppercase tracking-widest text-muted-foreground">
-                  {p.brand}
-                  {p.brand === OWN_BRAND && (
-                    <span className="text-[10px] font-medium uppercase tracking-widest text-red-600">
-                      Marca propia
-                    </span>
-                  )}
-                </p>
-
-                <h2 className="mt-2 text-2xl font-medium tracking-tight">{info.title}</h2>
-                <p className="mt-2 max-w-lg whitespace-pre-line text-sm text-muted-foreground">{info.detail}</p>
-              </div>
-              <span className="text-sm text-primary">Ver producto</span>
-            </Link>
+              <Link
+                key={p.sku}
+                to="/marca/$marca/producto/$producto"
+                params={{ marca: p.brandSlug, producto: p.slug }}
+                className="group flex flex-col gap-4 py-8 sm:flex-row sm:items-center sm:gap-10"
+              >
+                <div className="aspect-square w-full shrink-0 overflow-hidden rounded-2xl bg-muted/30 sm:w-40">
+                  <img
+                    src={productImage(p)}
+                    alt={info.title}
+                    loading="lazy"
+                    width={512}
+                    height={512}
+                    className="h-full w-full object-contain"
+                  />
+                </div>
+                <div className="flex-1">
+                  <p className="flex items-center gap-2 text-xs uppercase tracking-widest text-muted-foreground">
+                    {productBrandName(p)}
+                    {p.brand === OWN_BRAND && (
+                      <span className="text-[10px] font-medium uppercase tracking-widest text-red-600">
+                        Marca propia
+                      </span>
+                    )}
+                  </p>
+                  <p className="mt-1 text-[11px] text-muted-foreground">Clave {p.sku}</p>
+                  <h2 className="mt-2 text-2xl font-medium tracking-tight">{info.title}</h2>
+                  <p className="mt-2 max-w-lg whitespace-pre-line text-sm text-muted-foreground">{info.detail}</p>
+                </div>
+                <span className="text-sm text-primary">Ver producto</span>
+              </Link>
             );
           })}
           {list.length === 0 && (

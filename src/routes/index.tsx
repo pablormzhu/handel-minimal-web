@@ -7,11 +7,14 @@ import patchesLogo from "@/assets/patches-logo-corrected.png.asset.json";
 import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
 import nihonEquipment from "@/assets/special-lines/photo-refresh/nihon-kohden-home-card.jpg";
 import patchesCover from "@/assets/special-lines/photo-refresh/patches-home-card.jpg";
+import { pageSeo } from "@/lib/seo";
 
 
 export const Route = createFileRoute("/")({
   head: () => ({
+    links: pageSeo("/").links,
     meta: [
+      ...pageSeo("/").meta,
       { title: "Handel · Soluciones para diagnóstico y laboratorio" },
       {
         name: "description",

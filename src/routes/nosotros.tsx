@@ -1,12 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Page, CtaBand } from "@/components/site/Page";
-import { catalogBrands, catalogProducts } from "@/lib/brand-catalog";
+import { siteBrands as catalogBrands, siteProducts as catalogProducts } from "@/lib/site-catalog";
+import { pageSeo } from "@/lib/seo";
 import { families } from "@/lib/catalog";
 import { equipment } from "@/lib/equipment";
 
 export const Route = createFileRoute("/nosotros")({
   head: () => ({
+    links: pageSeo("/nosotros").links,
     meta: [
+      ...pageSeo("/nosotros").meta,
       { title: "Nosotros · Handel" },
       {
         name: "description",

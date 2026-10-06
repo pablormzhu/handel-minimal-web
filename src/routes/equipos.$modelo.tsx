@@ -4,6 +4,7 @@ import { BackLink } from "@/components/site/BackLink";
 import { Page } from "@/components/site/Page";
 import { Button } from "@/components/ui/button";
 import { equipmentBySlug } from "@/lib/equipment";
+import { pageSeo } from "@/lib/seo";
 import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
 
 export const Route = createFileRoute("/equipos/$modelo")({
@@ -16,7 +17,9 @@ export const Route = createFileRoute("/equipos/$modelo")({
     const item = equipmentBySlug(params.modelo);
     const title = item ? `${item.name} ${item.model} | Handel` : "Equipo Nihon Kohden | Handel";
     const description = item?.summary ?? "Información de equipos Nihon Kohden distribuidos por Handel.";
-    return { meta: [
+    const seo = pageSeo(`/equipos/${params.modelo}`, item?.image);
+    return { links: seo.links, meta: [
+      ...seo.meta,
       { title }, { name: "description", content: description },
       { property: "og:title", content: title }, { property: "og:description", content: description },
       { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" },
@@ -45,7 +48,7 @@ function EquipmentDetailPage() {
             <p className="mt-6 max-w-md text-lg leading-8 text-muted-foreground">{item.category}</p>
             <div className="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
               <Button asChild size="lg" className="rounded-full px-7">
-                <Link to="/contacto">Solicitar información <ArrowRight aria-hidden="true" /></Link>
+                <Link to="/contacto" search={{ product: `${item.name} ${item.model}`, family: "Equipos Nihon Kohden" }}>Solicitar información <ArrowRight aria-hidden="true" /></Link>
               </Button>
               <a href={item.source} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline">
                 Ficha del fabricante <ExternalLink className="h-4 w-4" aria-hidden="true" />
@@ -116,7 +119,7 @@ function EquipmentDetailPage() {
           <h2 className="mx-auto mt-6 max-w-3xl text-3xl font-semibold leading-tight sm:text-5xl">Optimiza tu laboratorio con el {item.model}</h2>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-x-7 gap-y-4">
             <Button asChild size="lg" className="rounded-full px-8">
-              <Link to="/contacto">Hablar con un asesor <ArrowRight aria-hidden="true" /></Link>
+              <Link to="/contacto" search={{ product: `${item.name} ${item.model}`, family: "Equipos Nihon Kohden" }}>Hablar con un asesor <ArrowRight aria-hidden="true" /></Link>
             </Button>
             <a href={item.source} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline">
               Ficha del fabricante <ExternalLink className="h-4 w-4" aria-hidden="true" />

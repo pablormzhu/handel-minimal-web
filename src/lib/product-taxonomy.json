@@ -1,0 +1,1918 @@
+{
+  "00101LAR2022012": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "001010007201-18": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Portaobjetos y cubreobjetos"
+  },
+  "001010000007201": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Portaobjetos y cubreobjetos"
+  },
+  "001010000007202": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Portaobjetos y cubreobjetos"
+  },
+  "001010008.0-9.0": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "001010007.0-8.0": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "00104000NLD6052": {
+    "family": "toma-muestras",
+    "subfamily": "Hisopos"
+  },
+  "001010000007106": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Portaobjetos y cubreobjetos"
+  },
+  "001010000007102": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Portaobjetos y cubreobjetos"
+  },
+  "001010000KZ4022": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "001010000KZ4021": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "0010100KZ4021-1": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "20701130661004M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "207011305990002": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "207011305990001": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "20701130603011M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130201031M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130201038M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130201037M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130670002M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "207011301050001": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Consumibles para analizadores"
+  },
+  "20701130212007M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130261004M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130211004M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130670003M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130201033M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130617501M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130253011M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130653011M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130617502M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130206016M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130261002M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130201032M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130601032M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130270002M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130266002M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130206008M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130252007M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130202007M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130201005M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130201035M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130251001M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130651001M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130253005M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130253004M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130252011M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130252001M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130652001M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130202001M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130601521M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130252003M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130255002M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130258004M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130258001M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130658001M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130258005M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130258002M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130608002M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130658002M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130252002M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130202002M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "2070130299006M1": {
+    "family": "control-calidad",
+    "subfamily": "Inmunoensayo"
+  },
+  "20701130299006M": {
+    "family": "control-calidad",
+    "subfamily": "Inmunoensayo"
+  },
+  "20701130606004M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130252006M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130202006M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130666001M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130652009M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130252009M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130652006M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130201034M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "2070100630003-1": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Consumibles para analizadores"
+  },
+  "207010000630003": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Consumibles para analizadores"
+  },
+  "2070130299004M1": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "20701130299004M": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "20701130203014M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130203003M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130252010M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130653006M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130253007M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130253003M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130253002M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130603023M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130203001M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130203023M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "20701130299007M": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "2070130299005M1": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "20701130653007M": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Inmunoensayo y quimioluminiscencia"
+  },
+  "265010000PT7004": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7854": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7834": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT8094": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT8684": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7025": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7022": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7584": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7864": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT8694": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7095": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7001": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7031": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT6051": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT6061": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7035": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7034": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7041": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7054": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7284": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7092": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7114": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT8204": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT5035": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7134": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7644": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7132": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7121": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7154": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7164": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7504": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7674": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7175": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7214": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265020000PT7514": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7265": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7194": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7204": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "26501000PT8085M": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7241": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7275": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000007273": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7375": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7385": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000007935": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT5874": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7405": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7975": {
+    "family": "microbiologia",
+    "subfamily": "Identificación"
+  },
+  "265010000004215": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7455": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "26501000PTC4100": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7445": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "265010000PT7441": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001004-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050101257-TPCP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001220-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001230-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001313-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050301006-TPCP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001102-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050301015-TPCP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050301016-TPCP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001211-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050100001019-A": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050100001023-E": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001007-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005011007-PPFEP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050301007-TPMP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001114-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001214-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005040001502-DP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050101014-TPCP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050100001014-B": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001019-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050101062-TPMP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001021-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050100001021-A": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001023-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001024-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001212-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001218-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001130-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050100001035-B": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050301035-TPCP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001065-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050100001067-A": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050301036-TPMP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001041-TM": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005011042-TPMP9": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050101050-TPMP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "005010001314-PP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050101056-TVMP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050301074-TPMP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050301052-TPCP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050301053-TPCP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050301054-TPCP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050101054-TPCP": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "0050100067218-1": {
+    "family": "microbiologia",
+    "subfamily": "Susceptibilidad antimicrobiana"
+  },
+  "042010000994015": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000994020": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000997258": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000997283": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000996066": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000992714": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000992480": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000996280": {
+    "family": "control-calidad",
+    "subfamily": "Química clínica"
+  },
+  "042010000998058": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000991870": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000995012": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000669213": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Consumibles para analizadores"
+  },
+  "042010000990077": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000995515": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000996265": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000997609": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000991056": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000991054": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000998660": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000998282": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000990035": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000991818": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000991115": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000992985": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000997180": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000999329": {
+    "family": "control-calidad",
+    "subfamily": "Química clínica"
+  },
+  "042010000996571": {
+    "family": "control-calidad",
+    "subfamily": "Química clínica"
+  },
+  "042010000999950": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "042010000999500": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000999200": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000993080": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000996060": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "042010000994997": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "01101080100-100": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "011010000080100": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "011010000030310": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "011010000030300": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "011010000054570": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "011010000080200": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "011010000080300": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "011010000-80100": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "011010001-30500": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "011010000063300": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "011010000023300": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "011010000080550": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "011010000031000": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "01101026488-500": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "011010000063710": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "011010075-81552": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "011010000081550": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "01101820004X125": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "011010000054000": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "011010000081200": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "011010000-63520": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "011010000081551": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "011010000063540": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "011010000-63400": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "011010000064000": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "011010000-80920": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "011010000082100": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "033010000064287": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "033010HY6544-19": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "0330100000901-1": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "033010000000669": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "033011000000852": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "033010HY0002416": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "03301HY1317-100": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "033010HY840-100": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "0330100000537-1": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "0330100005375-1": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "03301003000-125": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "033010000064510": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "033010000000911": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "033010000000541": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "033010000005342": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "033010000000912": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "033010000000826": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "033010000007379": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "033010000000828": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "033010000006269": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "0330164840-1000": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "033010000064840": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "03301002688-500": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "033010000064293": {
+    "family": "microbiologia",
+    "subfamily": "Tinciones y reactivos"
+  },
+  "051010001108022": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "051010001108024": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "051010001108023": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "051010604560383": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "0510160456039-1": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "051010604560391": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "051010100100022": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "051010100100023": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "05101GDE1117022": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "051020001117022": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "42501ESPEJOCHIC": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "42501ESPEVEFEEL": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "42501000GENITCH": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "4250100GENITGDE": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "4250100GENITMED": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "4250100BISDLP22": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "42501J102132P10": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Jeringas"
+  },
+  "42501J032325C50": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Jeringas"
+  },
+  "42501J052232B3.": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Jeringas"
+  },
+  "4890100MEK-620I": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "489010000MK-710": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "489010000CR-420": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "489010000HA-420": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "489010000MK-310": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "4890100000CAL01": {
+    "family": "control-calidad",
+    "subfamily": "Hematología"
+  },
+  "4890100MEK-641I": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "489010MEK-3CLNH": {
+    "family": "control-calidad",
+    "subfamily": "Hematología"
+  },
+  "489010MEK-5DLNH": {
+    "family": "control-calidad",
+    "subfamily": "Hematología"
+  },
+  "019010004000258": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "019010004000270": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "01901AGUAINY500": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "01901SOLHARTMAN": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "019010004000079": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "019014000079500": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "019010004000394": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "019010004000077": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "01901SOLGLUCOSA": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "45701000CY-NA10": {
+    "family": "toma-muestras",
+    "subfamily": "Orina"
+  },
+  "457010CY-100UBA": {
+    "family": "toma-muestras",
+    "subfamily": "Orina"
+  },
+  "4570100CY-106SC": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "457010CY-104EK2": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "457010CY-1035GC": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "4570100CY-102CA": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "45701CY-102CA6M": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "457010CY-103SGC": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "277010000000476": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "277010000000032": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "277010100000493": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "277010000000445": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "2770104000097-1": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "277010000000094": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "277010000000131": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "200010000000122": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "200010000000120": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "200010000121-00": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "200010000000140": {
+    "family": "toma-muestras",
+    "subfamily": "Hisopos"
+  },
+  "200010000132-00": {
+    "family": "toma-muestras",
+    "subfamily": "Hisopos"
+  },
+  "200010000181-00": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "200010000212-00": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "00601LRO122-200": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "00601000000PL1A": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "00601000000PL3A": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "00601000000PC1N": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "00601000000PL1R": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "00601000000PL3R": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "16501000D100004": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Portaobjetos y cubreobjetos"
+  },
+  "16501001-200009": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Pipeteo"
+  },
+  "1650101200012.A": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Pipeteo"
+  },
+  "1650100MT200009": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Pipeteo"
+  },
+  "1650100MT200012": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Pipeteo"
+  },
+  "16501001-409726": {
+    "family": "toma-muestras",
+    "subfamily": "Orina"
+  },
+  "1680100000PT-06": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Serología e inmunohematología"
+  },
+  "1680100000PT-40": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "1680100000PT-34": {
+    "family": "microbiologia",
+    "subfamily": "Identificación"
+  },
+  "1680100000PT-35": {
+    "family": "microbiologia",
+    "subfamily": "Identificación"
+  },
+  "1680100000PT-37": {
+    "family": "microbiologia",
+    "subfamily": "Identificación"
+  },
+  "1680100000PT-39": {
+    "family": "microbiologia",
+    "subfamily": "Identificación"
+  },
+  "027010000000101": {
+    "family": "microbiologia",
+    "subfamily": "Materiales para microbiología"
+  },
+  "027010000000102": {
+    "family": "microbiologia",
+    "subfamily": "Materiales para microbiología"
+  },
+  "027010000000203": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Cajas Petri"
+  },
+  "02701000000203B": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Cajas Petri"
+  },
+  "027010000000200": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Cajas Petri"
+  },
+  "02701000002582A": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Accesorios de laboratorio"
+  },
+  "45601ALGODONPLI": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "456010000406075": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "456010000406013": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "456017503003406": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "45601ROLLOGASAQ": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "456010000406389": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "030010000000018": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "0300101ELECT250": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "0300100000024.1": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Antisépticos"
+  },
+  "030010000005006": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "030010000ALT008": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Antisépticos"
+  },
+  "11101000000470C": {
+    "family": "toma-muestras",
+    "subfamily": "Hisopos"
+  },
+  "11101000525CS01": {
+    "family": "toma-muestras",
+    "subfamily": "Hisopos"
+  },
+  "1110100000114-C": {
+    "family": "microbiologia",
+    "subfamily": "Toma y transporte microbiológico"
+  },
+  "1110100001008-C": {
+    "family": "microbiologia",
+    "subfamily": "Toma y transporte microbiológico"
+  },
+  "11101000000111C": {
+    "family": "microbiologia",
+    "subfamily": "Toma y transporte microbiológico"
+  },
+  "210010000PD1009": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Tubos y microtubos"
+  },
+  "210010000PD1010": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Tubos y microtubos"
+  },
+  "210010SKUPE1015": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Pipeteo"
+  },
+  "210010SKUPE1017": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Pipeteo"
+  },
+  "2100100PE1014SP": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Pipeteo"
+  },
+  "024010001911000": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "024010001820060": {
+    "family": "toma-muestras",
+    "subfamily": "Hisopos"
+  },
+  "024010000805020": {
+    "family": "toma-muestras",
+    "subfamily": "Hisopos"
+  },
+  "024010002000600": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Antisépticos"
+  },
+  "024010750104869": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "11901SMS25GR.BA": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "11901SMS35GR.BA": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "11901SMS25GRSAB": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "11902SMS35GRSAB": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "11901SMS35GRSAB": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "33301000GD027SC": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "3330100GD060SGC": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "3330100GD050EK2": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "33301000GD050CA": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "035011001810002": {
+    "family": "microbiologia",
+    "subfamily": "Identificación"
+  },
+  "03501MX11075555": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "035011095350001": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "035011095430001": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "034010001001046": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "034010001001111": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "034010000041282": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Química clínica"
+  },
+  "034010001205010": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Serología e inmunohematología"
+  },
+  "0450100001626.W": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "04501001626.W-1": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "04501000MICRO3M": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "237010000H1015S": {
+    "family": "toma-muestras",
+    "subfamily": "Orina"
+  },
+  "237010000PF1016": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Pipeteo"
+  },
+  "237010000PE1011": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Pipeteo"
+  },
+  "187010001940020": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "187010000031006": {
+    "family": "toma-muestras",
+    "subfamily": "Hisopos"
+  },
+  "187010000216000": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "241010HS-81121A": {
+    "family": "microbiologia",
+    "subfamily": "Materiales para microbiología"
+  },
+  "2410100HS-4426B": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Tubos y microtubos"
+  },
+  "24101HS-4426B-1": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Tubos y microtubos"
+  },
+  "390010000600010": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Serología e inmunohematología"
+  },
+  "390010000610010": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Serología e inmunohematología"
+  },
+  "390010000740010": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Serología e inmunohematología"
+  },
+  "054010000009820": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Vidrio"
+  },
+  "054020000009820": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Vidrio"
+  },
+  "054030000009820": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Vidrio"
+  },
+  "45201I9516-500M": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "45201E7023-500M": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "4520100B3383-1G": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Soluciones y reactivos generales"
+  },
+  "253010000VE-P10": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Portaobjetos y cubreobjetos"
+  },
+  "253010000VE-P20": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Portaobjetos y cubreobjetos"
+  },
+  "253010000VE-P30": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Portaobjetos y cubreobjetos"
+  },
+  "02101000WA52434": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "02101000WA59000": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "02101000WA59001": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "230010003P85025": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "23001000041FK10": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "04901TUCACOHEPA": {
+    "family": "toma-muestras",
+    "subfamily": "Capilares y microcolección"
+  },
+  "04901TUCAPSIHEP": {
+    "family": "toma-muestras",
+    "subfamily": "Capilares y microcolección"
+  },
+  "03201000200400P": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "032010000200400": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "167018800004001": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "167018800004002": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "013010000000112": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Serología e inmunohematología"
+  },
+  "013010000000331": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "2830100MG100S-1": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "2830100MG100M-1": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "3120110L2232-SB": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Jeringas"
+  },
+  "3120105L2232-SB": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Jeringas"
+  },
+  "04801411350.105": {
+    "family": "toma-muestras",
+    "subfamily": "Capilares y microcolección"
+  },
+  "0480120.1343.10": {
+    "family": "toma-muestras",
+    "subfamily": "Capilares y microcolección"
+  },
+  "1120100000700-F": {
+    "family": "toma-muestras",
+    "subfamily": "Orina"
+  },
+  "1120100000700-V": {
+    "family": "toma-muestras",
+    "subfamily": "Orina"
+  },
+  "107010001001310": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "107010000078046": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "4580100TC510403": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "4580100TC321502": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "14101TIRRECACCU": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "758010MCT-150-C": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Tubos y microtubos"
+  },
+  "4780142141502..": {
+    "family": "toma-muestras",
+    "subfamily": "Hisopos"
+  },
+  "450010000001001": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "RPBI y punzocortantes"
+  },
+  "342010000000370": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Guantes y protección"
+  },
+  "38201KITCERASTA": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Hematología y HbA1c"
+  },
+  "1830100P820001V": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "1770100IDEC-425": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "378010000276007": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Antisépticos"
+  },
+  "23501TORUNDE250": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Material médico desechable"
+  },
+  "25101000001292B": {
+    "family": "toma-muestras",
+    "subfamily": "Capilares y microcolección"
+  },
+  "449010000004125": {
+    "family": "microbiologia",
+    "subfamily": "Medios de cultivo"
+  },
+  "4460100JA131617": {
+    "family": "material-medico-bioseguridad",
+    "subfamily": "Curación"
+  },
+  "403010000000060": {
+    "family": "microbiologia",
+    "subfamily": "Identificación"
+  },
+  "37001001178-101": {
+    "family": "toma-muestras",
+    "subfamily": "Tubos y sistemas al vacío"
+  },
+  "35201A1989-1000": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Gradillas"
+  },
+  "25701HBNP15080N": {
+    "family": "toma-muestras",
+    "subfamily": "Hisopos"
+  },
+  "125010HS-15991A": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Portaobjetos y cubreobjetos"
+  },
+  "1940100002-7602": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "29701KI-41A2502": {
+    "family": "toma-muestras",
+    "subfamily": "Capilares y microcolección"
+  },
+  "014010000CO2222": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Portaobjetos y cubreobjetos"
+  },
+  "18001CUADERNOFR": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Accesorios de laboratorio"
+  },
+  "046010000009570": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Accesorios de laboratorio"
+  },
+  "196010000000503": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "3860100U031-101": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "298010000325001": {
+    "family": "toma-muestras",
+    "subfamily": "Agujas"
+  },
+  "413010000031016": {
+    "family": "toma-muestras",
+    "subfamily": "Hisopos"
+  },
+  "0230125-806-2PD": {
+    "family": "toma-muestras",
+    "subfamily": "Hisopos"
+  },
+  "3880100K751416D": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "77801000004FK20": {
+    "family": "diagnostico-clinico",
+    "subfamily": "Pruebas rápidas y Point of Care"
+  },
+  "307010018000-03": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Vidrio"
+  },
+  "02001000000010S": {
+    "family": "toma-muestras",
+    "subfamily": "Orina"
+  },
+  "3190100VL-P5417": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Vidrio"
+  },
+  "402010FER-ESC-1": {
+    "family": "reactivos-consumibles",
+    "subfamily": "Accesorios de laboratorio"
+  }
+}

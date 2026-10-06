@@ -15,6 +15,8 @@ import { Route as ContactoRouteImport } from './routes/contacto'
 import { Route as MarcasRouteImport } from './routes/marcas'
 import { Route as NosotrosRouteImport } from './routes/nosotros'
 import { Route as PatchesRouteImport } from './routes/patches'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as ApiContactoRouteImport } from './routes/api/contacto'
 import { Route as CatalogoIndexRouteImport } from './routes/catalogo/index'
 import { Route as CatalogoFamiliaRouteImport } from './routes/catalogo/$familia'
 import { Route as EquiposIndexRouteImport } from './routes/equipos.index'
@@ -51,6 +53,16 @@ const NosotrosRoute = NosotrosRouteImport.update({
 const PatchesRoute = PatchesRouteImport.update({
   id: '/patches',
   path: '/patches',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiContactoRoute = ApiContactoRouteImport.update({
+  id: '/api/contacto',
+  path: '/api/contacto',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CatalogoIndexRoute = CatalogoIndexRouteImport.update({
@@ -97,6 +109,8 @@ export interface FileRoutesByFullPath {
   '/marcas': typeof MarcasRoute
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/api/contacto': typeof ApiContactoRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
   '/equipos/$modelo': typeof EquiposModeloRoute
   '/marca/$marca': typeof MarcaMarcaRoute
@@ -112,6 +126,8 @@ export interface FileRoutesByTo {
   '/marcas': typeof MarcasRoute
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/api/contacto': typeof ApiContactoRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
   '/equipos/$modelo': typeof EquiposModeloRoute
   '/marca/$marca': typeof MarcaMarcaRoute
@@ -128,6 +144,8 @@ export interface FileRoutesById {
   '/marcas': typeof MarcasRoute
   '/nosotros': typeof NosotrosRoute
   '/patches': typeof PatchesRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/api/contacto': typeof ApiContactoRoute
   '/catalogo/$familia': typeof CatalogoFamiliaRoute
   '/equipos/$modelo': typeof EquiposModeloRoute
   '/marca/$marca': typeof MarcaMarcaRoute
@@ -145,6 +163,8 @@ export interface FileRouteTypes {
     | '/marcas'
     | '/nosotros'
     | '/patches'
+    | '/sitemap.xml'
+    | '/api/contacto'
     | '/catalogo/$familia'
     | '/equipos/$modelo'
     | '/marca/$marca'
@@ -160,6 +180,8 @@ export interface FileRouteTypes {
     | '/marcas'
     | '/nosotros'
     | '/patches'
+    | '/sitemap.xml'
+    | '/api/contacto'
     | '/catalogo/$familia'
     | '/equipos/$modelo'
     | '/marca/$marca'
@@ -175,6 +197,8 @@ export interface FileRouteTypes {
     | '/marcas'
     | '/nosotros'
     | '/patches'
+    | '/sitemap.xml'
+    | '/api/contacto'
     | '/catalogo/$familia'
     | '/equipos/$modelo'
     | '/marca/$marca'
@@ -191,6 +215,8 @@ export interface RootRouteChildren {
   MarcasRoute: typeof MarcasRoute
   NosotrosRoute: typeof NosotrosRoute
   PatchesRoute: typeof PatchesRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
+  ApiContactoRoute: typeof ApiContactoRoute
   CatalogoFamiliaRoute: typeof CatalogoFamiliaRoute
   EquiposModeloRoute: typeof EquiposModeloRoute
   MarcaMarcaRoute: typeof MarcaMarcaRoute
@@ -242,6 +268,20 @@ declare module '@tanstack/react-router' {
       path: '/patches'
       fullPath: '/patches'
       preLoaderRoute: typeof PatchesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/contacto': {
+      id: '/api/contacto'
+      path: '/api/contacto'
+      fullPath: '/api/contacto'
+      preLoaderRoute: typeof ApiContactoRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/catalogo/': {
@@ -303,6 +343,8 @@ const rootRouteChildren: RootRouteChildren = {
   MarcasRoute: MarcasRoute,
   NosotrosRoute: NosotrosRoute,
   PatchesRoute: PatchesRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
+  ApiContactoRoute: ApiContactoRoute,
   CatalogoFamiliaRoute: CatalogoFamiliaRoute,
   EquiposModeloRoute: EquiposModeloRoute,
   MarcaMarcaRoute: MarcaMarcaRoute,

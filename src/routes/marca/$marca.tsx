@@ -2,7 +2,9 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { Page, CtaBand } from "@/components/site/Page";
 import { BackLink } from "@/components/site/BackLink";
-import { brandBySlug, productsByBrand } from "@/lib/brand-catalog";
+import { brandBySlug } from "@/lib/brand-catalog";
+import { siteProductsByBrand, productBrandName, searchCatalog } from "@/lib/site-catalog";
+import { pageSeo } from "@/lib/seo";
 import { productImage } from "@/lib/product-images";
 import { productDisplayInfo, brandDisplayName, normalizeSearch } from "@/lib/format-product";
 
@@ -18,6 +20,7 @@ export const Route = createFileRoute("/marca/$marca")({
     const brand = brandBySlug(params.marca);
     const name = brand ? brandDisplayName(brand.name) : "Marca";
     const title = `${name} · Marcas · Handel`;
+    const seo = pageSeo(`/marca/${params.marca}`);
     const desc = `Catálogo de productos ${name} distribuidos por Handel: clave, descripción y características técnicas.`;
     return {
       meta: [
@@ -27,7 +30,9 @@ export const Route = createFileRoute("/marca/$marca")({
         { property: "og:description", content: desc },
         { property: "og:type", content: "website" },
         { name: "twitter:card", content: "summary_large_image" },
+        ...seo.meta,
       ],
+      links: seo.links,
     };
   },
   component: MarcaPage,
@@ -36,18 +41,11 @@ export const Route = createFileRoute("/marca/$marca")({
 function MarcaPage() {
   const params = Route.useParams();
   const brand = brandBySlug(params.marca)!;
-  const all = productsByBrand(brand.name);
+  const all = siteProductsByBrand(brand.name);
   const [q, setQ] = useState("");
 
   const term = normalizeSearch(q);
-  const list = term
-    ? all.filter(
-        (p) =>
-          normalizeSearch(p.name).includes(term) ||
-          normalizeSearch(p.sku).includes(term) ||
-          normalizeSearch(p.description).includes(term),
-      )
-    : all;
+  const list = term ? searchCatalog(q, all) : all;
 
   return (
     <Page>
@@ -57,7 +55,10 @@ function MarcaPage() {
         <p className="mt-4 max-w-xl text-lg text-muted-foreground">
           {all.length} {all.length === 1 ? "producto" : "productos"} disponibles bajo esta marca.
         </p>
+        <label htmlFor="brand-product-search" className="sr-only">Buscar por nombre o clave</label>
         <input
+          id="brand-product-search"
+          type="search"
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder="Buscar por nombre o clave"
@@ -71,9 +72,9 @@ function MarcaPage() {
             const info = productDisplayInfo(p);
             return (
             <Link
-              key={p.slug}
+              key={p.sku}
               to="/marca/$marca/producto/$producto"
-              params={{ marca: brand.slug, producto: p.slug }}
+              params={{ marca: p.brandSlug, producto: p.slug }}
               className="flex flex-col overflow-hidden rounded-3xl border border-border/30 bg-background/50 shadow-xl backdrop-blur-xl transition-shadow duration-300 hover:shadow-2xl"
             >
               <div className="aspect-square w-full overflow-hidden bg-muted/30">
@@ -89,7 +90,7 @@ function MarcaPage() {
 
               <div className="flex flex-1 flex-col p-6">
                 <p className="text-[11px] font-medium tracking-wide text-muted-foreground">
-                  Clave {p.sku} <span className="text-muted-foreground/60">·</span> {brandDisplayName(p.brand)}
+                  Clave {p.sku} <span className="text-muted-foreground/60">·</span> {productBrandName(p)}
                 </p>
                 <h2 className="mt-2 text-base font-semibold leading-snug tracking-tight">
                   {info.title}

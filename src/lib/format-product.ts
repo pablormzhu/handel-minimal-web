@@ -124,7 +124,10 @@ export function correctOrthography(value: string): string {
     .replace(/\bmaraca\b/gi, 'marca')
     .replace(/\bmmcaja\b/gi, 'mm caja')
     .replace(/(\d)\s*mmcaja\b/gi, '$1 mm caja')
-    .replace(/\bcoagulacion(?=\d)/gi, 'coagulación ');
+    .replace(/\bcoagulacion(?=\d)/gi, 'coagulación ')
+    .replace(/\bp\s*\/(?=[a-záéíóú])/gi, 'para ')
+    .replace(/\ba\s*c\s*s\b/gi, 'A.C.S.')
+    .replace(/\bfco\.?\b/gi, 'frasco');
   for (const rule of ORTHOGRAPHY_RULES) {
     text = text.replace(rule.pattern, rule.replacement);
   }
@@ -265,7 +268,7 @@ const TITLES: Record<string,string> = {
   '011010000064000':'Wright · solución colorante',
   '011010000-80920':'Yodo para tinción de Gram',
   '011010000082100':'Equipo de colorantes Ziehl-Neelsen',
-  '033010HY1317-100':'Buffer de fosfato para Wright · pH 6.4',
+  '03301HY1317-100':'Buffer de fosfato para Wright · pH 6.4',
   '033010HY840-100':'Colorante de Wright',
   '0330100000537-1':'Dextrosol para tolerancia a la glucosa',
   '0330100005375-1':'Dextrosol para tolerancia a la glucosa',
@@ -344,12 +347,20 @@ const TITLES: Record<string,string> = {
   '207010000630003':'MAGLUMI Reaction Modules',
 };
 const PRESENTATIONS:Record<string,string>={
+  '42501J052232B3.':'Caja con 5 piezas',
+  '42501J032325C50':'Caja con 5 piezas',
+  '42501J102132P10':'Caja con 5 piezas',
+  '0510160456039-1':'1 pieza',
+  '051010001108023':'Caja con 100 piezas',
+  '051010001108024':'Caja con 100 piezas',
+  '051010001108022':'Caja con 100 piezas',
+  '033010000064840':'Kit con 2 frascos de 500 mL',
   '456010000406075':'100 gasas', '456010000406013':'200 gasas', '456017503003406':'200 gasas',
   '035011001810002':'50 tiras',
   '1680100000PT-06':'Equipo con 6 frascos de 5 mL y sueros control',
   '1680100000PT-40':'10 frascos',
   '207010000630003':'6 cajas con 64 tiras',
-'0330164840-1000':'Equipo de 1000 (unidad no indicada)',
+'0330164840-1000':'Kit con 2 frascos de 1000 mL',
   '4890100MEK-620I':'Pieza con 1 L',
 '489010000MK-710':'Pieza con 3 L',
   '054020000009820':'Pieza', '054030000009820':'Pieza',
@@ -399,7 +410,8 @@ function titleFor(product:ProductInput):string {
   title=title.replace(/\.\s*(?=\()/g,' ');
   // Never truncate a title or discard a clause after a comma.
   const result=sentenceCase(title || removeBrand(product.name,product.brand));
-  return /snibe/i.test(product.brand)?result.replace(/\b([123])\s*g\b/gi,'$1G'):result;
+  const compact = result.replace(/^(Agar deshidratado .+?) deshidratado$/i,'$1');
+  return /snibe/i.test(product.brand)?compact.replace(/\b([123])\s*g\b/gi,'$1G'):compact;
 }
 
 export function productDisplayInfo(product:ProductInput):ProductDisplayInfo {
@@ -464,16 +476,27 @@ export function productDisplayInfo(product:ProductInput):ProductDisplayInfo {
     if(label && value)push(sentenceCase(label),value);
   }
   if(/snibe/i.test(product.brand)) for(const generation of source.matchAll(/\b([123])G\b/gi))push('Generación',generation[1]+'G');
-  // Presentation always uses one label; do not invent a missing pack or quantity.
-  presentation=presentation || 'No especificada';
+  // Prefer an explicit physical amount already present in the source over an
+  // incomplete C/1 token. Unknown quantities remain unknown; no photo is evidence.
+  const onlyAmount = amounts.length === 1 ? amounts[0] : undefined;
+  if (onlyAmount && /unidad no indicada/i.test(presentation) && presentation.match(/\d+/)?.[0] === onlyAmount.match(/\d+/)?.[0]) {
+    presentation = sentenceCase(onlyAmount);
+  }
+  const unresolved = /unidad no indicada|cantidad no indicada/i.test(presentation);
+  if (unresolved) {
+    push('Cantidad indicada', presentation.replace(/\s*\([^)]*no indicada[^)]*\)/gi,''));
+    presentation = 'Consultar cantidad y unidad';
+  }
+  presentation=presentation || 'Consultar presentación';
   fields.unshift({label:'Presentación',value:presentation});
   const order=['Presentación','Contenido','Capacidad','Medidas','Modelo','Generación','Material','Color'];
   fields.sort((a,b)=>(order.indexOf(a.label)<0?99:order.indexOf(a.label))-(order.indexOf(b.label)<0?99:order.indexOf(b.label)));
   const specs=fields.filter(row=>row.label!=='Presentación');
   const duplicatesPresentation=(value:string)=>presentation.toLowerCase().includes(value.toLowerCase());
   const cardSpecs=specs.filter(row=>!['Contenido','Capacidad'].includes(row.label)||!duplicatesPresentation(row.value));
-  const detail=(cardSpecs.length?'Especificaciones: '+cardSpecs.map(row=>row.label+': '+row.value).join(' · '):'Especificaciones: '+(amounts.length?amounts.map(sentenceCase).join(' · '):'No indicadas'))+'\nPresentación: '+presentation;
+  const detail=[cardSpecs.map(row=>row.label==='Detalle'?row.value:row.label+': '+row.value).join(' · '), 'Presentación: '+presentation].filter(Boolean).join('\n');
   const description=/snibe/i.test(product.brand)?sentenceCase(source).replace(/\b([123])\s*g\b/gi,'$1G'):sentenceCase(source);
   return {title:titleFor(product),detail,description,presentation,fields,
     specifications:specs.map(row=>row.label+': '+row.value),type:''};
 }
+

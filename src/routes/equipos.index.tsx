@@ -6,10 +6,13 @@ import { Button } from "@/components/ui/button";
 import { equipment } from "@/lib/equipment";
 import nihonKohdenLogo from "@/assets/equipos/nihon-kohden-logo-transparent.png";
 import equipmentCover from "@/assets/special-lines/photo-refresh/nihon-kohden-page-hero.jpg";
+import { pageSeo } from "@/lib/seo";
 
 export const Route = createFileRoute("/equipos/")({
   head: () => ({
+    links: pageSeo("/equipos").links,
     meta: [
+      ...pageSeo("/equipos").meta,
       { title: "Equipos Nihon Kohden | Handel" },
       { name: "description", content: "Analizadores hematológicos Nihon Kohden para laboratorios clínicos, disponibles con asesoría especializada de Handel." },
       { property: "og:title", content: "Equipos Nihon Kohden | Handel" },
