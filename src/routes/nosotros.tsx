@@ -3,7 +3,6 @@ import { Page, CtaBand } from "@/components/site/Page";
 import { catalogBrands, catalogProducts } from "@/lib/brand-catalog";
 import { families } from "@/lib/catalog";
 import { equipment } from "@/lib/equipment";
-import hero from "@/assets/hero.jpg";
 
 export const Route = createFileRoute("/nosotros")({
   head: () => ({
