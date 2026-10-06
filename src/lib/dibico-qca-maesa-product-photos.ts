@@ -103,4 +103,7 @@ export const DIBICO_QCA_MAESA_SKU_IMAGES: Record<string, string> = {
   "0050301053-TPCP": "/product-photos-dibico-qca-maesa/0050301053-TPCP.webp",
   "0050301054-TPCP": "/product-photos-dibico-qca-maesa/0050301054-TPCP.webp",
   "0050101054-TPCP": "/product-photos-dibico-qca-maesa/0050101054-TPCP.webp",
+  "0050100067218-1": "/product-photos-dibico-qca-maesa/0050100067218-1.webp",
+  "011010000081550": "/product-photos-dibico-qca-maesa/011010000081550.webp",
+  "011010075-81552": "/product-photos-dibico-qca-maesa/011010075-81552.webp",
 };
