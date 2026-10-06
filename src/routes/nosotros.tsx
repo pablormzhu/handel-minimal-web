@@ -179,8 +179,11 @@ function Nosotros() {
 
       <section className="border-t border-border/60 py-10 sm:py-12">
         <div className="mx-auto max-w-6xl px-6 text-center">
-          <p className="text-sm text-muted-foreground">
-            Socios comerciales · {catalogBrands.length} marcas
+          <h2 className="text-3xl font-semibold tracking-tight sm:text-5xl">
+            Socios comerciales
+          </h2>
+          <p className="mt-3 text-sm text-muted-foreground">
+            {catalogBrands.length} marcas
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
             {catalogBrands.slice(0, 18).map((b) => (
