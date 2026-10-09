@@ -5,6 +5,7 @@ import { families, getFamily } from "@/lib/catalog";
 import { siteProducts } from "@/lib/site-catalog";
 import { productDisplayInfo } from "@/lib/format-product";
 import { pageSeo } from "@/lib/seo";
+import { newSubmissionId } from "@/lib/submission-id";
 
 type ContactSearch = {
   sku?: string | undefined;
@@ -82,6 +83,9 @@ function Contacto() {
   // The disabled button only applies after a re-render; this blocks a second
   // submit fired before that (double click, Enter + click).
   const inFlight = useRef(false);
+  // One id per request, kept across retries so the server can drop a duplicate
+  // whose first response never arrived; renewed only after a success.
+  const submissionId = useRef<string | null>(null);
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -91,16 +95,18 @@ function Contacto() {
     const data = Object.fromEntries(new FormData(form).entries());
     setStatus({ kind: "sending" });
     try {
+      submissionId.current ??= newSubmissionId();
       const res = await fetch("/api/contacto", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: JSON.stringify({ ...data, submissionId: submissionId.current }),
       });
       const payload = (await res.json().catch(() => null)) as {
         ok?: boolean;
         message?: string;
       } | null;
       if (res.ok && payload?.ok) {
+        submissionId.current = null;
         form.reset();
         setStatus({ kind: "success", message: payload.message });
       } else {

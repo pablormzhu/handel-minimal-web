@@ -16,6 +16,9 @@ const immutable = { "cache-control": "public, max-age=31536000, immutable" };
 // HTML is served with ISR until the next deploy; query strings don't split the cache
 // (/contacto reads them, so it stays dynamic) and error pages keep their own body.
 const vercelNitro: UserConfig["nitro"] = {
+  // Upper bound for the server function: the contact email makes at most two
+  // 10 s calls to Google (token + send).
+  vercel: { functions: { maxDuration: 30 } },
   routeRules: {
     "/**": { isr: { expiration: false, allowQuery: [], exposeErrBody: true } },
     "/contacto": { isr: false },
